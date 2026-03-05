@@ -1,0 +1,262 @@
+/* ===== Base Reset & Typography ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #f4f4f4;
+  color: #161616;
+  min-height: 100vh;
+}
+
+/* ===== Top Dark Header Bar ===== */
+.header-bar {
+  background: #161616;
+  height: 48px;
+  width: 100%;
+}
+
+/* ===== Dashboard Container ===== */
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 4rem;
+}
+
+/* ===== Dashboard Header ===== */
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-title {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #161616;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.title-accent {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #0f6b5e;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+}
+
+.dashboard-subtitle {
+  font-size: 0.875rem;
+  color: #525252;
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+/* ===== Loading / Error States ===== */
+.loading,
+.error {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #525252;
+}
+
+.error {
+  color: #da1e28;
+}
+
+.no-data {
+  padding: 1rem;
+  color: #6f6f6f;
+  font-style: italic;
+}
+
+/* ===== Project-Level Accordion ===== */
+.project-accordion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.project-accordion-item {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+}
+
+.project-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.project-name {
+  color: #161616;
+}
+
+.severity-tag {
+  font-size: 0.75rem;
+}
+
+/* ===== Dependency Table Header Row ===== */
+.dep-table-header {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1fr 0.6fr 0.8fr 1fr;
+  padding: 0.75rem 1rem 0.75rem 3.25rem;
+  background: #e0e0e0;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  color: #161616;
+  border-bottom: 1px solid #c6c6c6;
+  letter-spacing: 0.01em;
+}
+
+.dep-col {
+  padding: 0 0.25rem;
+}
+
+/* ===== Dependency Accordion (nested) ===== */
+.dep-accordion {
+  width: 100%;
+}
+
+.dep-accordion-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dep-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.dep-row-title {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1fr 0.6fr 0.8fr 1fr;
+  width: 100%;
+  align-items: center;
+  font-size: 0.875rem;
+  gap: 0;
+}
+
+.dep-name {
+  font-weight: 400;
+  color: #161616;
+  word-break: break-word;
+}
+
+.dep-version {
+  color: #161616;
+  font-weight: 400;
+}
+
+.dep-cve-count {
+  font-weight: 400;
+  color: #161616;
+}
+
+.dep-exploit {
+  color: #161616;
+  font-weight: 400;
+}
+
+.dep-fix {
+  color: #161616;
+  word-break: break-word;
+  font-weight: 400;
+}
+
+/* ===== CVE Details Wrapper ===== */
+.cve-details-wrapper {
+  padding: 1rem 0 1.25rem;
+  overflow-x: auto;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* ===== CVE Table ===== */
+.cve-table {
+  width: 100%;
+  font-size: 0.8125rem;
+  background: #ffffff;
+  table-layout: fixed;
+}
+
+/* CVE table column widths */
+.cve-table cds-table-header-cell:nth-child(1),
+.cve-table cds-table-cell:nth-child(1) {
+  width: 14%;
+} /* CVE ID */
+.cve-table cds-table-header-cell:nth-child(2),
+.cve-table cds-table-cell:nth-child(2) {
+  width: 9%;
+} /* Severity */
+.cve-table cds-table-header-cell:nth-child(3),
+.cve-table cds-table-cell:nth-child(3) {
+  width: 7%;
+} /* Score */
+.cve-table cds-table-header-cell:nth-child(4),
+.cve-table cds-table-cell:nth-child(4) {
+  width: 35%;
+} /* Description */
+.cve-table cds-table-header-cell:nth-child(5),
+.cve-table cds-table-cell:nth-child(5) {
+  width: 12%;
+} /* Affected Versions */
+.cve-table cds-table-header-cell:nth-child(6),
+.cve-table cds-table-cell:nth-child(6) {
+  width: 10%;
+} /* Fixed In */
+.cve-table cds-table-header-cell:nth-child(7),
+.cve-table cds-table-cell:nth-child(7) {
+  width: 13%;
+} /* CWE */
+
+cds-table-header-row cds-table-header-cell {
+  font-weight: 600;
+  font-size: 0.8125rem;
+  color: #161616;
+  background: #e0e0e0;
+}
+
+.cve-id-cell {
+  font-weight: 500;
+  color: #0f62fe;
+  white-space: nowrap;
+}
+
+.cve-desc-cell {
+  line-height: 1.45;
+  font-size: 0.8125rem;
+  color: #393939;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ===== Severity Tag Colors ===== */
+cds-tag[type="red"] {
+  --cds-tag-background-red: #fff1f1;
+  --cds-tag-color-red: #da1e28;
+}
+
+cds-tag[type="magenta"] {
+  --cds-tag-background-magenta: #fff0f7;
+  --cds-tag-color-magenta: #9f1853;
+}
+
+cds-tag[type="yellow"] {
+  --cds-tag-background-yellow: #fcf4d6;
+  --cds-tag-color-yellow: #8e6a00;
+}
+
+cds-tag[type="teal"] {
+  --cds-tag-background-teal: #d9fbfb;
+  --cds-tag-color-teal: #005d5d;
+}
