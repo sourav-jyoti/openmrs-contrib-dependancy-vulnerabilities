@@ -1,27 +1,35 @@
 /**
- * Priority cascade: checks if any vulnerability matches each severity
- * level in order (critical → high → medium → low).
- * Returns the highest found, or "-" if none.
- *
+ * a numerical value to each "string" level as makes the sorting calculation incredibly easy and fast.
  */
+export const SEVERITY_ORDER = {
+  critical: 0,
+  high: 1,
+  medium: 2,
+  low: 3,
+  "-": 4,
+};
+
 export function getHighestSeverity(vulnerabilities) {
   if (!vulnerabilities || vulnerabilities.length === 0) return "-";
 
-  const priorities = ["critical", "high", "medium", "low"];
+  let highestOrder = SEVERITY_ORDER["-"];
+  let highestSeverity = "-";
 
-  for (const level of priorities) {
-    const found = vulnerabilities.some((vuln) => {
-      const sev = (
-        vuln.cvssv3?.baseSeverity ||
-        vuln.severity ||
-        ""
-      ).toLowerCase();
-      return sev === level;
-    });
-    if (found) return capitalizeSeverity(level);
+  for (const vuln of vulnerabilities) {
+    const sev = (
+      vuln.cvssv3?.baseSeverity ||
+      vuln.severity ||
+      ""
+    ).toLowerCase();
+    const order = SEVERITY_ORDER[sev] ?? SEVERITY_ORDER["-"];
+
+    if (order < highestOrder) {
+      highestOrder = order;
+      highestSeverity = sev;
+    }
   }
 
-  return "-";
+  return highestSeverity !== "-" ? capitalizeSeverity(highestSeverity) : "-";
 }
 
 //Capitalize severity text.
@@ -131,10 +139,9 @@ export function getSeverityTagColor(severity) {
     case "high":
       return "magenta";
     case "medium":
-    case "moderate":
       return "yellow";
     case "low":
-      return "blue";
+      return "teal";
     default:
       return "gray";
   }

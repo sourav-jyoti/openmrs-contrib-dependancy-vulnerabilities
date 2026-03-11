@@ -2,7 +2,6 @@ import { getSeverityTagColor, escapeHtml } from "../helpers.js";
 
 export function renderProjectAccordion(project) {
   const tagColor = getSeverityTagColor(project.highestSeverity);
-  const depCount = project.dependencies.length;
 
   const title = `${escapeHtml(project.projectName)}`;
 
@@ -13,7 +12,7 @@ export function renderProjectAccordion(project) {
     <cds-accordion-item title-text="${title}" class="project-accordion-item">
       <span slot="title" class="project-title">
         <span class="project-name">${escapeHtml(project.projectName)}</span>
-        <cds-tag type="${tagColor}" class="severity-tag">${escapeHtml(project.highestSeverity)}</cds-tag>
+        <cds-tag type="${tagColor}" class="severity-tag" style="padding: 0 0.5rem;">${escapeHtml(project.highestSeverity)}</cds-tag>
       </span>
       ${innerContent}
     </cds-accordion-item>
@@ -37,12 +36,12 @@ function renderDependencySection(dependencies) {
       return `
         <cds-accordion-item title-text="${escapeHtml(dep.name)}" class="dep-accordion-item">
           <div slot="title" class="dep-row-title">
-            <span class="dep-name">${escapeHtml(dep.name)}</span>
-            <span class="dep-version">${escapeHtml(dep.version)}</span>
-            <cds-tag type="${tagColor}" size="sm">${escapeHtml(dep.severity)}</cds-tag>
-            <span class="dep-cve-count">${dep.cveCount}</span>
-            <span class="dep-exploit">${escapeHtml(dep.exploit)}</span>
-            <span class="dep-fix">${escapeHtml(dep.fixVersion)}</span>
+            <span class="dep-col dep-name">${escapeHtml(dep.name)}</span>
+            <span class="dep-col dep-version">${escapeHtml(dep.version)}</span>
+            <span class="dep-col"><cds-tag type="${tagColor}" size="sm" style="padding: 0 0.5rem;">${escapeHtml(dep.severity)}</cds-tag></span>
+            <span class="dep-col dep-cve-count">${dep.cveCount}</span>
+            <span class="dep-col dep-exploit">${escapeHtml(dep.exploit)}</span>
+            <span class="dep-col dep-fix">${escapeHtml(dep.fixVersion)}</span>
           </div>
           <div class="cve-details-wrapper">
             ${cveTableHtml}
@@ -78,14 +77,16 @@ function renderCVETable(cves) {
   const rows = cves
     .map((cve) => {
       const tagColor = getSeverityTagColor(cve.severity);
-      const scoreDisplay = cve.score !== "-" ? `${cve.score}/10` : "-";
+      const roundedScore =
+        cve.score !== "-" ? Math.round(Number(cve.score) * 1000) / 1000 : "-";
+      const scoreDisplay = roundedScore !== "-" ? `${roundedScore}/10` : "-";
 
       return `
-        <cds-table-row>
+        <cds-table-row >
           <cds-table-cell class="cve-id-cell">${escapeHtml(cve.cveId)}</cds-table-cell>
-          <cds-table-cell><cds-tag type="${tagColor}" size="sm">${escapeHtml(cve.severity)}</cds-tag></cds-table-cell>
+          <cds-table-cell><cds-tag type="${tagColor}" size="sm" style="padding: 0 0.5rem;">${escapeHtml(cve.severity)}</cds-tag></cds-table-cell>
           <cds-table-cell>${escapeHtml(String(scoreDisplay))}</cds-table-cell>
-          <cds-table-cell class="cve-desc-cell">${escapeHtml(cve.description)}</cds-table-cell>
+          <cds-table-cell>${escapeHtml(cve.description)}</cds-table-cell>
           <cds-table-cell>${escapeHtml(cve.affectedVersion)}</cds-table-cell>
           <cds-table-cell>${escapeHtml(cve.fixedIn)}</cds-table-cell>
           <cds-table-cell>${escapeHtml(cve.cwe)}</cds-table-cell>
@@ -95,11 +96,11 @@ function renderCVETable(cves) {
     .join("");
 
   return `
-    <cds-table class="cve-table">
+    <cds-table class="cve-table" >
       <cds-table-head>
         <cds-table-header-row>
           <cds-table-header-cell>CVE ID</cds-table-header-cell>
-          <cds-table-header-cell>Severity</cds-table-header-cell>
+          <cds-table-header-cell is-sortable>Severity</cds-table-header-cell>
           <cds-table-header-cell>Score</cds-table-header-cell>
           <cds-table-header-cell>Description</cds-table-header-cell>
           <cds-table-header-cell>Affected Versions</cds-table-header-cell>

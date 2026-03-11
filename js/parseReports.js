@@ -7,6 +7,7 @@ import {
   getAffectedVersion,
   getFixVersion,
   capitalizeSeverity,
+  SEVERITY_ORDER,
 } from "./helpers.js";
 
 export function parseReports(reports) {
@@ -14,7 +15,14 @@ export function parseReports(reports) {
     const projectName = report.projectInfo?.name;
     const deps = (report.dependencies || [])
       .filter((dep) => dep.vulnerabilities && dep.vulnerabilities.length > 0)
-      .map((dep) => parseDependency(dep));
+      .map((dep) => parseDependency(dep))
+      .sort((a, b) => {
+        const orderA =
+          SEVERITY_ORDER[a.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+        const orderB =
+          SEVERITY_ORDER[b.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+        return orderA - orderB;
+      });
 
     // Project-level highest severity
     const allSeverities = deps.map((d) => d.severity);
@@ -40,7 +48,15 @@ function parseDependency(dep) {
   const exploit = hasAnyExploit(dep.vulnerabilities);
   const fixVersion = getFirstFixVersion(dep.vulnerabilities);
 
-  const cves = dep.vulnerabilities.map((vuln) => parseCVE(vuln));
+  const cves = dep.vulnerabilities
+    .map((vuln) => parseCVE(vuln))
+    .sort((a, b) => {
+      const orderA =
+        SEVERITY_ORDER[a.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+      const orderB =
+        SEVERITY_ORDER[b.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+      return orderA - orderB;
+    });
 
   return {
     name,
@@ -75,10 +91,20 @@ function parseCVE(vuln) {
  * Uses a priority cascade: critical → high → medium → low → "-"
  */
 function getHighestFromList(severities) {
-  const priorities = ["Critical", "High", "Medium", "Low"];
+  if (!severities || severities.length === 0) return "-";
 
-  for (const level of priorities) {
-    if (severities.some((s) => s === level)) return level;
+  let highestOrder = SEVERITY_ORDER["-"];
+  let highestSeverity = "-";
+
+  for (const severity of severities) {
+    const lower = (severity || "").toLowerCase();
+    const order = SEVERITY_ORDER[lower] ?? SEVERITY_ORDER["-"];
+
+    if (order < highestOrder) {
+      highestOrder = order;
+      highestSeverity = severity;
+    }
   }
-  return "-";
+
+  return highestSeverity !== "-" ? capitalizeSeverity(highestSeverity) : "-";
 }
