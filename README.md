@@ -30,9 +30,6 @@ Used components:
 ## Project Structure
 
 ```
-dashboard_2/
-
-(dependency-check-report.json)
 data/
  ├─ billing.json
  ├─ idgen.json

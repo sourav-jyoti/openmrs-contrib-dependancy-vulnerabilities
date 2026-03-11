@@ -34,35 +34,39 @@ function renderDependencySection(dependencies) {
       const cveTableHtml = renderCVETable(dep.cves);
 
       return `
-        <cds-accordion-item title-text="${escapeHtml(dep.name)}" class="dep-accordion-item">
-          <div slot="title" class="dep-row-title">
-            <span class="dep-col dep-name">${escapeHtml(dep.name)}</span>
-            <span class="dep-col dep-version">${escapeHtml(dep.version)}</span>
-            <span class="dep-col"><cds-tag type="${tagColor}" size="sm" style="padding: 0 0.5rem;">${escapeHtml(dep.severity)}</cds-tag></span>
-            <span class="dep-col dep-cve-count">${dep.cveCount}</span>
-            <span class="dep-col dep-exploit">${escapeHtml(dep.exploit)}</span>
-            <span class="dep-col dep-fix">${escapeHtml(dep.fixVersion)}</span>
-          </div>
+        <cds-table-row>
+          <cds-table-cell class="dep-name">${escapeHtml(dep.name)}</cds-table-cell>
+          <cds-table-cell class="dep-version">${escapeHtml(dep.version)}</cds-table-cell>
+          <cds-table-cell><cds-tag type="${tagColor}" size="sm" style="padding: 0 0.5rem;">${escapeHtml(dep.severity)}</cds-tag></cds-table-cell>
+          <cds-table-cell class="dep-cve-count">${dep.cveCount}</cds-table-cell>
+          <cds-table-cell class="dep-exploit">${escapeHtml(dep.exploit)}</cds-table-cell>
+          <cds-table-cell class="dep-fix">${escapeHtml(dep.fixVersion)}</cds-table-cell>
+        </cds-table-row>
+        <cds-table-expanded-row>
           <div class="cve-details-wrapper">
             ${cveTableHtml}
           </div>
-        </cds-accordion-item>
+        </cds-table-expanded-row>
       `;
     })
     .join("");
 
   return `
-    <div class="dep-table-header">
-      <span class="dep-col dep-col-name">Dependency</span>
-      <span class="dep-col dep-col-version">Version</span>
-      <span class="dep-col dep-col-severity">Severity</span>
-      <span class="dep-col dep-col-cves">CVEs</span>
-      <span class="dep-col dep-col-exploit">Exploit?</span>
-      <span class="dep-col dep-col-fix">Fix Version</span>
-    </div>
-    <cds-accordion alignment="start" class="dep-accordion">
-      ${rows}
-    </cds-accordion>
+    <cds-table expandable>
+      <cds-table-head>
+        <cds-table-header-row>
+          <cds-table-header-cell>Dependency</cds-table-header-cell>
+          <cds-table-header-cell>Version</cds-table-header-cell>
+          <cds-table-header-cell>Severity</cds-table-header-cell>
+          <cds-table-header-cell>CVEs</cds-table-header-cell>
+          <cds-table-header-cell>Exploit?</cds-table-header-cell>
+          <cds-table-header-cell>Fix Version</cds-table-header-cell>
+        </cds-table-header-row>
+      </cds-table-head>
+      <cds-table-body>
+        ${rows}
+      </cds-table-body>
+    </cds-table>
   `;
 }
 
