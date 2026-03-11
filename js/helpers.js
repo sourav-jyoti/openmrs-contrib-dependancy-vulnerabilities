@@ -1,5 +1,5 @@
 /**
- * a numerical value to each "string" level as makes the sorting calculation incredibly easy and fast.
+ * a numerical value to each "string" level as makes the sorting calculation easier
  */
 export const SEVERITY_ORDER = {
   critical: 0,
