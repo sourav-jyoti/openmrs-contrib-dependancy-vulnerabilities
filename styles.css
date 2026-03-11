@@ -23,7 +23,7 @@ body {
 
 /* ===== Dashboard Container ===== */
 #app {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2.5rem 2rem 4rem;
 }
@@ -34,8 +34,8 @@ body {
 }
 
 .dashboard-title {
-  font-size: 2.25rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 500;
   color: #161616;
   letter-spacing: -0.02em;
   line-height: 1.2;
@@ -44,18 +44,18 @@ body {
 
 .title-accent {
   display: block;
-  width: 60px;
-  height: 4px;
-  background: #0f6b5e;
+  width: 90px;
+  height: 7px;
+  background: #148b7b;
   margin-bottom: 1rem;
   border-radius: 2px;
 }
 
 .dashboard-subtitle {
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #525252;
   line-height: 1.6;
-  max-width: 800px;
+  font-weight: 500;
 }
 
 /* ===== Loading States ===== */
@@ -84,6 +84,7 @@ body {
   background: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 0;
+  padding: 1rem;
 }
 
 /* Remove default padding so the dependency table can take full width */
@@ -94,9 +95,19 @@ body {
 .project-title {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   font-weight: 500;
   font-size: 0.9375rem;
+}
+
+.dep-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dep-table cds-table-cell {
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .project-name {
@@ -173,18 +184,18 @@ cds-table-header-row cds-table-header-cell {
 
 /* ===== Severity Tag Colors ===== */
 cds-tag[type="red"] {
-  --cds-tag-background-red: #fff1f1;
-  --cds-tag-color-red: #da1e28;
+  --cds-tag-background-red: #e76f6f;
+  --cds-tag-color-red: #4b0508;
 }
 
 cds-tag[type="magenta"] {
-  --cds-tag-background-magenta: #fff0f7;
-  --cds-tag-color-magenta: #9f1853;
+  --cds-tag-background-magenta: #eaaaaa;
+  --cds-tag-color-magenta: #861c4a;
 }
 
 cds-tag[type="yellow"] {
-  --cds-tag-background-gray: #fcf4d6;
-  --cds-tag-color-gray: #8e6a00; /*as carbon doesn't has native yellow so gray is overridden*/
+  --cds-tag-background-gray: #f5cf47;
+  --cds-tag-color-gray: #7f4d03; /*as carbon doesn't has native yellow so gray is overridden*/
 }
 
 cds-tag[type="teal"] {

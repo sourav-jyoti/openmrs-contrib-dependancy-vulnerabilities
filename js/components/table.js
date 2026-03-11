@@ -12,13 +12,12 @@ export function renderProjectAccordion(project) {
     <cds-accordion-item title-text="${title}" class="project-accordion-item">
       <span slot="title" class="project-title">
         <span class="project-name">${escapeHtml(project.projectName)}</span>
-        <cds-tag type="${tagColor}" class="severity-tag" style="padding: 0 0.5rem;">${escapeHtml(project.highestSeverity)}</cds-tag>
+        <cds-tag type="${tagColor}" class="severity-tag" style="padding: 0.2rem 0.5rem;">${escapeHtml(project.highestSeverity)}</cds-tag>
       </span>
       ${innerContent}
     </cds-accordion-item>
   `;
 }
-
 /**
  * Render the dependency table section.
  * Each dependency row contains an inner accordion for CVE details.
@@ -37,12 +36,12 @@ function renderDependencySection(dependencies) {
         <cds-table-row>
           <cds-table-cell class="dep-name">${escapeHtml(dep.name)}</cds-table-cell>
           <cds-table-cell class="dep-version">${escapeHtml(dep.version)}</cds-table-cell>
-          <cds-table-cell><cds-tag type="${tagColor}" size="sm" style="padding: 0 0.5rem;">${escapeHtml(dep.severity)}</cds-tag></cds-table-cell>
+          <cds-table-cell><cds-tag type="${tagColor}" size="sm" style="padding: 0.2rem 0.5rem;">${escapeHtml(dep.severity)}</cds-tag></cds-table-cell>
           <cds-table-cell class="dep-cve-count">${dep.cveCount}</cds-table-cell>
           <cds-table-cell class="dep-exploit">${escapeHtml(dep.exploit)}</cds-table-cell>
           <cds-table-cell class="dep-fix">${escapeHtml(dep.fixVersion)}</cds-table-cell>
         </cds-table-row>
-        <cds-table-expanded-row>
+        <cds-table-expanded-row col-span="7">
           <div class="cve-details-wrapper">
             ${cveTableHtml}
           </div>
@@ -52,7 +51,7 @@ function renderDependencySection(dependencies) {
     .join("");
 
   return `
-    <cds-table expandable>
+    <cds-table expandable class="dep-table">
       <cds-table-head>
         <cds-table-header-row>
           <cds-table-header-cell>Dependency</cds-table-header-cell>
