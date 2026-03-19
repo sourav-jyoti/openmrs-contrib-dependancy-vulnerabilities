@@ -3,10 +3,14 @@
  * Returns an array of parsed JSON objects.
  */
 export async function fetchReports() {
-  const files = ["data/billing.json", "data/idgen.json", "data/core.json"];
+  const reports = [
+    "data/openmrs-core.json",
+    "data/openmrs-module-billing.json",
+    "data/openmrs-module-idgen.json",
+  ];
 
   const responses = await Promise.all(
-    files.map((file) => fetch(file).then((r) => r.json())),
+    reports.map((report) => fetch(report).then((r) => r.json())),
   );
 
   return responses;
