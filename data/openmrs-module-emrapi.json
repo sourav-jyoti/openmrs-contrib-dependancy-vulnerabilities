@@ -1,0 +1,1247 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "12.2.0",
+        "dataSource": [
+{
+                "name": "NVD API Last Checked",
+                "timestamp": "2026-03-19T11:56:42Z"
+            }
+,{
+                "name": "NVD API Last Modified",
+                "timestamp": "2026-03-19T11:16:14Z"
+            }
+,{
+                "name": "NVD Cache Last Checked",
+                "timestamp": "2026-03-19T11:56:42Z"
+            }
+,{
+                "name": "NVD Cache Last Modified",
+                "timestamp": "2026-03-19T11:16:14Z"
+            }
+        ]
+
+
+    },
+    "projectInfo": {
+        "name": "openmrs-module-emrapi",
+        "reportDate": "2026-03-19T14:14:29.097147880Z",
+        "credits": {
+            "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+            "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+        }
+    },
+    "dependencies": [
+{
+            "isVirtual": false,
+            "fileName": "emrapi-3.4.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-javadoc.jar"
+,"md5": "f9c745fabcb1812fe9355f41588526dd",
+            "sha1": "86d7cc3cbdad616841dda4a350fd06ec6ed72791",
+            "sha256": "2572d1bfa3110e7ed827e86e5a986a899b88d8289da4008b3ad2406ca74789fb"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.4.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-3.4.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:emrapi-omod:3.4.0-SNAPSHOT)",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/emrapi-omod\/pom.xml"
+,"md5": "862cb63223bc5bffb8440bca88013151",
+            "sha1": "7cd94f495afc390655bc35a21598d9880c144e78",
+            "sha256": "a89be0489a97ac3b43e532084f17e59f139bbe7e9b67a37c385cbbbbc1172029","description": "OMOD project for EMRAPI"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "emrapi-3.4.0-SNAPSHOT.jar (shaded: org.openmrs.module:emrapi-omod:3.4.0-SNAPSHOT)",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/emrapi-omod\/pom.xml"
+,"sha256": "a89be0489a97ac3b43e532084f17e59f139bbe7e9b67a37c385cbbbbc1172029",
+                    "sha1": "7cd94f495afc390655bc35a21598d9880c144e78",
+                    "md5": "862cb63223bc5bffb8440bca88013151",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/emrapi-omod@3.4.0-SNAPSHOT"
+                            }
+                    ]
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "emrapi-omod"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "EMR API Module OMOD"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "emrapi"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "emrapi-omod"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "EMR API Module OMOD"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "emrapi"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "3.4.0-SNAPSHOT"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.openmrs.module\/emrapi-omod@3.4.0-SNAPSHOT"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-3.4.0-SNAPSHOT-tests.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-tests.jar"
+,"md5": "bd6782800f058375e060879d6b095b01",
+            "sha1": "8f7653f6ff16be7acddf808b2065cbec35b61996",
+            "sha256": "3ad2786fb200563b0f4cf852728f39be3f38600410804b24706f39d9099c20f8"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "web"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.4.0.snapshot"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "LOW",
+                        "source": "Manifest",
+                        "name": "build-jdk-spec",
+                        "value": "1.8"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "Manifest",
+                        "name": "java-version",
+                        "value": "8"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-3.4.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT.jar"
+,"md5": "cbc2a5d303ebeb782255024fd0b63e27",
+            "sha1": "8bf918908396bef75e8a7023d194246e7e6ba8c4",
+            "sha256": "01239677dd8950c18773630e866cc5d57a4a21d60d61e0af2704eb678ce83bc4"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.4.0.snapshot"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "LOW",
+                        "source": "Manifest",
+                        "name": "build-jdk-spec",
+                        "value": "1.8"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "Manifest",
+                        "name": "java-version",
+                        "value": "8"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-api-3.4.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT-javadoc.jar"
+,"md5": "1eacc6fe4e9c3910e9998e0c92553068",
+            "sha1": "6815a16c07e7507d85e257b840a595503bdf4f29",
+            "sha256": "1ae40747eeb4c64a4a75374e2e5af1f0f14aa643dff038bf3d25b3602743dac3"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi-api"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.4.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-api-3.4.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT.jar"
+,"md5": "c5f5684cbb38d1cdba3dc500b5e93f7d",
+            "sha1": "c83e5a54b1020ced4e82eacc09d87bcc334efac5",
+            "sha256": "ce14cfb37337b54628f50edc5a61719dbfc0dbce457606d0f31497e9dd3f301a","description": "API project for EMRAPI"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "emrapi-api-3.4.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT-tests.jar"
+,"sha256": "d591a390fb250c87473feba232563c1b54f932aa15796d62f57aa75cce7eb58a",
+                    "sha1": "d4395b92366bb661ebc6f4fa605da2d8d0a35a1b",
+                    "md5": "ff35581246994c419c03d8bf191dc205",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/emrapi-api@3.4.0-SNAPSHOT"
+                            }
+                    ]
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "emrapi-api-3.4.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT\/lib\/emrapi-api-3.4.0-SNAPSHOT.jar"
+,"sha256": "ce14cfb37337b54628f50edc5a61719dbfc0dbce457606d0f31497e9dd3f301a",
+                    "sha1": "c83e5a54b1020ced4e82eacc09d87bcc334efac5",
+                    "md5": "c5f5684cbb38d1cdba3dc500b5e93f7d"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "emrapi-api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "EMR API Module API"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "emrapi"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "emrapi-api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "EMR API Module API"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "emrapi"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "3.4.0-SNAPSHOT"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.openmrs.module\/emrapi-api@3.4.0-SNAPSHOT"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar"
+,"md5": "d34efb9551f449a059add5e26aebe121",
+            "sha1": "fb21bfad567144130102c76f003690c51ee36f74",
+            "sha256": "d8f62fd7c3e726f86bb74e696ed2dc09a26e69d8ad69a5baa5fd7ae14f788612"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api-reporting"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api-reporting"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi-api-reporting"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.4.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar: script.js",
+            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar\/script.js"
+,"md5": "4a010b8264c9873452f055748133bb29",
+            "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+            "sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "emrapi-3.4.0-SNAPSHOT-javadoc.jar: script.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-javadoc.jar\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "emrapi-api-3.4.0-SNAPSHOT-javadoc.jar: script.js",
+                    "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT-javadoc.jar\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "script.js",
+                    "filePath": "\/github\/workspace\/api-reporting\/target\/reports\/apidocs\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "script.js",
+                    "filePath": "\/github\/workspace\/api\/target\/reports\/apidocs\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "script.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/reports\/apidocs\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT.jar"
+,"md5": "6de1531f978747c8a44a54c25c468c8d",
+            "sha1": "44e01109249617c197c0cc189babd3b02c09ecc2",
+            "sha256": "f238f6534994bc25ad6e82e2531350a1cf5e4e16b969f685a1fcd0177baaf06b"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT-tests.jar"
+,"sha256": "cc5080b25fe5822831ea94f69812f8992a5b2b1a89d61462b946997f511aeeb2",
+                    "sha1": "272f208ccb18c86e5518299d6327ccd4d769265f",
+                    "md5": "a2c58df10f3754816d494be8d3f14fcd",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/emrapi-api-reporting@3.4.0-SNAPSHOT"
+                            }
+                    ]
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT\/lib\/emrapi-api-reporting-3.4.0-SNAPSHOT.jar"
+,"sha256": "f238f6534994bc25ad6e82e2531350a1cf5e4e16b969f685a1fcd0177baaf06b",
+                    "sha1": "44e01109249617c197c0cc189babd3b02c09ecc2",
+                    "md5": "6de1531f978747c8a44a54c25c468c8d"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api-reporting"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "emrapi-api-reporting"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "EMR API Reporting API"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "emrapi"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api-reporting"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "emrapi"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "emrapi-api-reporting"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "EMR API Reporting API"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "emrapi"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "3.4.0-SNAPSHOT"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.openmrs.module\/emrapi-api-reporting@3.4.0-SNAPSHOT"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+,                {
+                    "id": "cpe:2.3:a:openmrs:openmrs_module_reporting:3.4.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs_module_reporting%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "joda-time-2.12.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT\/lib\/joda-time-2.12.5.jar"
+,"md5": "a0f575850531c768542236ea245b7516",
+            "sha1": "698ce67b5e58becfb4ef2cf0393422775e59dff4",
+            "sha256": "10628411ecb40c4634196c544f34681abdeef826f377096357433d1f9a135bc6","description": "Date and time library to replace JDK date handling","license": "Apache License, Version 2.0: https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "joda-time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "joda"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "automatic-module-name",
+                            "value": "org.joda.time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "bundle-docurl",
+                            "value": "https:\/\/www.joda.org\/joda-time\/"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "bundle-symbolicname",
+                            "value": "joda-time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "extension-name",
+                            "value": "joda-time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "Manifest",
+                            "name": "Implementation-Vendor",
+                            "value": "Joda.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "Implementation-Vendor-Id",
+                            "value": "org.joda"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "specification-vendor",
+                            "value": "Joda.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "joda-time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "broneill"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "jodastephen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Brian S O'Neill"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Stephen Colebourne"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "joda-time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Joda-Time"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Joda.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "https:\/\/www.joda.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "https:\/\/www.joda.org\/joda-time\/"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "joda-time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "joda"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "automatic-module-name",
+                            "value": "org.joda.time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "bundle-docurl",
+                            "value": "https:\/\/www.joda.org\/joda-time\/"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "Bundle-Name",
+                            "value": "Joda-Time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "bundle-symbolicname",
+                            "value": "joda-time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "extension-name",
+                            "value": "joda-time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "Manifest",
+                            "name": "Implementation-Title",
+                            "value": "org.joda.time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "specification-title",
+                            "value": "Joda-Time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "joda-time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "broneill"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "jodastephen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Brian S O'Neill"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Stephen Colebourne"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "joda-time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Joda-Time"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Joda.org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "https:\/\/www.joda.org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "https:\/\/www.joda.org\/joda-time\/"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "2.12.5"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "Manifest",
+                        "name": "Bundle-Version",
+                        "value": "2.12.5"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "Manifest",
+                        "name": "Implementation-Version",
+                        "value": "2.12.5"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "2.12.5"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/joda-time\/joda-time@2.12.5"
+,"confidence": "HIGH"                    }
+            ]
+        }    ]
+}
