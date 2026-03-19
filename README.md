@@ -2,6 +2,8 @@
 
 A summary of known security vulnerabilities detected across OpenMRS modules by automated dependency scanning. Each module lists its vulnerable dependencies, severity levels, and recommended fix versions to help maintainers prioritize upgrades.
 
+The dashboard is available at: https://openmrs.github.io/openmrs-contrib-dependency-vulnerability-dashboard 
+
 ## Components Used for displaying data
 
 Carbon Web Components (loaded from CDN)
