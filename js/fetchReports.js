@@ -12,6 +12,7 @@ export async function fetchReports() {
     "openmrs-module-webservices.rest.json",
     "openmrs-module-attachments.json",
     "openmrs-module-fhir2.json",
+    "openmrs-module-serialization.xstream.json",
   ];
 
   const responses = await Promise.all(
