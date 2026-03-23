@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-18T12:04:12Z"
+                "timestamp": "2026-03-22T11:45:39Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-18T11:16:16Z"
+                "timestamp": "2026-03-22T10:16:07Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-18T12:04:12Z"
+                "timestamp": "2026-03-22T11:45:39Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-18T11:16:16Z"
+                "timestamp": "2026-03-22T10:16:07Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-idgen",
-        "reportDate": "2026-03-18T12:15:40.482487753Z",
+        "reportDate": "2026-03-23T08:22:59.924321165Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4895,9 +4895,9 @@
             "isVirtual": false,
             "fileName": "idgen-6.0.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/idgen-6.0.0-SNAPSHOT-javadoc.jar"
-,"md5": "757f19b2e72c89346ac146158e9411b1",
-            "sha1": "c01321679cd5f0253e2edbc323c55f3dec43371b",
-            "sha256": "354613204c478d0855a159d0f7a4d6e3d6bdb387be1ddd2c94dbb05710db71ba"            ,"evidenceCollected": {
+,"md5": "8262088098caf9f5585cca01dda60e6a",
+            "sha1": "918f213fda27f9e901263af9fca266fa5f439c76",
+            "sha256": "3b8edc747831b472e1cb7d48878170a80327dd6c21cdd93d38364f936ca421df"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4938,9 +4938,9 @@
             "isVirtual": false,
             "fileName": "idgen-6.0.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/omod\/target\/idgen-6.0.0-SNAPSHOT-sources.jar"
-,"md5": "d447c856d4730ff524d8c260e0a5f4b9",
-            "sha1": "bb0fdf149646703e30fb91a0232db603785abdff",
-            "sha256": "9e76f06a5b0458e60c01cd973464c54e0184561aaaa2e692e865e7e24830e2b8"            ,"evidenceCollected": {
+,"md5": "adc377e01005bfedc0b7bd4126483782",
+            "sha1": "471c45e45b3f671f750fe8b200a1419ecaccb67d",
+            "sha256": "9610865043d4c5107e033c6460820457ebe18748c1527089529ac36b1eef6bbf"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5082,9 +5082,9 @@
             "isVirtual": false,
             "fileName": "idgen-6.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/idgen-6.0.0-SNAPSHOT-tests.jar"
-,"md5": "a13022884b1b1666b67b7ac7e48f8174",
-            "sha1": "6fbfb08285c30ceba7baf57002707c3366a50c96",
-            "sha256": "17b38002b23c90a7801e130a8256d923d3d85bc0ca943b87f888d5cde2d10afc"            ,"evidenceCollected": {
+,"md5": "c575f8a5c0e5b3b237db1ee3fb6bf1be",
+            "sha1": "d91d2e7fcd18e97e0ee2b6fdf71253ae38aa3065",
+            "sha256": "a95c43177f7c544329b71691394165e246f9a69ccb708d4a8d6aeab7b986eac7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5195,9 +5195,9 @@
             "isVirtual": false,
             "fileName": "idgen-6.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/idgen-6.0.0-SNAPSHOT.jar"
-,"md5": "c1cddae9d377332ed430297dbe3c52dd",
-            "sha1": "c061fac3287326c91b0438d3f6ef2c5a79114ed0",
-            "sha256": "2a547e5cd398f9eb1e30451e5d814a02437e45f86767f3fd00a70fdf67ba58b8"            ,"evidenceCollected": {
+,"md5": "b4695546e84ca4ba3c30b2916fa06bbd",
+            "sha1": "33d099b106d23237f5e656dda7f90e9d98696d84",
+            "sha256": "1337f0995dff3003aee80c4af0a3e41d0e51e8a65a47eb937383ed5e14b24f83"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5308,9 +5308,9 @@
             "isVirtual": false,
             "fileName": "idgen-api-6.0.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/idgen-api-6.0.0-SNAPSHOT-javadoc.jar"
-,"md5": "c4d57cfe56c963713110d688fcd32822",
-            "sha1": "96e6fdd918e37196b0613b851c9dab7f2fe6cb04",
-            "sha256": "443c5d9aaba1990023fa42893e4df5fe0af1da61d8ed4313e0ea11d0680c4220"            ,"evidenceCollected": {
+,"md5": "efcd30b02c484f12ae2201a5911e9cb2",
+            "sha1": "7b1d5b0ac3d601b5caa070b58d73c075f7cfe57c",
+            "sha256": "cb0d01bbf2e4e4cf2776f3dccfa0311cff4d037193c15685f89a18d9d887b240"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5392,9 +5392,9 @@
             "isVirtual": false,
             "fileName": "idgen-api-6.0.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/api\/target\/idgen-api-6.0.0-SNAPSHOT-sources.jar"
-,"md5": "84f22b7eee322f3b1ec76f8372b59fe5",
-            "sha1": "37e89b49333de8e4565a0f720020714bd585df39",
-            "sha256": "b0d8fffd2b7e14205012f3875e27285d284301ae0ead1512025ba1e79a9b6bc7"            ,"evidenceCollected": {
+,"md5": "1d18c7658bb99625fa0afc8aa8eda33b",
+            "sha1": "59774028556fff1d214a1e7985b5e68805a15aeb",
+            "sha256": "1eea988a2ea697f5d664b823a8cd338aa4e54ec820dd9f54a17bde0a857ad3e4"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5435,16 +5435,16 @@
             "isVirtual": false,
             "fileName": "idgen-api-6.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/idgen-api-6.0.0-SNAPSHOT.jar"
-,"md5": "b3125683c637060994d26eecb847b675",
-            "sha1": "88136b4363429c3756c46e95e0ac88110a36d1c4",
-            "sha256": "4930794ed0e35a12c223f6b33474409b5a45e6c08caea6a47a23b7f347ce583e","description": "API project for ID Generation"            ,"relatedDependencies": [
+,"md5": "a3b84f07846fe5cd5a8ebfb4dd22e6a9",
+            "sha1": "a523e12f44cfd863f13343d9b83df2776979173d",
+            "sha256": "97170dce9132022467a7a64a6d2d261dfafba77371b1a256dac12f91c2d80139","description": "API project for ID Generation"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "idgen-api-6.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/idgen-api-6.0.0-SNAPSHOT-tests.jar"
-,"sha256": "e49fe2e0cd909588edb6051da184c0585b7f0e493e083452b9c29b6c28dee082",
-                    "sha1": "8df123249563d901ef6fb9228ef002e096a93401",
-                    "md5": "b45f298d247b5adbfbe3dbea6d42b140",
+,"sha256": "788a469977fa7f25088b0feeade43bdae169227d7996898176006e2a0212a1cb",
+                    "sha1": "936d97fc4383dd3896ffc89d921a8e73704f3e5e",
+                    "md5": "1a8dd15c2e4092339fd3736b1e0a4ef2",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/idgen-api@6.0.0-SNAPSHOT"
@@ -5455,9 +5455,9 @@
                     "isVirtual": false,
                     "fileName": "idgen-api-6.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/idgen-6.0.0-SNAPSHOT\/lib\/idgen-api-6.0.0-SNAPSHOT.jar"
-,"sha256": "4930794ed0e35a12c223f6b33474409b5a45e6c08caea6a47a23b7f347ce583e",
-                    "sha1": "88136b4363429c3756c46e95e0ac88110a36d1c4",
-                    "md5": "b3125683c637060994d26eecb847b675"
+,"sha256": "97170dce9132022467a7a64a6d2d261dfafba77371b1a256dac12f91c2d80139",
+                    "sha1": "a523e12f44cfd863f13343d9b83df2776979173d",
+                    "md5": "a3b84f07846fe5cd5a8ebfb4dd22e6a9"
                 }
             ]
             ,"evidenceCollected": {
@@ -13582,6 +13582,34 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:*:socket.io-parser:\\<3.3.4:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-677m-j7p3-52f9",
+"unscored": "true", "severity" : "high",
+                    "cwes": [
+                        "CWE-754"                    ],
+                "description": "### Impact\n\nA specially crafted Socket.IO packet can make the server wait for a large number of binary attachments and buffer them, which can be exploited to make the server run out of memory.\n\n### Patches\n\n| Version range    | Used by                                    | Fixed version |\n|------------------|--------------------------------------------|---------------|\n| `>=4.0.0 <4.2.6` | `socket.io@4.x` and `socket.io-client@4.x` | `4.2.6`       |\n| `>=3.4.0 <3.4.4` | `socket.io@2.x`                            | `3.4.4`       |\n| `<3.3.5`         | `socket.io-client@2.x`                     | `3.3.5`       |\n\n### Workarounds\n\nThere is no known workaround except upgrading to a safe version.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n- Open a discussion [here](https:\/\/github.com\/socketio\/socket.io\/discussions)",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/socketio\/socket.io\/commit\/9d39f1f080510f036782f2177fac701cc041faaf","name": "https:\/\/github.com\/socketio\/socket.io\/commit\/9d39f1f080510f036782f2177fac701cc041faaf"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33151","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33151"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/socketio\/socket.io\/commit\/719f9ebab0772ffb882bd614b387e585c1aa75d4","name": "https:\/\/github.com\/socketio\/socket.io\/commit\/719f9ebab0772ffb882bd614b387e585c1aa75d4"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/socketio\/socket.io\/security\/advisories\/GHSA-677m-j7p3-52f9","name": "https:\/\/github.com\/socketio\/socket.io\/security\/advisories\/GHSA-677m-j7p3-52f9"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/socketio\/socket.io\/commit\/b25738c416c4e32fbff62ee182afa8f6d0dacf78","name": "https:\/\/github.com\/socketio\/socket.io\/commit\/b25738c416c4e32fbff62ee182afa8f6d0dacf78"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-677m-j7p3-52f9","name": "https:\/\/github.com\/advisories\/GHSA-677m-j7p3-52f9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:socket.io-parser:\\<3.3.5:*:*:*:*:*:*:*"
                         }
                     }                ]
                 }            ]        },{
