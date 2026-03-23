@@ -2,7 +2,7 @@
 
 A summary of known security vulnerabilities detected across OpenMRS modules by automated dependency scanning. Each module lists its vulnerable dependencies, severity levels, and recommended fix versions to help maintainers prioritize upgrades.
 
-The dashboard is available at: https://openmrs.github.io/openmrs-contrib-dependency-vulnerability-dashboard 
+The dashboard is available at: https://openmrs.github.io/openmrs-contrib-dependency-vulnerability-dashboard
 
 ## Components Used for displaying data
 
@@ -36,8 +36,31 @@ Used components:
 ```
 data/
  ├─ openmrs-core.json
+ ├─ openmrs-module-addresshierarchy.json
+ ├─ openmrs-module-attachments.json
+ ├─ openmrs-module-authentication.json
+ ├─ openmrs-module-bedmanagement.json
  ├─ openmrs-module-billing.json
- └─ openmrs-module-idgen.json
+ ├─ openmrs-module-calculation.json
+ ├─ openmrs-module-cohort.json
+ ├─ openmrs-module-emrapi.json
+ ├─ openmrs-module-event.json
+ ├─ openmrs-module-fhir2.json
+ ├─ openmrs-module-htmlwidgets.json
+ ├─ openmrs-module-idgen.json
+ ├─ openmrs-module-legacyui.json
+ ├─ openmrs-module-metadatamapping.json
+ ├─ openmrs-module-o3forms.json
+ ├─ openmrs-module-openconceptlab.json
+ ├─ openmrs-module-ordertemplates.json
+ ├─ openmrs-module-patientdocuments.json
+ ├─ openmrs-module-patientflags.json
+ ├─ openmrs-module-queue.json
+ ├─ openmrs-module-referencedemodata.json
+ ├─ openmrs-module-reportingrest.json
+ ├─ openmrs-module-serialization.xstream.json
+ ├─ openmrs-module-stockmanagement.json
+ └─ openmrs-module-webservices.rest.json
 
 js/
  ├─ main.js : controls the flow
