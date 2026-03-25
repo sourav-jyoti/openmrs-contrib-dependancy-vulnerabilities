@@ -30,6 +30,7 @@ export async function fetchReports() {
     "openmrs-module-serialization.xstream.json",
     "openmrs-module-stockmanagement.json",
     "openmrs-module-webservices.rest.json",
+    "openmrs-esm-patient-management.json"
   ];
 
   const responses = await Promise.all(
