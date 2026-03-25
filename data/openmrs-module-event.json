@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-03-25T12:01:57Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-03-25T11:16:40Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-03-25T12:01:57Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-03-25T11:16:40Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-event",
-        "reportDate": "2026-03-23T08:30:05.290544164Z",
+        "reportDate": "2026-03-25T19:21:22.930770269Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -5743,7 +5743,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -5795,7 +5795,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -5837,7 +5837,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -5889,7 +5889,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -7093,9 +7093,9 @@
             "isVirtual": false,
             "fileName": "event-4.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT-tests.jar"
-,"md5": "8d113be4dd4a7e20730058a2f583bee9",
-            "sha1": "1b6c030155d3ade3577fc793d0208a8e8219da0c",
-            "sha256": "de3bb3d2d90aa53cfd934b38ee12c1fe5c3c0ce92c88b072c5a43aeca6195058"            ,"evidenceCollected": {
+,"md5": "0bd1c97a9db6d61b4c74abaa7f30208d",
+            "sha1": "da6a2a51420f3305421d5947d3dde0c5b21616cc",
+            "sha256": "e09c29d68dbb97d11c318a0217c9cf17abea5addf3e3e761bdfe07b75dc999ed"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -7103,27 +7103,6 @@
                             "source": "file",
                             "name": "name",
                             "value": "event"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "event"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "module"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "openmrs"
                         }
 ,{
                             "type": "vendor",
@@ -7140,20 +7119,6 @@
                             "source": "file",
                             "name": "name",
                             "value": "event"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "event"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "module"
                     }
 ,{
                             "type": "product",
@@ -7192,9 +7157,9 @@
             "isVirtual": false,
             "fileName": "event-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT.jar"
-,"md5": "6ab12ebe3422489f15f4162722e7293f",
-            "sha1": "3119d8d0a7ad65fe7395084a7131c1e64c771f24",
-            "sha256": "40ec34b92c68955d5d8db2e703ca884695c3f143ff1f0e09ca879fa729a8225e"            ,"evidenceCollected": {
+,"md5": "0c6f0a9f187e79fba036373adb22c559",
+            "sha1": "dc4d9b31f335c225605aac20764eb82cd2c7ae34",
+            "sha256": "9d59846692a7ef5d4b7f2a60bf5dae8ead032021689389972af5a0ba0d545210"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -7202,27 +7167,6 @@
                             "source": "file",
                             "name": "name",
                             "value": "event"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "event"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "module"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "openmrs"
                         }
 ,{
                             "type": "vendor",
@@ -7239,27 +7183,6 @@
                             "source": "file",
                             "name": "name",
                             "value": "event"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "event"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "eventactivator"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "module"
                     }
 ,{
                             "type": "product",
@@ -7298,16 +7221,16 @@
             "isVirtual": false,
             "fileName": "event-api-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/event-api-4.1.0-SNAPSHOT.jar"
-,"md5": "9687693c6b8effacc0158ddf1a5377c7",
-            "sha1": "885e23c22abb225ea0d2e8da7b19878910960b66",
-            "sha256": "8229c704067682da102b76ac17b14d5f11bfa5875b1eb3467a4a3358d3a24300","description": "API project for EventQueue"            ,"relatedDependencies": [
+,"md5": "ce181a14dcc2d2be3a4eac351d234804",
+            "sha1": "92302eb6e28aa593b3f238976cf595734ff0c95b",
+            "sha256": "ed7bdbebd05c898abaf14163c4c002a5ad2884f54deda3cd4f9e054ca393beed","description": "API project for EventQueue"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "event-api-4.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/event-api-4.1.0-SNAPSHOT-tests.jar"
-,"sha256": "a91d0f3b714bfe883b4a9007205c9130c369a67ae7d92dfd82016aa8dbe50fc8",
-                    "sha1": "0bd5956e5757777cfeae6d3342022e5d4ef5137a",
-                    "md5": "b7a69aa1ddc9bc5d1cd1732233c97b9d",
+,"sha256": "770edf38c5605d60f0483e7adc0fb20537d5f65df832d5dd5ed976cd0c123f3e",
+                    "sha1": "384b7325b6a7ff239ae102a723639c0bd6271a11",
+                    "md5": "10109a6d19f8321f569d6d4da4912f55",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs/event-api@4.1.0-SNAPSHOT"
@@ -7318,9 +7241,9 @@
                     "isVirtual": false,
                     "fileName": "event-api-4.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT\/lib\/event-api-4.1.0-SNAPSHOT.jar"
-,"sha256": "8229c704067682da102b76ac17b14d5f11bfa5875b1eb3467a4a3358d3a24300",
-                    "sha1": "885e23c22abb225ea0d2e8da7b19878910960b66",
-                    "md5": "9687693c6b8effacc0158ddf1a5377c7"
+,"sha256": "ed7bdbebd05c898abaf14163c4c002a5ad2884f54deda3cd4f9e054ca393beed",
+                    "sha1": "92302eb6e28aa593b3f238976cf595734ff0c95b",
+                    "md5": "ce181a14dcc2d2be3a4eac351d234804"
                 }
             ]
             ,"evidenceCollected": {
@@ -14334,7 +14257,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -14386,7 +14309,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -14428,7 +14351,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -14480,7 +14403,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
