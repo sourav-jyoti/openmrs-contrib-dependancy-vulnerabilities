@@ -1,12 +1,16 @@
 import { getSeverityTagColor, escapeHtml } from "../helpers.js";
 
+function toProjectId(name) {
+  return (name || "").replace(/[^a-zA-Z0-9]/g, "-").toLowerCase();
+}
+
 export function renderProjectAccordion(project) {
   const tagColor = getSeverityTagColor(project.highestSeverity);
 
   const title = `${escapeHtml(project.projectName)}`;
 
-  // Build the inner content: dependency table with nested CVE accordions
-  const innerContent = renderDependencySection(project.dependencies);
+  const projectId = toProjectId(project.projectName);
+  const innerContent = renderDependencySection(project.dependencies, projectId);
 
   return `
     <cds-accordion-item title-text="${title}" class="project-accordion-item">
@@ -19,15 +23,10 @@ export function renderProjectAccordion(project) {
   `;
 }
 /**
- * Render the dependency table section.
- * Each dependency row contains an inner accordion for CVE details.
+ * Render only the dependency rows (used for initial render and re-sorting).
  */
-function renderDependencySection(dependencies) {
-  if (dependencies.length === 0) {
-    return '<p class="no-data">No vulnerable dependencies found.</p>';
-  }
-
-  const rows = dependencies
+export function renderDependencyRows(dependencies) {
+  return dependencies
     .map((dep) => {
       const tagColor = getSeverityTagColor(dep.severity);
       const cveTableHtml = renderCVETable(dep.cves);
@@ -49,21 +48,31 @@ function renderDependencySection(dependencies) {
       `;
     })
     .join("");
+}
+
+/**
+ * Render the dependency table section.
+ * Each dependency row contains an inner accordion for CVE details.
+ */
+function renderDependencySection(dependencies, projectId) {
+  if (dependencies.length === 0) {
+    return '<p class="no-data">No vulnerable dependencies found.</p>';
+  }
 
   return `
-    <cds-table expandable class="dep-table">
+    <cds-table expandable class="dep-table" data-project-id="${projectId}">
       <cds-table-head>
         <cds-table-header-row>
           <cds-table-header-cell>Dependency</cds-table-header-cell>
           <cds-table-header-cell>Version</cds-table-header-cell>
-          <cds-table-header-cell>Severity</cds-table-header-cell>
-          <cds-table-header-cell>CVEs</cds-table-header-cell>
+          <cds-table-header-cell is-sortable data-sort-key="severity">Severity</cds-table-header-cell>
+          <cds-table-header-cell is-sortable data-sort-key="cveCount">CVEs</cds-table-header-cell>
           <cds-table-header-cell>Exploit?</cds-table-header-cell>
           <cds-table-header-cell>Fix Version</cds-table-header-cell>
         </cds-table-header-row>
       </cds-table-head>
       <cds-table-body>
-        ${rows}
+        ${renderDependencyRows(dependencies)}
       </cds-table-body>
     </cds-table>
   `;
