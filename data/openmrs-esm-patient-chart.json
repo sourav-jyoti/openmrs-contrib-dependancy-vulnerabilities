@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-esm-patient-chart",
-        "reportDate": "2026-03-26T17:24:10.732056882Z",
+        "reportDate": "2026-03-27T05:58:15.530980010Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -694,6 +694,20 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "NPM",
+                "name": "GHSA-f886-m6hf-6m8v",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-f886-m6hf-6m8vID: 1115432",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:brace-expansion:\\<5.0.5:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
                 "source": "NPM",
                 "name": "GHSA-v6h2-p8h4-qcjw",
 "unscored": "true", "severity" : "low",
@@ -2094,6 +2108,104 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:*:minimatch:\\>\\=9.0.0\\<9.0.7:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "node-forge:1.3.2",
+            "filePath": "\/github\/workspace\/yarn.lock?node-forge"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "node-forge"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "node-forge"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.3.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/node-forge@1.3.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-2328-f5f3-gj25",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-2328-f5f3-gj25ID: 1115465",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<\\=1.3.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-5m6q-g25r-mvwx",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-5m6q-g25r-mvwxID: 1115450",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-ppp5-5v6c-4jwp",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-ppp5-5v6c-4jwpID: 1115467",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-q67f-28xg-22rw",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-q67f-28xg-22rwID: 1115466",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.4.0:*:*:*:*:*:*:*"
                         }
                     }                ]
                 }            ]        },{
