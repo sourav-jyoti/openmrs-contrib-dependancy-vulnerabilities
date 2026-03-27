@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-20T11:52:13Z"
+                "timestamp": "2026-03-27T12:01:57Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-20T11:18:03Z"
+                "timestamp": "2026-03-27T11:16:01Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-20T11:52:13Z"
+                "timestamp": "2026-03-27T12:01:57Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-20T11:18:03Z"
+                "timestamp": "2026-03-27T11:16:01Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-webservices.rest",
-        "reportDate": "2026-03-20T14:07:59.172381615Z",
+        "reportDate": "2026-03-27T14:32:18.077394547Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4557,9 +4557,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-3.3.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT-tests.jar"
-,"md5": "c1fa42ed348f733479f9e34fd6b773e1",
-            "sha1": "f25ab8cb582e5ae819fca9edb535b8dcd649dcad",
-            "sha256": "1ae769a4553682c948561835f3ffba77285dc78a5dab83006959fa8d33da2d3d"            ,"evidenceCollected": {
+,"md5": "677de151d44dfdb949948a5f36362ca1",
+            "sha1": "b64861cff84405fb02a47dde1834b4c70e8eca59",
+            "sha256": "d5f5cbba04beed72235155dbc3b422c55c9c7a4bb57f5d848800272f7b6f3247"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4670,9 +4670,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-3.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT.jar"
-,"md5": "bfe0336a25f89ba5ef323f56f4336091",
-            "sha1": "cfdfef3f300b8888310e7baa64f61ad550ada79e",
-            "sha256": "d9b6525c43807694c99a93e843cdbf509ab64c6bd00b0ea2b0542320747020ab"            ,"evidenceCollected": {
+,"md5": "705a2ee54101685bd6c8d87b78390bd9",
+            "sha1": "0e1201975069dcacb1c7fc9d3f0593b475e2dc11",
+            "sha256": "98760bcdf3d37dfeb66fa06acbfa99411cf76cd5738cf4ff3fbb3ed18ee7481b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4783,16 +4783,16 @@
             "isVirtual": false,
             "fileName": "webservices.rest-integration-tests-3.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/webservices.rest-integration-tests-3.3.0-SNAPSHOT.jar"
-,"md5": "94f5cb403d9c3fbe9d6cd2a8dac376eb",
-            "sha1": "b779f4e1d3b3aeb5c54cf1129e5b3a288696e1a2",
-            "sha256": "01a4dcee87feb2fbb1d98845823217df802b1a2fdcfe9c06684165faed8e6e69","description": "\n\t\tIt contains integration tests for Rest Web Services. They can be executed \n\t\tagainst a manually started server with the module installed. You can run\n\t\ttests by executing:\n\t\tmvn clean verify -Pintegration-tests -DtestUrl=http:\/\/admin:Admin123@localhost:8080\/openmrs\n\t\tYou can skip testUrl, if it matches the above url.\n\t"            ,"relatedDependencies": [
+,"md5": "0dfc1a0285b700bc9b459c905eab6f9b",
+            "sha1": "6b4f8025e775fdf326fc8edb6623559bbd29ec3a",
+            "sha256": "c2577654e07f918e877b9c10eb0b5b3933b038b6028ccd4e6908d2a2027178c9","description": "\n\t\tIt contains integration tests for Rest Web Services. They can be executed \n\t\tagainst a manually started server with the module installed. You can run\n\t\ttests by executing:\n\t\tmvn clean verify -Pintegration-tests -DtestUrl=http:\/\/admin:Admin123@localhost:8080\/openmrs\n\t\tYou can skip testUrl, if it matches the above url.\n\t"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "webservices.rest-integration-tests-3.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/integration-tests\/target\/webservices.rest-integration-tests-3.3.0-SNAPSHOT-tests.jar"
-,"sha256": "d3533e52456fa381e34397d107201faf2a739209e512f38c4bdc13a08b01f8e8",
-                    "sha1": "c3ba87958e3d2110ad9b7ca7467c6389026d0b35",
-                    "md5": "d8b913e866740b770aaa4d0ec33c74cb",
+,"sha256": "3ba7a36f116d25215a63410ee391675e4f96413f442d5ed73016d43cccbe7087",
+                    "sha1": "2e2456fddcf3dcd82da70ee2c5b139d03858c58e",
+                    "md5": "d1d10f47b00f7c785fa133af098c6e9a",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/webservices.rest-integration-tests@3.3.0-SNAPSHOT"
@@ -4912,16 +4912,16 @@
             "isVirtual": false,
             "fileName": "webservices.rest-omod-common-3.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.3.0-SNAPSHOT.jar"
-,"md5": "a5ee600f1cf4b13a30da322e964071ba",
-            "sha1": "c5d669ce1d269b81e3485e2d106b2888a1af84f9",
-            "sha256": "04988dd664c313858508c2bbe8f6d15f3e6844f0062708cba26c6e16cb81ab22","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
+,"md5": "b5fcdf434a5cb032b1d43d59ca9a29b5",
+            "sha1": "d4eec02052d30f36c71c1cd5b30536728dc73131",
+            "sha256": "2646ba14d368ac38e535f35a3d8c517a3de907cfb316927eb1420668c2964a69","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-3.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.3.0-SNAPSHOT-tests.jar"
-,"sha256": "d23910f315d1617841655f35f27fc1f67f1daa236b9f18718919d3309302826e",
-                    "sha1": "2124087a90374ba9dbe30977940f1fa32924ecc4",
-                    "md5": "e88f358464fdaf726081c4211fb9e2c9",
+,"sha256": "82626eb962036cf26819c5c292e9d23171c772a24e31e4cd36a3a292842dc60a",
+                    "sha1": "410fb0917e7fca6c5bffa389fd0b4e02a5ce9b7c",
+                    "md5": "fcab4fcea0a99221c596172cf6432dbd",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/webservices.rest-omod-common@3.3.0-SNAPSHOT"
@@ -4932,9 +4932,9 @@
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-3.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/webservices.rest-omod-common-3.3.0-SNAPSHOT.jar"
-,"sha256": "04988dd664c313858508c2bbe8f6d15f3e6844f0062708cba26c6e16cb81ab22",
-                    "sha1": "c5d669ce1d269b81e3485e2d106b2888a1af84f9",
-                    "md5": "a5ee600f1cf4b13a30da322e964071ba"
+,"sha256": "2646ba14d368ac38e535f35a3d8c517a3de907cfb316927eb1420668c2964a69",
+                    "sha1": "d4eec02052d30f36c71c1cd5b30536728dc73131",
+                    "md5": "b5fcdf434a5cb032b1d43d59ca9a29b5"
                 }
             ]
             ,"evidenceCollected": {
