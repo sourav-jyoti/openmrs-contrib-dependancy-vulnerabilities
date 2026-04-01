@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-esm-patient-chart",
-        "reportDate": "2026-03-31T17:20:21.152648613Z",
+        "reportDate": "2026-04-01T11:20:36.953615800Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -3041,7 +3041,7 @@
                 "source": "NPM",
                 "name": "GHSA-qj8w-gfj5-8c6v",
 "unscored": "true", "severity" : "moderate",
-                "description": "URL:https:\/\/github.com\/advisories\/GHSA-qj8w-gfj5-8c6vID: 1115519",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-qj8w-gfj5-8c6vID: 1115723",
                 "notes": "",
                 "references": [
                 ],
