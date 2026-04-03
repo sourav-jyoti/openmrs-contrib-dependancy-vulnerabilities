@@ -39,30 +39,42 @@ export function capitalizeSeverity(severity) {
   return lower.charAt(0).toUpperCase() + lower.slice(1);
 }
 
-//extracting dependecy name using regex
+//extracting dependency name using URL decoding
 export function extractNameFromPackageId(id) {
   if (!id) return "-";
 
+  // Decode URL-encoded characters (e.g. %40 -> @, %2F -> /)
+  const decoded = decodeURIComponent(id);
+
   // Maven: pkg:maven/com.itextpdf/barcodes@8.0.2
-  const mavenMatch = id.match(/^pkg:maven\/(.+?)\/(.+?)@/);
-  if (mavenMatch) {
-    return `${mavenMatch[1]}:${mavenMatch[2]}`;
+  if (decoded.startsWith("pkg:maven/")) {
+    const withoutPrefix = decoded.slice("pkg:maven/".length);
+    const atIndex = withoutPrefix.indexOf("@");
+    const namepart =
+      atIndex !== -1 ? withoutPrefix.slice(0, atIndex) : withoutPrefix;
+    // group/artifact -> group:artifact
+    return namepart.replace("/", ":");
   }
 
-  // NPM: pkg:npm/axios@0.21.2
-  const npmMatch = id.match(/^pkg:npm\/(.+?)@/);
-  if (npmMatch) {
-    return npmMatch[1];
+  // NPM: pkg:npm/axios@0.21.2 or pkg:npm/@scope/name@1.0.0
+  if (decoded.startsWith("pkg:npm/")) {
+    const withoutPrefix = decoded.slice("pkg:npm/".length);
+    // For scoped packages like @scope/name@1.0.0, find the last @ which is the version separator
+    const lastAtIndex = withoutPrefix.lastIndexOf("@");
+    return lastAtIndex > 0
+      ? withoutPrefix.slice(0, lastAtIndex)
+      : withoutPrefix;
   }
 
-  return id;
+  return decoded;
 }
 
-//extracting dependecy version using regex
+//extracting dependency version using URL decoding
 export function extractVersionFromPackageId(id) {
   if (!id) return "-";
-  const match = id.match(/@(.+)$/);
-  return match ? match[1] : "-";
+  const decoded = decodeURIComponent(id);
+  const lastAtIndex = decoded.lastIndexOf("@");
+  return lastAtIndex > 0 ? decoded.slice(lastAtIndex + 1) : "-";
 }
 
 /**
