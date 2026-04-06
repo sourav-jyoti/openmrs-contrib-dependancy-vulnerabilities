@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientdocuments",
-        "reportDate": "2026-04-06T07:39:50.387504627Z",
+        "reportDate": "2026-04-06T08:34:47.511728565Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -5383,11 +5383,10 @@
                     "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:snapshot:*:*:*:*:*:*"
 ,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A1.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
+            ,"suppressedVulnerabilities": [
  {
                 "source": "NVD",
                 "name": "CVE-2017-12796",
-                    "severity" : "CRITICAL",
                     "cvssv2": {
                         "score": 10.0
                         ,"accessVector": "NETWORK"
@@ -5413,20 +5412,20 @@
                     "cwes": [
                         "CWE-502"                    ],
                 "description": "The Reporting Compatibility Add On before 2.0.4 for OpenMRS, as distributed in OpenMRS Reference Application before 2.6.1, does not authenticate users when deserializing XML input into ReportSchema objects. The result is that remote unauthenticated users are able to execute operating system commands by crafting malicious XML payloads, as demonstrated by a single admin\/reports\/reportSchemaXml.form request.",
-                "notes": "",
+                "notes": "CVE-2017-12796: Unauthenticated XML deserialization RCE in the Reporting Compatibility Add On\n        (reportingcompatibility module) before 2.0.4, as shipped in OpenMRS Reference Application\n        before 2.6.1. This finding is a false positive if the scanned artifact is not the\n        reportingcompatibility module itself. The CVE scanner incorrectly matches on the shared\n        openmrs namespace rather than the specific affected artifact.",
                 "references": [
  {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5437,7 +5436,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2021-43094",
-                    "severity" : "CRITICAL",
                     "cvssv2": {
                         "score": 7.5
                         ,"accessVector": "NETWORK"
@@ -5463,20 +5461,20 @@
                     "cwes": [
                         "CWE-89"                    ],
                 "description": "An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.",
-                "notes": "",
+                "notes": "CVE-2021-43094: SQL injection via arbitrary GET parameters in patient.page, affecting\n        OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition\n        <=2.4.0. This is a false positive for individual module JARs \u2014 the vulnerability is in the\n        standalone distribution packaging, not in module code. The scanner matches on the shared\n        openmrs namespace.",
                 "references": [
  {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5491,7 +5489,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5728",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -5517,12 +5514,12 @@
                     "cwes": [
                         "CWE-79",                        "CWE-20"                    ],
                 "description": "OpenMRS 2.9 and prior copies \"Referrer\" header values into an html element named \"redirectUrl\" within many webpages (such as login.htm). There is insufficient validation for this parameter, which allows for the possibility of cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5728: XSS via unsanitized Referrer header copied into the redirectUrl field on\n        multiple web pages (e.g. login.htm) in openmrs-core 2.9 and prior. This is a false positive\n        for module JARs \u2014 the vulnerable code lives in the core web layer, not in any module.\n        The scanner matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5533,7 +5530,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5729",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -5559,12 +5555,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the UI Framework Error Page reflects arbitrary, user-supplied input back to the browser, which can result in XSS. Any page that is able to trigger a UI Framework Error is susceptible to this issue.",
-                "notes": "",
+                "notes": "CVE-2020-5729: XSS via the UI Framework Error Page reflecting arbitrary user input in\n        openmrs-core 2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable\n        rendering logic belongs to openmrs-core's UI framework, not to any module. The scanner\n        matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5575,7 +5571,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5730",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -5601,12 +5596,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the sessionLocation parameter for the login page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5730: XSS via the sessionLocation parameter on the login page in openmrs-core\n        2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable parameter is\n        handled by the core login controller, not by any module. The scanner matches on the\n        shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5617,7 +5612,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5731",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -5643,12 +5637,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the app parameter for the ActiveVisit's page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5731: XSS via the app parameter on the ActiveVisits page in openmrs-core 2.9\n        and prior. This is a false positive for module JARs \u2014 the vulnerable page and parameter\n        handling are part of openmrs-core, not any module. The scanner matches on the shared\n        openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5659,7 +5653,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5732",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -5685,12 +5678,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, he import functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows unauthenticated users to use a feature typically restricted to administrators.",
-                "notes": "",
+                "notes": "CVE-2020-5732: Missing authentication on the import endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior. This is a false positive if the scanned artifact is not\n        the dataexchange module itself. The access control bypass is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5701,7 +5694,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5733",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -5727,12 +5719,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, the export functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows the export of potentially sensitive information.",
-                "notes": "",
+                "notes": "CVE-2020-5733: Missing authentication on the export endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior, allowing unauthenticated users to export potentially\n        sensitive data. This is a false positive if the scanned artifact is not the dataexchange\n        module itself. Like CVE-2020-5732, the vulnerability is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -5744,9 +5736,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT-tests.jar"
-,"md5": "c5e88902a84071d53ab855355b5e4e73",
-            "sha1": "f15859cebb2443fb95e91cb912f59886864beb09",
-            "sha256": "971dfc26e88648a01828f663a32a589f0f2f08378696262130433ca414f3e268"            ,"evidenceCollected": {
+,"md5": "8ef7f9c5313d1c624fae07b1e48e78e4",
+            "sha1": "378e519c5586ba2022dd8f57720d53870cbba0dc",
+            "sha256": "7c743c37f64fd3029427b5e682f38543f907ad529342e327eb29fcbaa1180182"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5850,9 +5842,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT.jar"
-,"md5": "328dd50edf88060451b8dc2a21249969",
-            "sha1": "5effa01d543d2144f4053af204affd89bc4cb602",
-            "sha256": "4e6160132a7d059b1b09ff623556d71e113318c3cd5e70b3e12db9c83a2a919b"            ,"evidenceCollected": {
+,"md5": "02d37f57f9e30c3812cb5033d7364faf",
+            "sha1": "be95dbea5a3f44c25ef35f4e21b741130bb9597f",
+            "sha256": "7736e2fb39ced46498560920a67804a797bec69390d16cdc4327d751e9f1272f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5963,16 +5955,16 @@
             "isVirtual": false,
             "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"md5": "559611844aa1861074c07d609fe6f4bd",
-            "sha1": "0fbb5a87be6b7a836a01ae9f316e3dcbc74847a9",
-            "sha256": "d3393b5d3f1dd2e4c04b2f60ef6c0cf38fa6a79a63b47cda9b9c8e42e72f73ee","description": "API project for Patient Documents"            ,"relatedDependencies": [
+,"md5": "ee0ec8b17e3a7dd00aa3fd72bdd00b08",
+            "sha1": "10fb17edbfa3a718d8731f72094a3dc53fd516ae",
+            "sha256": "e25b66a9005f666743245742703fe4621d8de7912793c0c6a91c61acb61df3f4","description": "API project for Patient Documents"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "71bdc667648fece26eb9f5aa00b9d7d77c7562d63e53b7e87eef400b90fc8f3f",
-                    "sha1": "90e685930fa8be9c69ca7ba3d6fa9b4ef3cb3658",
-                    "md5": "6913e7db1cabe097c483eec0707d46d6",
+,"sha256": "8c3a96db08199b9f3463d1bb6fcbc0b110946cff9661434da776c616f5ef99cf",
+                    "sha1": "ca73b2491f51e13c939d7ff5a52c98454f5fe40f",
+                    "md5": "dacdcb4996c071fe4de96704e67d2df4",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientdocuments-api@1.1.0-SNAPSHOT"
@@ -5983,9 +5975,9 @@
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "d3393b5d3f1dd2e4c04b2f60ef6c0cf38fa6a79a63b47cda9b9c8e42e72f73ee",
-                    "sha1": "0fbb5a87be6b7a836a01ae9f316e3dcbc74847a9",
-                    "md5": "559611844aa1861074c07d609fe6f4bd"
+,"sha256": "e25b66a9005f666743245742703fe4621d8de7912793c0c6a91c61acb61df3f4",
+                    "sha1": "10fb17edbfa3a718d8731f72094a3dc53fd516ae",
+                    "md5": "ee0ec8b17e3a7dd00aa3fd72bdd00b08"
                 }
             ]
             ,"evidenceCollected": {
@@ -6138,11 +6130,10 @@
                     "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:snapshot:*:*:*:*:*:*"
 ,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A1.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
+            ,"suppressedVulnerabilities": [
  {
                 "source": "NVD",
                 "name": "CVE-2017-12796",
-                    "severity" : "CRITICAL",
                     "cvssv2": {
                         "score": 10.0
                         ,"accessVector": "NETWORK"
@@ -6168,20 +6159,20 @@
                     "cwes": [
                         "CWE-502"                    ],
                 "description": "The Reporting Compatibility Add On before 2.0.4 for OpenMRS, as distributed in OpenMRS Reference Application before 2.6.1, does not authenticate users when deserializing XML input into ReportSchema objects. The result is that remote unauthenticated users are able to execute operating system commands by crafting malicious XML payloads, as demonstrated by a single admin\/reports\/reportSchemaXml.form request.",
-                "notes": "",
+                "notes": "CVE-2017-12796: Unauthenticated XML deserialization RCE in the Reporting Compatibility Add On\n        (reportingcompatibility module) before 2.0.4, as shipped in OpenMRS Reference Application\n        before 2.6.1. This finding is a false positive if the scanned artifact is not the\n        reportingcompatibility module itself. The CVE scanner incorrectly matches on the shared\n        openmrs namespace rather than the specific affected artifact.",
                 "references": [
  {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6192,7 +6183,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2021-43094",
-                    "severity" : "CRITICAL",
                     "cvssv2": {
                         "score": 7.5
                         ,"accessVector": "NETWORK"
@@ -6218,20 +6208,20 @@
                     "cwes": [
                         "CWE-89"                    ],
                 "description": "An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.",
-                "notes": "",
+                "notes": "CVE-2021-43094: SQL injection via arbitrary GET parameters in patient.page, affecting\n        OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition\n        <=2.4.0. This is a false positive for individual module JARs \u2014 the vulnerability is in the\n        standalone distribution packaging, not in module code. The scanner matches on the shared\n        openmrs namespace.",
                 "references": [
  {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "cve@mitre.org"
+                    "source": "cve@mitre.org"
 ,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6246,7 +6236,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5728",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -6272,12 +6261,12 @@
                     "cwes": [
                         "CWE-79",                        "CWE-20"                    ],
                 "description": "OpenMRS 2.9 and prior copies \"Referrer\" header values into an html element named \"redirectUrl\" within many webpages (such as login.htm). There is insufficient validation for this parameter, which allows for the possibility of cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5728: XSS via unsanitized Referrer header copied into the redirectUrl field on\n        multiple web pages (e.g. login.htm) in openmrs-core 2.9 and prior. This is a false positive\n        for module JARs \u2014 the vulnerable code lives in the core web layer, not in any module.\n        The scanner matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6288,7 +6277,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5729",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -6314,12 +6302,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the UI Framework Error Page reflects arbitrary, user-supplied input back to the browser, which can result in XSS. Any page that is able to trigger a UI Framework Error is susceptible to this issue.",
-                "notes": "",
+                "notes": "CVE-2020-5729: XSS via the UI Framework Error Page reflecting arbitrary user input in\n        openmrs-core 2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable\n        rendering logic belongs to openmrs-core's UI framework, not to any module. The scanner\n        matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6330,7 +6318,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5730",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -6356,12 +6343,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the sessionLocation parameter for the login page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5730: XSS via the sessionLocation parameter on the login page in openmrs-core\n        2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable parameter is\n        handled by the core login controller, not by any module. The scanner matches on the\n        shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6372,7 +6359,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5731",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -6398,12 +6384,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the app parameter for the ActiveVisit's page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5731: XSS via the app parameter on the ActiveVisits page in openmrs-core 2.9\n        and prior. This is a false positive for module JARs \u2014 the vulnerable page and parameter\n        handling are part of openmrs-core, not any module. The scanner matches on the shared\n        openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6414,7 +6400,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5732",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -6440,12 +6425,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, he import functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows unauthenticated users to use a feature typically restricted to administrators.",
-                "notes": "",
+                "notes": "CVE-2020-5732: Missing authentication on the import endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior. This is a false positive if the scanned artifact is not\n        the dataexchange module itself. The access control bypass is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6456,7 +6441,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5733",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -6482,12 +6466,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, the export functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows the export of potentially sensitive information.",
-                "notes": "",
+                "notes": "CVE-2020-5733: Missing authentication on the export endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior, allowing unauthenticated users to export potentially\n        sensitive data. This is a false positive if the scanned artifact is not the dataexchange\n        module itself. Like CVE-2020-5732, the vulnerability is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
