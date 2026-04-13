@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-25T12:01:57Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-25T11:16:40Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-25T12:01:57Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-25T11:16:40Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-event",
-        "reportDate": "2026-03-25T19:21:22.930770269Z",
+        "reportDate": "2026-04-13T21:55:24.615019762Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -2715,14 +2715,18 @@
 ,"exploitabilityScore": "2.8","impactScore": "5.9","version": "3.1"                    },
                     "cwes": [
                         "CWE-190"                    ],
-                "description": "Apache ActiveMQ does not properly validate the remaining length field which may lead to an overflow during the decoding of malformed packets.\u00A0When this integer overflow occurs, ActiveMQ may incorrectly compute the total Remaining Length and subsequently misinterpret the payload as multiple MQTT control packets which makes\u00A0the broker susceptible to unexpected behavior when interacting with non-compliant clients.\u00A0This behavior violates the MQTT v3.1.1 specification, which restricts Remaining Length to a maximum of 4 bytes.\u00A0The scenario occurs on established connections after the authentication process. Brokers that are not enabling mqtt transport connectors are not impacted.\n\nThis issue affects Apache ActiveMQ: before 5.19.2, 6.0.0 to 6.1.8, and 6.2.0\n\nUsers are recommended to upgrade to version 5.19.2, 6.1.9, or 6.2.1, which fixes the issue.",
+                "description": "WARNING:\n\nUsers of 6.x should upgrade to 6.2.4 or later as the fix was missed in previous 6.x releases.\n\nSee the\u00A0 following for more details:\n https:\/\/activemq.apache.org\/security-advisories.data\/CVE-2026-40046-announcement.txt \n https:\/\/www.cve.org\/CVERecord?id=CVE-2026-40046 \n\n\n\nOriginal Report:\n\nApache ActiveMQ does not properly validate the remaining length field which may lead to an overflow during the decoding of malformed packets.\u00A0When this integer overflow occurs, ActiveMQ may incorrectly compute the total Remaining Length and subsequently misinterpret the payload as multiple MQTT control packets which makes\u00A0the broker susceptible to unexpected behavior when interacting with non-compliant clients.\u00A0This behavior violates the MQTT v3.1.1 specification, which restricts Remaining Length to a maximum of 4 bytes.\u00A0The scenario occurs on established connections after the authentication process. Brokers that are not enabling mqtt transport connectors are not impacted.\n\nThis issue affects Apache ActiveMQ: before 5.19.2, 6.0.0 to 6.1.8, and 6.2.0\n\nUsers are recommended to upgrade to version 5.19.2, 6.1.9, or 6.2.1, which fixes the issue.",
                 "notes": "",
                 "references": [
  {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "http:\/\/www.openwall.com\/lists\/oss-security\/2026\/03\/03\/5","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security@apache.org"
-,"url": "https:\/\/lists.apache.org\/thread\/13n8mkrb2jf2y6yyhpgrkmpqcm7djyto","name": "MAILING_LIST,VENDOR_ADVISORY"                    }                ],
+,"url": "https:\/\/lists.apache.org\/thread\/13n8mkrb2jf2y6yyhpgrkmpqcm7djyto","name": "MAILING_LIST,VENDOR_ADVISORY"                    }, {
+                        "source": "security@apache.org"
+,"url": "https:\/\/www.cve.org\/CVERecord?id=CVE-2026-40046"                    }, {
+                        "source": "security@apache.org"
+,"url": "https:\/\/activemq.apache.org\/security-advisories.data\/CVE-2026-40046-announcement.txt"                    }                ],
                 "vulnerableSoftware": [
  {
                         "software": { 
@@ -5743,7 +5747,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
+,"versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -5795,7 +5799,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-                        }
+,"vulnerabilityIdMatched":"true"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -5837,7 +5841,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
+,"versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -5889,7 +5893,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-                        }
+,"vulnerabilityIdMatched":"true"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -7093,9 +7097,9 @@
             "isVirtual": false,
             "fileName": "event-4.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT-tests.jar"
-,"md5": "0bd1c97a9db6d61b4c74abaa7f30208d",
-            "sha1": "da6a2a51420f3305421d5947d3dde0c5b21616cc",
-            "sha256": "e09c29d68dbb97d11c318a0217c9cf17abea5addf3e3e761bdfe07b75dc999ed"            ,"evidenceCollected": {
+,"md5": "60996caa957d6fa66fc100498a72de1b",
+            "sha1": "b7324fd1143ab72e54cb137ac254f3fe1668608b",
+            "sha256": "9d78c97f8e5b7ba00f621640ae14a11302472297fe5c44c467b00f4f500c7d57"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -7157,9 +7161,9 @@
             "isVirtual": false,
             "fileName": "event-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT.jar"
-,"md5": "0c6f0a9f187e79fba036373adb22c559",
-            "sha1": "dc4d9b31f335c225605aac20764eb82cd2c7ae34",
-            "sha256": "9d59846692a7ef5d4b7f2a60bf5dae8ead032021689389972af5a0ba0d545210"            ,"evidenceCollected": {
+,"md5": "55156980aef9812f99f5b48202e7c32f",
+            "sha1": "e0f1c53d32ddf849b1c8195a87d3b8cb4a2ced59",
+            "sha256": "717d4960500fb4dd5f48c5a25eb81662ac9df9cf9134e653374a66aa08062343"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -7221,16 +7225,16 @@
             "isVirtual": false,
             "fileName": "event-api-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/event-api-4.1.0-SNAPSHOT.jar"
-,"md5": "ce181a14dcc2d2be3a4eac351d234804",
-            "sha1": "92302eb6e28aa593b3f238976cf595734ff0c95b",
-            "sha256": "ed7bdbebd05c898abaf14163c4c002a5ad2884f54deda3cd4f9e054ca393beed","description": "API project for EventQueue"            ,"relatedDependencies": [
+,"md5": "3af68bdf737eb18c742d7ca9bcdfc908",
+            "sha1": "9c967e9305abf1dcd0d39f1c8613b20fd8a7ccbe",
+            "sha256": "2aa38b8eb5cf8999834716aa37ac2d75c6d3c59649eb3aa4d7166c590753a6e7","description": "API project for EventQueue"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "event-api-4.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/event-api-4.1.0-SNAPSHOT-tests.jar"
-,"sha256": "770edf38c5605d60f0483e7adc0fb20537d5f65df832d5dd5ed976cd0c123f3e",
-                    "sha1": "384b7325b6a7ff239ae102a723639c0bd6271a11",
-                    "md5": "10109a6d19f8321f569d6d4da4912f55",
+,"sha256": "a1a3ef4d7ead371a71cc2d2f978a34afc772a2c88d329965ca9ba2de727c4a08",
+                    "sha1": "4de37db83aa26a098975d6d76889e6dd81972618",
+                    "md5": "3e6c168ebb91b0892e37cb3fff6f7ca1",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs/event-api@4.1.0-SNAPSHOT"
@@ -7241,9 +7245,9 @@
                     "isVirtual": false,
                     "fileName": "event-api-4.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT\/lib\/event-api-4.1.0-SNAPSHOT.jar"
-,"sha256": "ed7bdbebd05c898abaf14163c4c002a5ad2884f54deda3cd4f9e054ca393beed",
-                    "sha1": "92302eb6e28aa593b3f238976cf595734ff0c95b",
-                    "md5": "ce181a14dcc2d2be3a4eac351d234804"
+,"sha256": "2aa38b8eb5cf8999834716aa37ac2d75c6d3c59649eb3aa4d7166c590753a6e7",
+                    "sha1": "9c967e9305abf1dcd0d39f1c8613b20fd8a7ccbe",
+                    "md5": "3af68bdf737eb18c742d7ca9bcdfc908"
                 }
             ]
             ,"evidenceCollected": {
@@ -11229,14 +11233,18 @@
 ,"exploitabilityScore": "2.8","impactScore": "5.9","version": "3.1"                    },
                     "cwes": [
                         "CWE-190"                    ],
-                "description": "Apache ActiveMQ does not properly validate the remaining length field which may lead to an overflow during the decoding of malformed packets.\u00A0When this integer overflow occurs, ActiveMQ may incorrectly compute the total Remaining Length and subsequently misinterpret the payload as multiple MQTT control packets which makes\u00A0the broker susceptible to unexpected behavior when interacting with non-compliant clients.\u00A0This behavior violates the MQTT v3.1.1 specification, which restricts Remaining Length to a maximum of 4 bytes.\u00A0The scenario occurs on established connections after the authentication process. Brokers that are not enabling mqtt transport connectors are not impacted.\n\nThis issue affects Apache ActiveMQ: before 5.19.2, 6.0.0 to 6.1.8, and 6.2.0\n\nUsers are recommended to upgrade to version 5.19.2, 6.1.9, or 6.2.1, which fixes the issue.",
+                "description": "WARNING:\n\nUsers of 6.x should upgrade to 6.2.4 or later as the fix was missed in previous 6.x releases.\n\nSee the\u00A0 following for more details:\n https:\/\/activemq.apache.org\/security-advisories.data\/CVE-2026-40046-announcement.txt \n https:\/\/www.cve.org\/CVERecord?id=CVE-2026-40046 \n\n\n\nOriginal Report:\n\nApache ActiveMQ does not properly validate the remaining length field which may lead to an overflow during the decoding of malformed packets.\u00A0When this integer overflow occurs, ActiveMQ may incorrectly compute the total Remaining Length and subsequently misinterpret the payload as multiple MQTT control packets which makes\u00A0the broker susceptible to unexpected behavior when interacting with non-compliant clients.\u00A0This behavior violates the MQTT v3.1.1 specification, which restricts Remaining Length to a maximum of 4 bytes.\u00A0The scenario occurs on established connections after the authentication process. Brokers that are not enabling mqtt transport connectors are not impacted.\n\nThis issue affects Apache ActiveMQ: before 5.19.2, 6.0.0 to 6.1.8, and 6.2.0\n\nUsers are recommended to upgrade to version 5.19.2, 6.1.9, or 6.2.1, which fixes the issue.",
                 "notes": "",
                 "references": [
  {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "http:\/\/www.openwall.com\/lists\/oss-security\/2026\/03\/03\/5","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security@apache.org"
-,"url": "https:\/\/lists.apache.org\/thread\/13n8mkrb2jf2y6yyhpgrkmpqcm7djyto","name": "MAILING_LIST,VENDOR_ADVISORY"                    }                ],
+,"url": "https:\/\/lists.apache.org\/thread\/13n8mkrb2jf2y6yyhpgrkmpqcm7djyto","name": "MAILING_LIST,VENDOR_ADVISORY"                    }, {
+                        "source": "security@apache.org"
+,"url": "https:\/\/www.cve.org\/CVERecord?id=CVE-2026-40046"                    }, {
+                        "source": "security@apache.org"
+,"url": "https:\/\/activemq.apache.org\/security-advisories.data\/CVE-2026-40046-announcement.txt"                    }                ],
                 "vulnerableSoftware": [
  {
                         "software": { 
@@ -14257,7 +14265,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
+,"versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -14309,7 +14317,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-                        }
+,"vulnerabilityIdMatched":"true"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -14351,7 +14359,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
+,"versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -14403,7 +14411,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-                        }
+,"vulnerabilityIdMatched":"true"                        }
                     }                ]
                 }, {
                 "source": "NVD",
