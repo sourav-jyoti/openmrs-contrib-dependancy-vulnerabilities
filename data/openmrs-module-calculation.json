@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-calculation",
-        "reportDate": "2026-03-23T08:26:08.478417862Z",
+        "reportDate": "2026-04-13T21:29:51.141126474Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "ce2aa34d46d76bbbeca41fa140e46a23",
-            "sha1": "e0847d4ad101343944d1b02822b08aa9e2f934df",
-            "sha256": "7185cdd22864562a1cab8cc2073017b5aac8694db3a904c5aa233741ebdf980a"            ,"evidenceCollected": {
+,"md5": "4ea2136ce0676129ecfa7fe9eda3ca0f",
+            "sha1": "8f9fe767e228cef3868ca3769d3714587739bb41",
+            "sha256": "892a1e32e177af94e695218bbb49f6159779465f701c4b203cb4dd2c22efd9b7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -676,9 +676,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT-tests.jar"
-,"md5": "7efd6a39a20be89eb40915393caa9758",
-            "sha1": "3c1af4dcc48bc198201e332f37901f21b49c23ae",
-            "sha256": "b6fa4e31c4ed65baefc9780d46d753820036503429b0042d189047b50684360f"            ,"evidenceCollected": {
+,"md5": "331a80433faf0acdd9ef0c484dcb1ade",
+            "sha1": "eb9a8f5fd66c9777dd7a416ac5242f373b4a80dd",
+            "sha256": "99d96247bbc9cd6e49e3e140a86e930196e5e4a2b153e96970f9c9d4fe54b119"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -719,9 +719,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT.jar"
-,"md5": "e8ac552afee81ee8d5e0ec3a82a8e977",
-            "sha1": "f2cba0d20436e1bdea1007ac404d33282cbdab4a",
-            "sha256": "9da60a32c1207a7d9da8774a65ffbbec4e9cd414ca4926f3e2bbc9814235b06a"            ,"evidenceCollected": {
+,"md5": "74acd47fa9be815b5425c6323462cba2",
+            "sha1": "a6e8dd168b16c614d2944845e704ae79abdb242c",
+            "sha256": "7bbe90573475563d956ab33b0c3d6b522e8cc4d5645969bbb7866f72db07e690"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -783,9 +783,9 @@
             "isVirtual": false,
             "fileName": "calculation-api-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "7789cc243205462613c87c82660478ad",
-            "sha1": "bbc438711ac944bb0ac2c292a4b67ef41cd2fe4c",
-            "sha256": "3973ca95d86f38536cd7b90ed808c4662d6228f60f6d35ed65b63deaa6e3f255"            ,"evidenceCollected": {
+,"md5": "8a2b8b6e730ec78ce4174811c79b3158",
+            "sha1": "9c68b2079fc4e8ee10ba35addc637e80b2b4205f",
+            "sha256": "f63be6c338abe143447babdc8759db2dd4e4d12d94ec0bd1f6fef8bc8b30fe27"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -867,16 +867,16 @@
             "isVirtual": false,
             "fileName": "calculation-api-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT.jar"
-,"md5": "b53d52f69af1560f05332e1f0df33996",
-            "sha1": "7214d0a2ac247a992ca9e938673c82492a3268cc",
-            "sha256": "f5e17cc2712ae74b4305ad477068b578c79118b84f69c031a1bab96e74ec70e5","description": "API project for Calculation"            ,"relatedDependencies": [
+,"md5": "68c7d60aaf3cb7e57ee70682a4e68a87",
+            "sha1": "a1d755fa1b6008187366dd40119690fa0872646e",
+            "sha256": "87667ee941624ce0ffaaacaeab0e5ecf387aafdd2acfb93a6e8d32d15b4837f8","description": "API project for Calculation"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "calculation-api-2.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT-tests.jar"
-,"sha256": "6bc939dab9212e521cc2f6272ced7c7efd6ab59da2339e85a5a079c9d1654be7",
-                    "sha1": "29ed1626f8aae334ab738e3d392aed958c88301a",
-                    "md5": "ac5ca77cf97173242ecea6eaf8d4a8f0",
+,"sha256": "c5105ca737385334dc7b98d4062cada4ec88ef1f5aab19eb3eb5cbd89825b2ba",
+                    "sha1": "d26abe94389c68bddd610dd10fbb5c98355d3a93",
+                    "md5": "066f6948b34d6fa466feb24a491aa0e0",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/calculation-api@2.1.0-SNAPSHOT"
@@ -887,9 +887,9 @@
                     "isVirtual": false,
                     "fileName": "calculation-api-2.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT\/lib\/calculation-api-2.1.0-SNAPSHOT.jar"
-,"sha256": "f5e17cc2712ae74b4305ad477068b578c79118b84f69c031a1bab96e74ec70e5",
-                    "sha1": "7214d0a2ac247a992ca9e938673c82492a3268cc",
-                    "md5": "b53d52f69af1560f05332e1f0df33996"
+,"sha256": "87667ee941624ce0ffaaacaeab0e5ecf387aafdd2acfb93a6e8d32d15b4837f8",
+                    "sha1": "a1d755fa1b6008187366dd40119690fa0872646e",
+                    "md5": "68c7d60aaf3cb7e57ee70682a4e68a87"
                 }
             ]
             ,"evidenceCollected": {
@@ -1584,7 +1584,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery"
                         }
@@ -1593,7 +1593,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery"
                     }
@@ -1602,7 +1602,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.3.1"
                     }
@@ -4338,7 +4338,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery"
                         }
@@ -4347,7 +4347,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery"
                     }
@@ -4356,7 +4356,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.3.2.min"
                     }
@@ -7095,14 +7095,14 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery-ui"
                         }
 ,{
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery-ui-dialog"
                         }
@@ -7111,14 +7111,14 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery-ui"
                     }
 ,{
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "jquery-ui-dialog"
                     }
@@ -7127,7 +7127,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.7.2"
                     }
