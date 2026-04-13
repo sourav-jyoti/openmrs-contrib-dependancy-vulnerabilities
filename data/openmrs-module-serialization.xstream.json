@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-19T11:56:42Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-19T11:16:14Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-19T11:56:42Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-19T11:16:14Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-serialization.xstream",
-        "reportDate": "2026-03-19T14:15:44.112618987Z",
+        "reportDate": "2026-04-13T21:36:47.584153790Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "serialization.xstream-api-0.4.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/serialization.xstream-api-0.4.0-SNAPSHOT-javadoc.jar"
-,"md5": "73c4db4c37a55ea4051043855d4e9668",
-            "sha1": "d6c2b27c2a82a1ba8a9545e877b9b0b45c4c7700",
-            "sha256": "5a4a976f6f97063ccc19cf879a4d56b5dab073a1d69f12af404d3fbcc8fca139"            ,"evidenceCollected": {
+,"md5": "ec654b1c4bd0f981ac8fa220b6b218df",
+            "sha1": "515fc1104dd5585d5822c7c39feaa281325fefe8",
+            "sha256": "8052f2c10517231e8af292a98506db25d3969d88cc612028e906e371447adf03"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6522,16 +6522,16 @@
             "isVirtual": false,
             "fileName": "serialization.xstream-api-0.4.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/serialization.xstream-api-0.4.0-SNAPSHOT.jar"
-,"md5": "e211637c42901c0161f4731c322ecde3",
-            "sha1": "3cf7f55771bd322ba1ccde491c78962ac699cb01",
-            "sha256": "cf2b0e2eb56cabe92f92892ebcdd3e20a4802d3759dafc7bb1e9b5152aa91703","description": "API project for Serialization Xstream"            ,"relatedDependencies": [
+,"md5": "eff77a728871e7176fd03ae481418ce9",
+            "sha1": "d2118f28c0e444f53c03b3d2650210f0d86b9277",
+            "sha256": "891b4b6de694107c54b629768f1781ba4d5e7c7309b1041386dfee15ad3ea2af","description": "API project for Serialization Xstream"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "serialization.xstream-api-0.4.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/serialization.xstream-api-0.4.0-SNAPSHOT-tests.jar"
-,"sha256": "384f0428da73be3cce72e734b71978331a2e373007019229ecb069347f3f52b0",
-                    "sha1": "cad76c2385e86165314c3cdb05752fce3cf54ff8",
-                    "md5": "2a5b4ed5ee67d162ff2ffd8cd915ad88",
+,"sha256": "c4831fc78b4eb42e6c42ff77ff8ef2763898bbe4b68d0b121814f73891414569",
+                    "sha1": "30b712825a778d0488fb5b096d01a7db28202a9b",
+                    "md5": "3a0ddf7270513fbf68ab6f1cc4ca83b0",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/serialization.xstream-api@0.4.0-SNAPSHOT"
@@ -6542,9 +6542,9 @@
                     "isVirtual": false,
                     "fileName": "serialization.xstream-api-0.4.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/serialization.xstream-0.4.0-SNAPSHOT\/lib\/serialization.xstream-api-0.4.0-SNAPSHOT.jar"
-,"sha256": "cf2b0e2eb56cabe92f92892ebcdd3e20a4802d3759dafc7bb1e9b5152aa91703",
-                    "sha1": "3cf7f55771bd322ba1ccde491c78962ac699cb01",
-                    "md5": "e211637c42901c0161f4731c322ecde3"
+,"sha256": "891b4b6de694107c54b629768f1781ba4d5e7c7309b1041386dfee15ad3ea2af",
+                    "sha1": "d2118f28c0e444f53c03b3d2650210f0d86b9277",
+                    "md5": "eff77a728871e7176fd03ae481418ce9"
                 }
             ]
             ,"evidenceCollected": {
