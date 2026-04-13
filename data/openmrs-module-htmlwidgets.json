@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-htmlwidgets",
-        "reportDate": "2026-03-23T08:26:54.805132268Z",
+        "reportDate": "2026-04-13T21:34:50.461578238Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "htmlwidgets-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/htmlwidgets-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "dbbc8b7eb5b99b349e62bc36a4b03aa9",
-            "sha1": "391e37585572d982dcddbfc5a772238cd2b61581",
-            "sha256": "15986c663e2e670cc0e43e52538f53a9464ac5bfc4b7ec7c606e77c1cbb15782"            ,"evidenceCollected": {
+,"md5": "1dbb354097f03321655feeadcbf6f9f7",
+            "sha1": "553f6b3a51be23d4d8ae4e9ef5f4d198f9bd2093",
+            "sha256": "bc2cf755549a2362d72fc18226c298b49e57cd4730304a6b3e30ced6f5106351"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -661,9 +661,9 @@
             "isVirtual": false,
             "fileName": "htmlwidgets-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/htmlwidgets-2.1.0-SNAPSHOT.jar"
-,"md5": "86ada49b147ebd849d10cc066a00e298",
-            "sha1": "1588d738d4bf88208895e6a3adf891ed51e1dd98",
-            "sha256": "585a6c1280c51698a23b474614c4b57526274c2e0d4832fc2aa89e4d4b738631"            ,"evidenceCollected": {
+,"md5": "ff13a304fee894291f16875580afb9d5",
+            "sha1": "84b0b95488af49e17798787a88ddb84f4c519230",
+            "sha256": "3a1ccd776dc509fb9c70fe538392ce01e00cf29dd00a84012efbeb543d4ca05e"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -774,9 +774,9 @@
             "isVirtual": false,
             "fileName": "htmlwidgets-api-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/htmlwidgets-api-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "3bb84ed0c065180bb002aa106bc25487",
-            "sha1": "a647341fe13a0198aa57eac2d5a9d9f706bb8312",
-            "sha256": "6a0f5ae744450ad540f995d1fd3174186ccec84bf2b5d16ae56e065c4e935506"            ,"evidenceCollected": {
+,"md5": "2d1cef03d7c03136d1aae0bbfff50d40",
+            "sha1": "92fbe39d04b4bf275cd49610cded3e8ef8d00faf",
+            "sha256": "d8f501a43e4b93008b0aea3667d1e6a2d5756f2ed792219070b54da649a2b40c"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -858,16 +858,16 @@
             "isVirtual": false,
             "fileName": "htmlwidgets-api-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/htmlwidgets-api-2.1.0-SNAPSHOT.jar"
-,"md5": "4a08ff39913d9708c75c2540e705432c",
-            "sha1": "045ca5cc86fa70fdd425885b3d54d59df7aa45cd",
-            "sha256": "e7ec672e4d285830c095203d82a81bd1a306ae99b5675a05c792b939de870b1b","description": "API project for HTML Widgets"            ,"relatedDependencies": [
+,"md5": "7b67af6699cdb7f70427d7458a4c1155",
+            "sha1": "0faabd8640757f471bdf2f39d14f31743c4a8318",
+            "sha256": "4bf1c31456b846367e376e5b55a57a966ddf0ae49dd497c43b6eb6e81a782b76","description": "API project for HTML Widgets"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlwidgets-api-2.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/htmlwidgets-2.1.0-SNAPSHOT\/lib\/htmlwidgets-api-2.1.0-SNAPSHOT.jar"
-,"sha256": "e7ec672e4d285830c095203d82a81bd1a306ae99b5675a05c792b939de870b1b",
-                    "sha1": "045ca5cc86fa70fdd425885b3d54d59df7aa45cd",
-                    "md5": "4a08ff39913d9708c75c2540e705432c"
+,"sha256": "4bf1c31456b846367e376e5b55a57a966ddf0ae49dd497c43b6eb6e81a782b76",
+                    "sha1": "0faabd8640757f471bdf2f39d14f31743c4a8318",
+                    "md5": "7b67af6699cdb7f70427d7458a4c1155"
                 }
             ]
             ,"evidenceCollected": {
