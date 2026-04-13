@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-cohort",
-        "reportDate": "2026-03-23T08:27:22.516938470Z",
+        "reportDate": "2026-04-13T21:33:47.922126820Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -125,9 +125,9 @@
             "isVirtual": false,
             "fileName": "cohort-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/cohort-4.0.0-SNAPSHOT.jar"
-,"md5": "d4c5d36a1e281314f74feea69f621806",
-            "sha1": "4aee74b5c2b72fda670073801acabd3075e46253",
-            "sha256": "e4aaed01b00efa54c92350a30ca91d46ea6a18370f996f8548789a23c652d907"            ,"evidenceCollected": {
+,"md5": "659160b87b560911976fb7bab72a4bd9",
+            "sha1": "9c4cab9525b9a2f91fc793987620c75d20fc27b2",
+            "sha256": "dd4d1dcb1cbe2a1fa257f0e989fc92cd9d002e3033068c005bdd159b69ca6b15"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -238,16 +238,16 @@
             "isVirtual": false,
             "fileName": "cohort-api-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/cohort-api-4.0.0-SNAPSHOT.jar"
-,"md5": "f6e5cc3d807cf790070624a8f6684cf6",
-            "sha1": "5e550d12f9f8f08b773a4b86ad7caf80c90cdc3d",
-            "sha256": "3339b9b9990256c04c33feea61a557d445c8d96852b8307deddac909101e70da","description": "API project to support Cohort-level encounters and observations and to create these encounters via a\n        REST interface\n    "            ,"relatedDependencies": [
+,"md5": "f4e5fab6490e6f2a802a241ae131be13",
+            "sha1": "218d1aee943afcfe34e0357c393e5ec92b14529e",
+            "sha256": "6bfcee2841b51d72616a54c4fd41c6e332876d1eb8d130b95a05b1af0496f9a6","description": "API project to support Cohort-level encounters and observations and to create these encounters via a\n        REST interface\n    "            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "cohort-api-4.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/cohort-4.0.0-SNAPSHOT\/lib\/cohort-api-4.0.0-SNAPSHOT.jar"
-,"sha256": "3339b9b9990256c04c33feea61a557d445c8d96852b8307deddac909101e70da",
-                    "sha1": "5e550d12f9f8f08b773a4b86ad7caf80c90cdc3d",
-                    "md5": "f6e5cc3d807cf790070624a8f6684cf6"
+,"sha256": "6bfcee2841b51d72616a54c4fd41c6e332876d1eb8d130b95a05b1af0496f9a6",
+                    "sha1": "218d1aee943afcfe34e0357c393e5ec92b14529e",
+                    "md5": "f4e5fab6490e6f2a802a241ae131be13"
                 }
             ]
             ,"evidenceCollected": {
