@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-01T12:06:29Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-01T11:15:58Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-01T12:06:29Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-01T11:15:58Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-fhir2",
-        "reportDate": "2026-04-01T12:53:42.851715681Z",
+        "reportDate": "2026-04-13T21:39:29.662906689Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4865,9 +4865,9 @@
             "isVirtual": false,
             "fileName": "fhir2-3.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-3.1.0-SNAPSHOT-tests.jar"
-,"md5": "3039bd769f08bb4b09f1dddb2ae11867",
-            "sha1": "08f989902e60370cfaf9c2c411ef79d92dfe7bc2",
-            "sha256": "0ad700d8effab00012998bec3eba964c9b28cf0dbe79688ae053015311dfb648"            ,"evidenceCollected": {
+,"md5": "de1bcf5f63f2be241e67a469f9be4d69",
+            "sha1": "7b192d051ff758f709aa69d8781b7b08b7437b76",
+            "sha256": "fe674cb5eb8d182bc2ae1cc0a21a3cba91f30eb28ffefec813f53d5173cee63b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4971,9 +4971,9 @@
             "isVirtual": false,
             "fileName": "fhir2-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-3.1.0-SNAPSHOT.jar"
-,"md5": "2c6fa6a3dd5f76af48f9d4fe7e4d0438",
-            "sha1": "355d03c2090edeace8f12e5648393f25899a9b5e",
-            "sha256": "a2b5ba101fb78566b0d5bbbe4c8ba6523e4f7bb44b807cb59a93b70e991ecc63"            ,"evidenceCollected": {
+,"md5": "4651dca17a6d7beb39ba33a442d64856",
+            "sha1": "001585cc06d794579d83acaad2c75648800888ca",
+            "sha256": "411fa2f57369ccb90827250b517d4d6e84951d5d5cca6ac39e8a6ff06e9885fd"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5077,16 +5077,16 @@
             "isVirtual": false,
             "fileName": "fhir2-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/fhir2-api-3.1.0-SNAPSHOT.jar"
-,"md5": "749136ec5b9559ca57d1b4ea50ab46e0",
-            "sha1": "914a1a0f5c45e3c94089d4e244af45202d3e8404",
-            "sha256": "c8a661b2f7ac463d8e9883e6f0666837eb80c307e0624b69507c81a786c82e8c","description": "API for FHIR2"            ,"relatedDependencies": [
+,"md5": "8c34794163f3346cabf694390563c624",
+            "sha1": "6f62412ffc818069e208232228dacec96a8bf6ee",
+            "sha256": "826d05712e5545c9d7dd4cafa67eea7c4c5d3151b3b517d21a6fa613f75b0e19","description": "API for FHIR2"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-api-2.5-3.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api-2.5\/target\/fhir2-api-2.5-3.1.0-SNAPSHOT-tests.jar"
-,"sha256": "0353c0ad82ef097b2cabfb8f2c76221f689fc4da1b3865a56cac5888bcbd7b29",
-                    "sha1": "2840b34b7c2d100143c4f901f90933d7d2b41851",
-                    "md5": "7fe12813df8245f402831cbccbe3eb67",
+,"sha256": "4bcae2176ea907c7e6ebea2931e16f12015949ff5abafa5c54dce36b8ac2e327",
+                    "sha1": "57081f2ef9fd7566a08c540637662e05063bf38b",
+                    "md5": "40297f7873b810c8eeb7d631c3af06aa",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api-2.5@3.1.0-SNAPSHOT"
@@ -5097,9 +5097,9 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-2.5-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/api-2.5\/target\/fhir2-api-2.5-3.1.0-SNAPSHOT.jar"
-,"sha256": "f9f68295152df08840c42573a1ed17c2335055f4f31113279f8127c68bf897c6",
-                    "sha1": "4040a842f5137915273ec04a99d6410f053c1270",
-                    "md5": "4eac48f8ccc2716e08d509155d795026",
+,"sha256": "bf1eea6f3680cdbf0404715ed302af93910151241092a4b3b21a9148819a0db0",
+                    "sha1": "ef7a7a13c6e81cf5fb975fdfe3b3c97f69c22978",
+                    "md5": "cb19eaa715ced625b53891988392aeba",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api-2.5@3.1.0-SNAPSHOT"
@@ -5110,17 +5110,17 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-2.5-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/fhir2-3.1.0-SNAPSHOT\/lib\/fhir2-api-2.5-3.1.0-SNAPSHOT.jar"
-,"sha256": "f9f68295152df08840c42573a1ed17c2335055f4f31113279f8127c68bf897c6",
-                    "sha1": "4040a842f5137915273ec04a99d6410f053c1270",
-                    "md5": "4eac48f8ccc2716e08d509155d795026"
+,"sha256": "bf1eea6f3680cdbf0404715ed302af93910151241092a4b3b21a9148819a0db0",
+                    "sha1": "ef7a7a13c6e81cf5fb975fdfe3b3c97f69c22978",
+                    "md5": "cb19eaa715ced625b53891988392aeba"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "fhir2-api-2.6-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/api-2.6\/target\/fhir2-api-2.6-3.1.0-SNAPSHOT.jar"
-,"sha256": "9d37e36bb9d34b5360454718d2c073c28844d3d405f047ec304c1ca12b9f46a3",
-                    "sha1": "f6bc9d18789df99a37b8cf8ce6dcec3255ee1e41",
-                    "md5": "2f510510110ccd0ca8e60ec9f29d94d2",
+,"sha256": "f0e02c5c097e2038f07af66bf811250c839196586026ddcdcdbf43c71659b574",
+                    "sha1": "064b9e2ffec68ce10e53d4b544dc6638b6f23492",
+                    "md5": "889a42f2b6bbaa44b993ac5ec53bb2fb",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api-2.6@3.1.0-SNAPSHOT"
@@ -5131,17 +5131,17 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-2.6-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/fhir2-3.1.0-SNAPSHOT\/lib\/fhir2-api-2.6-3.1.0-SNAPSHOT.jar"
-,"sha256": "9d37e36bb9d34b5360454718d2c073c28844d3d405f047ec304c1ca12b9f46a3",
-                    "sha1": "f6bc9d18789df99a37b8cf8ce6dcec3255ee1e41",
-                    "md5": "2f510510110ccd0ca8e60ec9f29d94d2"
+,"sha256": "f0e02c5c097e2038f07af66bf811250c839196586026ddcdcdbf43c71659b574",
+                    "sha1": "064b9e2ffec68ce10e53d4b544dc6638b6f23492",
+                    "md5": "889a42f2b6bbaa44b993ac5ec53bb2fb"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "fhir2-api-2.7-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/api-2.7\/target\/fhir2-api-2.7-3.1.0-SNAPSHOT.jar"
-,"sha256": "4451b1f5aa0dcbe823f18d21f7276dca5489ce4cc1fab6758a5e3ebbb4b3c758",
-                    "sha1": "1aa91e012ab881ab04553a4af34120da909183a1",
-                    "md5": "fa741846bb2ab223cb269ae8fcbe8059",
+,"sha256": "8029679b6397d8704120ac0726abdfc70d2ca3b9a74549d43c2f4d4070aee3d3",
+                    "sha1": "e7b9fb848715c821795aa8baa6c65580e983cbd1",
+                    "md5": "0590cb9154404ecde4e471c4bf5ecbc4",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api-2.7@3.1.0-SNAPSHOT"
@@ -5152,17 +5152,17 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-2.7-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/fhir2-3.1.0-SNAPSHOT\/lib\/fhir2-api-2.7-3.1.0-SNAPSHOT.jar"
-,"sha256": "4451b1f5aa0dcbe823f18d21f7276dca5489ce4cc1fab6758a5e3ebbb4b3c758",
-                    "sha1": "1aa91e012ab881ab04553a4af34120da909183a1",
-                    "md5": "fa741846bb2ab223cb269ae8fcbe8059"
+,"sha256": "8029679b6397d8704120ac0726abdfc70d2ca3b9a74549d43c2f4d4070aee3d3",
+                    "sha1": "e7b9fb848715c821795aa8baa6c65580e983cbd1",
+                    "md5": "0590cb9154404ecde4e471c4bf5ecbc4"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "fhir2-api-3.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/fhir2-api-3.1.0-SNAPSHOT-tests.jar"
-,"sha256": "91efb7a214b4c0c3460a4d51366450cdc0092b542224916a3165f6c6d2b8d569",
-                    "sha1": "f8f4b81d452178a71715292a1b996cde140d2397",
-                    "md5": "e0bcb1115a26174476aa52df7395273d",
+,"sha256": "92633d4ff220c2261844d44ec66b6eb4b5b2af1e540b9b2c4fd74f330c402407",
+                    "sha1": "327fa7469477d66e8e49ecddbcd601b0c24ea337",
+                    "md5": "87cebc0d5c91d09caaa876bf93416aff",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api@3.1.0-SNAPSHOT"
@@ -5173,9 +5173,9 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/fhir2-3.1.0-SNAPSHOT\/lib\/fhir2-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "c8a661b2f7ac463d8e9883e6f0666837eb80c307e0624b69507c81a786c82e8c",
-                    "sha1": "914a1a0f5c45e3c94089d4e244af45202d3e8404",
-                    "md5": "749136ec5b9559ca57d1b4ea50ab46e0"
+,"sha256": "826d05712e5545c9d7dd4cafa67eea7c4c5d3151b3b517d21a6fa613f75b0e19",
+                    "sha1": "6f62412ffc818069e208232228dacec96a8bf6ee",
+                    "md5": "8c34794163f3346cabf694390563c624"
                 }
             ]
             ,"evidenceCollected": {
@@ -5346,9 +5346,9 @@
             "isVirtual": false,
             "fileName": "fhir2-integration-tests-2.6-3.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/integration-tests-2.6\/target\/fhir2-integration-tests-2.6-3.1.0-SNAPSHOT-tests.jar"
-,"md5": "d98b1c26da248cc5086e36a8a29dc661",
-            "sha1": "096b3860647df92e1c4e87491c273ae26792f629",
-            "sha256": "ad33c386ad7878655905be187d5dfc0c0d2f99aae21db28b26815c6f3809b826"            ,"evidenceCollected": {
+,"md5": "67cd6ff10640df1f369be07296ec928a",
+            "sha1": "7177afa5a4a9a98b919848722feb12512857bf9d",
+            "sha256": "7b2e54d8bd918d2c5aa4fc0813573f845ea54771ab56fdc1328c4f0fe4a67030"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5502,9 +5502,9 @@
             "isVirtual": false,
             "fileName": "fhir2-integration-tests-2.7-3.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/integration-tests-2.7\/target\/fhir2-integration-tests-2.7-3.1.0-SNAPSHOT-tests.jar"
-,"md5": "8e6891ddaedb379225d722d80085838a",
-            "sha1": "897f695ddd6d1f87535b7085517c36690d4fae9c",
-            "sha256": "785b8254b30f7c6d55c5cfdf388ac5e6b809ba9acce71aae0a7ce8d3dee90c62"            ,"evidenceCollected": {
+,"md5": "942ebcd0fb58ab61ab9a79e2e905ce60",
+            "sha1": "7418746801e4ef172196d7703baa6b1e5bcda7c6",
+            "sha256": "9b530f57feb6bf393178ff98855e68670fb4e6ffa2ac06ca109596bd36a1aff2"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5658,9 +5658,9 @@
             "isVirtual": false,
             "fileName": "fhir2-integration-tests-3.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/fhir2-integration-tests-3.1.0-SNAPSHOT-tests.jar"
-,"md5": "de1785a4b533f361f2d1d07ea989106e",
-            "sha1": "b9558d7464e281eb9b88e782dd9b2bd2704ea546",
-            "sha256": "51455a65eeaa47577d4a154b150ef676cac8c9f9b164f9585289ff270b756b29","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
+,"md5": "e19526627f585d429ed7625789e2837c",
+            "sha1": "248ea895eb5021dba2163ea49aae516db4539f39",
+            "sha256": "d592e16bf36926291971f707267deac6840a0722ebc19d530b135e299e75b0fd","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5814,16 +5814,16 @@
             "isVirtual": false,
             "fileName": "fhir2-test-data-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-3.1.0-SNAPSHOT.jar"
-,"md5": "56bee6b0698ddbd941d0ea9b37c2175b",
-            "sha1": "4347de6252002f2dfdb37bdbe1189788ab7d6fb0",
-            "sha256": "3e8d05b0b39640475d3e68394189e33a766f050225a2d021d6b00f549ad503b3","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
+,"md5": "623744090e26ba8e4460f6f8c4c34ac2",
+            "sha1": "1a6d30195ef9049e06e196a5c4df467851d4c450",
+            "sha256": "35f45cdf022b04babc14e643866804445b7e174ff4a61bed43d5b18113f50579","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-test-data-3.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-3.1.0-SNAPSHOT-tests.jar"
-,"sha256": "efe670aee1cc429c233540218a209d1154442713eb3b43903bed42890d141182",
-                    "sha1": "d578eb78969e7419794d86664dbbdf60db75bf38",
-                    "md5": "3459aac7af082f1fe714867f3a897e6d",
+,"sha256": "fd188cb156824a110807001968963ecd6715c4a6107d7df621762e6a0e3732a5",
+                    "sha1": "cc4764d183e11a690d263ce749cd5c65d5e73ef4",
+                    "md5": "eaddaf6245038fb94942bdb558e606bd",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-test-data@3.1.0-SNAPSHOT"
