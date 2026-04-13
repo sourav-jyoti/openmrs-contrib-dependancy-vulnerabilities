@@ -1,0 +1,3259 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "12.2.1",
+        "dataSource": [
+{
+                "name": "NVD API Last Checked",
+                "timestamp": "2026-04-13T12:40:14Z"
+            }
+,{
+                "name": "NVD API Last Modified",
+                "timestamp": "2026-04-13T11:38:48Z"
+            }
+,{
+                "name": "NVD Cache Last Checked",
+                "timestamp": "2026-04-13T12:40:14Z"
+            }
+,{
+                "name": "NVD Cache Last Modified",
+                "timestamp": "2026-04-13T11:38:48Z"
+            }
+        ]
+
+
+    },
+    "projectInfo": {
+        "name": "openmrs-module-xforms",
+        "reportDate": "2026-04-13T21:14:49.765949158Z",
+        "credits": {
+            "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+            "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+        }
+    },
+    "dependencies": [
+{
+            "isVirtual": false,
+            "fileName": "FormDesigner.nocache.js",
+            "filePath": "\/github\/workspace\/omod\/src\/main\/webapp\/resources\/formdesigner\/FormDesigner.nocache.js"
+,"md5": "d0af710dc7912b37cb67fe702441445c",
+            "sha1": "03322a48aa6bee356e58b37d2512a5c2931b0799",
+            "sha256": "3793462a62d7a4e6ee85c54b33db1480793ff4e91d8e65216f3689d41c6e961d"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "FormDesigner.nocache.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/classes\/web\/module\/resources\/formdesigner\/FormDesigner.nocache.js"
+,"sha256": "3793462a62d7a4e6ee85c54b33db1480793ff4e91d8e65216f3689d41c6e961d",
+                    "sha1": "03322a48aa6bee356e58b37d2512a5c2931b0799",
+                    "md5": "d0af710dc7912b37cb67fe702441445c"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "FormDesigner.nocache.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/web\/module\/resources\/formdesigner\/FormDesigner.nocache.js"
+,"sha256": "3793462a62d7a4e6ee85c54b33db1480793ff4e91d8e65216f3689d41c6e961d",
+                    "sha1": "03322a48aa6bee356e58b37d2512a5c2931b0799",
+                    "md5": "d0af710dc7912b37cb67fe702441445c"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "xforms-4.3.19-SNAPSHOT.jar: FormDesigner.nocache.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT.jar\/web\/module\/resources\/formdesigner\/FormDesigner.nocache.js"
+,"sha256": "3793462a62d7a4e6ee85c54b33db1480793ff4e91d8e65216f3689d41c6e961d",
+                    "sha1": "03322a48aa6bee356e58b37d2512a5c2931b0799",
+                    "md5": "d0af710dc7912b37cb67fe702441445c"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "FormRunner.nocache.js",
+            "filePath": "\/github\/workspace\/omod\/src\/main\/webapp\/resources\/formrunner\/FormRunner.nocache.js"
+,"md5": "27608619975e21364530316c105effdc",
+            "sha1": "6e56185b80a0c6bd03d803d3dbd9f89e83b5df21",
+            "sha256": "5a6747fc7916bad845498d5dc63b3e8271a8e15af61f6518ae9ba4bf9e8b63c2"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "FormRunner.nocache.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/classes\/web\/module\/resources\/formrunner\/FormRunner.nocache.js"
+,"sha256": "5a6747fc7916bad845498d5dc63b3e8271a8e15af61f6518ae9ba4bf9e8b63c2",
+                    "sha1": "6e56185b80a0c6bd03d803d3dbd9f89e83b5df21",
+                    "md5": "27608619975e21364530316c105effdc"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "FormRunner.nocache.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/web\/module\/resources\/formrunner\/FormRunner.nocache.js"
+,"sha256": "5a6747fc7916bad845498d5dc63b3e8271a8e15af61f6518ae9ba4bf9e8b63c2",
+                    "sha1": "6e56185b80a0c6bd03d803d3dbd9f89e83b5df21",
+                    "md5": "27608619975e21364530316c105effdc"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "xforms-4.3.19-SNAPSHOT.jar: FormRunner.nocache.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT.jar\/web\/module\/resources\/formrunner\/FormRunner.nocache.js"
+,"sha256": "5a6747fc7916bad845498d5dc63b3e8271a8e15af61f6518ae9ba4bf9e8b63c2",
+                    "sha1": "6e56185b80a0c6bd03d803d3dbd9f89e83b5df21",
+                    "md5": "27608619975e21364530316c105effdc"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bluetooth-server-1.0.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/bluetooth-server-1.0.jar"
+,"md5": "9813476cc09e137becf6537bd0124eb9",
+            "sha1": "e1d4ad10bc3ca8537daf9c17cf96d325e7ef60c0",
+            "sha256": "ccba024e3420477a39348ba4f394a44978876c678c41fec26d0f0daa024954da"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "bluetooth-server"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "bluetooth"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "intel"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "bluetooth-server"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "bluetooth"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "bluetooth-server"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.0"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bluetooth-server-1.0.jar: bluecove.dll",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/bluetooth-server-1.0.jar\/bluecove.dll"
+,"md5": "fc12abdfe472b57fcc6e4343df8aa306",
+            "sha1": "0cf0d7f178ad9311d92a288e1790b83a2e750819",
+            "sha256": "adf5983baee1675b8254ca053b99c5730f8a70029e70d5823e9ecffe949c2c19"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "bluecove"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "bluecove"
+                    }
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bluetooth-server-1.0.jar: bluecove_ce.dll",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/bluetooth-server-1.0.jar\/bluecove_ce.dll"
+,"md5": "c1284721c46776182b5b51976199130d",
+            "sha1": "befdff4e90b90a32f58f3a18dc6d356380ce2c2a",
+            "sha256": "32bcfcb5f13ca94aa8b78107c26d875c400cd84488c4aa5dc40897e6f24abfb5"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "bluecove_ce"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "bluecove_ce"
+                    }
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bluetooth-server-1.0.jar: intelbth.dll",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/bluetooth-server-1.0.jar\/intelbth.dll"
+,"md5": "f49871e0a4a4dc8c47ddae2ca11a49c7",
+            "sha1": "a390ce597b1b87349ba59f25ae66bcff4f33b6ba",
+            "sha256": "30abbde3d4cacfbfd7414e1cc6551d5714caebe4504270ef5351bd41b12bfdb8"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "intelbth"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "intelbth"
+                    }
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bluetooth-server-1.0.jar: intelbth_ce.dll",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/bluetooth-server-1.0.jar\/intelbth_ce.dll"
+,"md5": "331644a3a9b768546fa973e4a9fd6d2e",
+            "sha1": "a3d458a1f83159efae4fa165108ca504367fe842",
+            "sha256": "880d75c76d04fa0b9b1cf03afd179ac0489e81dd3873f7da0283ebba795a62c1"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "intelbth_ce"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "intelbth_ce"
+                    }
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "dwr-mod-1.1.3.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/dwr-mod-1.1.3.jar"
+,"md5": "cb61bd47250d571b6217223fbc945c5f",
+            "sha1": "213ed3213931ef86b94f7187c7f51260d2bcad6d",
+            "sha256": "72d72e8abe428b98f2fbbb6e660ecf44db2672adbf5d874419685682af998c80"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "dwr-mod"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "getahead"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "ltd"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "uk"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "dwr-mod"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "dwr"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "getahead"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "ltd"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "dwr-mod"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.1.3"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "dwr-mod-1.1.3.jar: deprecated.js",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/dwr-mod-1.1.3.jar\/uk\/ltd\/getahead\/dwr\/deprecated.js"
+,"md5": "d58ecd40006aab0baeeff54f674d9b36",
+            "sha1": "85e96fe792e9494e8323b3c7c301bda359e33009",
+            "sha256": "bb578b3608df978403ac7e0231883732ce785b8c125a04da3b81b094a9f818ff"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "dwr-mod-1.1.3.jar: engine.js",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/dwr-mod-1.1.3.jar\/uk\/ltd\/getahead\/dwr\/engine.js"
+,"md5": "6c3d96952075205b1bbd0e631d52bfe1",
+            "sha1": "e6530beb22a6c3de8409a8504811e0aedaa85260",
+            "sha256": "2739842c6a282d59fd425810f93b7ec743bfaec63c21d1bd98d6aaa038a6fe15"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "dwr-mod-1.1.3.jar: util.js",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/dwr-mod-1.1.3.jar\/uk\/ltd\/getahead\/dwr\/old\/util.js"
+,"md5": "febb2eb82182ead99921c4ff2fed4cf8",
+            "sha1": "e2205145aa03258d91593e58347184a3bbb397be",
+            "sha256": "46cab30e74a5c6ca374acda7e80bc29e503f8d46fe067e8630e36394fd9c709c"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "dwr-mod-1.1.3.jar: util.js",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/dwr-mod-1.1.3.jar\/uk\/ltd\/getahead\/dwr\/util.js"
+,"md5": "07a10ab9e68962781e2a7633eafc60a0",
+            "sha1": "fcd6612a8e1517e2a8577ce733c73647b8ec37d0",
+            "sha256": "e8dc34d5bbd9d00d994a1182e6e15e98dc9ca65c95ec7147abaee4ed4d0e806a"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "epihandy-xforms-server-1.0.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/epihandy-xforms-server-1.0.jar"
+,"md5": "62efaf6c16fc02aaf3cd9ca3e42d5f6a",
+            "sha1": "b03874539e5cc5517e15e6c96a44b8f330b0ef15",
+            "sha256": "307343c33eba12352d601f61686ce50dfdd092f33507b3941f16a62b6d010ddc"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "epihandy-xforms-server"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "epihandy"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "fcitmuk"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "epihandy-xforms-server"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "epihandy"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "epihandy-xforms-server"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.0"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "jaxen-1.0.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/jaxen-1.0.jar"
+,"md5": "261d1aa59865842ecc32b3848b0c6538",
+            "sha1": "9f5d3c5974dbe5cf69c2c2ec7d8a4eb6e0fce7f9",
+            "sha256": "160958f42f60fff817d6c0b1b02fd9284b3f0fcb46e61d38866f65b7af4d329d","description": "Jaxen is a universal Java XPath engine."            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "extension-name",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "Manifest",
+                            "name": "Implementation-Vendor",
+                            "value": "Codehaus"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "specification-vendor",
+                            "value": "Codehaus"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "bob@eng.werken.com"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "brian.ewins@gmail.com"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "contact@megginson.com"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "elharo@metalab.unc.edu"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "erwin@klomp.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "james_strachan@yahoo.co.uk"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "jdvorak@users.sourceforge.net"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "mbelonga@users.sourceforge.net"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "peter.royal@pobox.com"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "purpletech@users.sourceforge.net"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "scott@dotnot.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "szegedia@users.sourceforge.net"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "xcut@users.sourceforge.net"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "bewins"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "bob"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "cnentwich"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "dmegginson"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "eboldwidt"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "elharo"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "jdvorak"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "jstrachan"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "mbelonga"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "proyal"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "purpletech"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "ssanders"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "szegedia"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Alexander Day Chaffee"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Attila Szegedi"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Bob McWhirter"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Brian Ewins"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Christian Nentwich"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "David Megginson"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Elliotte Rusty Harold"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Erwin Bolwidt"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "James Strachan"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Jan Dvorak"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Mark A. Belonga"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Peter Royal"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Scott Sanders"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Cafe au Lait"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "dotnot"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Megginson Technologies"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Purple Technologies"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Spiritsoft"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "The Werken Company"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "jaxen"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Codehaus"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/codehaus.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/jaxen.codehaus.org\/"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "xpath"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "extension-name",
+                            "value": "jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "Manifest",
+                            "name": "Implementation-Title",
+                            "value": "org.jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "Manifest",
+                            "name": "specification-title",
+                            "value": "Universal Java XPath Engine"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "bob@eng.werken.com"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "brian.ewins@gmail.com"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "contact@megginson.com"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "elharo@metalab.unc.edu"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "erwin@klomp.org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "james_strachan@yahoo.co.uk"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "jdvorak@users.sourceforge.net"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "mbelonga@users.sourceforge.net"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "peter.royal@pobox.com"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "purpletech@users.sourceforge.net"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "scott@dotnot.org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "szegedia@users.sourceforge.net"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "xcut@users.sourceforge.net"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "bewins"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "bob"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "cnentwich"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "dmegginson"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "eboldwidt"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "elharo"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "jdvorak"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "jstrachan"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "mbelonga"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "proyal"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "purpletech"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "ssanders"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "szegedia"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Alexander Day Chaffee"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Attila Szegedi"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Bob McWhirter"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Brian Ewins"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Christian Nentwich"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "David Megginson"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Elliotte Rusty Harold"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Erwin Bolwidt"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "James Strachan"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Jan Dvorak"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Mark A. Belonga"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Peter Royal"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Scott Sanders"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Cafe au Lait"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "dotnot"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Megginson Technologies"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Purple Technologies"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "Spiritsoft"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer org",
+                            "value": "The Werken Company"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "jaxen"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Codehaus"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/codehaus.org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/jaxen.codehaus.org\/"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "central",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "Manifest",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/jaxen\/jaxen@1.1.1"
+,"confidence": "HIGH"                    }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "jdom-1.1.1.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/jdom-1.1.1.jar"
+,"md5": "806254a1e1134086e1ee927e3a3d4ae1",
+            "sha1": "9986f2db44c7d183a861e72d3003eea1fcfe7a99",
+            "sha256": "95913f3e5e691472ad5fede8ac55e35070c230129c9ca5dc32465ff0b5335878","description": "\n  JDOM is a Java-oriented object model which models XML documents.\n  It provides a Java-centric means of generating and manipulating\n  XML documents. While JDOM interoperates well with existing\n  standards such as the Simple API for XML (SAX) and the Document\n  Object Model (DOM), it is not an abstraction layer or\n  enhancement to those APIs. Rather, it seeks to provide a robust,\n  light-weight means of reading and writing XML data without the\n  complex and memory-consumptive options that current API\n  offerings provide.\n\n  built July 23 2009 \n  ","license": "BSD\/Apache style, see LICENSE.txt"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "jdom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "org.jopendocument"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "jdom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jdom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jdom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/",
+                            "name": "Implementation-Vendor",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/adapters\/",
+                            "name": "Implementation-Vendor",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/filter\/",
+                            "name": "Implementation-Vendor",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/input\/",
+                            "name": "Implementation-Vendor",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/output\/",
+                            "name": "Implementation-Vendor",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/transform\/",
+                            "name": "Implementation-Vendor",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/xpath\/",
+                            "name": "Implementation-Vendor",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "jdom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "hunter"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "mclaughlin"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Brett McLaughlin"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Jason Hunter"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.jopendocument"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "jdom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "jdom.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/www.jdom.org\/"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/www.jdom.org\/"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "jdom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "jdom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "adapters"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "filter"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "input"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jdom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "output"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "transform"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "xpath"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/",
+                            "name": "Implementation-Title",
+                            "value": "org.jdom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/",
+                            "name": "Specification-Title",
+                            "value": "JDOM Classes"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/adapters\/",
+                            "name": "Implementation-Title",
+                            "value": "org.jdom.adapters"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/adapters\/",
+                            "name": "Specification-Title",
+                            "value": "JDOM Adapter Classes"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/filter\/",
+                            "name": "Implementation-Title",
+                            "value": "org.jdom.filter"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/filter\/",
+                            "name": "Specification-Title",
+                            "value": "JDOM Filter Classes"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/input\/",
+                            "name": "Implementation-Title",
+                            "value": "org.jdom.input"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/input\/",
+                            "name": "Specification-Title",
+                            "value": "JDOM Input Classes"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/output\/",
+                            "name": "Implementation-Title",
+                            "value": "org.jdom.output"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/output\/",
+                            "name": "Specification-Title",
+                            "value": "JDOM Output Classes"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/transform\/",
+                            "name": "Implementation-Title",
+                            "value": "org.jdom.transform"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/transform\/",
+                            "name": "Specification-Title",
+                            "value": "JDOM Transformation Classes"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/xpath\/",
+                            "name": "Implementation-Title",
+                            "value": "org.jdom.xpath"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "manifest: org\/jdom\/xpath\/",
+                            "name": "Specification-Title",
+                            "value": "JDOM XPath Classes"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "jdom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "hunter"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "mclaughlin"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Brett McLaughlin"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Jason Hunter"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.jopendocument"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "jdom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "jdom.org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/www.jdom.org\/"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/www.jdom.org\/"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "central",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "manifest: org\/jdom\/",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "manifest: org\/jdom\/adapters\/",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "manifest: org\/jdom\/filter\/",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "manifest: org\/jdom\/input\/",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "manifest: org\/jdom\/output\/",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "manifest: org\/jdom\/transform\/",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "manifest: org\/jdom\/xpath\/",
+                        "name": "Implementation-Version",
+                        "value": "1.1.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "1.1.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.jopendocument\/jdom@1.1.1"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:jdom:jdom:1.1.1:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Ajdom%3Ajdom%3A1.1.1%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2021-33813",
+                    "severity" : "HIGH",
+                    "cvssv2": {
+                        "score": 5.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "PARTIAL"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-611"                    ],
+                "description": "An XXE issue in SAXBuilder in JDOM through 2.0.6 allows attackers to cause a denial of service via a crafted HTTP request.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r6db397ae7281ead825338200d1f62d2827585a70797cc9ac0c4bd23f%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r845e987b7cd8efe610284958e997b84583f5a98d3394adc09e3482fe%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/AH46QHE5GIMT6BL6C3GDTOYF27JYILXM\/"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuapr2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r9974f64723875052e02787b2a5eda689ac5247c71b827d455e5dc9a6%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rbc075a4ac85e7a8e47420b7383f16ffa0af3b792b8423584735f369f%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/06\/msg00026.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r89b3800cfabb1e773e49425e5d4239c28a659839a2eca6af3431482e%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html","name": "NOT_APPLICABLE"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/06\/msg00026.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/EWFVYTHGILOQXUA7U3SPOERQXL7OPSZG\/"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r5674106135bb1a6ef57483f4c63a9c44bca85d0e2a8a05895a8f1d89%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/hunterhacker\/jdom\/pull\/188","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r89b3800cfabb1e773e49425e5d4239c28a659839a2eca6af3431482e%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rbc075a4ac85e7a8e47420b7383f16ffa0af3b792b8423584735f369f%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/github.com\/hunterhacker\/jdom\/pull\/188","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r5674106135bb1a6ef57483f4c63a9c44bca85d0e2a8a05895a8f1d89%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/07\/msg00012.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/hunterhacker\/jdom\/releases","name": "RELEASE_NOTES,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r845e987b7cd8efe610284958e997b84583f5a98d3394adc09e3482fe%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/07\/msg00012.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r6db397ae7281ead825338200d1f62d2827585a70797cc9ac0c4bd23f%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rfb7a93e40ebeb1e0068cde0bf3834dcab46bb1ef06d6424db48ed9fd%40%3Cdev.tika.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/EWFVYTHGILOQXUA7U3SPOERQXL7OPSZG\/"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/alephsecurity.com\/vulns\/aleph-2021003","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r21c406c7ed88fe340db7dbae75e58355159e6c324037c7d5547bf40b%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r9974f64723875052e02787b2a5eda689ac5247c71b827d455e5dc9a6%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html","name": "NOT_APPLICABLE"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/AH46QHE5GIMT6BL6C3GDTOYF27JYILXM\/"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rfb7a93e40ebeb1e0068cde0bf3834dcab46bb1ef06d6424db48ed9fd%40%3Cdev.tika.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/github.com\/hunterhacker\/jdom\/releases","name": "RELEASE_NOTES,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/alephsecurity.com\/vulns\/aleph-2021003","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r21c406c7ed88fe340db7dbae75e58355159e6c324037c7d5547bf40b%40%3Cissues.solr.apache.org%3E"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuapr2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:apache:solr:8.8.1:*:*:*:*:*:*:*"
+                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:apache:solr:8.9:*:*:*:*:*:*:*"
+                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:apache:tika:1.25:*:*:*:*:*:*:*"
+                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:jdom:jdom:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.0.6"                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "jzlib-1.0.7.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/jzlib-1.0.7.jar"
+,"md5": "0d7fd1140024879235d0bd019e18b0d0",
+            "sha1": "1d151e55c412d01d22610f70e96c76cbb89e1481",
+            "sha256": "03c861900d4edd3a3571e15af62b1f20ee0b0508cf44034ba4829a3c8491a297"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "jzlib"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jcraft"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jzlib"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "jzlib"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "jzlib"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "jzlib"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.0.7"
+                    }
+                ]
+            }
+                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:jcraft:jzlib:1.0.7:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "kxml2-2.3.0.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/kxml2-2.3.0.jar"
+,"md5": "04a03b3a4f1ef0e3fda28bf1792e2ee7",
+            "sha1": "ccbc77a5fd907ef863c29f3596c6f54ffa4e9442",
+            "sha256": "f264dd9f79a1fde10ce5ecc53221eff24be4c9331c830b7d52f2f08a7b633de2","description": "kXML is a small XML pull parser, specially designed for constrained environments such as Applets, Personal Java or MIDP devices. In contrast to kXML 1, kXML 2 is based on the common XML pull API.","license": "BSD style: http:\/\/kxml.cvs.sourceforge.net\/viewvc\/kxml\/kxml2\/license.txt?view=markup\nPublic Domain: http:\/\/creativecommons.org\/licenses\/publicdomain"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "android-kxml2"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "kxml2"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "net.sf.kxml"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "org.robolectric"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "kxml2"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "kxml2"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "android-kxml2"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "kxml2"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "The Android Open Source Projects"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.kxml"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.robolectric"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Google Android kxml2 Library"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "kXML 2 is a small XML pull parser based on the common XML pull API"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Stefan Haustein, Oberhausen, Rhld., Germany"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/kxml.sourceforge.net\/"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/kxml.sourceforge.net\/"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/source.android.com\/"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "android-kxml2"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "kxml2"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "kxml2"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "android-kxml2"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "kxml2"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "The Android Open Source Projects"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.kxml"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.robolectric"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Google Android kxml2 Library"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "kXML 2 is a small XML pull parser based on the common XML pull API"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Stefan Haustein, Oberhausen, Rhld., Germany"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/kxml.sourceforge.net\/"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/kxml.sourceforge.net\/"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/source.android.com\/"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "central",
+                        "name": "version",
+                        "value": "2.3.0"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "2.3.0"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "2.3.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/net.sf.kxml\/kxml2@2.3.0"
+,"confidence": "HIGH"                    }
+,                    {
+                        "id": "pkg:maven\/org.robolectric\/android-kxml2@4.1.2_r1_rc"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:xml_library_project:xml_library:2.3.0:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "medicalHistoryFields.js",
+            "filePath": "\/github\/workspace\/omod\/src\/main\/webapp\/resources\/scripts\/medicalHistoryFields.js"
+,"md5": "2510f5979d298a1a7b356897bfb3f8a1",
+            "sha1": "d3b3219657000bfca299a1df58f5b180b559fe1c",
+            "sha256": "74fca17d624db38c5cd4fd3b35058bd8c363c067524f20ae9ef90cfbaa0626d6"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "medicalHistoryFields.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/classes\/web\/module\/resources\/scripts\/medicalHistoryFields.js"
+,"sha256": "74fca17d624db38c5cd4fd3b35058bd8c363c067524f20ae9ef90cfbaa0626d6",
+                    "sha1": "d3b3219657000bfca299a1df58f5b180b559fe1c",
+                    "md5": "2510f5979d298a1a7b356897bfb3f8a1"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "medicalHistoryFields.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/web\/module\/resources\/scripts\/medicalHistoryFields.js"
+,"sha256": "74fca17d624db38c5cd4fd3b35058bd8c363c067524f20ae9ef90cfbaa0626d6",
+                    "sha1": "d3b3219657000bfca299a1df58f5b180b559fe1c",
+                    "md5": "2510f5979d298a1a7b356897bfb3f8a1"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "xforms-4.3.19-SNAPSHOT.jar: medicalHistoryFields.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT.jar\/web\/module\/resources\/scripts\/medicalHistoryFields.js"
+,"sha256": "74fca17d624db38c5cd4fd3b35058bd8c363c067524f20ae9ef90cfbaa0626d6",
+                    "sha1": "d3b3219657000bfca299a1df58f5b180b559fe1c",
+                    "md5": "2510f5979d298a1a7b356897bfb3f8a1"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "saxon-8.7.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/saxon-8.7.jar"
+,"md5": "c96d1f63fb5b3490bedd3b2a4d845ab7",
+            "sha1": "68f963a06e2c384ab8d60aaa89ed0363928f6e84",
+            "sha256": "211a67269e861723614700f379c77318609878fd2fc2fbd9c97420480334354c","description": "The XSLT and XQuery Processor","license": "Mozilla Public License Version 1.0: http:\/\/www.mozilla.org\/MPL\/MPL-1.0.txt"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "net"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "sf"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/saxon.sf.net"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "sf"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/saxon.sf.net"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "central",
+                        "name": "version",
+                        "value": "8.7"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "8.7"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "8.7"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/net.sf.saxon\/saxon@8.7"
+,"confidence": "HIGH"                    }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "saxon-dom-8.7.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/saxon-dom-8.7.jar"
+,"md5": "aa3900ace0109cb4cd44752923428ddc",
+            "sha1": "ca5abeba98e41eca830e6ddc74385a9538c0c908",
+            "sha256": "f0b62d5d9acb90813e270b688581c354c4bb075700a3dd594399d0e013ced966","description": "Saxon support library for third-party object model DOM","license": "Mozilla Public License Version 1.0: http:\/\/www.mozilla.org\/MPL\/MPL-1.0.txt"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "saxon-dom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "net"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "sf"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Saxon DOM"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/saxon.sf.net"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "saxon-dom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "dom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "sf"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Saxon DOM"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/saxon.sf.net"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "central",
+                        "name": "version",
+                        "value": "8.7"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "8.7"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "8.7"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/net.sf.saxon\/saxon-dom@8.7"
+,"confidence": "HIGH"                    }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "sms-server-1.0.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/sms-server-1.0.jar"
+,"md5": "508033e1af3df030e5628f78a7f34c39",
+            "sha1": "1d2942827656d363eaeb7957dad7ce99f9717fc9",
+            "sha256": "09f87bad93edf9d6c06da5de74a4c0d48583c33ef98d68b523a91dbcd194859f"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "sms-server"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "apache"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "commons"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "net"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "sms-server"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "commons"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "net"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "sms-server"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.0"
+                    }
+                ]
+            }
+                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:sms:sms:1.0:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2005-2311",
+                    "severity" : "LOW",
+                    "cvssv2": {
+                        "score": 2.1
+                        ,"accessVector": "LOCAL"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "LOW"
+,"version": "2.0","exploitabilityScore": "3.9","impactScore": "2.9"                    },
+                    "cwes": [
+                        "NVD-CWE-Other"                    ],
+                "description": "SMS 1.9.2m and earlier allows local users to overwrite arbitrary files via a symlink attack on the (1) request1 or (2) request2 temporary files.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "http:\/\/secunia.com\/advisories\/16038","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "http:\/\/www.zataz.net\/adviso\/sms-06272005.txt"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "http:\/\/secunia.com\/advisories\/16038","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "http:\/\/www.zataz.net\/adviso\/sms-06272005.txt"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:sms:sms:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"1.9.2m"                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "xforms-4.3.19-SNAPSHOT-tests.jar (shaded: org.openmrs.module:xforms-omod:4.3.19-SNAPSHOT)",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/xforms-omod\/pom.xml"
+,"md5": "566ead09c104f867088e54f22feaa8a0",
+            "sha1": "895f8bb420b4b81c3a071bb1f68a0bd730c04ff0",
+            "sha256": "7b775d33958f64f70569e810d9d812ba530a6b4a34d00b5933fc1912f0b63136","description": "OMOD project for XForms Module"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "xforms-4.3.19-SNAPSHOT.jar (shaded: org.openmrs.module:xforms-omod:4.3.19-SNAPSHOT)",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/xforms-omod\/pom.xml"
+,"sha256": "7b775d33958f64f70569e810d9d812ba530a6b4a34d00b5933fc1912f0b63136",
+                    "sha1": "895f8bb420b4b81c3a071bb1f68a0bd730c04ff0",
+                    "md5": "566ead09c104f867088e54f22feaa8a0",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/xforms-omod@4.3.19-SNAPSHOT"
+                            }
+                    ]
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "xforms-omod"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "XForms Module OMOD"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "xforms"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "xforms-omod"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "XForms Module OMOD"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "xforms"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "4.3.19-SNAPSHOT"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.openmrs.module\/xforms-omod@4.3.19-SNAPSHOT"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:4.3.19:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A4.3.19%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": false,
+            "fileName": "xforms-4.3.19-SNAPSHOT-tests.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT-tests.jar"
+,"md5": "10756affb5564596d5664c42aa7ca3e6",
+            "sha1": "b74b033a8c5ee5a56d310ae67998beb02f347b25",
+            "sha256": "61161b78088f0c966d36256e7b6bdee37a6bcac41cec9e571f21e66fffa218c9"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "xforms"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "xforms"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "xforms"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "4.3.19.snapshot"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "LOW",
+                        "source": "Manifest",
+                        "name": "build-jdk-spec",
+                        "value": "1.8"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "Manifest",
+                        "name": "java-version",
+                        "value": "6"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "xforms-4.3.19-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT.jar"
+,"md5": "e11662fedcc0fda898c8cb2459cbc221",
+            "sha1": "2b6a263a7ce3d3f43d587e11e2475bc30e71bb3a",
+            "sha256": "3179ffb44d7186ae63f065733aa77c49ac49ee41dc5a89beb8751f82901cfc95"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "xforms"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "xforms"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "xforms"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "web"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "xforms"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "xforms"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "4.3.19.snapshot"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "LOW",
+                        "source": "Manifest",
+                        "name": "build-jdk-spec",
+                        "value": "1.8"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "Manifest",
+                        "name": "java-version",
+                        "value": "6"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "xforms-api-4.3.19-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api\/target\/xforms-api-4.3.19-SNAPSHOT.jar"
+,"md5": "a698d7d719eb8b25a70b60cb3a342222",
+            "sha1": "e6f760b848c5a4824461c85043cf09cf15bc4492",
+            "sha256": "dbec2ef35f412e7c11ed81582d54115c7093ab6a63bd78af5a9e3e72e7bc5f1e","description": "API project for XForms Module"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "xforms-api-4.3.19-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/xforms-api-4.3.19-SNAPSHOT-tests.jar"
+,"sha256": "c34fd99d44031132dbf3ed37c3612c8906178f91077c9cd996231ab2329cf3fb",
+                    "sha1": "5cb3d9fc1ee5e2d00d96524d03983691c1464c9c",
+                    "md5": "f2a275dae30a1e57f205687981ae578d",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/xforms-api@4.3.19-SNAPSHOT"
+                            }
+                    ]
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "xforms-api-4.3.19-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/xforms-4.3.19-SNAPSHOT\/lib\/xforms-api-4.3.19-SNAPSHOT.jar"
+,"sha256": "dbec2ef35f412e7c11ed81582d54115c7093ab6a63bd78af5a9e3e72e7bc5f1e",
+                    "sha1": "e6f760b848c5a4824461c85043cf09cf15bc4492",
+                    "md5": "a698d7d719eb8b25a70b60cb3a342222"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "xforms-api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "xforms"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "xforms-api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "XForms Module API"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "xforms"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "xforms-api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "xforms"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "xforms-api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.openmrs.module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "XForms Module API"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "xforms"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "4.3.19-SNAPSHOT"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.openmrs.module\/xforms-api@4.3.19-SNAPSHOT"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:4.3.19:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A4.3.19%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        }    ]
+}
