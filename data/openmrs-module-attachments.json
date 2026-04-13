@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-18T12:04:12Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-18T11:16:16Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-18T12:04:12Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-18T11:16:16Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-attachments",
-        "reportDate": "2026-03-19T09:37:31.412124435Z",
+        "reportDate": "2026-04-13T21:30:43.148347383Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "attachments-4.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/attachments-4.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "9508f898fdeae961a55032f500f1338c",
-            "sha1": "0869452e9e4f3046898c2cee9a3217030b75dfc5",
-            "sha256": "bf38a2e44f963211ba04f90fb3bca49b67cf0d0f4a392c41200c4bcddaef22e2"            ,"evidenceCollected": {
+,"md5": "f404fa22410ccd95776dad5f0ea0c60c",
+            "sha1": "22dc37bd0a85fc0ac5c332d5df89a4ee062a621d",
+            "sha256": "5f18f09a1a72f3994b3497bb5e970fc96ce47569002490c642d5d218f6855d7f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -168,9 +168,9 @@
             "isVirtual": false,
             "fileName": "attachments-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/attachments-4.1.0-SNAPSHOT.jar"
-,"md5": "d29951578c1faa7d4f32db0ea68aff62",
-            "sha1": "bb2f0937b9faeab90ed55c13ff4e804886394e75",
-            "sha256": "2c3b93cec8e826172827dddf9f7feb2ca4e8406839d5d03365cc8fc0522980e1"            ,"evidenceCollected": {
+,"md5": "06c900c0dcc4be94278fe5eaca9d0921",
+            "sha1": "1c7416ce57ac3c8060a7f48e515d179b972e9e21",
+            "sha256": "91713805a15e9ab5b6ab69b10d9bb606d7430d9d0be12938f9c39c236fc93674"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -281,9 +281,9 @@
             "isVirtual": false,
             "fileName": "attachments-api-4.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/attachments-api-4.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "a4b73a1a2bdb4310c9760f5d2a83f62a",
-            "sha1": "63f34e43d78a8efe0b83229b2747f4f8fd3dc95a",
-            "sha256": "e80b42bd21d7049411f066482a9e910b0009958133d53af59d084a9ce072b2fb"            ,"evidenceCollected": {
+,"md5": "2818b6673ca5c96962d48dc091a94c21",
+            "sha1": "cedfe78aa852e1f6b5e456f0a2525f8edccff986",
+            "sha256": "1da8c774bafad8b2603ab12cd8b32dbb4f3810b337fcfcad4bf67b7e2b608079"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -365,16 +365,16 @@
             "isVirtual": false,
             "fileName": "attachments-api-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/attachments-api-4.1.0-SNAPSHOT.jar"
-,"md5": "6db42ad80d48a78b65ce2398db094cc7",
-            "sha1": "16e2ed44632272212bdd526863ceab74f4e66592",
-            "sha256": "e98e987c1252c5a38f2e4311222b667c14761123377e0e4035e1babb906faebc","description": "API project for Attachments"            ,"relatedDependencies": [
+,"md5": "f4865ba2df8f0b26a2ae77cc0db8d25e",
+            "sha1": "892b6cebb1e1685eb109eeb60ec734f735a6a659",
+            "sha256": "1a0c6d0118597222c3bae87c0e9846e2a5e065c048c35f6386a3b6a77365a1f6","description": "API project for Attachments"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "attachments-api-4.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/attachments-api-4.1.0-SNAPSHOT-tests.jar"
-,"sha256": "2a9247cc6f4c87d45a638ff77c94249ac7cb4926b2ca541e92f9b9bc4cfc8236",
-                    "sha1": "c267a5552aa6a1a00b49147940e35d21b6e8d54e",
-                    "md5": "8e9ac6b31d1d1f4f7a901c521c51baa0",
+,"sha256": "7db00954ee01d6922788b729433ca77fd54fd4e2a088ed3f639fd14aa94bd4bd",
+                    "sha1": "deb4577a65a118505c1948581e7ae4525147b86c",
+                    "md5": "c941631ca77b6a7a448fbba3a0fab413",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/attachments-api@4.1.0-SNAPSHOT"
@@ -385,9 +385,9 @@
                     "isVirtual": false,
                     "fileName": "attachments-api-4.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/attachments-4.1.0-SNAPSHOT\/lib\/attachments-api-4.1.0-SNAPSHOT.jar"
-,"sha256": "e98e987c1252c5a38f2e4311222b667c14761123377e0e4035e1babb906faebc",
-                    "sha1": "16e2ed44632272212bdd526863ceab74f4e66592",
-                    "md5": "6db42ad80d48a78b65ce2398db094cc7"
+,"sha256": "1a0c6d0118597222c3bae87c0e9846e2a5e065c048c35f6386a3b6a77365a1f6",
+                    "sha1": "892b6cebb1e1685eb109eeb60ec734f735a6a659",
+                    "md5": "f4865ba2df8f0b26a2ae77cc0db8d25e"
                 }
             ]
             ,"evidenceCollected": {
