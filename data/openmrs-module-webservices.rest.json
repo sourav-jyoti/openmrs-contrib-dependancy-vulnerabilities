@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-27T12:01:57Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-27T11:16:01Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-27T12:01:57Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-27T11:16:01Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-webservices.rest",
-        "reportDate": "2026-03-27T14:32:18.077394547Z",
+        "reportDate": "2026-04-13T21:45:39.006860647Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -38,7 +38,7 @@
 {
             "isVirtual": false,
             "fileName": "commons-codec-1.14.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/commons-codec-1.14.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/commons-codec-1.14.jar"
 ,"md5": "e9158e0983096d3df09236f7b53125aa",
             "sha1": "3cb1181b2141a7e752f5bdc998b7ef1849f726cf",
             "sha256": "a128e4f93fabe5381ded64cf2873019e06030b718eb43ceeae0b0e5d17ad33e9","description": "\n     The Apache Commons Codec package contains simple encoder and decoders for\n     various formats such as Base64 and Hexadecimal.  In addition to these\n     widely used encoders and decoders, the codec package also maintains a\n     collection of phonetic encoding utilities.\n  ","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -806,7 +806,7 @@
         },{
             "isVirtual": false,
             "fileName": "commons-lang3-3.18.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/commons-lang3-3.18.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/commons-lang3-3.18.0.jar"
 ,"md5": "48b9886957920a4cdb602780ca345087",
             "sha1": "fb14946f0e39748a6571de0635acbe44e7885491",
             "sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720","description": "\n  Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.\n\n  The code is tested using the latest revision of the JDK for supported\n  LTS releases: 8, 11, 17 and 21 currently.\n  See https:\/\/github.com\/apache\/commons-lang\/blob\/master\/.github\/workflows\/maven.yml\n  \n  Please ensure your build environment is up-to-date and kindly report any build issues.\n  ","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -1837,7 +1837,7 @@
         },{
             "isVirtual": false,
             "fileName": "error_prone_annotations-2.36.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/error_prone_annotations-2.36.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/error_prone_annotations-2.36.0.jar"
 ,"md5": "0e48e5ba2cd0a8d8d09bad849b99f6a6",
             "sha1": "227d4d4957ccc3dc5761bd897e3a0ee587e750a7",
             "sha256": "77440e270b0bc9a249903c5a076c36a722c4886ca4f42675f2903a1c53ed61a5","description": "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.","license": "Apache 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -2052,7 +2052,7 @@
         },{
             "isVirtual": false,
             "fileName": "evo-inflector-1.2.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/evo-inflector-1.2.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/evo-inflector-1.2.2.jar"
 ,"md5": "da63c9ef600b74c760d81a09f9053d04",
             "sha1": "2551aad98d65ac5464d81fe05f0e1516cfe471c9",
             "sha256": "c485c110870c597ba401dda2c7c5819a3b2e15ee064f539323138302bd591d48","description": "Evo Inflector implements English pluralization algorithm.","license": "Apache License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -2309,7 +2309,7 @@
         },{
             "isVirtual": false,
             "fileName": "failureaccess-1.0.3.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/failureaccess-1.0.3.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/failureaccess-1.0.3.jar"
 ,"md5": "29a782e90f6b37218b18bb880d2a8f4a",
             "sha1": "aeaffd00d57023a2c947393ed251f0354f0985fc",
             "sha256": "cbfc3906b19b8f55dd7cfd6dfe0aa4532e834250d7f080bd8d211a3e246b59cb","description": "\n    Contains\n    com.google.common.util.concurrent.internal.InternalFutureFailureAccess and\n    InternalFutures. Most users will never need to use this artifact. Its\n    classes are conceptually a part of Guava, but they're in this separate\n    artifact so that Android libraries can use them without pulling in all of\n    Guava (just as they can use ListenableFuture by depending on the\n    listenablefuture artifact).\n  ","license": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -2545,7 +2545,7 @@
         },{
             "isVirtual": false,
             "fileName": "guava-33.4.8-jre.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/guava-33.4.8-jre.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/guava-33.4.8-jre.jar"
 ,"md5": "72920caab34426c5815e3b00f80e3b01",
             "sha1": "e70a3268e6cd3e7d458aa15787ce6811c34e96ae",
             "sha256": "f3d7f57f67fd622f4d468dfdd692b3a5e3909246c28017ac3263405f0fe617ed","description": "\n    Guava is a suite of core and expanded libraries that include\n    utility classes, Google's collections, I\/O classes, and\n    much more.\n  ","license": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -2736,7 +2736,7 @@
         },{
             "isVirtual": false,
             "fileName": "j2objc-annotations-3.0.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/j2objc-annotations-3.0.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/j2objc-annotations-3.0.0.jar"
 ,"md5": "f59529b29202a5baf37f491ea5ec8627",
             "sha1": "7399e65dd7e9ff3404f4535b2f017093bdb134c7",
             "sha256": "88241573467ddca44ffd4d74aa04c2bbfd11bf7c17e0c342c94c9de7a70a7c64","description": "\n    A set of annotations that provide additional information to the J2ObjC\n    translator to modify the result of translation.\n  ","license": "Apache License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -2979,7 +2979,7 @@
         },{
             "isVirtual": false,
             "fileName": "joda-time-2.12.5.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/joda-time-2.12.5.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/joda-time-2.12.5.jar"
 ,"md5": "a0f575850531c768542236ea245b7516",
             "sha1": "698ce67b5e58becfb4ef2cf0393422775e59dff4",
             "sha256": "10628411ecb40c4634196c544f34681abdeef826f377096357433d1f9a135bc6","description": "Date and time library to replace JDK date handling","license": "Apache License, Version 2.0: https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -3320,7 +3320,7 @@
         },{
             "isVirtual": false,
             "fileName": "jspecify-1.0.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/jspecify-1.0.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/jspecify-1.0.0.jar"
 ,"md5": "9133aba420d0ca3b001dbb6ae9992cf6",
             "sha1": "7425a601c1c7ec76645a78d22b8c6a627edee507",
             "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab","description": "An artifact of well-named and well-specified annotations to power static analysis checks","license": "The Apache License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -3598,7 +3598,7 @@
         },{
             "isVirtual": false,
             "fileName": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
 ,"md5": "d094c22570d65e132c19cea5d352e381",
             "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
             "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99","description": "\n    An empty artifact that Guava depends on to signal that it is providing\n    ListenableFuture -- but is also available in a second \"version\" that\n    contains com.google.common.util.concurrent.ListenableFuture class, without\n    any other Guava classes. The idea is:\n\n    - If users want only ListenableFuture, they depend on listenablefuture-1.0.\n\n    - If users want all of Guava, they depend on guava, which, as of Guava\n    27.0, depends on\n    listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-...\n    version number is enough for some build systems (notably, Gradle) to select\n    that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a\n    conflict with the copy of ListenableFuture in guava itself. If users are\n    using an older version of Guava or a build system other than Gradle, they\n    may see class conflicts. If so, they can solve them by manually excluding\n    the listenablefuture artifact or manually forcing their build systems to\n    use 9999.0-....\n  "            ,"evidenceCollected": {
@@ -3701,7 +3701,7 @@
         },{
             "isVirtual": false,
             "fileName": "swagger-annotations-1.6.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/swagger-annotations-1.6.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/swagger-annotations-1.6.2.jar"
 ,"md5": "9bccafd7b6b7e8ad649639716bbc2aad",
             "sha1": "313913e603eaf3bb2c3b05079046ec07bb61f8c6",
             "sha256": "68d68a3d0b55ab68372b90f9b8d93787a8ebcc368b7c4d8d7ee5fb92d57fb11b","license": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0.html"            ,"evidenceCollected": {
@@ -3916,7 +3916,7 @@
         },{
             "isVirtual": false,
             "fileName": "swagger-core-1.6.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/swagger-core-1.6.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/swagger-core-1.6.2.jar"
 ,"md5": "8c915c934545d16f3a869bb0f7c85a81",
             "sha1": "4f062ad1aebb1255b84c851d00694cc7949de832",
             "sha256": "ce829e38ec9cd7c6d676e60d08a32c165684a9bd921936ffbdef576722055163","license": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0.html"            ,"evidenceCollected": {
@@ -4124,7 +4124,7 @@
         },{
             "isVirtual": false,
             "fileName": "swagger-models-1.6.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/swagger-models-1.6.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/swagger-models-1.6.2.jar"
 ,"md5": "886807e3823c717b9f8425215cddb0eb",
             "sha1": "887697058d8464462e8fd6d23c8461e90aec8c08",
             "sha256": "ad2d24d7687e24c80548819e8d9984ed9e9a98dcc67c336c99835246a480be05","license": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0.html"            ,"evidenceCollected": {
@@ -4347,15 +4347,15 @@
  , {
                     "isVirtual": false,
                     "fileName": "swagger-ui-bundle.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-bundle.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-bundle.js"
 ,"sha256": "db68cc5af89a24d72f1221436722740c7d4d50da0fbf97ea94fb87e5a68a984a",
                     "sha1": "95a44d6a9991933edc1ba6d99afe4d809137324e",
                     "md5": "bce4fdf1065efe0a5105e6859a9aec99"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "webservices.rest-3.3.0-SNAPSHOT.jar: swagger-ui-bundle.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT.jar\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-bundle.js"
+                    "fileName": "webservices.rest-3.4.0-SNAPSHOT.jar: swagger-ui-bundle.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT.jar\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-bundle.js"
 ,"sha256": "db68cc5af89a24d72f1221436722740c7d4d50da0fbf97ea94fb87e5a68a984a",
                     "sha1": "95a44d6a9991933edc1ba6d99afe4d809137324e",
                     "md5": "bce4fdf1065efe0a5105e6859a9aec99"
@@ -4388,15 +4388,15 @@
  , {
                     "isVirtual": false,
                     "fileName": "swagger-ui-standalone-preset.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-standalone-preset.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-standalone-preset.js"
 ,"sha256": "a60f4ece3fb5dc31c3d5c912a442aa503675b979253c07fa9c3e56134c0f56b9",
                     "sha1": "9d2881a8e3b44668777532c6d03657b59957c270",
                     "md5": "56a21da2eb8ed246e188d6f32cc61a20"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "webservices.rest-3.3.0-SNAPSHOT.jar: swagger-ui-standalone-preset.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT.jar\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-standalone-preset.js"
+                    "fileName": "webservices.rest-3.4.0-SNAPSHOT.jar: swagger-ui-standalone-preset.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT.jar\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui-standalone-preset.js"
 ,"sha256": "a60f4ece3fb5dc31c3d5c912a442aa503675b979253c07fa9c3e56134c0f56b9",
                     "sha1": "9d2881a8e3b44668777532c6d03657b59957c270",
                     "md5": "56a21da2eb8ed246e188d6f32cc61a20"
@@ -4429,15 +4429,15 @@
  , {
                     "isVirtual": false,
                     "fileName": "swagger-ui.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui.js"
 ,"sha256": "6622925086f8e93d6e31fe12c94c37298e775645fac411fe09e7ac2e9b5b487e",
                     "sha1": "c7cab644a35ac50a6f3ef567e37d694928fcfc81",
                     "md5": "42c55561d035f7f50c1dba08ec934ed1"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "webservices.rest-3.3.0-SNAPSHOT.jar: swagger-ui.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT.jar\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui.js"
+                    "fileName": "webservices.rest-3.4.0-SNAPSHOT.jar: swagger-ui.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT.jar\/web\/module\/resources\/js\/swagger-ui-3.0.10\/swagger-ui.js"
 ,"sha256": "6622925086f8e93d6e31fe12c94c37298e775645fac411fe09e7ac2e9b5b487e",
                     "sha1": "c7cab644a35ac50a6f3ef567e37d694928fcfc81",
                     "md5": "42c55561d035f7f50c1dba08ec934ed1"
@@ -4454,21 +4454,21 @@
 
         },{
             "isVirtual": false,
-            "fileName": "webservices.rest-3.3.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:webservices.rest-omod:3.3.0-SNAPSHOT)",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/webservices.rest-omod\/pom.xml"
-,"md5": "e9cb677210ddd5869482f52ea81a947d",
-            "sha1": "6cfc524527c46a38a6c165b1fa4c048e4b44aa22",
-            "sha256": "a90d4cc036a213daa6b1ed769edf014008dd56c3076bd6d19c03ea724dab6cff","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
+            "fileName": "webservices.rest-3.4.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:webservices.rest-omod:3.4.0-SNAPSHOT)",
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/webservices.rest-omod\/pom.xml"
+,"md5": "13d6845a993b566b28beff4d8269b20d",
+            "sha1": "54bb745c168070fa464b799246852a019dfda9b3",
+            "sha256": "e575c50dac2aaad2e5e4750e28329e92be4e22d68ffd3ec26d38ff5aa2696c02","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "webservices.rest-3.3.0-SNAPSHOT.jar (shaded: org.openmrs.module:webservices.rest-omod:3.3.0-SNAPSHOT)",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/webservices.rest-omod\/pom.xml"
-,"sha256": "a90d4cc036a213daa6b1ed769edf014008dd56c3076bd6d19c03ea724dab6cff",
-                    "sha1": "6cfc524527c46a38a6c165b1fa4c048e4b44aa22",
-                    "md5": "e9cb677210ddd5869482f52ea81a947d",
+                    "fileName": "webservices.rest-3.4.0-SNAPSHOT.jar (shaded: org.openmrs.module:webservices.rest-omod:3.4.0-SNAPSHOT)",
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/webservices.rest-omod\/pom.xml"
+,"sha256": "e575c50dac2aaad2e5e4750e28329e92be4e22d68ffd3ec26d38ff5aa2696c02",
+                    "sha1": "54bb745c168070fa464b799246852a019dfda9b3",
+                    "md5": "13d6845a993b566b28beff4d8269b20d",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/webservices.rest-omod@3.3.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/webservices.rest-omod@3.4.0-SNAPSHOT"
                             }
                     ]
                 }
@@ -4540,26 +4540,26 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "3.3.0-SNAPSHOT"
+                        "value": "3.4.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/webservices.rest-omod@3.3.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/webservices.rest-omod@3.4.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:3.3.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
-            "fileName": "webservices.rest-3.3.0-SNAPSHOT-tests.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT-tests.jar"
-,"md5": "677de151d44dfdb949948a5f36362ca1",
-            "sha1": "b64861cff84405fb02a47dde1834b4c70e8eca59",
-            "sha256": "d5f5cbba04beed72235155dbc3b422c55c9c7a4bb57f5d848800272f7b6f3247"            ,"evidenceCollected": {
+            "fileName": "webservices.rest-3.4.0-SNAPSHOT-tests.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT-tests.jar"
+,"md5": "e10fa2b2b2ebde8cfbd028c064abb739",
+            "sha1": "fc7c72f9b5281fe13f0843a7bb7ae8346fbc534b",
+            "sha256": "18d14422a4174827f94e75246d66bb4aeb8561cadde2dd7e0b736b452d5cd45d"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4647,7 +4647,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "3.3.0.snapshot"
+                        "value": "3.4.0.snapshot"
                     }
 ,                    {
                         "type": "version",
@@ -4668,11 +4668,11 @@
 
         },{
             "isVirtual": false,
-            "fileName": "webservices.rest-3.3.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT.jar"
-,"md5": "705a2ee54101685bd6c8d87b78390bd9",
-            "sha1": "0e1201975069dcacb1c7fc9d3f0593b475e2dc11",
-            "sha256": "98760bcdf3d37dfeb66fa06acbfa99411cf76cd5738cf4ff3fbb3ed18ee7481b"            ,"evidenceCollected": {
+            "fileName": "webservices.rest-3.4.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT.jar"
+,"md5": "fd19215cea96f96728a1b74552508453",
+            "sha1": "2006f24458a1dbba7b987593b323ccc871d01bd0",
+            "sha256": "79bcd08697bc43af4dbf06cff3f33db0ba790cc6f65f5730cd7e94e8659d3906"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4760,7 +4760,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "3.3.0.snapshot"
+                        "value": "3.4.0.snapshot"
                     }
 ,                    {
                         "type": "version",
@@ -4781,21 +4781,21 @@
 
         },{
             "isVirtual": false,
-            "fileName": "webservices.rest-integration-tests-3.3.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/integration-tests\/target\/webservices.rest-integration-tests-3.3.0-SNAPSHOT.jar"
-,"md5": "0dfc1a0285b700bc9b459c905eab6f9b",
-            "sha1": "6b4f8025e775fdf326fc8edb6623559bbd29ec3a",
-            "sha256": "c2577654e07f918e877b9c10eb0b5b3933b038b6028ccd4e6908d2a2027178c9","description": "\n\t\tIt contains integration tests for Rest Web Services. They can be executed \n\t\tagainst a manually started server with the module installed. You can run\n\t\ttests by executing:\n\t\tmvn clean verify -Pintegration-tests -DtestUrl=http:\/\/admin:Admin123@localhost:8080\/openmrs\n\t\tYou can skip testUrl, if it matches the above url.\n\t"            ,"relatedDependencies": [
+            "fileName": "webservices.rest-integration-tests-3.4.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/integration-tests\/target\/webservices.rest-integration-tests-3.4.0-SNAPSHOT.jar"
+,"md5": "541378152eb52af11c070f3f0a94429a",
+            "sha1": "9358fb613d78c66298468f59f541c70dba681b27",
+            "sha256": "6a7cfe9f5b134b3ae042bf523c90591f99d89b529887860438ec4f1f3339f867","description": "\n\t\tIt contains integration tests for Rest Web Services. They can be executed \n\t\tagainst a manually started server with the module installed. You can run\n\t\ttests by executing:\n\t\tmvn clean verify -Pintegration-tests -DtestUrl=http:\/\/admin:Admin123@localhost:8080\/openmrs\n\t\tYou can skip testUrl, if it matches the above url.\n\t"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "webservices.rest-integration-tests-3.3.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/integration-tests\/target\/webservices.rest-integration-tests-3.3.0-SNAPSHOT-tests.jar"
-,"sha256": "3ba7a36f116d25215a63410ee391675e4f96413f442d5ed73016d43cccbe7087",
-                    "sha1": "2e2456fddcf3dcd82da70ee2c5b139d03858c58e",
-                    "md5": "d1d10f47b00f7c785fa133af098c6e9a",
+                    "fileName": "webservices.rest-integration-tests-3.4.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/integration-tests\/target\/webservices.rest-integration-tests-3.4.0-SNAPSHOT-tests.jar"
+,"sha256": "8f864a4009b338bbc7841df4aa42c790feea5274ce971757d1a49710817cc03c",
+                    "sha1": "3b768166bd58057d38690ef462a00b2e11fe2677",
+                    "md5": "eb650baf64a173eef04c3bb06cf2c719",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/webservices.rest-integration-tests@3.3.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/webservices.rest-integration-tests@3.4.0-SNAPSHOT"
                             }
                     ]
                 }
@@ -4895,46 +4895,46 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "3.3.0-SNAPSHOT"
+                        "value": "3.4.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/webservices.rest-integration-tests@3.3.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/webservices.rest-integration-tests@3.4.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:3.3.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
-            "fileName": "webservices.rest-omod-common-3.3.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.3.0-SNAPSHOT.jar"
-,"md5": "b5fcdf434a5cb032b1d43d59ca9a29b5",
-            "sha1": "d4eec02052d30f36c71c1cd5b30536728dc73131",
-            "sha256": "2646ba14d368ac38e535f35a3d8c517a3de907cfb316927eb1420668c2964a69","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
+            "fileName": "webservices.rest-omod-common-3.4.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.4.0-SNAPSHOT.jar"
+,"md5": "6cc32719438050b9ea32f5720869dcaa",
+            "sha1": "f6f25ec848b251c6fc185a619ebe6260952784e4",
+            "sha256": "9a49aaefcec89c7de232978b50b70cdebd246cab5b289534bc2987cc70724737","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "webservices.rest-omod-common-3.3.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.3.0-SNAPSHOT-tests.jar"
-,"sha256": "82626eb962036cf26819c5c292e9d23171c772a24e31e4cd36a3a292842dc60a",
-                    "sha1": "410fb0917e7fca6c5bffa389fd0b4e02a5ce9b7c",
-                    "md5": "fcab4fcea0a99221c596172cf6432dbd",
+                    "fileName": "webservices.rest-omod-common-3.4.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.4.0-SNAPSHOT-tests.jar"
+,"sha256": "0ce07b884d9c9e150d5a700c7212706a4620f54fa2787ccd78e6ab57a3f7fbba",
+                    "sha1": "c442b81ab21f1796f0bfe231ada2eee2357c4daf",
+                    "md5": "70a0463c1e6ce561255734045dc29758",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/webservices.rest-omod-common@3.3.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/webservices.rest-omod-common@3.4.0-SNAPSHOT"
                             }
                     ]
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "webservices.rest-omod-common-3.3.0-SNAPSHOT.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.3.0-SNAPSHOT\/lib\/webservices.rest-omod-common-3.3.0-SNAPSHOT.jar"
-,"sha256": "2646ba14d368ac38e535f35a3d8c517a3de907cfb316927eb1420668c2964a69",
-                    "sha1": "d4eec02052d30f36c71c1cd5b30536728dc73131",
-                    "md5": "b5fcdf434a5cb032b1d43d59ca9a29b5"
+                    "fileName": "webservices.rest-omod-common-3.4.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/webservices.rest-omod-common-3.4.0-SNAPSHOT.jar"
+,"sha256": "9a49aaefcec89c7de232978b50b70cdebd246cab5b289534bc2987cc70724737",
+                    "sha1": "f6f25ec848b251c6fc185a619ebe6260952784e4",
+                    "md5": "6cc32719438050b9ea32f5720869dcaa"
                 }
             ]
             ,"evidenceCollected": {
@@ -5088,18 +5088,18 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "3.3.0-SNAPSHOT"
+                        "value": "3.4.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/webservices.rest-omod-common@3.3.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/webservices.rest-omod-common@3.4.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:3.3.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         }    ]
 }
