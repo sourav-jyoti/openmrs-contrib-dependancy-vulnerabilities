@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-02T12:05:29Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-02T11:16:23Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-02T12:05:29Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-02T11:16:23Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -203,7 +203,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-openconceptlab",
-        "reportDate": "2026-04-02T22:12:29.920162503Z",
+        "reportDate": "2026-04-13T21:40:36.474288212Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -20713,7 +20713,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -20722,7 +20722,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -20731,7 +20731,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.5"
                     }
@@ -21478,7 +21478,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -21487,7 +21487,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -21496,7 +21496,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.5"
                     }
@@ -22557,7 +22557,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -22566,7 +22566,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -22575,7 +22575,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.11"
                     }
@@ -23322,7 +23322,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -23331,7 +23331,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -23340,7 +23340,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.11"
                     }
@@ -24177,7 +24177,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -24186,7 +24186,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -24195,7 +24195,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.11"
                     }
@@ -24942,7 +24942,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -24951,7 +24951,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -24960,7 +24960,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.11"
                     }
@@ -25797,7 +25797,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -25806,7 +25806,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -25815,7 +25815,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.6.1"
                     }
@@ -26548,7 +26548,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -26557,7 +26557,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -26566,7 +26566,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.6.1"
                     }
@@ -28118,7 +28118,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -28127,7 +28127,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -28136,7 +28136,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.5"
                     }
@@ -28883,7 +28883,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -28892,7 +28892,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -28901,7 +28901,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.4.0-beta.6"
                     }
@@ -29714,7 +29714,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -29723,7 +29723,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -29732,7 +29732,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.5"
                     }
@@ -30604,7 +30604,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "2.3","impactScore": "2.7","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:L\/UI:A\/VC:H\/VI:H\/VA:H\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:L\/UI:A\/VC:H\/VI:H\/VA:H\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "security-advisories@github.com"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -30688,7 +30688,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:L\/UI:A\/VC:H\/VI:H\/VA:H\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:L\/UI:A\/VC:H\/VI:H\/VA:H\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "security-advisories@github.com"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -30794,7 +30794,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:P\/VC:H\/VI:H\/VA:N\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:P\/VC:H\/VI:H\/VA:N\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "security-advisories@github.com"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -32372,7 +32372,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -32381,7 +32381,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -32390,7 +32390,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.4.14"
                     }
@@ -38653,7 +38653,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "axios"
                         }
@@ -38662,7 +38662,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "axios"
                     }
@@ -38671,7 +38671,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "0.21.1"
                     }
@@ -38684,6 +38684,28 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "RETIREJS",
+                "name": "CVE-2025-62718",
+"unscored": "true", "severity" : "critical",
+                "description": "",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2025-27152",
                     "severity" : "HIGH",
@@ -38700,7 +38722,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "security-advisories@github.com"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -39057,6 +39079,20 @@
                     }                ]
                 }, {
                 "source": "RETIREJS",
+                "name": "CVE-2026-39865",
+"unscored": "true", "severity" : "medium",
+                "description": "",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
+                "source": "RETIREJS",
                 "name": "Versions before 1.6.8 depends on follow-redirects before 1.15.6 which could leak the proxy authentication credentials",
 "unscored": "true", "severity" : "medium",
                 "description": "Versions before 1.6.8 depends on follow-redirects before 1.15.6 which could leak the proxy authentication credentials",
@@ -39095,7 +39131,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "axios"
                         }
@@ -39104,7 +39140,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "axios"
                     }
@@ -39113,7 +39149,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "0.21.1"
                     }
@@ -39126,6 +39162,28 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "RETIREJS",
+                "name": "CVE-2025-62718",
+"unscored": "true", "severity" : "critical",
+                "description": "",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2025-27152",
                     "severity" : "HIGH",
@@ -39142,7 +39200,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "security-advisories@github.com"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -39497,6 +39555,20 @@
                             "id":"cpe:2.3:a:axios:axios:1.5.1:*:*:*:*:node.js:*:*"
                         }
                     }                ]
+                }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-39865",
+"unscored": "true", "severity" : "medium",
+                "description": "",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8"                    }                ],
+                "vulnerableSoftware": [
+                ]
                 }, {
                 "source": "RETIREJS",
                 "name": "Versions before 1.6.8 depends on follow-redirects before 1.15.6 which could leak the proxy authentication credentials",
@@ -39607,6 +39679,46 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "NPM",
+                "name": "GHSA-fvcv-3m26-pcqx",
+"unscored": "true", "severity" : "critical",
+                    "cvssv3": {
+                        "baseScore": 10.0
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-444",                        "CWE-918",                        "CWE-113"                    ],
+                "description": "# Vulnerability Disclosure: Unrestricted Cloud Metadata Exfiltration via Header Injection Chain\n\n## Summary\nThe Axios library is vulnerable to a specific \"Gadget\" attack chain that allows **Prototype Pollution** in any third-party dependency to be escalated into **Remote Code Execution (RCE)** or **Full Cloud Compromise** (via AWS IMDSv2 bypass).\n\nWhile Axios patches exist for *preventing check* pollution, the library remains vulnerable to *being used* as a gadget when pollution occurs elsewhere. This is due to a lack of HTTP Header Sanitization (CWE-113) combined with default SSRF capabilities.\n\n**Severity**: Critical (CVSS 9.9)\n**Affected Versions**: All versions (v0.x - v1.x)\n**Vulnerable Component**: `lib\/adapters\/http.js` (Header Processing)\n\n## Usage of \"Helper\" Vulnerabilities\nThis vulnerability is unique because it requires **Zero Direct User Input**.\nIf an attacker can pollute `Object.prototype` via *any* other library in the stack (e.g., `qs`, `minimist`, `ini`, `body-parser`), Axios will automatically pick up the polluted properties during its config merge.\n\nBecause Axios does not sanitise these merged header values for CRLF (`\\r\\n`) characters, the polluted property becomes a **Request Smuggling** payload.\n\n## Proof of Concept\n\n### 1. The Setup (Simulated Pollution)\nImagine a scenario where a known vulnerability exists in a query parser. The attacker sends a payload that sets:\n```javascript\nObject.prototype['x-amz-target'] = \"dummy\\r\\n\\r\\nPUT \/latest\/api\/token HTTP\/1.1\\r\\nHost: 169.254.169.254\\r\\nX-aws-ec2-metadata-token-ttl-seconds: 21600\\r\\n\\r\\nGET \/ignore\";\n```\n\n### 2. The Gadget Trigger (Safe Code)\nThe application makes a completely safe, hardcoded request:\n```javascript\n\/\/ This looks safe to the developer\nawait axios.get('https:\/\/analytics.internal\/pings'); \n```\n\n### 3. The Execution\nAxios merges the prototype property `x-amz-target` into the request headers. It then writes the header value directly to the socket without validation.\n\n**Resulting HTTP traffic:**\n```http\nGET \/pings HTTP\/1.1\nHost: analytics.internal\nx-amz-target: dummy\n\nPUT \/latest\/api\/token HTTP\/1.1\nHost: 169.254.169.254\nX-aws-ec2-metadata-token-ttl-seconds: 21600\n\nGET \/ignore HTTP\/1.1\n...\n```\n\n### 4. The Impact (IMDSv2 Bypass)\nThe \"Smuggled\" second request is a valid `PUT` request to the AWS Metadata Service. It includes the required `X-aws-ec2-metadata-token-ttl-seconds` header (which a normal SSRF cannot send).\nThe Metadata Service returns a session token, allowing the attacker to steal IAM credentials and compromise the cloud account.\n\n## Impact Analysis\n-   **Security Control Bypass**: Defeats AWS IMDSv2 (Session Tokens).\n-   **Authentication Bypass**: Can inject headers (`Cookie`, `Authorization`) to pivot into internal administrative panels.\n-   **Cache Poisoning**: Can inject `Host` headers to poison shared caches.\n\n## Recommended Fix\nValidate all header values in `lib\/adapters\/http.js` and `xhr.js` before passing them to the underlying request function.\n\n**Patch Suggestion:**\n```javascript\n\/\/ In lib\/adapters\/http.js\nutils.forEach(requestHeaders, function setRequestHeader(val, key) {\n  if (\/[\\r\\n]\/.test(val)) {\n    throw new Error('Security: Header value contains invalid characters');\n  }\n  \/\/ ... proceed to set header\n});\n```\n\n## References\n-   **OWASP**: CRLF Injection (CWE-113)\n\nThis report was generated as part of a security audit of the Axios library.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/advisories\/GHSA-fvcv-3m26-pcqx"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-40175","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-40175"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1","name": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:axios:\\<1.15.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2024-57965",
                     "severity" : "CRITICAL",
@@ -39643,6 +39755,38 @@
 ,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.7.8"                        }
                     }                ]
                 }, {
+                "source": "NPM",
+                "name": "GHSA-3p68-rc4w-qgx5",
+"unscored": "true", "severity" : "critical",
+                    "cwes": [
+                        "CWE-918",                        "CWE-441"                    ],
+                "description": "Axios does not correctly handle hostname normalization when checking `NO_PROXY` rules.\nRequests to loopback addresses like `localhost.` (with a trailing dot) or `[::1]` (IPv6 literal) skip `NO_PROXY` matching and go through the configured proxy.\n\nThis goes against what developers expect and lets attackers force requests through a proxy, even if `NO_PROXY` is set up to protect loopback or internal services.\n\nAccording to [RFC 1034 \u00A73.1](https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1) and [RFC 3986 \u00A73.2.2](https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2), a hostname can have a trailing dot to show it is a fully qualified domain name (FQDN). At the DNS level, `localhost.` is the same as `localhost`. \nHowever, Axios does a literal string comparison instead of normalizing hostnames before checking `NO_PROXY`. This causes requests like `http:\/\/localhost.:8080\/` and `http:\/\/[::1]:8080\/` to be incorrectly proxied.\n\nThis issue leads to the possibility of proxy bypass and SSRF vulnerabilities allowing attackers to reach sensitive loopback or internal services despite the configured protections.\n\n---\n\n**PoC**\n\n```js\nimport http from \"http\";\nimport axios from \"axios\";\n\nconst proxyPort = 5300;\n\nhttp.createServer((req, res) => {\n  console.log(\"[PROXY] Got:\", req.method, req.url, \"Host:\", req.headers.host);\n  res.writeHead(200, { \"Content-Type\": \"text\/plain\" });\n  res.end(\"proxied\");\n}).listen(proxyPort, () => console.log(\"Proxy\", proxyPort));\n\nprocess.env.HTTP_PROXY = `http:\/\/127.0.0.1:${proxyPort}`;\nprocess.env.NO_PROXY = \"localhost,127.0.0.1,::1\";\n\nasync function test(url) {\n  try {\n    await axios.get(url, { timeout: 2000 });\n  } catch {}\n}\n\nsetTimeout(async () => {\n  console.log(\"\\n[*] Testing http:\/\/localhost.:8080\/\");\n  await test(\"http:\/\/localhost.:8080\/\"); \/\/ goes through proxy\n\n  console.log(\"\\n[*] Testing http:\/\/[::1]:8080\/\");\n  await test(\"http:\/\/[::1]:8080\/\"); \/\/ goes through proxy\n}, 500);\n```\n\n**Expected:** Requests bypass the proxy (direct to loopback).\n**Actual:** Proxy logs requests for `localhost.` and `[::1]`.\n\n---\n\n**Impact**\n\n* Applications that rely on `NO_PROXY=localhost,127.0.0.1,::1` for protecting loopback\/internal access are vulnerable.\n* Attackers controlling request URLs can:\n\n  * Force Axios to send local traffic through an attacker-controlled proxy.\n  * Bypass SSRF mitigations relying on NO\\_PROXY rules.\n  * Potentially exfiltrate sensitive responses from internal services via the proxy.\n  \n  \n---\n\n**Affected Versions**\n\n* Confirmed on Axios **1.12.2** (latest at time of testing).\n* affects all versions that rely on Axios\u2019 current `NO_PROXY` evaluation.\n\n---\n\n**Remediation**\nAxios should normalize hostnames before evaluating `NO_PROXY`, including:\n\n* Strip trailing dots from hostnames (per RFC 3986).\n* Normalize IPv6 literals by removing brackets for matching.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/advisories\/GHSA-3p68-rc4w-qgx5"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:axios:\\<1.15.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2025-27152",
                     "severity" : "HIGH",
@@ -39659,7 +39803,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "security-advisories@github.com"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -56417,6 +56561,13 @@
                 ],
                 "versionEvidence": [
                     {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "6.0.0"
+                    }
+,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "package.json",
@@ -93352,6 +93503,13 @@
                         "name": "version",
                         "value": "1.1.2"
                     }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "4.1.0"
+                    }
                 ]
             }
                 ,"packages": [
@@ -124036,6 +124194,13 @@
                         "confidence": "HIGHEST",
                         "source": "package.json",
                         "name": "version",
+                        "value": "2.0.1"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
                         "value": "2.0.4"
                     }
                 ]
@@ -125934,6 +126099,13 @@
                         "name": "version",
                         "value": "0.1.6"
                     }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.0.0"
+                    }
                 ]
             }
                 ,"packages": [
@@ -126679,6 +126851,13 @@
                         "source": "package.json",
                         "name": "version",
                         "value": "0.1.4"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.0.0"
                     }
                 ]
             }
@@ -127512,6 +127691,13 @@
                 ],
                 "versionEvidence": [
                     {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.0.0"
+                    }
+,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "package.json",
@@ -139270,7 +139456,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "lodash"
                         }
@@ -139279,7 +139465,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "lodash"
                     }
@@ -139288,7 +139474,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "4.17.20"
                     }
@@ -139301,6 +139487,58 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "NVD",
+                "name": "CVE-2026-4800",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-94"                    ],
+                "description": "Impact:\n\nThe fix for CVE-2021-23337 (https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm) added validation for the variable option in _.template but did not apply the same validation to options.imports key names. Both paths flow into the same Function() constructor sink.\n\nWhen an application passes untrusted input as options.imports key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time.\n\nAdditionally, _.template uses assignInWith to merge imports, which enumerates inherited properties via for..in. If Object.prototype has been polluted by any other vector, the polluted keys are copied into the imports object and passed to Function().\n\nPatches:\n\nUsers should upgrade to version 4.18.0.\n\nWorkarounds:\n\nDo not pass untrusted input as key names in options.imports. Only use developer-controlled, static key names.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c","name": "PATCH"                    }, {
+                        "source": "info"
+,"url": "https:\/\/cna.openjsf.org\/security-advisories.html","name": "https:\/\/cna.openjsf.org\/security-advisories.html"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-r5fr-rjxr-66jc","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-r5fr-rjxr-66jc"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/cna.openjsf.org\/security-advisories.html","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c","name": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-es:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-rails:*:*:*:*:*:ruby:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash.template:*:*:*:*:*:node.js:*:*"
+,"versionEndIncluding":"4.5.0"                        }
+                    }                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2021-23337",
                     "severity" : "HIGH",
@@ -139631,7 +139869,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:L\/VA:L\/SC:H\/SI:H\/SA:H\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:L\/VA:L\/SC:H\/SI:H\/SA:H\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "ce714d77-add3-4f53-aff5-83d477b104bb"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -139983,6 +140221,52 @@
                         "software": { 
                             "id":"cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*"
                         }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-2950",
+                    "severity" : "MEDIUM",
+                    "cvssv3": {
+                        "baseScore": 5.3
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-1321"                    ],
+                "description": "Impact:\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the _.unset and _.omit functions. The fix for (CVE-2025-13465: https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as Object.prototype, Number.prototype, and String.prototype.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\nPatches:\n\nThis issue is patched in 4.18.0.\n\nWorkarounds:\n\nNone. Upgrade to the patched version.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-f23m-r3pf-42rh","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-f23m-r3pf-42rh"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-amd:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-es:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash.unset:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0"                        }
                     }                ]
                 }            ]        },{
             "isVirtual": true,
@@ -140078,7 +140362,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "lodash"
                         }
@@ -140087,7 +140371,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "lodash"
                     }
@@ -140096,7 +140380,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "4.17.20"
                     }
@@ -140109,6 +140393,58 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "NVD",
+                "name": "CVE-2026-4800",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-94"                    ],
+                "description": "Impact:\n\nThe fix for CVE-2021-23337 (https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm) added validation for the variable option in _.template but did not apply the same validation to options.imports key names. Both paths flow into the same Function() constructor sink.\n\nWhen an application passes untrusted input as options.imports key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time.\n\nAdditionally, _.template uses assignInWith to merge imports, which enumerates inherited properties via for..in. If Object.prototype has been polluted by any other vector, the polluted keys are copied into the imports object and passed to Function().\n\nPatches:\n\nUsers should upgrade to version 4.18.0.\n\nWorkarounds:\n\nDo not pass untrusted input as key names in options.imports. Only use developer-controlled, static key names.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c","name": "PATCH"                    }, {
+                        "source": "info"
+,"url": "https:\/\/cna.openjsf.org\/security-advisories.html","name": "https:\/\/cna.openjsf.org\/security-advisories.html"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-r5fr-rjxr-66jc","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-r5fr-rjxr-66jc"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/cna.openjsf.org\/security-advisories.html","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c","name": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-es:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-rails:*:*:*:*:*:ruby:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash.template:*:*:*:*:*:node.js:*:*"
+,"versionEndIncluding":"4.5.0"                        }
+                    }                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2021-23337",
                     "severity" : "HIGH",
@@ -140439,7 +140775,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:L\/VA:L\/SC:H\/SI:H\/SA:H\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:L\/VA:L\/SC:H\/SI:H\/SA:H\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "ce714d77-add3-4f53-aff5-83d477b104bb"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -140791,6 +141127,52 @@
                         "software": { 
                             "id":"cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*"
                         }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-2950",
+                    "severity" : "MEDIUM",
+                    "cvssv3": {
+                        "baseScore": 5.3
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-1321"                    ],
+                "description": "Impact:\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the _.unset and _.omit functions. The fix for (CVE-2025-13465: https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as Object.prototype, Number.prototype, and String.prototype.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\nPatches:\n\nThis issue is patched in 4.18.0.\n\nWorkarounds:\n\nNone. Upgrade to the patched version.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-f23m-r3pf-42rh","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-f23m-r3pf-42rh"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-amd:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-es:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash.unset:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0"                        }
                     }                ]
                 }            ]        },{
             "isVirtual": true,
@@ -141047,6 +141429,48 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "NVD",
+                "name": "CVE-2026-4800",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-94"                    ],
+                "description": "Impact:\n\nThe fix for CVE-2021-23337 (https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm) added validation for the variable option in _.template but did not apply the same validation to options.imports key names. Both paths flow into the same Function() constructor sink.\n\nWhen an application passes untrusted input as options.imports key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time.\n\nAdditionally, _.template uses assignInWith to merge imports, which enumerates inherited properties via for..in. If Object.prototype has been polluted by any other vector, the polluted keys are copied into the imports object and passed to Function().\n\nPatches:\n\nUsers should upgrade to version 4.18.0.\n\nWorkarounds:\n\nDo not pass untrusted input as key names in options.imports. Only use developer-controlled, static key names.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c","name": "PATCH"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/cna.openjsf.org\/security-advisories.html","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm","name": "THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-es:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash.template:*:*:*:*:*:node.js:*:*"
+,"versionEndIncluding":"4.5.0"                        }
+                    }                ]
+                }, {
                 "source": "NPM",
                 "name": "GHSA-jf85-cpcp-j695",
 "unscored": "true", "severity" : "critical",
@@ -142889,6 +143313,48 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "NVD",
+                "name": "CVE-2026-4800",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-94"                    ],
+                "description": "Impact:\n\nThe fix for CVE-2021-23337 (https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm) added validation for the variable option in _.template but did not apply the same validation to options.imports key names. Both paths flow into the same Function() constructor sink.\n\nWhen an application passes untrusted input as options.imports key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time.\n\nAdditionally, _.template uses assignInWith to merge imports, which enumerates inherited properties via for..in. If Object.prototype has been polluted by any other vector, the polluted keys are copied into the imports object and passed to Function().\n\nPatches:\n\nUsers should upgrade to version 4.18.0.\n\nWorkarounds:\n\nDo not pass untrusted input as key names in options.imports. Only use developer-controlled, static key names.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c","name": "PATCH"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/cna.openjsf.org\/security-advisories.html","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm","name": "THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-es:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"4.17.21"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash.template:*:*:*:*:*:node.js:*:*"
+,"versionEndIncluding":"4.5.0"                        }
+                    }                ]
+                }, {
                 "source": "NPM",
                 "name": "GHSA-r5fr-rjxr-66jc",
 "unscored": "true", "severity" : "high",
@@ -143211,7 +143677,7 @@
                         ,"baseSeverity": "MEDIUM"
 ,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:L\/VA:L\/SC:H\/SI:H\/SA:H\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:L\/VA:L\/SC:H\/SI:H\/SA:H\/E:P\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "ce714d77-add3-4f53-aff5-83d477b104bb"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -143625,6 +144091,48 @@
                         "software": { 
                             "id":"cpe:2.3:a:siemens:sinec_ins:1.0:sp1:*:*:*:*:*:*"
                         }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-2950",
+                    "severity" : "MEDIUM",
+                    "cvssv3": {
+                        "baseScore": 5.3
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-1321"                    ],
+                "description": "Impact:\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the _.unset and _.omit functions. The fix for (CVE-2025-13465: https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as Object.prototype, Number.prototype, and String.prototype.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\nPatches:\n\nThis issue is patched in 4.18.0.\n\nWorkarounds:\n\nNone. Upgrade to the patched version.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*"
+,"vulnerabilityIdMatched":"true","versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-amd:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash-es:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0","versionEndExcluding":"4.17.23"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:lodash:lodash.unset:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"4.0.0"                        }
                     }                ]
                 }            ]        },{
             "isVirtual": false,
@@ -150633,7 +151141,7 @@
                         ,"baseSeverity": "HIGH"
 ,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:N\/VA:H\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:N\/UI:N\/VC:N\/VI:N\/VA:H\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "security-advisories@github.com"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -159406,9 +159914,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "580282e2266a88328d15dffd3807536d",
-            "sha1": "bd256eb92890f4d174454fa2923c17e88d4b69f7",
-            "sha256": "a7de82328d3cb6ebfe08b8c9c07e12e7f1f614464ac1b9e97df790d19a3db053"            ,"evidenceCollected": {
+,"md5": "201ed689d7bbe8aaf31cb1d76b01db1a",
+            "sha1": "1ac500073d8e9cc7766a8aa1ba5fcb91d5441e3b",
+            "sha256": "f0fd99808588a0b43d99cfb942f92877f396b88fd0c1a6cce4513e7915332609"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -159535,9 +160043,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT.jar"
-,"md5": "116b9f0808a34e61447fc15b5ca11988",
-            "sha1": "d7de8cea655d45b2c5e804809f09dcbee0982a4f",
-            "sha256": "21c9c07a264a64e911d60331f33b1c15299df7c59bc7b651556d9033d76b9e49"            ,"evidenceCollected": {
+,"md5": "7656370454659d00212d1511a45723a0",
+            "sha1": "ef7f4ea3bb56edf7f1ad92547526a2129e774d56",
+            "sha256": "dc590cf985042db6f62eaa0805c623e9f9fc0b74299b74b85b661e29369d74d9"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -159641,9 +160149,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "3d5386fab3819753310621f8ad644958",
-            "sha1": "4360bcaea0a8c794df8810b331d35d4cc25153b0",
-            "sha256": "4cda7b719bef653e8d35ee76b4ca9dc8410e9b7e3b043784ec55153038146195"            ,"evidenceCollected": {
+,"md5": "56006b51b2a163b2591dc5cc4ea43037",
+            "sha1": "069fbf076a3c528c307e07fcf03056aa72eb6990",
+            "sha256": "e024ccaf39903cf2f543821082dd25ad5f8a0a0862e175c8e56fcdaee246e8e8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -159725,16 +160233,16 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"md5": "5b03ac68ede12420f21da959d9f3cd5a",
-            "sha1": "0c38825dcd29ad854b38648b6d9450be7f1f9096",
-            "sha256": "27e27d79ccc35888545ee66b80984b8ec6a5a536b27ec772ecf4cc777f0cbf98","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
+,"md5": "6e8d47d94a65ed66d6b74cd7b04e639b",
+            "sha1": "39760d7df6db215838ef2fc2c89ad07ed2f96d5a",
+            "sha256": "15d6579640c2bee37c9a044dfad752dd08de9ce839d1e208ba2ff8b040fbd2e3","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT\/lib\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "27e27d79ccc35888545ee66b80984b8ec6a5a536b27ec772ecf4cc777f0cbf98",
-                    "sha1": "0c38825dcd29ad854b38648b6d9450be7f1f9096",
-                    "md5": "5b03ac68ede12420f21da959d9f3cd5a"
+,"sha256": "15d6579640c2bee37c9a044dfad752dd08de9ce839d1e208ba2ff8b040fbd2e3",
+                    "sha1": "39760d7df6db215838ef2fc2c89ad07ed2f96d5a",
+                    "md5": "6e8d47d94a65ed66d6b74cd7b04e639b"
                 }
             ]
             ,"evidenceCollected": {
@@ -160003,7 +160511,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -160012,7 +160520,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -160021,7 +160529,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.5"
                     }
@@ -177433,7 +177941,7 @@
                         ,"baseSeverity": "LOW"
 ,"exploitabilityScore": "2.2","impactScore": "1.4","version": "3.1"                    },
                     "cvssv4": {
-                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:N\/VI:N\/VA:L\/SC:N\/SI:N\/SA:L\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:N\/V:X\/RE:X\/U:X"
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:N\/VI:N\/VA:L\/SC:N\/SI:N\/SA:L\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
                         ,"source": "7ffcee3d-2c14-4c3e-b844-86c6a321a158"
                         ,"type": "Secondary"
                         ,"version": "4.0"
@@ -215252,7 +215760,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "ua-parser-js"
                         }
@@ -215261,7 +215769,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "ua-parser-js"
                     }
@@ -215270,7 +215778,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "0.7.23"
                     }
@@ -215353,7 +215861,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "ua-parser-js"
                         }
@@ -215362,7 +215870,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "ua-parser-js"
                     }
@@ -215371,7 +215879,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "0.7.23"
                     }
@@ -215454,7 +215962,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "ua-parser-js"
                         }
@@ -215463,7 +215971,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "ua-parser-js"
                     }
@@ -215472,7 +215980,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "0.7.23"
                     }
@@ -219958,6 +220466,13 @@
                         "confidence": "HIGHEST",
                         "source": "package.json",
                         "name": "version",
+                        "value": "0.10.3"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
                         "value": "0.10.4"
                     }
                 ]
@@ -221352,7 +221867,7 @@
 {
                             "type": "vendor",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                         }
@@ -221361,7 +221876,7 @@
 {
                             "type": "product",
                             "confidence": "HIGH",
-                            "source": "file",
+                            "source": "RetireJS",
                             "name": "name",
                             "value": "angularjs"
                     }
@@ -221370,7 +221885,7 @@
                     {
                         "type": "version",
                         "confidence": "HIGH",
-                        "source": "file",
+                        "source": "RetireJS",
                         "name": "version",
                         "value": "1.5.5"
                     }
@@ -228172,6 +228687,13 @@
                 ],
                 "versionEvidence": [
                     {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "4.0.1"
+                    }
+,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "package.json",
