@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-19T11:56:42Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-19T11:16:14Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-19T11:56:42Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-19T11:16:14Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-addresshierarchy",
-        "reportDate": "2026-03-19T13:39:24.495721395Z",
+        "reportDate": "2026-04-13T21:16:51.344105148Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -166,9 +166,9 @@
             "isVirtual": false,
             "fileName": "addresshierarchy-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/addresshierarchy-3.0.0-SNAPSHOT.jar"
-,"md5": "e554bc186646ca114614b35a4f6847d6",
-            "sha1": "21d62aab366a88dc0848567febb796d986366972",
-            "sha256": "d8259528b932a163f167a754450d2b3c47f71abec85e79881de27e5e602179b8"            ,"evidenceCollected": {
+,"md5": "f160939b5ed0a3b527bf80ee2b1f9ba7",
+            "sha1": "9ae9ef671e86199cd115758db257130e8cad6f1b",
+            "sha256": "fcfefaa678faace2812ab42ad5e4799873b5a13841fea7d5f16da4a6f2fca010"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -279,16 +279,16 @@
             "isVirtual": false,
             "fileName": "addresshierarchy-api-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/addresshierarchy-api-3.0.0-SNAPSHOT.jar"
-,"md5": "3a432f3b8b33c298426fa5b536657548",
-            "sha1": "222551359f769cdf75d3936bf4059a3867ddff0d",
-            "sha256": "cad68e38c7f3cccee564f13e99f781576cba223f97fb6ac6658da85f0f32422b","description": "API project for Address Hierarchy"            ,"relatedDependencies": [
+,"md5": "5148cdc943a50e83d888bbb835809c30",
+            "sha1": "c9702a495bf79e0122b32177b77712e176d5b6a0",
+            "sha256": "c7d2ab86e054af112cce785667053f81563b482dd46796336f0fa51b9f7407d2","description": "API project for Address Hierarchy"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "addresshierarchy-api-3.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/addresshierarchy-3.0.0-SNAPSHOT\/lib\/addresshierarchy-api-3.0.0-SNAPSHOT.jar"
-,"sha256": "cad68e38c7f3cccee564f13e99f781576cba223f97fb6ac6658da85f0f32422b",
-                    "sha1": "222551359f769cdf75d3936bf4059a3867ddff0d",
-                    "md5": "3a432f3b8b33c298426fa5b536657548"
+,"sha256": "c7d2ab86e054af112cce785667053f81563b482dd46796336f0fa51b9f7407d2",
+                    "sha1": "c9702a495bf79e0122b32177b77712e176d5b6a0",
+                    "md5": "5148cdc943a50e83d888bbb835809c30"
                 }
             ]
             ,"evidenceCollected": {
