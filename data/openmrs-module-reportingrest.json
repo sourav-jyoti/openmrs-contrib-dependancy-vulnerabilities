@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-19T11:56:42Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-19T11:16:14Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-19T11:56:42Z"
+                "timestamp": "2026-04-13T12:40:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-19T11:16:14Z"
+                "timestamp": "2026-04-13T11:38:48Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-reportingrest",
-        "reportDate": "2026-03-19T13:09:31.451197334Z",
+        "reportDate": "2026-04-13T21:45:10.137951203Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "reportingrest-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/reportingrest-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "3fceadaefae881bbe8b2bdeb37a7acb1",
-            "sha1": "2e838266d06e75b3c85d6ce222f64c0a37af1954",
-            "sha256": "584ab6344190f00b6bcc09a77c0e33ab9637096e55fe4bb6c367ffae2e3b8446"            ,"evidenceCollected": {
+,"md5": "b5d7e60557abc6e8ccfc5cfff0e7c0f5",
+            "sha1": "daca5f7f9fb43b3a53179913807e75c6776cebef",
+            "sha256": "e1a4a13f4c8fa8defca1048fd786d939fec99d39c13f1d9675c3a2d1f607ffbe"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -664,9 +664,9 @@
             "isVirtual": false,
             "fileName": "reportingrest-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/reportingrest-2.1.0-SNAPSHOT.jar"
-,"md5": "6a97769c48384537f6917c8b5d793649",
-            "sha1": "b7d774b6c3cf644932dd50157480e28abf9c24bd",
-            "sha256": "b11eb0fc26aa052271bff32ac63df88893632568acd403ef9bbac69995799c20"            ,"evidenceCollected": {
+,"md5": "9358a06787984536162ece65b17599e2",
+            "sha1": "bd98cbe7e03107a67338569ef8258d27bf25efd6",
+            "sha256": "e7e8abfe3af9844f1f37817545e2a14e14d96aa97a95615693adc262dbb7d9ee"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -777,9 +777,9 @@
             "isVirtual": false,
             "fileName": "reportingrest-api-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/reportingrest-api-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "72e7087969be7db4416523bb86502ea1",
-            "sha1": "6ff402d04921a6411e6e445518ee7c6203bb919c",
-            "sha256": "cf45acb02b993d362830017aac2a0bd94d6643165f85dc488d6bd7ec2ad42b14"            ,"evidenceCollected": {
+,"md5": "1a3730b68d549135b71a6c840c7045cb",
+            "sha1": "01cda537fbe4f9fc18b3c1dc7be0e2c4e6c5d5d1",
+            "sha256": "535fe077dce2a827481a2def6c0ea2262cc52cf185b9397c95642cdb9efbc99a"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -861,16 +861,16 @@
             "isVirtual": false,
             "fileName": "reportingrest-api-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/reportingrest-api-2.1.0-SNAPSHOT.jar"
-,"md5": "61d0075bcb0091020b0897390c0f812f",
-            "sha1": "750edf279583366a830c744fe576aaa247818d32",
-            "sha256": "60353d17e22223b31a9eb6e657003d5803589762cd7f1cc9dc8810d03fe3827d","description": "API project for reportingrest"            ,"relatedDependencies": [
+,"md5": "0a4f30fe5860eca2128bd80e3a219ef8",
+            "sha1": "74a291ff97ef4b259b5be3f12c8e7b41044ceaea",
+            "sha256": "514af92e466ced830172144ddc034567892554940932f8bf0698e9a0f7f42262","description": "API project for reportingrest"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "reportingrest-api-2.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/reportingrest-2.1.0-SNAPSHOT\/lib\/reportingrest-api-2.1.0-SNAPSHOT.jar"
-,"sha256": "60353d17e22223b31a9eb6e657003d5803589762cd7f1cc9dc8810d03fe3827d",
-                    "sha1": "750edf279583366a830c744fe576aaa247818d32",
-                    "md5": "61d0075bcb0091020b0897390c0f812f"
+,"sha256": "514af92e466ced830172144ddc034567892554940932f8bf0698e9a0f7f42262",
+                    "sha1": "74a291ff97ef4b259b5be3f12c8e7b41044ceaea",
+                    "md5": "0a4f30fe5860eca2128bd80e3a219ef8"
                 }
             ]
             ,"evidenceCollected": {
