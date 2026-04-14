@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-14T12:12:17Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-14T11:57:14Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-14T12:12:17Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-14T11:57:14Z"
             }
         ]
 
@@ -203,7 +203,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-openconceptlab",
-        "reportDate": "2026-04-13T21:40:36.474288212Z",
+        "reportDate": "2026-04-14T13:05:02.713598513Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -38706,6 +38706,24 @@
                 "vulnerableSoftware": [
                 ]
                 }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-40175",
+"unscored": "true", "severity" : "critical",
+                "description": "",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1","name": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2025-27152",
                     "severity" : "HIGH",
@@ -39181,6 +39199,24 @@
 ,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
                         "source": "info"
 ,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-40175",
+"unscored": "true", "severity" : "critical",
+                "description": "",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1","name": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx"                    }                ],
                 "vulnerableSoftware": [
                 ]
                 }, {
@@ -96082,6 +96118,28 @@
                         "software": { 
                             "id":"cpe:2.3:a:follow-redirects_project:follow-redirects:*:*:*:*:*:node.js:*:*"
 ,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.14.8"                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-r4q5-vmmm-2653",
+"unscored": "true", "severity" : "moderate",
+                    "cwes": [
+                        "CWE-200"                    ],
+                "description": "## Summary\n\nWhen an HTTP request follows a cross-domain redirect (301\/302\/307\/308), `follow-redirects` only strips `authorization`, `proxy-authorization`, and `cookie` headers (matched by regex at index.js:469-476). Any custom authentication header (e.g., `X-API-Key`, `X-Auth-Token`, `Api-Key`, `Token`) is forwarded verbatim to the redirect target.\n\nSince `follow-redirects` is the redirect-handling dependency for **axios** (105K+ stars), this vulnerability affects the entire axios ecosystem.\n\n## Affected Code\n\n`index.js`, lines 469-476:\n\n```javascript\nif (redirectUrl.protocol !== currentUrlParts.protocol &&\n   redirectUrl.protocol !== \"https:\" ||\n   redirectUrl.host !== currentHost &&\n   !isSubdomain(redirectUrl.host, currentHost)) {\n  removeMatchingHeaders(\/^(?:(?:proxy-)?authorization|cookie)$\/i, this._options.headers);\n}\n```\n\nThe regex only matches `authorization`, `proxy-authorization`, and `cookie`. Custom headers like `X-API-Key` are not matched.\n\n## Attack Scenario\n\n1. App uses axios with custom auth header: `headers: { 'X-API-Key': 'sk-live-secret123' }`\n2. Server returns `302 Location: https:\/\/evil.com\/steal`\n3. follow-redirects sends `X-API-Key: sk-live-secret123` to `evil.com`\n4. Attacker captures the API key\n\n## Impact\n\nAny custom auth header set via axios leaks on cross-domain redirect. Extremely common pattern. Affects all axios users in Node.js.\n\n## Suggested Fix\n\nAdd a `sensitiveHeaders` option that users can extend, or strip ALL non-standard headers on cross-domain redirect.\n\n## Disclosure\n\nSource code review, manually verified. Found 2026-03-20.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/follow-redirects\/follow-redirects\/security\/advisories\/GHSA-r4q5-vmmm-2653","name": "https:\/\/github.com\/follow-redirects\/follow-redirects\/security\/advisories\/GHSA-r4q5-vmmm-2653"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-r4q5-vmmm-2653","name": "https:\/\/github.com\/advisories\/GHSA-r4q5-vmmm-2653"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/follow-redirects\/follow-redirects\/commit\/844c4d302ac963d29bdb5dc1754ec7df3d70d7f9","name": "https:\/\/github.com\/follow-redirects\/follow-redirects\/commit\/844c4d302ac963d29bdb5dc1754ec7df3d70d7f9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:follow-redirects:\\<\\=1.15.11:*:*:*:*:*:*:*"
+                        }
                     }                ]
                 }            ]        },{
             "isVirtual": false,
@@ -159914,9 +159972,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "201ed689d7bbe8aaf31cb1d76b01db1a",
-            "sha1": "1ac500073d8e9cc7766a8aa1ba5fcb91d5441e3b",
-            "sha256": "f0fd99808588a0b43d99cfb942f92877f396b88fd0c1a6cce4513e7915332609"            ,"evidenceCollected": {
+,"md5": "8504f20d9d634f8d26f0b3f8fa528f55",
+            "sha1": "497a95bafccbf8e65421ee028a70b922b7c0a175",
+            "sha256": "fe5ac5d38b2d11dc7c837d5112bb9740a7ac79e45288f78cbb4c73f9466a55c5"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -160043,9 +160101,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT.jar"
-,"md5": "7656370454659d00212d1511a45723a0",
-            "sha1": "ef7f4ea3bb56edf7f1ad92547526a2129e774d56",
-            "sha256": "dc590cf985042db6f62eaa0805c623e9f9fc0b74299b74b85b661e29369d74d9"            ,"evidenceCollected": {
+,"md5": "2e0c915084e3f5aa82ce572433aa9738",
+            "sha1": "37befb538f4768ed53088e4c886d6c5c0ee3e9db",
+            "sha256": "b1dc83a287177141b0a2596ea1a20793b49101004f3a215df17b896e3607cf27"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -160149,9 +160207,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "56006b51b2a163b2591dc5cc4ea43037",
-            "sha1": "069fbf076a3c528c307e07fcf03056aa72eb6990",
-            "sha256": "e024ccaf39903cf2f543821082dd25ad5f8a0a0862e175c8e56fcdaee246e8e8"            ,"evidenceCollected": {
+,"md5": "fdb20e46722918852904226797491654",
+            "sha1": "42905394d67287f18dd69ea53bcec80bc9d3d7bb",
+            "sha256": "7f9683bf0e6875618e5be0eee3aeddaae931913fdc9e77bc39dc4c125484107d"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -160233,16 +160291,16 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"md5": "6e8d47d94a65ed66d6b74cd7b04e639b",
-            "sha1": "39760d7df6db215838ef2fc2c89ad07ed2f96d5a",
-            "sha256": "15d6579640c2bee37c9a044dfad752dd08de9ce839d1e208ba2ff8b040fbd2e3","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
+,"md5": "92dddcdfc96cedfa43ccb60db2950a40",
+            "sha1": "843be208b93be687d67c690e90fce8abd2aaa2db",
+            "sha256": "fe9b97eb0c8ca2c08bf340fa1a0ccf37a85f9a2c9e0737924877390905270e97","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT\/lib\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "15d6579640c2bee37c9a044dfad752dd08de9ce839d1e208ba2ff8b040fbd2e3",
-                    "sha1": "39760d7df6db215838ef2fc2c89ad07ed2f96d5a",
-                    "md5": "6e8d47d94a65ed66d6b74cd7b04e639b"
+,"sha256": "fe9b97eb0c8ca2c08bf340fa1a0ccf37a85f9a2c9e0737924877390905270e97",
+                    "sha1": "843be208b93be687d67c690e90fce8abd2aaa2db",
+                    "md5": "92dddcdfc96cedfa43ccb60db2950a40"
                 }
             ]
             ,"evidenceCollected": {
