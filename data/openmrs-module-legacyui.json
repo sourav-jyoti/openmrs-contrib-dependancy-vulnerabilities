@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-legacyui",
-        "reportDate": "2026-04-13T21:53:07.492138961Z",
+        "reportDate": "2026-04-18T13:33:24.837819356Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -8633,9 +8633,9 @@
             "isVirtual": false,
             "fileName": "legacyui-3.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT-tests.jar"
-,"md5": "3ea0df16a94805e409c1e621eb98692e",
-            "sha1": "cfe1266bc91d11aa3e51075e4d8b46d3226878a9",
-            "sha256": "6f782dee96e4dbb613b3bede182fc901e899c692e31b40176e501abdc3856ee8"            ,"evidenceCollected": {
+,"md5": "448f7a76f4e1e06400ed4985ee40cc8e",
+            "sha1": "e8a43d0a6796a3aa3bee2d38f37cdce9426a3a47",
+            "sha256": "c354e28e32d024dc069da47f511f9db861f81daf3e4eae8841acacae9854eca4"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -8732,9 +8732,9 @@
             "isVirtual": false,
             "fileName": "legacyui-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT.jar"
-,"md5": "e0c507fd225e923a62a7798345ba438a",
-            "sha1": "374742505366611183ac19d45032c9ed0afc6184",
-            "sha256": "44659c9e330a7f8606b1343e6b7a2cfb31422372f823f29d31b0978fc6a2f4f1"            ,"evidenceCollected": {
+,"md5": "53e1077d4949dc5a28b1ae054d3fa936",
+            "sha1": "aa9cb6bdfe09ef7e6335558883802081ee6e2c0e",
+            "sha256": "bd693289d1d16bb85f93f2f27adfd0c34774844f9cc2dad285176d6340bbae01"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -8824,16 +8824,16 @@
             "isVirtual": false,
             "fileName": "legacyui-api-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/legacyui-api-3.0.0-SNAPSHOT.jar"
-,"md5": "b81fe577add94b167265517210950aa4",
-            "sha1": "46141e4334453cd6ea90be281cf01ac7a088c373",
-            "sha256": "704f77bbf1d528a3f1a2b5dcad8b47ab95feeafdef6a5ca5bc03a7a9d6fed04d","description": "API project for LegacyUI"            ,"relatedDependencies": [
+,"md5": "43b623850f1b93cc8e2428365636405d",
+            "sha1": "df321285f079100921dda0f34cc53458a8229cfe",
+            "sha256": "82c2444a4d467c0620e57d9be2ce13be01805cfba430272864eb3f39503ffa16","description": "API project for LegacyUI"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "legacyui-api-3.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/legacyui-api-3.0.0-SNAPSHOT-tests.jar"
-,"sha256": "a1ffa333b1886d19c912263523856ff2717cc28b008ffcfb07faea7827b1d703",
-                    "sha1": "334e1dba8bca5ada2a3e7d6e5037fdb34896e7aa",
-                    "md5": "5357e55afcdc5f9e3526b1ac23d832cd",
+,"sha256": "d770100d2dd762fa772a0e382e9b179726e28c6a5d9ccca1717dfd3790b43caf",
+                    "sha1": "92669fe4e3aa03b1028239455d31bbb0539d0c20",
+                    "md5": "ca97b3cf055a3e9d772f21a78222ab25",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/legacyui-api@3.0.0-SNAPSHOT"
@@ -8844,9 +8844,9 @@
                     "isVirtual": false,
                     "fileName": "legacyui-api-3.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT\/lib\/legacyui-api-3.0.0-SNAPSHOT.jar"
-,"sha256": "704f77bbf1d528a3f1a2b5dcad8b47ab95feeafdef6a5ca5bc03a7a9d6fed04d",
-                    "sha1": "46141e4334453cd6ea90be281cf01ac7a088c373",
-                    "md5": "b81fe577add94b167265517210950aa4"
+,"sha256": "82c2444a4d467c0620e57d9be2ce13be01805cfba430272864eb3f39503ffa16",
+                    "sha1": "df321285f079100921dda0f34cc53458a8229cfe",
+                    "md5": "43b623850f1b93cc8e2428365636405d"
                 }
             ]
             ,"evidenceCollected": {
