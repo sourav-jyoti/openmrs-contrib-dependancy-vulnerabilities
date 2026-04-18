@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-attachments",
-        "reportDate": "2026-04-13T21:30:43.148347383Z",
+        "reportDate": "2026-04-18T13:33:59.417306556Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "attachments-4.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/attachments-4.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "f404fa22410ccd95776dad5f0ea0c60c",
-            "sha1": "22dc37bd0a85fc0ac5c332d5df89a4ee062a621d",
-            "sha256": "5f18f09a1a72f3994b3497bb5e970fc96ce47569002490c642d5d218f6855d7f"            ,"evidenceCollected": {
+,"md5": "d186d5380453fbe67de0282193854f47",
+            "sha1": "8a07d5c31eefcf0d80ff147588c56926aea03d34",
+            "sha256": "a5f8f9585a31de548eb0b549dd3f75170337816131343ff1930f69d9b82e57a7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -168,9 +168,9 @@
             "isVirtual": false,
             "fileName": "attachments-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/attachments-4.1.0-SNAPSHOT.jar"
-,"md5": "06c900c0dcc4be94278fe5eaca9d0921",
-            "sha1": "1c7416ce57ac3c8060a7f48e515d179b972e9e21",
-            "sha256": "91713805a15e9ab5b6ab69b10d9bb606d7430d9d0be12938f9c39c236fc93674"            ,"evidenceCollected": {
+,"md5": "406565576b85156ad767a6ff9f87256a",
+            "sha1": "a6be4db870a1256ac78bec7f6584a0f3e4448e12",
+            "sha256": "bcd9d8aa5cdc55b1798d52c1ab803ba9351418ec64d2329b1edc004da48bf847"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -281,9 +281,9 @@
             "isVirtual": false,
             "fileName": "attachments-api-4.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/attachments-api-4.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "2818b6673ca5c96962d48dc091a94c21",
-            "sha1": "cedfe78aa852e1f6b5e456f0a2525f8edccff986",
-            "sha256": "1da8c774bafad8b2603ab12cd8b32dbb4f3810b337fcfcad4bf67b7e2b608079"            ,"evidenceCollected": {
+,"md5": "56e20303fcb01a0ec18f077a70886b32",
+            "sha1": "0fa5a228d47fc2da7551b136bc2b6cd41b70651d",
+            "sha256": "b8f68eddbfce8b594d1680a6f6b887c3c80c96d3e98fdc8672ab746015258817"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -365,16 +365,16 @@
             "isVirtual": false,
             "fileName": "attachments-api-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/attachments-api-4.1.0-SNAPSHOT.jar"
-,"md5": "f4865ba2df8f0b26a2ae77cc0db8d25e",
-            "sha1": "892b6cebb1e1685eb109eeb60ec734f735a6a659",
-            "sha256": "1a0c6d0118597222c3bae87c0e9846e2a5e065c048c35f6386a3b6a77365a1f6","description": "API project for Attachments"            ,"relatedDependencies": [
+,"md5": "1ff1e86a883461f14017995df8e9afc4",
+            "sha1": "82b1e934f693811172fd7f718b6639e02c01e129",
+            "sha256": "08a5b5eb303874c3d32cdba308cbdea9fb70fc76de6c9ddd421e39d83a154697","description": "API project for Attachments"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "attachments-api-4.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/attachments-api-4.1.0-SNAPSHOT-tests.jar"
-,"sha256": "7db00954ee01d6922788b729433ca77fd54fd4e2a088ed3f639fd14aa94bd4bd",
-                    "sha1": "deb4577a65a118505c1948581e7ae4525147b86c",
-                    "md5": "c941631ca77b6a7a448fbba3a0fab413",
+,"sha256": "7be7e6bf0e67969c9764e9d94e776bcaef064fe3e9b9699908b828c223fb9806",
+                    "sha1": "5c5bf0898cbfbcd7c7c698f77446a5d20b36940d",
+                    "md5": "96b9d060718bd8519a61f33306f13c57",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/attachments-api@4.1.0-SNAPSHOT"
@@ -385,9 +385,9 @@
                     "isVirtual": false,
                     "fileName": "attachments-api-4.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/attachments-4.1.0-SNAPSHOT\/lib\/attachments-api-4.1.0-SNAPSHOT.jar"
-,"sha256": "1a0c6d0118597222c3bae87c0e9846e2a5e065c048c35f6386a3b6a77365a1f6",
-                    "sha1": "892b6cebb1e1685eb109eeb60ec734f735a6a659",
-                    "md5": "f4865ba2df8f0b26a2ae77cc0db8d25e"
+,"sha256": "08a5b5eb303874c3d32cdba308cbdea9fb70fc76de6c9ddd421e39d83a154697",
+                    "sha1": "82b1e934f693811172fd7f718b6639e02c01e129",
+                    "md5": "1ff1e86a883461f14017995df8e9afc4"
                 }
             ]
             ,"evidenceCollected": {
