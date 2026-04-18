@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientflags",
-        "reportDate": "2026-04-13T21:40:02.067948772Z",
+        "reportDate": "2026-04-18T13:33:13.906564068Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -7249,9 +7249,9 @@
             "isVirtual": false,
             "fileName": "patientflags-3.0.11-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT.jar"
-,"md5": "400f7035bc468409b01cc1aea02a8c01",
-            "sha1": "6546b85564680e31e8a65832ebe6df29cdf10670",
-            "sha256": "9edebde7db14b1272be6c1ea1eb563502824a055a18235c57e1f691be82e123d"            ,"evidenceCollected": {
+,"md5": "9b789b70a4fbf42d5aafa6bf09ca89c0",
+            "sha1": "fe9cdb9377070b5a0c36327c7a52002ab841a685",
+            "sha256": "16aff29f749084f2b63d6ece6b0132fad0fde42157919e4fbe35dfee362df1f2"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -7355,24 +7355,24 @@
             "isVirtual": false,
             "fileName": "patientflags-api-3.0.11-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/patientflags-api-3.0.11-SNAPSHOT.jar"
-,"md5": "77129d708dd4dc132000b3f3eb3b3759",
-            "sha1": "ed6b2a2231e40bb08a032add313c10f85026427d",
-            "sha256": "8b77547cb8207cf4d5fc545f1ca6ffbcc22fd12b6528f8aea553de2e05b5c3b0","description": "API project for Patient Flags Module"            ,"relatedDependencies": [
+,"md5": "e67b31d9ec6bd3c52ed2bd442f013e33",
+            "sha1": "c2107e743b47e23b118935e1256de56804d62bdb",
+            "sha256": "c1ed4449193649b43bdb59bae4e6b95227c9b02d4d0e9b94cf4b88a31683668b","description": "API project for Patient Flags Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "patientflags-api-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT\/lib\/patientflags-api-3.0.11-SNAPSHOT.jar"
-,"sha256": "8b77547cb8207cf4d5fc545f1ca6ffbcc22fd12b6528f8aea553de2e05b5c3b0",
-                    "sha1": "ed6b2a2231e40bb08a032add313c10f85026427d",
-                    "md5": "77129d708dd4dc132000b3f3eb3b3759"
+,"sha256": "c1ed4449193649b43bdb59bae4e6b95227c9b02d4d0e9b94cf4b88a31683668b",
+                    "sha1": "c2107e743b47e23b118935e1256de56804d62bdb",
+                    "md5": "e67b31d9ec6bd3c52ed2bd442f013e33"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "patientflags-api-metadata-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/api-metadata\/target\/patientflags-api-metadata-3.0.11-SNAPSHOT.jar"
-,"sha256": "ad54f485eaa5be234bc8336b92bcda31bb07490561a53c43440d1d752fe8b638",
-                    "sha1": "92dce853ee288c5df93ef343a1f3ba116167cad1",
-                    "md5": "c1f9e7d6f6fb5f32643d07f939962cba",
+,"sha256": "0a45c69a3162f48fbb8530ebe66d2fc9ac6448370e0e760a7dd2fcf2c5272775",
+                    "sha1": "99cc485e67ec8d246a1431d9320660bd352c0c61",
+                    "md5": "7c463206485d6883d59e5aec72069141",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientflags-api-metadata@3.0.11-SNAPSHOT"
@@ -7383,17 +7383,17 @@
                     "isVirtual": false,
                     "fileName": "patientflags-api-metadata-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT\/lib\/patientflags-api-metadata-3.0.11-SNAPSHOT.jar"
-,"sha256": "ad54f485eaa5be234bc8336b92bcda31bb07490561a53c43440d1d752fe8b638",
-                    "sha1": "92dce853ee288c5df93ef343a1f3ba116167cad1",
-                    "md5": "c1f9e7d6f6fb5f32643d07f939962cba"
+,"sha256": "0a45c69a3162f48fbb8530ebe66d2fc9ac6448370e0e760a7dd2fcf2c5272775",
+                    "sha1": "99cc485e67ec8d246a1431d9320660bd352c0c61",
+                    "md5": "7c463206485d6883d59e5aec72069141"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "patientflags-fhir-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/fhir\/target\/patientflags-fhir-3.0.11-SNAPSHOT.jar"
-,"sha256": "7b3f3b9f07509a5bfa691142b040c70d8490c56c26dce946e694ca0b904b5244",
-                    "sha1": "70bd71bdd8ab38be17b39f01a50ad2723ac660f9",
-                    "md5": "14957d0664fe8547609cc30353e91b5b",
+,"sha256": "1eff98db36cb10b56dcaa787660e2fe905055dcf178714fd79cf8dad7b84457b",
+                    "sha1": "7c19f6b77712665913d2e56577429021b46ff882",
+                    "md5": "a3a800a615e0fc3085817b82775aeb06",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientflags-fhir@3.0.11-SNAPSHOT"
@@ -7404,9 +7404,9 @@
                     "isVirtual": false,
                     "fileName": "patientflags-fhir-3.0.11-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientflags-3.0.11-SNAPSHOT\/lib\/patientflags-fhir-3.0.11-SNAPSHOT.jar"
-,"sha256": "7b3f3b9f07509a5bfa691142b040c70d8490c56c26dce946e694ca0b904b5244",
-                    "sha1": "70bd71bdd8ab38be17b39f01a50ad2723ac660f9",
-                    "md5": "14957d0664fe8547609cc30353e91b5b"
+,"sha256": "1eff98db36cb10b56dcaa787660e2fe905055dcf178714fd79cf8dad7b84457b",
+                    "sha1": "7c19f6b77712665913d2e56577429021b46ff882",
+                    "md5": "a3a800a615e0fc3085817b82775aeb06"
                 }
             ]
             ,"evidenceCollected": {
