@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-calculation",
-        "reportDate": "2026-04-13T21:29:51.141126474Z",
+        "reportDate": "2026-04-18T13:36:10.114570346Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "4ea2136ce0676129ecfa7fe9eda3ca0f",
-            "sha1": "8f9fe767e228cef3868ca3769d3714587739bb41",
-            "sha256": "892a1e32e177af94e695218bbb49f6159779465f701c4b203cb4dd2c22efd9b7"            ,"evidenceCollected": {
+,"md5": "b88b4ce59fa591d42cc31f1ae88de7b8",
+            "sha1": "407f3a499b5af4a2ef659501e27456c21f9b5027",
+            "sha256": "729dc61783a4b23bb137f6f8bc1afd23650d2fe2e8afb7749a57d0b48e0c8f0b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -676,9 +676,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT-tests.jar"
-,"md5": "331a80433faf0acdd9ef0c484dcb1ade",
-            "sha1": "eb9a8f5fd66c9777dd7a416ac5242f373b4a80dd",
-            "sha256": "99d96247bbc9cd6e49e3e140a86e930196e5e4a2b153e96970f9c9d4fe54b119"            ,"evidenceCollected": {
+,"md5": "31b79b8204c2f06b33dfee924ed7adac",
+            "sha1": "83e79947988f2cb25cb69eb50fe83c15e03354f0",
+            "sha256": "f1c497b43c420cf0f91821dda69b1b152b0363f456f284ed8c1b5703d228ef24"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -719,9 +719,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT.jar"
-,"md5": "74acd47fa9be815b5425c6323462cba2",
-            "sha1": "a6e8dd168b16c614d2944845e704ae79abdb242c",
-            "sha256": "7bbe90573475563d956ab33b0c3d6b522e8cc4d5645969bbb7866f72db07e690"            ,"evidenceCollected": {
+,"md5": "d979f17f44b76183a5bee52a00e2bf8e",
+            "sha1": "701332f317152181b0ab269be6032ee228ff4c6d",
+            "sha256": "7884bddf742b54cc6cf935308a0766936eff8a6c09d1c48272a6ce359813e1b7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -783,9 +783,9 @@
             "isVirtual": false,
             "fileName": "calculation-api-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "8a2b8b6e730ec78ce4174811c79b3158",
-            "sha1": "9c68b2079fc4e8ee10ba35addc637e80b2b4205f",
-            "sha256": "f63be6c338abe143447babdc8759db2dd4e4d12d94ec0bd1f6fef8bc8b30fe27"            ,"evidenceCollected": {
+,"md5": "99c4d16afbc773bfa4c86fafa7eb2875",
+            "sha1": "f07b13374d24173c8a88a02b3c89d800a778ca7b",
+            "sha256": "104d22128c8ba5444c51744001981a79d942d28c4a3aa555aebe132803a06d7a"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -867,16 +867,16 @@
             "isVirtual": false,
             "fileName": "calculation-api-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT.jar"
-,"md5": "68c7d60aaf3cb7e57ee70682a4e68a87",
-            "sha1": "a1d755fa1b6008187366dd40119690fa0872646e",
-            "sha256": "87667ee941624ce0ffaaacaeab0e5ecf387aafdd2acfb93a6e8d32d15b4837f8","description": "API project for Calculation"            ,"relatedDependencies": [
+,"md5": "0e838fd59f745cc3be0dae30075b90c2",
+            "sha1": "66dd3f38430e2a7e794fd86a83471d78ead00eea",
+            "sha256": "b0d0b5bba0e783a24fa5a30e30e442f2aed113561743a1f552a41c20d5608305","description": "API project for Calculation"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "calculation-api-2.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT-tests.jar"
-,"sha256": "c5105ca737385334dc7b98d4062cada4ec88ef1f5aab19eb3eb5cbd89825b2ba",
-                    "sha1": "d26abe94389c68bddd610dd10fbb5c98355d3a93",
-                    "md5": "066f6948b34d6fa466feb24a491aa0e0",
+,"sha256": "d10fdd89d8dfdb36af9d88880ca499ccb47991be7580a374efdd38e56b783185",
+                    "sha1": "393b0ef3ec17cbb1e685ed106b738244c9135db1",
+                    "md5": "0add79240796c648480b6acf1a3c641f",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/calculation-api@2.1.0-SNAPSHOT"
@@ -887,9 +887,9 @@
                     "isVirtual": false,
                     "fileName": "calculation-api-2.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT\/lib\/calculation-api-2.1.0-SNAPSHOT.jar"
-,"sha256": "87667ee941624ce0ffaaacaeab0e5ecf387aafdd2acfb93a6e8d32d15b4837f8",
-                    "sha1": "a1d755fa1b6008187366dd40119690fa0872646e",
-                    "md5": "68c7d60aaf3cb7e57ee70682a4e68a87"
+,"sha256": "b0d0b5bba0e783a24fa5a30e30e442f2aed113561743a1f552a41c20d5608305",
+                    "sha1": "66dd3f38430e2a7e794fd86a83471d78ead00eea",
+                    "md5": "0e838fd59f745cc3be0dae30075b90c2"
                 }
             ]
             ,"evidenceCollected": {
@@ -2902,18 +2902,24 @@
 ,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
                     "cwes": [
                         "CWE-79"                    ],
-                "description": "In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
+                "description": "In jQuery starting with 1.12.0 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
                 "notes": "",
                 "references": [
  {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.tenable.com\/security\/tns-2020-11","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
+,"url": "http:\/\/security.netapp.com\/advisory\/ntap-20200511-0006"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/jquery-rails\/CVE-2020-11022.yml"                    }, {
+                        "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K\/"                    }, {
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
@@ -2937,39 +2943,45 @@
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20200511-0006\/","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67%40%3Cdev.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/github.com\/jquery\/jquery\/releases\/tag\/3.5.0"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4\/"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html","name": "BROKEN_LINK"                    }, {
+,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/issues\/447"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/03\/msg00033.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html","name": "BROKEN_LINK"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2@%3Cissues.flink.apache.org%3E"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2021.html"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html","name": "BROKEN_LINK"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
@@ -2981,21 +2993,17 @@
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133%40%3Ccommits.airflow.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48@%3Cissues.flink.apache.org%3E"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5\/","name": "MITIGATION,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133%40%3Ccommits.airflow.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20200511-0006\/","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
@@ -3005,29 +3013,19 @@
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "http:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4\/"                    }, {
+,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133@%3Ccommits.airflow.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/github.com\/jquery\/jquery\/security\/advisories\/GHSA-gxr4-xjj5-5px2","name": "MITIGATION,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY\/"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html","name": "BROKEN_LINK"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2023\/08\/msg00040.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/\/security-alerts\/cpujul2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W\/"                    }, {
                         "source": "security-advisories@github.com"
@@ -3057,23 +3055,33 @@
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W\/"                    }, {
+,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/commit\/847216e60544258c881f2733d699bbcfeefac0fc"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c@%3Cissues.flink.apache.org%3E"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B\/"                    }, {
+,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67@%3Cdev.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K\/"                    }, {
                         "source": "info"
 ,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
                         "source": "security-advisories@github.com"
@@ -5656,18 +5664,24 @@
 ,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
                     "cwes": [
                         "CWE-79"                    ],
-                "description": "In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
+                "description": "In jQuery starting with 1.12.0 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
                 "notes": "",
                 "references": [
  {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.tenable.com\/security\/tns-2020-11","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
+,"url": "http:\/\/security.netapp.com\/advisory\/ntap-20200511-0006"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/jquery-rails\/CVE-2020-11022.yml"                    }, {
+                        "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K\/"                    }, {
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
@@ -5691,39 +5705,45 @@
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20200511-0006\/","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67%40%3Cdev.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/github.com\/jquery\/jquery\/releases\/tag\/3.5.0"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4\/"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html","name": "BROKEN_LINK"                    }, {
+,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/issues\/447"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/03\/msg00033.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html","name": "BROKEN_LINK"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2@%3Cissues.flink.apache.org%3E"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2021.html"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html","name": "BROKEN_LINK"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
@@ -5735,21 +5755,17 @@
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133%40%3Ccommits.airflow.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48@%3Cissues.flink.apache.org%3E"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5\/","name": "MITIGATION,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133%40%3Ccommits.airflow.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20200511-0006\/","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
@@ -5759,29 +5775,19 @@
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "http:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4\/"                    }, {
+,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133@%3Ccommits.airflow.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/github.com\/jquery\/jquery\/security\/advisories\/GHSA-gxr4-xjj5-5px2","name": "MITIGATION,THIRD_PARTY_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY\/"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html","name": "BROKEN_LINK"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2023\/08\/msg00040.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/\/security-alerts\/cpujul2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W\/"                    }, {
                         "source": "security-advisories@github.com"
@@ -5811,23 +5817,33 @@
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W\/"                    }, {
+,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/commit\/847216e60544258c881f2733d699bbcfeefac0fc"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c@%3Cissues.flink.apache.org%3E"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4@%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissues.flink.apache.org%3E"                    }, {
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B\/"                    }, {
+,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67@%3Cdev.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissues.flink.apache.org%3E"                    }, {
                         "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K\/"                    }, {
                         "source": "info"
 ,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
                         "source": "security-advisories@github.com"
