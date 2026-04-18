@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.0",
+        "engineVersion": "12.2.1",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-03-22T11:45:39Z"
+                "timestamp": "2026-04-18T11:56:24Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-03-22T10:16:07Z"
+                "timestamp": "2026-04-18T10:16:12Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-stockmanagement",
-        "reportDate": "2026-03-23T08:23:06.293244436Z",
+        "reportDate": "2026-04-18T13:36:22.023610970Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -452,9 +452,9 @@
             "isVirtual": false,
             "fileName": "stockmanagement-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/stockmanagement-3.1.0-SNAPSHOT.jar"
-,"md5": "886847c3152bd1b460922043610b8072",
-            "sha1": "3b33957822b131c607631349aa36dd2bd474e5dd",
-            "sha256": "0f54a64363c89dd65b5fa6ed88ef029329f5046025d9106cbb097cc4bcbc6843"            ,"evidenceCollected": {
+,"md5": "68fc2f14ee76a45b16bde9dfd11c81a0",
+            "sha1": "9f7f59a944a82d6be5bbb0d235c6f530cbe957be",
+            "sha256": "35877dc3c77b09429b97c8bcc2544d103ef1aee9af44d669d9d867f9cef6e287"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -565,16 +565,16 @@
             "isVirtual": false,
             "fileName": "stockmanagement-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/stockmanagement-api-3.1.0-SNAPSHOT.jar"
-,"md5": "776dab776d727d53d4a6655d65e22634",
-            "sha1": "fcfb768fa1ebe85d6a70681538b8abc980505f02",
-            "sha256": "146d1669d814964893f12c0dc2456c0d8a48ad819e2b6de7841e9da7e1be20d5","description": "API project for Stock Management"            ,"relatedDependencies": [
+,"md5": "58a6b05d845259f4e02997406be2ec50",
+            "sha1": "daae2f96781174982ad54547df32ea3c654c2289",
+            "sha256": "de2e69506f3e4d1fcba6a5bc6e071130adf7e0683ca3c0bba58e630c77f66c82","description": "API project for Stock Management"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "stockmanagement-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/stockmanagement-3.1.0-SNAPSHOT\/lib\/stockmanagement-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "146d1669d814964893f12c0dc2456c0d8a48ad819e2b6de7841e9da7e1be20d5",
-                    "sha1": "fcfb768fa1ebe85d6a70681538b8abc980505f02",
-                    "md5": "776dab776d727d53d4a6655d65e22634"
+,"sha256": "de2e69506f3e4d1fcba6a5bc6e071130adf7e0683ca3c0bba58e630c77f66c82",
+                    "sha1": "daae2f96781174982ad54547df32ea3c654c2289",
+                    "md5": "58a6b05d845259f4e02997406be2ec50"
                 }
             ]
             ,"evidenceCollected": {
