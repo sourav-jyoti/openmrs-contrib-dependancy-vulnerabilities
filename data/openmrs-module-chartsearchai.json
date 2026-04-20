@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-chartsearchai",
-        "reportDate": "2026-04-20T15:00:12.522228467Z",
+        "reportDate": "2026-04-20T15:33:49.436547880Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -482,9 +482,9 @@
             "isVirtual": false,
             "fileName": "chartsearchai-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT.jar"
-,"md5": "7408932ab31f81739473deb9439aa4b9",
-            "sha1": "49be342c32fd2dc75dc4271e46c8ee50e6ddfca0",
-            "sha256": "6efbd18a9d036aa4492526f5278cb29fe3ef605d468208b5740002f4e1f7cfdb"            ,"evidenceCollected": {
+,"md5": "cd65bfc4359905f68d5427e2a7fa6461",
+            "sha1": "5e240c5b47e252fc89a4f87836af97cb4661d998",
+            "sha256": "d62e903cc950013da75dfae9bb6ce494ee2f3f1a9daa09b8f824e1266d7dbf88"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -595,16 +595,16 @@
             "isVirtual": false,
             "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"md5": "569fc59a9f1a33c2855e13111b2f1b4e",
-            "sha1": "a3b9792738d3a17780dd6097dd7f7ee16a4468c8",
-            "sha256": "46a78f587a227643d34c3099f57a675896bfc4280858d5ee39ff8ef8bdce2640","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
+,"md5": "8a6216fe48905149d4ea0c86d7a874ee",
+            "sha1": "254d4cdd7d97d0276eb51562aafb38590540722a",
+            "sha256": "451689e5d066ecf5ad1d1b8a084dea0c56686504520992be510a43bfdf7823ca","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "46a78f587a227643d34c3099f57a675896bfc4280858d5ee39ff8ef8bdce2640",
-                    "sha1": "a3b9792738d3a17780dd6097dd7f7ee16a4468c8",
-                    "md5": "569fc59a9f1a33c2855e13111b2f1b4e"
+,"sha256": "451689e5d066ecf5ad1d1b8a084dea0c56686504520992be510a43bfdf7823ca",
+                    "sha1": "254d4cdd7d97d0276eb51562aafb38590540722a",
+                    "md5": "8a6216fe48905149d4ea0c86d7a874ee"
                 }
             ]
             ,"evidenceCollected": {
@@ -1130,95 +1130,63 @@
                     }                ]
                 }            ]        },{
             "isVirtual": false,
-            "fileName": "llama-4.1.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-4.1.0.jar"
-,"md5": "dd3562524c9dc54d40e0683f770db238",
-            "sha1": "c6b6d6e61ce4a5d361f385d26ddf917c9682abbb",
-            "sha256": "3c961cd6672be923cbf2d610761138835e2d96d1f0a09b3bc13e91ebe809214d","description": "Java Bindings for llama.cpp - A Port of Facebook's LLaMA model\n\t\tin C\/C++.","license": "MIT License: https:\/\/www.opensource.org\/licenses\/mit-license.php"            ,"evidenceCollected": {
+            "fileName": "llama-server-natives-1.0.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/llama-server-natives\/target\/llama-server-natives-1.0.0-SNAPSHOT.jar"
+,"md5": "e937f915e7fa17564c45089a5c793cca",
+            "sha1": "ee9ca402802439d76b0539192066e829f7e24fcb",
+            "sha256": "fa4ce0c27c22bdc4dcef9f48ceaaf84347804f172868e43c90b3fbc55598058a","description": "\n\t\tPre-built llama-server binaries from llama.cpp for each supported platform.\n\t\tThe binaries are extracted at runtime by LocalLlmEngine and managed as a\n\t\tsubprocess for LLM inference. To add a new platform, build llama-server\n\t\tfrom https:\/\/github.com\/ggml-org\/llama.cpp and place the binary under\n\t\tsrc\/main\/resources\/llama-server\/{OS}\/{arch}\/.\n\t"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "llama-server-natives-1.0.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-server-natives-1.0.0-SNAPSHOT.jar"
+,"sha256": "fa4ce0c27c22bdc4dcef9f48ceaaf84347804f172868e43c90b3fbc55598058a",
+                    "sha1": "ee9ca402802439d76b0539192066e829f7e24fcb",
+                    "md5": "e937f915e7fa17564c45089a5c793cca"
+                }
+            ]
+            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
                             "name": "name",
-                            "value": "llama"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "de"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "kherud"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "llama"
+                            "value": "llama-server-natives"
                         }
 ,{
                             "type": "vendor",
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "17"
+                            "value": "11"
                         }
 ,{
                             "type": "vendor",
                             "confidence": "LOW",
                             "source": "pom",
                             "name": "artifactid",
-                            "value": "llama"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "konstantin.herud@gmail.com"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Konstantin Herud"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org URL",
-                            "value": "https:\/\/github.com\/kherud"
+                            "value": "llama-server-natives"
                         }
 ,{
                             "type": "vendor",
                             "confidence": "HIGHEST",
                             "source": "pom",
                             "name": "groupid",
-                            "value": "de.kherud"
+                            "value": "org.openmrs.module"
                         }
 ,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "pom",
                             "name": "name",
-                            "value": ":"
+                            "value": "Chart Search AI Module - llama-server Native Binaries"
                         }
 ,{
                             "type": "vendor",
-                            "confidence": "HIGHEST",
+                            "confidence": "LOW",
                             "source": "pom",
-                            "name": "url",
-                            "value": "kherud\/java-llama.cpp"
+                            "name": "parent-artifactid",
+                            "value": "chartsearchai"
                         }
                 ],
                 "productEvidence": [
@@ -1227,167 +1195,421 @@
                             "confidence": "HIGH",
                             "source": "file",
                             "name": "name",
-                            "value": "llama"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "de"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "kherud"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "llama"
+                            "value": "llama-server-natives"
                     }
 ,{
                             "type": "product",
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "17"
+                            "value": "11"
                     }
 ,{
                             "type": "product",
                             "confidence": "HIGHEST",
                             "source": "pom",
                             "name": "artifactid",
-                            "value": "llama"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "konstantin.herud@gmail.com"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Konstantin Herud"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org URL",
-                            "value": "https:\/\/github.com\/kherud"
+                            "value": "llama-server-natives"
                     }
 ,{
                             "type": "product",
                             "confidence": "HIGHEST",
                             "source": "pom",
                             "name": "groupid",
-                            "value": "de.kherud"
+                            "value": "org.openmrs.module"
                     }
 ,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "pom",
                             "name": "name",
-                            "value": ":"
+                            "value": "Chart Search AI Module - llama-server Native Binaries"
                     }
 ,{
                             "type": "product",
-                            "confidence": "HIGH",
+                            "confidence": "MEDIUM",
                             "source": "pom",
-                            "name": "url",
-                            "value": "kherud\/java-llama.cpp"
+                            "name": "parent-artifactid",
+                            "value": "chartsearchai"
                     }
                 ],
                 "versionEvidence": [
                     {
                         "type": "version",
-                        "confidence": "HIGH",
-                        "source": "file",
-                        "name": "version",
-                        "value": "4.1.0"
-                    }
-,                    {
-                        "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "4.1.0"
+                        "value": "1.0.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/de.kherud\/llama@4.1.0"
+                        "id": "pkg:maven\/org.openmrs.module\/llama-server-natives@1.0.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:openmrs:openmrs:1.0.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A1.0.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-        },{
-            "isVirtual": false,
-            "fileName": "llama-4.1.0.jar: jllama.dll",
-            "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-4.1.0.jar\/de\/kherud\/llama\/Windows\/x86\/jllama.dll"
-,"md5": "cb186ba4d61eb92ac5e48da14832a275",
-            "sha1": "216d768aa25daff5f3033a728ea2616c2e72bdb1",
-            "sha256": "dcfcae7cdf423de18d272bf7728a84bb4f4e4ce75ef99830cbbe909d206306ef"            ,"evidenceCollected": {
-                "vendorEvidence": [
-{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "jllama"
-                        }
-                ],
-                "productEvidence": [
-{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "jllama"
-                    }
-                ],
-                "versionEvidence": [
-                ]
-            }
-
-        },{
-            "isVirtual": false,
-            "fileName": "llama-4.1.0.jar: jllama.dll",
-            "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-4.1.0.jar\/de\/kherud\/llama\/Windows\/x86_64\/jllama.dll"
-,"md5": "d05d050470fbd08e5ccb4e4cd17751e0",
-            "sha1": "28909a7abb6fe6be3319e0337eaa121386baf191",
-            "sha256": "9d4de003c0ae3aba65410760fa553cb00036fc1e60650afa7a1e8f32695fe492"            ,"evidenceCollected": {
-                "vendorEvidence": [
-{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "jllama"
-                        }
-                ],
-                "productEvidence": [
-{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "jllama"
-                    }
-                ],
-                "versionEvidence": [
-                ]
-            }
-
-        },{
+            ,"vulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2017-12796",
+                    "severity" : "CRITICAL",
+                    "cvssv2": {
+                        "score": 10.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "COMPLETE"
+                        ,"integrityImpact": "COMPLETE"
+                        ,"availabilityImpact": "COMPLETE"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "10.0"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.0"                    },
+                    "cwes": [
+                        "CWE-502"                    ],
+                "description": "The Reporting Compatibility Add On before 2.0.4 for OpenMRS, as distributed in OpenMRS Reference Application before 2.6.1, does not authenticate users when deserializing XML input into ReportSchema objects. The result is that remote unauthenticated users are able to execute operating system commands by crafting malicious XML payloads, as demonstrated by a single admin\/reports\/reportSchemaXml.form request.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"2.6.1"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2021-43094",
+                    "severity" : "CRITICAL",
+                    "cvssv2": {
+                        "score": 7.5
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "PARTIAL"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "PARTIAL"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "6.4"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-89"                    ],
+                "description": "An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.4.0"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
+,"versionEndIncluding":"2.11"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2020-5728",
+                    "severity" : "MEDIUM",
+                    "cvssv2": {
+                        "score": 4.3
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "8.6","impactScore": "2.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 6.1
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-79",                        "CWE-20"                    ],
+                "description": "OpenMRS 2.9 and prior copies \"Referrer\" header values into an html element named \"redirectUrl\" within many webpages (such as login.htm). There is insufficient validation for this parameter, which allows for the possibility of cross-site scripting.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "vulnreport@tenable.com"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.9.0"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2020-5729",
+                    "severity" : "MEDIUM",
+                    "cvssv2": {
+                        "score": 4.3
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "8.6","impactScore": "2.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 6.1
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-79"                    ],
+                "description": "In OpenMRS 2.9 and prior, the UI Framework Error Page reflects arbitrary, user-supplied input back to the browser, which can result in XSS. Any page that is able to trigger a UI Framework Error is susceptible to this issue.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "vulnreport@tenable.com"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.9.0"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2020-5730",
+                    "severity" : "MEDIUM",
+                    "cvssv2": {
+                        "score": 4.3
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "8.6","impactScore": "2.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 6.1
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-79"                    ],
+                "description": "In OpenMRS 2.9 and prior, the sessionLocation parameter for the login page is vulnerable to cross-site scripting.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "vulnreport@tenable.com"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.9.0"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2020-5731",
+                    "severity" : "MEDIUM",
+                    "cvssv2": {
+                        "score": 4.3
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "8.6","impactScore": "2.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 6.1
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-79"                    ],
+                "description": "In OpenMRS 2.9 and prior, the app parameter for the ActiveVisit's page is vulnerable to cross-site scripting.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "vulnreport@tenable.com"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.9.0"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2020-5732",
+                    "severity" : "MEDIUM",
+                    "cvssv2": {
+                        "score": 5.8
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "PARTIAL"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "8.6","impactScore": "4.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 6.1
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-601"                    ],
+                "description": "In OpenMRS 2.9 and prior, he import functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows unauthenticated users to use a feature typically restricted to administrators.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "vulnreport@tenable.com"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.9.0"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2020-5733",
+                    "severity" : "MEDIUM",
+                    "cvssv2": {
+                        "score": 5.8
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "PARTIAL"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "8.6","impactScore": "4.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 6.1
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "LOW"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "MEDIUM"
+,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-601"                    ],
+                "description": "In OpenMRS 2.9 and prior, the export functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows the export of potentially sensitive information.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "vulnreport@tenable.com"
+,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.9.0"                        }
+                    }                ]
+                }            ]        },{
             "isVirtual": false,
             "fileName": "onnxruntime-1.24.3.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/onnxruntime-1.24.3.jar"
