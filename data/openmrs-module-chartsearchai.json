@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-chartsearchai",
-        "reportDate": "2026-04-21T23:42:11.063078072Z",
+        "reportDate": "2026-04-21T23:48:41.758084466Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -482,9 +482,9 @@
             "isVirtual": false,
             "fileName": "chartsearchai-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT.jar"
-,"md5": "59516cd3c11b16f09924e245585adbac",
-            "sha1": "0df6fbb27d88b8ff2eb2b87cc385e4151e653085",
-            "sha256": "4a125824b84f17cc9b07e2d94918f8a9e084ce0228de64f4e8b562891befa375"            ,"evidenceCollected": {
+,"md5": "7d1943e01ea56c5230fca0ea2703c8e5",
+            "sha1": "0f5dd1a6a7dd7080a3934b3547f77da767d3cfef",
+            "sha256": "2ec12353c12aa053816442b5172a6af1ccae32e02ac622de31e377c02de90bf8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -595,16 +595,16 @@
             "isVirtual": false,
             "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"md5": "61befe4a06a1db55e64f479cca32875d",
-            "sha1": "e8eb29982edf7123e10dddd0fc98450f7f329d25",
-            "sha256": "a8b4edf46ad7b57c921eace7aa1d4a7bb0ac4f36e02a2f62ac06c851b76097d5","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
+,"md5": "e9d13fb1cb448787432d6911aea991e7",
+            "sha1": "0219ef18e1abf4b16eb856a044440cc77c6480a9",
+            "sha256": "16de2ad29076ea4ab3d51fdc0a7b4a73786b82aee145373987f71c51a19d5f93","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "a8b4edf46ad7b57c921eace7aa1d4a7bb0ac4f36e02a2f62ac06c851b76097d5",
-                    "sha1": "e8eb29982edf7123e10dddd0fc98450f7f329d25",
-                    "md5": "61befe4a06a1db55e64f479cca32875d"
+,"sha256": "16de2ad29076ea4ab3d51fdc0a7b4a73786b82aee145373987f71c51a19d5f93",
+                    "sha1": "0219ef18e1abf4b16eb856a044440cc77c6480a9",
+                    "md5": "e9d13fb1cb448787432d6911aea991e7"
                 }
             ]
             ,"evidenceCollected": {
