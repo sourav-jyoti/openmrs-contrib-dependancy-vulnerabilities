@@ -21,11 +21,66 @@
             }
         ]
 
+            ,"analysisExceptions":[
+{            
+            
+            
+            "exception":{"message":"org.owasp.dependencycheck.analyzer.exception.AnalysisException: Could not connect to Central search. Analysis failed; disabling Central analyzer - this could lead to both false positives and false negatives."
+                ,"stackTrace":[
+"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:332)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+                ,            
+            
+            
+            "cause":{"message":"java.io.IOException: Finally failed connecting to Central search. Giving up after 3 tries."
+                ,"stackTrace":[
+"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:380)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+                ,            
+            
+            
+            "cause":{"message":"java.io.IOException: https:\/\/search.maven.org\/solrsearch\/select?q=1:ab71fac891b1ff75f1137a01edc65d47874bb5de&wt=xml - Server status: 502 - Server reason: Bad Gateway"
+                ,"stackTrace":[
+"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:744)"
+,"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:701)"
+,"org.owasp.dependencycheck.data.central.CentralSearch.searchSha1(CentralSearch.java:163)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:357)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+            }
+
+            }
+
+            }
+}
+            ]
 
     },
     "projectInfo": {
         "name": "openmrs-module-chartsearchai",
-        "reportDate": "2026-04-22T13:43:51.663960086Z",
+        "reportDate": "2026-04-22T13:53:43.352793290Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -482,9 +537,9 @@
             "isVirtual": false,
             "fileName": "chartsearchai-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT.jar"
-,"md5": "93873dfbb6ae1e39a35537279f6b7dde",
-            "sha1": "22edf1952eceddb5c92262ef5d7b2f339c150980",
-            "sha256": "08d05537af89b197a6781325b811b408852e3a9290c3769c195e3c2bcd8d722a"            ,"evidenceCollected": {
+,"md5": "19fe4083edf846a5262c2f21ad1d750f",
+            "sha1": "ab71fac891b1ff75f1137a01edc65d47874bb5de",
+            "sha256": "816a4413b64d4a617c956e10ca275a4cfbc85452ff5d6b9fbf212196fc68bca5"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -595,16 +650,16 @@
             "isVirtual": false,
             "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"md5": "520a90e8140125bad45f7c7118ebf11b",
-            "sha1": "c71fa07ac84cd36ebea003ed178bc1577ea859ff",
-            "sha256": "f6d4a71c053d1575a98920085603952aa9b2b0e1fa85e83c74b3a60bf4fa2d35","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
+,"md5": "9535262041b36c4a85371f8ece4af88a",
+            "sha1": "f7d715a89d1ebe71dbe2948878ac0e770aefb4e4",
+            "sha256": "b0edc6385195e53d13d82bbfd0f3bb0c1a780e4c2b91efa0a07027ff21e3b4f2","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "f6d4a71c053d1575a98920085603952aa9b2b0e1fa85e83c74b3a60bf4fa2d35",
-                    "sha1": "c71fa07ac84cd36ebea003ed178bc1577ea859ff",
-                    "md5": "520a90e8140125bad45f7c7118ebf11b"
+,"sha256": "b0edc6385195e53d13d82bbfd0f3bb0c1a780e4c2b91efa0a07027ff21e3b4f2",
+                    "sha1": "f7d715a89d1ebe71dbe2948878ac0e770aefb4e4",
+                    "md5": "9535262041b36c4a85371f8ece4af88a"
                 }
             ]
             ,"evidenceCollected": {
