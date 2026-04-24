@@ -21,66 +21,11 @@
             }
         ]
 
-            ,"analysisExceptions":[
-{            
-            
-            
-            "exception":{"message":"org.owasp.dependencycheck.analyzer.exception.AnalysisException: Could not connect to Central search. Analysis failed; disabling Central analyzer - this could lead to both false positives and false negatives."
-                ,"stackTrace":[
-"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:332)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-                ,            
-            
-            
-            "cause":{"message":"java.io.IOException: Finally failed connecting to Central search. Giving up after 3 tries."
-                ,"stackTrace":[
-"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:380)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-                ,            
-            
-            
-            "cause":{"message":"java.io.IOException: https:\/\/search.maven.org\/solrsearch\/select?q=1:e5eebd2c2734ff05ceed63b0d98a2b446c1bcbaa&wt=xml - Server status: 502 - Server reason: Bad Gateway"
-                ,"stackTrace":[
-"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:744)"
-,"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:701)"
-,"org.owasp.dependencycheck.data.central.CentralSearch.searchSha1(CentralSearch.java:163)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:357)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-            }
-
-            }
-
-            }
-}
-            ]
 
     },
     "projectInfo": {
         "name": "openmrs-module-webservices.rest",
-        "reportDate": "2026-04-24T22:06:26.237635842Z",
+        "reportDate": "2026-04-24T22:11:18.662452563Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -3378,9 +3323,23 @@
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/jspecify-1.0.0.jar"
 ,"md5": "9133aba420d0ca3b001dbb6ae9992cf6",
             "sha1": "7425a601c1c7ec76645a78d22b8c6a627edee507",
-            "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab","description": "An artifact of well-specified annotations to power static analysis checks and JVM language interop.","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0"            ,"evidenceCollected": {
+            "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab","description": "An artifact of well-named and well-specified annotations to power static analysis checks","license": "The Apache License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "jspecify"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "org.jspecify"
+                        }
+,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -3429,9 +3388,65 @@
                             "name": "multi-release",
                             "value": "true"
                         }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "jspecify"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "kevinb9n@gmail.com"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "kevinb9n"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Kevin Bourrillion"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.jspecify"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "JSpecify annotations"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/jspecify.org\/"
+                        }
                 ],
                 "productEvidence": [
 {
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "jspecify"
+                    }
+,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -3487,9 +3502,65 @@
                             "name": "multi-release",
                             "value": "true"
                     }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "jspecify"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "kevinb9n@gmail.com"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "kevinb9n"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Kevin Bourrillion"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.jspecify"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "JSpecify annotations"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/jspecify.org\/"
+                    }
                 ],
                 "versionEvidence": [
                     {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "central",
+                        "name": "version",
+                        "value": "1.0.0"
+                    }
+,                    {
                         "type": "version",
                         "confidence": "HIGH",
                         "source": "file",
@@ -3500,12 +3571,30 @@
                         "type": "version",
                         "confidence": "HIGH",
                         "source": "Manifest",
+                        "name": "Bundle-Version",
+                        "value": "1.0.0"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "Manifest",
                         "name": "Implementation-Version",
+                        "value": "1.0.0"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
                         "value": "1.0.0"
                     }
                 ]
             }
-
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.jspecify\/jspecify@1.0.0"
+,"confidence": "HIGH"                    }
+            ]
         },{
             "isVirtual": false,
             "fileName": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
@@ -4468,9 +4557,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-3.4.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT-tests.jar"
-,"md5": "bbf0d73c558a3425671314398f172e38",
-            "sha1": "e5eebd2c2734ff05ceed63b0d98a2b446c1bcbaa",
-            "sha256": "5af4545c917094eae67c6f288b93a4fbc0587b99776b70205b763109fdece0e6"            ,"evidenceCollected": {
+,"md5": "3d27fe4150e67a5046175253303965b0",
+            "sha1": "8e4447240a71dfba966f0e64d35f109ba6f13546",
+            "sha256": "03a37edec7a36c3550db496df40e677e199bdb8899f35d128a633bd8c9bc5b09"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4581,9 +4670,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-3.4.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT.jar"
-,"md5": "ef5315409b95a46797709986f9469258",
-            "sha1": "ac28f2a43f2015dee9eec6772f19cb7efe08f06f",
-            "sha256": "4d208e1a3359c88b952b36ec4516bf3378a0ca791b1b697c2418aae704c07a17"            ,"evidenceCollected": {
+,"md5": "c6bb050bc3126287cea3068d9f103edb",
+            "sha1": "35ad0c89bb5f91fc623d7a36e65edba2dfcf75c8",
+            "sha256": "f607b3916b942c6f795bb0d02ce18c781bd86dc3b5c28d694465286868b50dd9"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4694,16 +4783,16 @@
             "isVirtual": false,
             "fileName": "webservices.rest-omod-common-3.4.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.4.0-SNAPSHOT.jar"
-,"md5": "7ce8b7e9bc4850cd5891ff122b986c04",
-            "sha1": "26c7f08c49cc6316121b897ba6c38ba776bce678",
-            "sha256": "591c489ef9e62fdc231830ab9e16f89ada2ae31afa987d21e0805efb8c014536","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
+,"md5": "6ebbd8b2a87e69f7b138dc9a41e9e19d",
+            "sha1": "83609eca8dc9ec0772fa95bc530eda178c4263d8",
+            "sha256": "7c9c659ead953cc5d4983c745b3dfd10864fa900ddd66ab577f3009d7cf1ace6","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-3.4.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-3.4.0-SNAPSHOT-tests.jar"
-,"sha256": "206760af9288835f5feed0d8f935e82f6be210e8b112b61c3996b5e591890c6b",
-                    "sha1": "0dab97648d8ad0c979ba8ba32907197f66b45391",
-                    "md5": "c47905147613d855a4ae7ba2ad1018ae",
+,"sha256": "3e4dc6e07507bb3d5d99b21af92af3d5febcab3f1124e4fdf21a9e9483ff3c90",
+                    "sha1": "785d5de45e5001ff6c107e7e9b100ac02fa45d15",
+                    "md5": "398d18d1df55437bf4f07b3e3e1d96a8",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/webservices.rest-omod-common@3.4.0-SNAPSHOT"
@@ -4714,9 +4803,9 @@
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-3.4.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-3.4.0-SNAPSHOT\/lib\/webservices.rest-omod-common-3.4.0-SNAPSHOT.jar"
-,"sha256": "591c489ef9e62fdc231830ab9e16f89ada2ae31afa987d21e0805efb8c014536",
-                    "sha1": "26c7f08c49cc6316121b897ba6c38ba776bce678",
-                    "md5": "7ce8b7e9bc4850cd5891ff122b986c04"
+,"sha256": "7c9c659ead953cc5d4983c745b3dfd10864fa900ddd66ab577f3009d7cf1ace6",
+                    "sha1": "83609eca8dc9ec0772fa95bc530eda178c4263d8",
+                    "md5": "6ebbd8b2a87e69f7b138dc9a41e9e19d"
                 }
             ]
             ,"evidenceCollected": {
