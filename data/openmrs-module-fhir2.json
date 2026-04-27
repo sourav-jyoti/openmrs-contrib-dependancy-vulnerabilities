@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-23T12:37:30Z"
+                "timestamp": "2026-04-26T12:02:26Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-23T12:08:08Z"
+                "timestamp": "2026-04-26T11:16:06Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-23T12:37:30Z"
+                "timestamp": "2026-04-26T12:02:26Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-23T12:08:08Z"
+                "timestamp": "2026-04-26T11:16:06Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-fhir2",
-        "reportDate": "2026-04-23T12:57:35.420546266Z",
+        "reportDate": "2026-04-27T12:56:07.007922719Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4923,9 +4923,9 @@
             "isVirtual": false,
             "fileName": "fhir2-4.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT-tests.jar"
-,"md5": "8876df678649ad4636c29c5d91eec968",
-            "sha1": "d2e9d61a64891afedded6df2d612a3037515b624",
-            "sha256": "fb90af7a2b51891651a8de12dce18efc03046d9491aa0f3d5dd840929c188b40"            ,"evidenceCollected": {
+,"md5": "b919d9e110a35bbb581f66979bf49e17",
+            "sha1": "a7b1dcff77979c4ed9cbda362c20944ab8958a92",
+            "sha256": "6c12b35e2f7a2bf010b5be0f998875e2fc1eb82741a462d296f4e5d1f142212c"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5029,9 +5029,9 @@
             "isVirtual": false,
             "fileName": "fhir2-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT.jar"
-,"md5": "7b581d57b57c9af5cd203f8403ff04a0",
-            "sha1": "238429fe1a89440263d01c45c91e25e71207c9ab",
-            "sha256": "702d32908581c8b7d6a71a952f9912e6e8fba86badda4ec20b8c0ea2647f1ad8"            ,"evidenceCollected": {
+,"md5": "6d5d400577321ae2e1bb400b46666b85",
+            "sha1": "94c388354dade83e9d4b777db2bcbe0694a23ed5",
+            "sha256": "7526feb27899fdfec597f36f32f50a30b09d74124ee501415879318d9e9f1ccd"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5135,16 +5135,16 @@
             "isVirtual": false,
             "fileName": "fhir2-api-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/fhir2-api-4.0.0-SNAPSHOT.jar"
-,"md5": "9ceb373b8fe8d439dfe53b9e685f5c16",
-            "sha1": "fd52e70034c8039e8902574c9b8023b64ef2d4d7",
-            "sha256": "9a6d95aef699af5bc51a628514e97ec8e104bbaf7926bba9fb29d24f2c32e68a","description": "API for FHIR2"            ,"relatedDependencies": [
+,"md5": "61c27de569e170a395ee70aa4efa7b8b",
+            "sha1": "0676b463c1f011c3730d6b2db8b89a034854feb5",
+            "sha256": "b3e5b27d2be929f84ad9f57d6d106ff2047d49443aeca13822e3d96b5c218666","description": "API for FHIR2"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-api-4.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/fhir2-api-4.0.0-SNAPSHOT-tests.jar"
-,"sha256": "be3945a3666958e3223b807cb83f68e5d99df3435d1901e43419ab495b934ce3",
-                    "sha1": "5fa33fe4c671e051588284d0b7fb69821756b015",
-                    "md5": "4b2c7ecc97559c2cf30e435459fd5a2a",
+,"sha256": "b26419a13ff83d0e6accdf2658568c1a1fd84e3ddeea9b487513a73b529f4cb3",
+                    "sha1": "4633524a4890c381bdb0b6d615f518c1a5e0ead0",
+                    "md5": "688a3f1cfb2dce87923c043a886785da",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api@4.0.0-SNAPSHOT"
@@ -5155,9 +5155,9 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-4.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/fhir2-api-4.0.0-SNAPSHOT.jar"
-,"sha256": "9a6d95aef699af5bc51a628514e97ec8e104bbaf7926bba9fb29d24f2c32e68a",
-                    "sha1": "fd52e70034c8039e8902574c9b8023b64ef2d4d7",
-                    "md5": "9ceb373b8fe8d439dfe53b9e685f5c16"
+,"sha256": "b3e5b27d2be929f84ad9f57d6d106ff2047d49443aeca13822e3d96b5c218666",
+                    "sha1": "0676b463c1f011c3730d6b2db8b89a034854feb5",
+                    "md5": "61c27de569e170a395ee70aa4efa7b8b"
                 }
             ]
             ,"evidenceCollected": {
@@ -5328,9 +5328,9 @@
             "isVirtual": false,
             "fileName": "fhir2-integration-tests-4.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/fhir2-integration-tests-4.0.0-SNAPSHOT-tests.jar"
-,"md5": "f6137416fecea70b2b8566114febefa0",
-            "sha1": "81a0fec2d8caf4a745e4596aabfe2c4ed7f84e32",
-            "sha256": "484c59457c3f8aaa1a2169299c71a8a2f0a86fed677ef111205ccf97d5dfc1ef","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
+,"md5": "2783958e1c67b4f5e16cc08de6e0871e",
+            "sha1": "490c22620f2d513516ad4f3da1fa11ff645897e9",
+            "sha256": "8c5ace0051f19923e3361a4344027b5c943bdbf0ecb7c07c50efbf36dc877f21","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5484,16 +5484,16 @@
             "isVirtual": false,
             "fileName": "fhir2-test-data-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-4.0.0-SNAPSHOT.jar"
-,"md5": "23e5098d3a5f1829247abd0bc1c899c3",
-            "sha1": "4e3775e1ac646281f1fcd9cfd9fc6e21201a97cc",
-            "sha256": "46ae97ed9c509aaee529e8e832911beaee5b592963b43debc129392fd2174266","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
+,"md5": "640ad1c8bad658255d0c28ddb343c6d6",
+            "sha1": "b07a5617f7beaf8cdd26c704b713950c53bc164d",
+            "sha256": "065cbd152e60cb12d9112018b4c2aa16af072134b6e9f587dc1281ea0c88c967","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-test-data-4.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-4.0.0-SNAPSHOT-tests.jar"
-,"sha256": "a62ea300ffd8907c9987df45e7ec95d6390b46dd45ff2207ae8399310cddf942",
-                    "sha1": "35706c049d3cb9cdbaaf231b836ed0f703e7dfa8",
-                    "md5": "a0bd0c8dbea813e2299bbf7e373f6eed",
+,"sha256": "ae11b7a25f90d7645a29d1f031b6c1387450bbc8002d8eebf2dc3d96ddbfe718",
+                    "sha1": "5e3346e2826b67d3c881e1e906b3df4bf8bfe59d",
+                    "md5": "1c3c5289ec1ea1a516665c07d3d68eaf",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-test-data@4.0.0-SNAPSHOT"
@@ -9871,7 +9871,68 @@
                     "id": "cpe:2.3:a:thymeleaf:thymeleaf:3.1.3:release:*:*:*:*:*:*"
 ,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Athymeleaf%3Athymeleaf%3A3.1.3%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-        },{
+            ,"vulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2026-40477",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 9.0
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "2.2","impactScore": "6.0","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-917",                        "CWE-1336"                    ],
+                "description": "Thymeleaf is a server-side Java template engine for web and standalone environments. Versions 3.1.3.RELEASE and prior contain a security bypass vulnerability in the expression execution mechanisms. Although the library provides mechanisms to prevent expression injection, it fails to properly restrict the scope of accessible objects, allowing specific potentially sensitive objects to be reached from within a template. If an application developer passes unvalidated user input directly to the template engine, an unauthenticated remote attacker can bypass the library's protections to achieve Server-Side Template Injection (SSTI). This issue has ben fixed in version 3.1.4.RELEASE.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/thymeleaf\/thymeleaf\/security\/advisories\/GHSA-r4v4-5mwr-2fwr","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:thymeleaf:thymeleaf:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"3.1.4"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40478",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 9.0
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "2.2","impactScore": "6.0","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-917",                        "CWE-1336"                    ],
+                "description": "Thymeleaf is a server-side Java template engine for web and standalone environments. Versions 3.1.3.RELEASE and prior contain a security bypass vulnerability in the the expression execution mechanisms. Although the library provides mechanisms to prevent expression injection, it fails to properly neutralize specific syntax patterns that allow for the execution of unauthorized expressions. If an application developer passes unvalidated user input directly to the template engine, an unauthenticated remote attacker can bypass the library's protections to achieve Server-Side Template Injection (SSTI). This issue has ben fixed in version 3.1.4.RELEASE.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/thymeleaf\/thymeleaf\/security\/advisories\/GHSA-xjw8-8c5c-9r79","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:thymeleaf:thymeleaf:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"3.1.4"                        }
+                    }                ]
+                }            ]        },{
             "isVirtual": false,
             "fileName": "ucum-1.0.3.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/ucum-1.0.3.jar"
