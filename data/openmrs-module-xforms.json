@@ -21,66 +21,11 @@
             }
         ]
 
-            ,"analysisExceptions":[
-{            
-            
-            
-            "exception":{"message":"org.owasp.dependencycheck.analyzer.exception.AnalysisException: Could not connect to Central search. Analysis failed; disabling Central analyzer - this could lead to both false positives and false negatives."
-                ,"stackTrace":[
-"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:332)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-                ,            
-            
-            
-            "cause":{"message":"java.io.IOException: Finally failed connecting to Central search. Giving up after 3 tries."
-                ,"stackTrace":[
-"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:380)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-                ,            
-            
-            
-            "cause":{"message":"java.io.IOException: https:\/\/search.maven.org\/solrsearch\/select?q=1:ca5abeba98e41eca830e6ddc74385a9538c0c908&wt=xml - Server status: 502 - Server reason: Bad Gateway"
-                ,"stackTrace":[
-"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:744)"
-,"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:701)"
-,"org.owasp.dependencycheck.data.central.CentralSearch.searchSha1(CentralSearch.java:163)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:357)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-            }
-
-            }
-
-            }
-}
-            ]
 
     },
     "projectInfo": {
         "name": "openmrs-module-xforms",
-        "reportDate": "2026-04-27T10:01:49.540648076Z",
+        "reportDate": "2026-04-27T10:10:34.673894264Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -2586,9 +2531,23 @@
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.0.0-SNAPSHOT\/lib\/saxon-dom-8.7.jar"
 ,"md5": "aa3900ace0109cb4cd44752923428ddc",
             "sha1": "ca5abeba98e41eca830e6ddc74385a9538c0c908",
-            "sha256": "f0b62d5d9acb90813e270b688581c354c4bb075700a3dd594399d0e013ced966"            ,"evidenceCollected": {
+            "sha256": "f0b62d5d9acb90813e270b688581c354c4bb075700a3dd594399d0e013ced966","description": "Saxon support library for third-party object model DOM","license": "Mozilla Public License Version 1.0: http:\/\/www.mozilla.org\/MPL\/MPL-1.0.txt"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                        }
+,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -2616,9 +2575,44 @@
                             "name": "package name",
                             "value": "sf"
                         }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Saxon DOM"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/saxon.sf.net"
+                        }
                 ],
                 "productEvidence": [
 {
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                    }
+,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -2646,14 +2640,42 @@
                             "name": "package name",
                             "value": "sf"
                     }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "saxon-dom"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "net.sf.saxon"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "Saxon DOM"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/saxon.sf.net"
+                    }
                 ],
                 "versionEvidence": [
                     {
                         "type": "version",
-                        "confidence": "MEDIUM",
-                        "source": "file",
-                        "name": "name",
-                        "value": "saxon-dom"
+                        "confidence": "HIGHEST",
+                        "source": "central",
+                        "name": "version",
+                        "value": "8.7"
                     }
 ,                    {
                         "type": "version",
@@ -2662,9 +2684,20 @@
                         "name": "version",
                         "value": "8.7"
                     }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "8.7"
+                    }
                 ]
             }
-
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/net.sf.saxon\/saxon-dom@8.7"
+,"confidence": "HIGH"                    }
+            ]
         },{
             "isVirtual": false,
             "fileName": "sms-server-1.0.jar",
@@ -2786,9 +2819,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.0.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.0.0-SNAPSHOT-javadoc.jar"
-,"md5": "c0132382e357076aa35799b72c886ca6",
-            "sha1": "27ce0dd35f8b3f6a0e62463907ae65c34886aa06",
-            "sha256": "eab5acdcf6c93f99303b8a8d8f605ee2091899d47d833a53f046c83e2ec12af7"            ,"evidenceCollected": {
+,"md5": "96b5157906d40933f8cc30ab856fad38",
+            "sha1": "53bdb6a4e6b43983b17d4f21e4474919ef0c561c",
+            "sha256": "6e0dd758893dfc3bdd4172110721536a80e827afde0f083dc8a88d261238e25d"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2829,9 +2862,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.0.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.0.0-SNAPSHOT-sources.jar"
-,"md5": "084abb4f051220c4bd54333c3a5b06af",
-            "sha1": "20696b8d0486fd48be97cedf6b88898efbfd820b",
-            "sha256": "360a5ba5429c7640862b2aa46f3df467a60689c85cafcfa5174810249c5fd08d"            ,"evidenceCollected": {
+,"md5": "6ff826d09e7b4581d6d8ef8bcada1ef7",
+            "sha1": "ced5e3b4fb5e4853733a9e3978c8fa8d8a8bd0d6",
+            "sha256": "a1c7e809a4c1fde75953a55a228c68c3e282a1bef59a607da2c2e9badbd1678f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2973,9 +3006,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.0.0-SNAPSHOT-tests.jar"
-,"md5": "7d9d44f79010a523db6371aea9abe223",
-            "sha1": "66dba52dc67b68d4239095481af620b2ee7c98c6",
-            "sha256": "a90baa467353ba4c3dd1d7f5436501958b251d2b3deb0aa126883629a0bcd86d"            ,"evidenceCollected": {
+,"md5": "aa4bd4e589c4107c297305e002ce6a00",
+            "sha1": "ee881aef1aa5e031785ae2a422b80749582908ad",
+            "sha256": "7763d9470203274892ff8bd7987065e4ca4fad764e549e44e4283adceed44928"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3044,9 +3077,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.0.0-SNAPSHOT.jar"
-,"md5": "e7f0b41a7e84c77ba56f6ef9c62e683a",
-            "sha1": "706455d29b11da096a609e947e55a4cb42de10b8",
-            "sha256": "486a8706f1632cb25b7a34b9ed2eac5e5d6d12e97bf00518930a3696f0558901"            ,"evidenceCollected": {
+,"md5": "8f6aadafe35d836fbfab72ff14766790",
+            "sha1": "2f09b557e0dda8cb94d9e25491368381d72f2ba8",
+            "sha256": "93fe1e14da46648021a69a65c7b0d2261ca6ab7b761dc1e31658c2185876dc7e"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3157,9 +3190,9 @@
             "isVirtual": false,
             "fileName": "xforms-api-5.0.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.0.0-SNAPSHOT-javadoc.jar"
-,"md5": "c10c24836c895f6ded35018b74086efb",
-            "sha1": "1034d2f9952014a8b84b712e0a7dbf44c41a5fb9",
-            "sha256": "9ffc83a0e4c6dbfc561443537eb22c0c5b01e43a3183c3daea1f550270389162"            ,"evidenceCollected": {
+,"md5": "6a748f10e765da1e88da117298d4c339",
+            "sha1": "d29068c0ed1c083f4d16c6f518d5bf62c28f6c4a",
+            "sha256": "d6f436bd719e6dc6561438e3a95d03799a7b243d8ea501946dbd023f18361583"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3241,9 +3274,9 @@
             "isVirtual": false,
             "fileName": "xforms-api-5.0.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.0.0-SNAPSHOT-sources.jar"
-,"md5": "701eb86259f87295dff7a8b8d15a77a1",
-            "sha1": "e345ed590108562d8de0a37f32319481cdf268d3",
-            "sha256": "9fc564bf6435d05cd9523dbb3b7b5c6052a6b9308b223a4e74c61e0d8b37771d"            ,"evidenceCollected": {
+,"md5": "fa55d45a8f5d7746239932a1ca8aaded",
+            "sha1": "8b8f2a421baf50dfc2ea04f714767acffe321f12",
+            "sha256": "15ebe784285861042fdea5700508b03ab3a01dbde13d3b7e5e4dc57d078b9e60"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3284,16 +3317,16 @@
             "isVirtual": false,
             "fileName": "xforms-api-5.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.0.0-SNAPSHOT.jar"
-,"md5": "ed03a8e43df2ce7633ea3407a9591afe",
-            "sha1": "7598c1783ae9d22fa00ad14e783ed797fd8c9535",
-            "sha256": "ad2b31510cd2f57a833d8fb628cca13449d3fa9b94922027d751fac73e7e87b7","description": "API project for XForms Module"            ,"relatedDependencies": [
+,"md5": "e8509f07ee9a3d6f7fa5c25171b01a76",
+            "sha1": "b68dcd8aba6f0b2914effd2afe796b7cc4f0c265",
+            "sha256": "4b63665d8e3c6fc0b120a474988beaf8621b61796cabbbe7139c1f94732dd059","description": "API project for XForms Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "xforms-api-5.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.0.0-SNAPSHOT-tests.jar"
-,"sha256": "f4218a93ca933c10227773a61a08eea07376e6ba8f0aa1aef5e2fba48b1a48a9",
-                    "sha1": "2c440c372e8511906622eda0ca27d2198da6e06e",
-                    "md5": "2dab24682d8290e98e4d289cdb7db6bd",
+,"sha256": "078dde18f8928d28de019185377bbb7d99bb68e85010a499e8d44335247f471d",
+                    "sha1": "b4bee6a0f80855a5fbd812fe0f78c7eda5cb5af1",
+                    "md5": "4113227adbb581a7c680c0487d6b6a8a",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/xforms-api@5.0.0-SNAPSHOT"
@@ -3304,9 +3337,9 @@
                     "isVirtual": false,
                     "fileName": "xforms-api-5.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/xforms-5.0.0-SNAPSHOT\/lib\/xforms-api-5.0.0-SNAPSHOT.jar"
-,"sha256": "ad2b31510cd2f57a833d8fb628cca13449d3fa9b94922027d751fac73e7e87b7",
-                    "sha1": "7598c1783ae9d22fa00ad14e783ed797fd8c9535",
-                    "md5": "ed03a8e43df2ce7633ea3407a9591afe"
+,"sha256": "4b63665d8e3c6fc0b120a474988beaf8621b61796cabbbe7139c1f94732dd059",
+                    "sha1": "b68dcd8aba6f0b2914effd2afe796b7cc4f0c265",
+                    "md5": "e8509f07ee9a3d6f7fa5c25171b01a76"
                 }
             ]
             ,"evidenceCollected": {
