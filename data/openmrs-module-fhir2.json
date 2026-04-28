@@ -5,82 +5,27 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-26T12:02:26Z"
+                "timestamp": "2026-04-28T13:10:39Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-26T11:16:06Z"
+                "timestamp": "2026-04-28T12:21:17Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-26T12:02:26Z"
+                "timestamp": "2026-04-28T13:10:39Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-26T11:16:06Z"
+                "timestamp": "2026-04-28T12:21:17Z"
             }
         ]
 
-            ,"analysisExceptions":[
-{            
-            
-            
-            "exception":{"message":"org.owasp.dependencycheck.analyzer.exception.AnalysisException: Could not connect to Central search. Analysis failed; disabling Central analyzer - this could lead to both false positives and false negatives."
-                ,"stackTrace":[
-"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:332)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-                ,            
-            
-            
-            "cause":{"message":"java.io.IOException: Finally failed connecting to Central search. Giving up after 3 tries."
-                ,"stackTrace":[
-"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:380)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-                ,            
-            
-            
-            "cause":{"message":"java.io.IOException: https:\/\/search.maven.org\/solrsearch\/select?q=1:5600569133b7bdefe1daf9ec7f4abeb6d13e1786&wt=xml - Server status: 502 - Server reason: Bad Gateway"
-                ,"stackTrace":[
-"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:744)"
-,"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:701)"
-,"org.owasp.dependencycheck.data.central.CentralSearch.searchSha1(CentralSearch.java:163)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:357)"
-,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
-,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
-,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
-,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
-,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
-,"java.base\/java.lang.Thread.run(Thread.java:1474)"
-                ]
-            }
-
-            }
-
-            }
-}
-            ]
 
     },
     "projectInfo": {
         "name": "openmrs-module-fhir2",
-        "reportDate": "2026-04-27T13:02:28.922276141Z",
+        "reportDate": "2026-04-28T20:46:54.876828666Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4978,9 +4923,9 @@
             "isVirtual": false,
             "fileName": "fhir2-4.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT-tests.jar"
-,"md5": "56284081cb07b894864bdfdb1b16e90a",
-            "sha1": "d19a274081d630d34aae12d4fcc55c9ab1eddfeb",
-            "sha256": "f9b801d48fd390211e8e6e722068a5971d30304fe0be7b284942608abccbd8a3"            ,"evidenceCollected": {
+,"md5": "8cb7b42eea1f8e217c0a61ee1f7d1821",
+            "sha1": "62c8da9917e88f33f633cfe702fb2c6b9a626881",
+            "sha256": "0ed02f2890af08cd443ac25be87aa1e5d1579a36bc87d8e5d4ea902d52322d80"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5084,9 +5029,9 @@
             "isVirtual": false,
             "fileName": "fhir2-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT.jar"
-,"md5": "79d98f983459b3248fdbc22b5caaea56",
-            "sha1": "24b2313ff99e51912916980dbdebef992889cad7",
-            "sha256": "7360a4229a2165278d56f21fdd198deb6f464499d25ca923d9415cab0a4f9034"            ,"evidenceCollected": {
+,"md5": "eee86db9d1f9dd37503e56ce76b2616b",
+            "sha1": "9a1176d4062abb5212339c63fe06a64b634524f6",
+            "sha256": "5480017f6bf771c755df209ac781e3a519cd2a73a6bda587aaaa3181df8a1dda"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5190,16 +5135,16 @@
             "isVirtual": false,
             "fileName": "fhir2-api-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/fhir2-api-4.0.0-SNAPSHOT.jar"
-,"md5": "26aa20fd336c642aec012d5659959dff",
-            "sha1": "e99d48ed1eb73fe49e82b61f67191801a731f2dd",
-            "sha256": "70839a46f60156b7dfd5aec1bf8fc5dd3f261406c4866a67225e9b144a8f0351","description": "API for FHIR2"            ,"relatedDependencies": [
+,"md5": "44b5ac349097d297db722f9c6fda3c2c",
+            "sha1": "79d943a5ccfdcd66fbd185a026e027adb0affdba",
+            "sha256": "5eadead7d4c56c44719f07e07977665b790c8bba3a367ecfa5884c3c6c96b469","description": "API for FHIR2"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-api-4.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/fhir2-api-4.0.0-SNAPSHOT-tests.jar"
-,"sha256": "8580f2b7758c37421705bf908ece2544269b2535b8c3044b2466a6385985bbe9",
-                    "sha1": "98394143d17df0cdc8ba2f9e83e36a8fe1724135",
-                    "md5": "424498d9da048d27394a5da33e4e05ce",
+,"sha256": "5f04ab4b6b841c50bb8307ec8e4a9a83d2d963a400de934a8e2b8b2357c5c726",
+                    "sha1": "72fcc33c56fab5fa01d8b1e05cb876fca025b3d6",
+                    "md5": "99018b8d02cb61e9787395620f60ad29",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api@4.0.0-SNAPSHOT"
@@ -5210,9 +5155,9 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-4.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/fhir2-api-4.0.0-SNAPSHOT.jar"
-,"sha256": "70839a46f60156b7dfd5aec1bf8fc5dd3f261406c4866a67225e9b144a8f0351",
-                    "sha1": "e99d48ed1eb73fe49e82b61f67191801a731f2dd",
-                    "md5": "26aa20fd336c642aec012d5659959dff"
+,"sha256": "5eadead7d4c56c44719f07e07977665b790c8bba3a367ecfa5884c3c6c96b469",
+                    "sha1": "79d943a5ccfdcd66fbd185a026e027adb0affdba",
+                    "md5": "44b5ac349097d297db722f9c6fda3c2c"
                 }
             ]
             ,"evidenceCollected": {
@@ -5383,9 +5328,9 @@
             "isVirtual": false,
             "fileName": "fhir2-integration-tests-4.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/fhir2-integration-tests-4.0.0-SNAPSHOT-tests.jar"
-,"md5": "ed08f57371c9025e421ff2f09ce216ce",
-            "sha1": "eef6165bc9c9dce3fb867a8e7d2427ac774b849b",
-            "sha256": "ff2ec73f54920935c36ce6b02d096bc7f5f0cc95f3212baabdd43eb0fe206de6","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
+,"md5": "7725b1f29b162962dfe9ec1eb222aa9e",
+            "sha1": "e223bd21cede55c9f17f3399ba0279fd84747764",
+            "sha256": "e12677a39424fc5e8c559b6765ce753bf970cb2f30e7f9436c68e7967a9fd4ee","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5539,16 +5484,16 @@
             "isVirtual": false,
             "fileName": "fhir2-test-data-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-4.0.0-SNAPSHOT.jar"
-,"md5": "dca470e1d83ae84c0f5a6bffe8789b98",
-            "sha1": "eb1f55f2173cf442a92e616c4de2e94abf97abc8",
-            "sha256": "a2c18f172035d8fb38c2777d8a38f2721cadf169a060108f750f89503ad7a9e2","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
+,"md5": "175df3c45246cfda102c7781ec2dca33",
+            "sha1": "14ccb1a98b199c716b9d4312fcf55f17ff92d1d6",
+            "sha256": "bbd9327d47e97c2f89947cc11c5924a0fb2993496459a3a804d242de8a208d82","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-test-data-4.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-4.0.0-SNAPSHOT-tests.jar"
-,"sha256": "5ecbe9c7476d468d07f13dd19ff326419ce2b3e03691c237c5738546a9e40faa",
-                    "sha1": "6b94191c9009f7e145b4b533730cfd325cc87d8c",
-                    "md5": "4d54b355588707d03f23f224fc79199f",
+,"sha256": "95f9dbd71a0d640e0d50557eaee68a046970036b81b87262e01dcc16c90ecf6e",
+                    "sha1": "dec67b183e7ea2859e7e4fa25a8cf663b66691a3",
+                    "md5": "8b24a629918468ae74ca41ded5d1499d",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-test-data@4.0.0-SNAPSHOT"
@@ -9311,7 +9256,22 @@
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/okio-3.6.0.jar"
 ,"md5": "990f7b25bbd4fee8787ffabf89aa229f",
             "sha1": "8bf9683c80762d7dd47db12b68e99abea2a7ae05",
-            "sha256": "8e63292e5c53bb93c4a6b0c213e79f15990fed250c1340f1c343880e1c9c39b5","description": "A modern I\/O library for Android, Java, and Kotlin Multiplatform.","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+            "sha256": "8e63292e5c53bb93c4a6b0c213e79f15990fed250c1340f1c343880e1c9c39b5","description": "A modern I\/O library for Android, Java, and Kotlin Multiplatform.","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "okio-jvm-3.6.0.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/okio-jvm-3.6.0.jar"
+,"sha256": "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412",
+                    "sha1": "5600569133b7bdefe1daf9ec7f4abeb6d13e1786",
+                    "md5": "26370180ff99a7e8a12dcaac2a70cc6e",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/com.squareup.okio/okio-jvm@3.6.0"
+                            }
+                    ]
+                }
+            ]
+            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -9467,116 +9427,6 @@
                 {
                     "id": "cpe:2.3:a:squareup:okio:3.6.0:*:*:*:*:*:*:*"
 ,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Asquareup%3Aokio%3A3.6.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
-            ]
-        },{
-            "isVirtual": false,
-            "fileName": "okio-jvm-3.6.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/okio-jvm-3.6.0.jar"
-,"md5": "26370180ff99a7e8a12dcaac2a70cc6e",
-            "sha1": "5600569133b7bdefe1daf9ec7f4abeb6d13e1786",
-            "sha256": "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412"            ,"evidenceCollected": {
-                "vendorEvidence": [
-{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "okio-jvm"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "okio"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "okio"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "automatic-module-name",
-                            "value": "okio"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "bundle-symbolicname",
-                            "value": "com.squareup.okio"
-                        }
-                ],
-                "productEvidence": [
-{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "okio-jvm"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "okio"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "automatic-module-name",
-                            "value": "okio"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "Bundle-Name",
-                            "value": "com.squareup.okio"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "bundle-symbolicname",
-                            "value": "com.squareup.okio"
-                    }
-                ],
-                "versionEvidence": [
-                    {
-                        "type": "version",
-                        "confidence": "MEDIUM",
-                        "source": "file",
-                        "name": "name",
-                        "value": "okio-jvm"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "file",
-                        "name": "version",
-                        "value": "3.6.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "Manifest",
-                        "name": "Bundle-Version",
-                        "value": "3.6.0"
-                    }
-                ]
-            }
-                ,"vulnerabilityIds": [
-                {
-                    "id": "cpe:2.3:a:squareup:okio:3.6.0:*:*:*:*:*:*:*"
-,"confidence": "LOW"                }
             ]
         },{
             "isVirtual": false,
@@ -9819,6 +9669,20 @@
                 "vendorEvidence": [
 {
                             "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "thymeleaf"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "org.thymeleaf"
+                        }
+,{
+                            "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
                             "name": "name",
@@ -9866,9 +9730,44 @@
                             "name": "specification-vendor",
                             "value": "Thymeleaf"
                         }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "thymeleaf"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.thymeleaf"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "thymeleaf"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "thymeleaf-lib"
+                        }
                 ],
                 "productEvidence": [
 {
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "thymeleaf"
+                    }
+,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -9910,14 +9809,42 @@
                             "name": "specification-title",
                             "value": "thymeleaf"
                     }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "thymeleaf"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.thymeleaf"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "thymeleaf"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "parent-artifactid",
+                            "value": "thymeleaf-lib"
+                    }
                 ],
                 "versionEvidence": [
                     {
                         "type": "version",
-                        "confidence": "HIGH",
-                        "source": "file",
+                        "confidence": "HIGHEST",
+                        "source": "central",
                         "name": "version",
-                        "value": "3.1.3.release"
+                        "value": "3.1.3.RELEASE"
                     }
 ,                    {
                         "type": "version",
@@ -9926,9 +9853,20 @@
                         "name": "Implementation-Version",
                         "value": "3.1.3.RELEASE"
                     }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "3.1.3.RELEASE"
+                    }
                 ]
             }
-                ,"vulnerabilityIds": [
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.thymeleaf\/thymeleaf@3.1.3.RELEASE"
+,"confidence": "HIGH"                    }
+            ]                ,"vulnerabilityIds": [
                 {
                     "id": "cpe:2.3:a:thymeleaf:thymeleaf:3.1.3:release:*:*:*:*:*:*"
 ,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Athymeleaf%3Athymeleaf%3A3.1.3%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
@@ -10180,9 +10118,23 @@
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/unbescape-1.1.6.RELEASE.jar"
 ,"md5": "d95ed94e1624e307a1958ee105ccbf39",
             "sha1": "7b90360afb2b860e09e8347112800d12c12b2a13",
-            "sha256": "597cf87d5b1a4f385b9d1cec974b7b483abb3ee85fc5b3f8b62af8e4bec95c2c","description": "Advanced yet easy-to-use escape\/unescape library for Java","license": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+            "sha256": "597cf87d5b1a4f385b9d1cec974b7b483abb3ee85fc5b3f8b62af8e4bec95c2c","description": "Advanced yet easy-to-use escape\/unescape library for Java","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "unbescape"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "org.unbescape"
+                        }
+,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -10252,9 +10204,79 @@
                             "name": "specification-vendor",
                             "value": "The UNBESCAPE team"
                         }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "unbescape"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "daniel.fernandez AT 11thlabs DOT org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "danielfernandez"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Daniel Fernandez"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.unbescape"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "unbescape"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "The UNBESCAPE team"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/www.unbescape.org"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/www.unbescape.org"
+                        }
                 ],
                 "productEvidence": [
 {
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "unbescape"
+                    }
+,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -10324,14 +10346,84 @@
                             "name": "specification-title",
                             "value": "unbescape"
                     }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "unbescape"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer email",
+                            "value": "daniel.fernandez AT 11thlabs DOT org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer id",
+                            "value": "danielfernandez"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "developer name",
+                            "value": "Daniel Fernandez"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "org.unbescape"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "unbescape"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "The UNBESCAPE team"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/www.unbescape.org"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/www.unbescape.org"
+                    }
                 ],
                 "versionEvidence": [
                     {
                         "type": "version",
-                        "confidence": "HIGH",
-                        "source": "file",
+                        "confidence": "HIGHEST",
+                        "source": "central",
                         "name": "version",
-                        "value": "1.1.6.release"
+                        "value": "1.1.6.RELEASE"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "Manifest",
+                        "name": "Bundle-Version",
+                        "value": "1.1.6.RELEASE"
                     }
 ,                    {
                         "type": "version",
@@ -10340,103 +10432,43 @@
                         "name": "Implementation-Version",
                         "value": "1.1.6.RELEASE"
                     }
-                ]
-            }
-
-        },{
-            "isVirtual": false,
-            "fileName": "xml-patch-0.3.1.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/xml-patch-0.3.1.jar"
-,"md5": "5b7392727dc10c09715970aeae9d8975",
-            "sha1": "545e914f14b1e3a0c380e98d29d9b30f6047919a",
-            "sha256": "c9648648ea2accaeda90064b319d494043b3985d561b01ae3f0cced241edebca"            ,"evidenceCollected": {
-                "vendorEvidence": [
-{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "xml-patch"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "dnault"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "github"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "xmlpatch"
-                        }
-                ],
-                "productEvidence": [
-{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "xml-patch"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "dnault"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "repackaged"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "xmlpatch"
-                    }
-                ],
-                "versionEvidence": [
-                    {
-                        "type": "version",
-                        "confidence": "MEDIUM",
-                        "source": "file",
-                        "name": "name",
-                        "value": "xml-patch"
-                    }
 ,                    {
                         "type": "version",
-                        "confidence": "HIGH",
-                        "source": "file",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
                         "name": "version",
-                        "value": "0.3.1"
+                        "value": "1.1.6.RELEASE"
                     }
                 ]
             }
-
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/org.unbescape\/unbescape@1.1.6.RELEASE"
+,"confidence": "HIGH"                    }
+            ]
         },{
             "isVirtual": false,
             "fileName": "xpp3_xpath-1.1.4c.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.0.0-SNAPSHOT\/lib\/xpp3_xpath-1.1.4c.jar"
 ,"md5": "df9d10774c135d7ae0da36d9b9bde282",
             "sha1": "e203cc104f0bd203bebc823e577d7b922c074add",
-            "sha256": "e46d604469989325ace868cbb71a142b71d43a2d9b39262e9045b03aa84c65eb"            ,"evidenceCollected": {
+            "sha256": "e46d604469989325ace868cbb71a142b71d43a2d9b39262e9045b03aa84c65eb","description": "MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.","license": "Indiana University Extreme! Lab Software License, vesion 1.1.1: http:\/\/www.extreme.indiana.edu\/viewcvs\/~checkout~\/XPP3\/java\/LICENSE.txt"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "xpp3_xpath"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "groupid",
+                            "value": "xpp3"
+                        }
+,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -10464,9 +10496,58 @@
                             "name": "package name",
                             "value": "xmlpull"
                         }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "xpp3_xpath"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "xpp3"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "MXP1: Xml Pull Parser 3rd Edition (XPP3)"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Extreme! Lab, Indiana University"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/www.extreme.indiana.edu\/"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/www.extreme.indiana.edu\/xgws\/xsoap\/xpp\/mxp1\/"
+                        }
                 ],
                 "productEvidence": [
 {
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "central",
+                            "name": "artifactid",
+                            "value": "xpp3_xpath"
+                    }
+,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -10494,14 +10575,56 @@
                             "name": "package name",
                             "value": "xpath"
                     }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "artifactid",
+                            "value": "xpp3_xpath"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "pom",
+                            "name": "groupid",
+                            "value": "xpp3"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "pom",
+                            "name": "name",
+                            "value": "MXP1: Xml Pull Parser 3rd Edition (XPP3)"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization name",
+                            "value": "Extreme! Lab, Indiana University"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "pom",
+                            "name": "organization url",
+                            "value": "http:\/\/www.extreme.indiana.edu\/"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "MEDIUM",
+                            "source": "pom",
+                            "name": "url",
+                            "value": "http:\/\/www.extreme.indiana.edu\/xgws\/xsoap\/xpp\/mxp1\/"
+                    }
                 ],
                 "versionEvidence": [
                     {
                         "type": "version",
-                        "confidence": "MEDIUM",
-                        "source": "file",
-                        "name": "name",
-                        "value": "xpp3_xpath"
+                        "confidence": "HIGHEST",
+                        "source": "central",
+                        "name": "version",
+                        "value": "1.1.4c"
                     }
 ,                    {
                         "type": "version",
@@ -10510,8 +10633,19 @@
                         "name": "version",
                         "value": "1.1.4c"
                     }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "pom",
+                        "name": "version",
+                        "value": "1.1.4c"
+                    }
                 ]
             }
-
+                ,"packages": [
+                    {
+                        "id": "pkg:maven\/xpp3\/xpp3_xpath@1.1.4c"
+,"confidence": "HIGH"                    }
+            ]
         }    ]
 }
