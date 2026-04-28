@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-xforms",
-        "reportDate": "2026-04-28T10:37:02.895503087Z",
+        "reportDate": "2026-04-28T11:23:04.694736481Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -2819,9 +2819,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "f17b6bfd0ad4901e53d90c8e43c63094",
-            "sha1": "2bf827f42c53a2cfc8164c6a61281ac1a1104452",
-            "sha256": "d7118b758e41f9866e7b4eaba84a16d1b730a1e3adf89b735690fe58ab5e7f25"            ,"evidenceCollected": {
+,"md5": "85b5ee1be00c7deeeba318b54522a321",
+            "sha1": "b65d5166bb4dbdc51181a8a1acba7c2b492403af",
+            "sha256": "3ae4e2c7b18377252c1d9923eb53efdbb974f9084599d005e06770d59f753381"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2862,9 +2862,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.1.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.1.0-SNAPSHOT-sources.jar"
-,"md5": "b7baf80319d0ecd8f814aa8dea041288",
-            "sha1": "c80e8c94b51fb6624c8d04c1513e6730c4d7a783",
-            "sha256": "c3956446e1be0331fc4568b8efb50ed888bf3f1e58419a765997c7a3728e0401"            ,"evidenceCollected": {
+,"md5": "44de384add8993e305d4987292a51e6e",
+            "sha1": "3454d1ac39baf67b504288f81c900ed543cc96c8",
+            "sha256": "a9a1622b5d452a693aea907eeb86262853c8724f65a2362ee380b1082005eb32"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3006,9 +3006,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.1.0-SNAPSHOT-tests.jar"
-,"md5": "1726806d1c25ca6bda0bec646d8584c9",
-            "sha1": "6d4c0beeba79d1f56d097d9e8eef264b84c6c6f4",
-            "sha256": "b31a31661fa4dad996379e0d3a812ecce0c6b8fe1082c023eefe8c63f294dea5"            ,"evidenceCollected": {
+,"md5": "fb1c3830383469ad132286e15f083f62",
+            "sha1": "b1434a48df8c216c940cc17eb211bdff841b9f02",
+            "sha256": "47d494674b228809e3637bdb1ea3d22b4275bee26b879b3fb5bf2e8c823af7e2"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3077,9 +3077,9 @@
             "isVirtual": false,
             "fileName": "xforms-5.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/xforms-5.1.0-SNAPSHOT.jar"
-,"md5": "dcf23cbcbc71eea36464d01f72745965",
-            "sha1": "954afb8997d8d3e030f58c20c99591b815721183",
-            "sha256": "e72a2f419359ea11512f3695010131f5f5f3b5606a8c90d4ea73443c547930cd"            ,"evidenceCollected": {
+,"md5": "cef5d8094dbd0cca5ad86b80da01555e",
+            "sha1": "465703aee4157d6634df00bcd39022f3bc87b4cf",
+            "sha256": "3550d5e9eade908f26f777e2f46ffd1560be8265fa8d72467b849d8cab5d7533"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3190,9 +3190,9 @@
             "isVirtual": false,
             "fileName": "xforms-api-5.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "0858594207523fd8f863802f35268b0b",
-            "sha1": "0cd13d02289ff3e4749cecc1b9b443222f319356",
-            "sha256": "cc506cededbdf36fa3c24dce9735e41512db8137d1b36162e9673783bacf634d"            ,"evidenceCollected": {
+,"md5": "56dea6a2e9d8446d50eb70d2852ea468",
+            "sha1": "a6dffd7ade075b70120b79d4ad2097a95ffd6877",
+            "sha256": "330225cd42d99465163cef2adf94ea1279f7c47a44ca6e80b10912da3a67d20e"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3274,9 +3274,9 @@
             "isVirtual": false,
             "fileName": "xforms-api-5.1.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.1.0-SNAPSHOT-sources.jar"
-,"md5": "34244695d02d0eb0dd0301e5e9ee119f",
-            "sha1": "211857d4b91da3d29ae55293f09005fe6ce7b3cc",
-            "sha256": "0b1dc7557cec10ceccb77a0cacf8268f697fe79c59e64b58d6aa88e5d115a9b1"            ,"evidenceCollected": {
+,"md5": "5c01fd3e6e2c8993fc5ca289f1217258",
+            "sha1": "b8c3c387f9ecfd49dde3983735ef864710bbb095",
+            "sha256": "3decb35525a6151b9f80ce9e2216e72596d22cdc9a737a621fd942a7afb8e7c9"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3317,16 +3317,16 @@
             "isVirtual": false,
             "fileName": "xforms-api-5.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.1.0-SNAPSHOT.jar"
-,"md5": "2a44f545a3934958d767f740c24edfab",
-            "sha1": "6b4697e85b6398ccf13c60b5b03198a430a5da1b",
-            "sha256": "a93769be522886d011298f9e4fee7f73c9229e54d737aed4486a7ac0cbfddb40","description": "API project for XForms Module"            ,"relatedDependencies": [
+,"md5": "568cebde95c4878bf5d29aa5dcfdeb13",
+            "sha1": "f5a6e4ebb0e33af4a6fe13a05e95d437a30c2173",
+            "sha256": "089a45d956c43251a4adb0b5c8a43553262a387c1b1ca463d53321721d3859be","description": "API project for XForms Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "xforms-api-5.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/xforms-api-5.1.0-SNAPSHOT-tests.jar"
-,"sha256": "a5028aa599c35046640b451d908fd4e9ce2d24b5ee9addf474a805b1ec943eec",
-                    "sha1": "2c67d92be190a8b75a75a84a615bbe07cb3fe70f",
-                    "md5": "125c4a3026f0694c13c7a9b0a6408cd4",
+,"sha256": "d1eac35b4419b60e52c7e8c7a651e216798792328bf4fdfbfff7b3db04243851",
+                    "sha1": "9836b2fcfeea72c3ddc71dff773f9d2857f25d1d",
+                    "md5": "3e4247bc04b036e587b714632521dbd6",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/xforms-api@5.1.0-SNAPSHOT"
@@ -3337,9 +3337,9 @@
                     "isVirtual": false,
                     "fileName": "xforms-api-5.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/xforms-5.1.0-SNAPSHOT\/lib\/xforms-api-5.1.0-SNAPSHOT.jar"
-,"sha256": "a93769be522886d011298f9e4fee7f73c9229e54d737aed4486a7ac0cbfddb40",
-                    "sha1": "6b4697e85b6398ccf13c60b5b03198a430a5da1b",
-                    "md5": "2a44f545a3934958d767f740c24edfab"
+,"sha256": "089a45d956c43251a4adb0b5c8a43553262a387c1b1ca463d53321721d3859be",
+                    "sha1": "f5a6e4ebb0e33af4a6fe13a05e95d437a30c2173",
+                    "md5": "568cebde95c4878bf5d29aa5dcfdeb13"
                 }
             ]
             ,"evidenceCollected": {
