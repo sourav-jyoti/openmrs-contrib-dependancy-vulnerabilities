@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-18T11:56:24Z"
+                "timestamp": "2026-04-28T13:10:39Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-18T10:16:12Z"
+                "timestamp": "2026-04-28T12:21:17Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-18T11:56:24Z"
+                "timestamp": "2026-04-28T13:10:39Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-18T10:16:12Z"
+                "timestamp": "2026-04-28T12:21:17Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-authentication",
-        "reportDate": "2026-04-18T13:35:57.256138619Z",
+        "reportDate": "2026-04-28T22:27:34.249632603Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "authentication-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/authentication-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "c8329e6d004a1d734bc41e51fdb4ac48",
-            "sha1": "d57e3b5147baa0f8ddde3a29c96a32813d4ac1b7",
-            "sha256": "1255e3ba5895760868828fa4454f6f45a05592eff254e5e4bea32df38090c1ed"            ,"evidenceCollected": {
+,"md5": "d718d22608d64f18558b5a3053006e95",
+            "sha1": "49d80b3885f6b4fd949489095f9f69cd74608cf2",
+            "sha256": "8bd37ad045eedfc57282c93272887547109823cb09099b0f4a06a2fb744f85ef"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -82,16 +82,16 @@
             "isVirtual": false,
             "fileName": "authentication-2.3.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:authentication-omod:2.3.0-SNAPSHOT)",
             "filePath": "\/github\/workspace\/omod\/target\/authentication-2.3.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/authentication-omod\/pom.xml"
-,"md5": "f68e87d09c6830f167cea11178375883",
-            "sha1": "af6775e79ab26cc4761dbcbea9cca483646e08a5",
-            "sha256": "dbdc617ff3d4b4a75eb81eae01b203f399c22dbe4b1ed19f03eb6ac7cbbfd551","description": "OMOD for authentication module"            ,"relatedDependencies": [
+,"md5": "c95cfc04522058f8c65159cbf06f4a69",
+            "sha1": "f213dcbf22a76d68c17e1f16386267856c0ce1f2",
+            "sha256": "f39986a774b5a049361767959d31b546483ee7d07bd0983f566deaa8b3cbb905","description": "OMOD for authentication module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "authentication-2.3.0-SNAPSHOT.jar (shaded: org.openmrs.module:authentication-omod:2.3.0-SNAPSHOT)",
                     "filePath": "\/github\/workspace\/omod\/target\/authentication-2.3.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/authentication-omod\/pom.xml"
-,"sha256": "dbdc617ff3d4b4a75eb81eae01b203f399c22dbe4b1ed19f03eb6ac7cbbfd551",
-                    "sha1": "af6775e79ab26cc4761dbcbea9cca483646e08a5",
-                    "md5": "f68e87d09c6830f167cea11178375883",
+,"sha256": "f39986a774b5a049361767959d31b546483ee7d07bd0983f566deaa8b3cbb905",
+                    "sha1": "f213dcbf22a76d68c17e1f16386267856c0ce1f2",
+                    "md5": "c95cfc04522058f8c65159cbf06f4a69",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/authentication-omod@2.3.0-SNAPSHOT"
@@ -610,9 +610,9 @@
             "isVirtual": false,
             "fileName": "authentication-2.3.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/authentication-2.3.0-SNAPSHOT-tests.jar"
-,"md5": "566c3dcaf9ad15591632d35c062ecc06",
-            "sha1": "301551a69658ffb72aa18c043c34f8961f466ccc",
-            "sha256": "6f9d00a81dff43ac959a6096e1f22b9eb4f726e92c017e800e556589e14aba4c"            ,"evidenceCollected": {
+,"md5": "a211721fb891debc6b84c7a128d84d3d",
+            "sha1": "dd191c1f51b7596ef9355cb264e9932aa8213d36",
+            "sha256": "60aec3846562e80c37b06d86664c2675d708d4ba6faebeb8e420e4ac7a5af4e3"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -723,9 +723,9 @@
             "isVirtual": false,
             "fileName": "authentication-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/authentication-2.3.0-SNAPSHOT.jar"
-,"md5": "706ae2d5363384695729c291e7892b05",
-            "sha1": "701bca7615152e03a1a9818d2654e1028cf9b554",
-            "sha256": "8b12dcf7d91d4eacb9b5e1b2c24ec43224142df67156da207a37bd598409fe5d"            ,"evidenceCollected": {
+,"md5": "a563eb7a5c08d26c087669865001fb3b",
+            "sha1": "a6f835398dc4f4cdf29bc8c3264dec8d41053fff",
+            "sha256": "4fed012c319d173ae67b03d95396f79a52b08333bbdb43a2c92b9396e4f5d52b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -788,6 +788,13 @@
 ,{
                             "type": "product",
                             "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "web"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
                             "value": "1.8"
@@ -829,9 +836,9 @@
             "isVirtual": false,
             "fileName": "authentication-api-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/authentication-api-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "e1aed7ee4082faea86ea1358a98fbb49",
-            "sha1": "e10dd69a552ae2c82af59bb17967fec0cbf310fd",
-            "sha256": "3db368ed3f40e6cc14fbc9abe9981ac980a2c9d630af2d2dcbb2a37aa53658f0"            ,"evidenceCollected": {
+,"md5": "a4b2849e3b43b4cf019239efaa42496a",
+            "sha1": "9cfae01259aba579e3e85e0217b8e60cdf004bfa",
+            "sha256": "1f93155b9a47a9fccde6669765f5228baa2e1907d2b16f5c24ee6697eaca825e"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -913,16 +920,16 @@
             "isVirtual": false,
             "fileName": "authentication-api-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/authentication-api-2.3.0-SNAPSHOT.jar"
-,"md5": "91219175d529eb60d18b6680c11a92d6",
-            "sha1": "ab4ab528c1db985e3859bc1ac53917f24760ee92",
-            "sha256": "dc777233650b467f337fd81383ed9bff036c759000ac0415a4ff147552f30073","description": "API for authentication module"            ,"relatedDependencies": [
+,"md5": "4ac9009e9120d125778d603eba9f14ad",
+            "sha1": "5840e3f4ae617453b0a70e184ba2b8b6f5f03f1f",
+            "sha256": "58535dcec7c3428664ddccebb91a7f885f89590079394af84994c80b2b65ca23","description": "API for authentication module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "authentication-api-2.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/authentication-api-2.3.0-SNAPSHOT-tests.jar"
-,"sha256": "b6f004d61a0a01932c430e9cfca8ce1b737d367800239c39ef61186e7734c6a8",
-                    "sha1": "ff97cda7484ab69b80898d8a9a10db6c4b8bba31",
-                    "md5": "6083e61df873220b3cb0ae555a018228",
+,"sha256": "c868a4c12e961bc479f198d2c252d1d507c0cf9977bbc9a793dc44c043e0fa73",
+                    "sha1": "8ac0f74ddd3d65e85523c3708225be4d2672920a",
+                    "md5": "f2d9c602f51067b3a9ad2e709b41b4f9",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/authentication-api@2.3.0-SNAPSHOT"
@@ -933,9 +940,9 @@
                     "isVirtual": false,
                     "fileName": "authentication-api-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/authentication-2.3.0-SNAPSHOT\/lib\/authentication-api-2.3.0-SNAPSHOT.jar"
-,"sha256": "dc777233650b467f337fd81383ed9bff036c759000ac0415a4ff147552f30073",
-                    "sha1": "ab4ab528c1db985e3859bc1ac53917f24760ee92",
-                    "md5": "91219175d529eb60d18b6680c11a92d6"
+,"sha256": "58535dcec7c3428664ddccebb91a7f885f89590079394af84994c80b2b65ca23",
+                    "sha1": "5840e3f4ae617453b0a70e184ba2b8b6f5f03f1f",
+                    "md5": "4ac9009e9120d125778d603eba9f14ad"
                 }
             ]
             ,"evidenceCollected": {
