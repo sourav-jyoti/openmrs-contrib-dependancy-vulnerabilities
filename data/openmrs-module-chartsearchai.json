@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-chartsearchai",
-        "reportDate": "2026-05-02T22:24:50.809522080Z",
+        "reportDate": "2026-05-02T23:04:54.607423885Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -482,9 +482,9 @@
             "isVirtual": false,
             "fileName": "chartsearchai-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT.jar"
-,"md5": "fc60acc0ad26fea2924fa302b0675c09",
-            "sha1": "225f538201e8b7a0661c398221e9486e36c73f45",
-            "sha256": "21d6dc2c2ae910807fdd04b52121d9027acad4b14b9d898922be69ef142a3d46"            ,"evidenceCollected": {
+,"md5": "9c90478a87f25c7cb15423c8bac7532c",
+            "sha1": "6deb73eb4d5c89a8019bd3f3ce3d3e4aa9ef8692",
+            "sha256": "c32945cf50a363481aeb442b64b93ece91270120d5722377186863ca1e9e4a4e"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -595,16 +595,16 @@
             "isVirtual": false,
             "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"md5": "7e3e98b2216cd1b825247df2d9818d77",
-            "sha1": "18353b3b936312fbbee8ed359cc389d38a82d10a",
-            "sha256": "85fcde5fda223a2c844fe79f12caae257a018a56de6f73d93266bbae6658ef02","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
+,"md5": "851a1b0bb41a3f54a96f5a50eadca683",
+            "sha1": "f17424aad1eb4e03ced30fbcf879a231a80300bd",
+            "sha256": "22281c6c17751b721ae1a11a58001e17370175810cdb161f1c8d1830c65ab132","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "85fcde5fda223a2c844fe79f12caae257a018a56de6f73d93266bbae6658ef02",
-                    "sha1": "18353b3b936312fbbee8ed359cc389d38a82d10a",
-                    "md5": "7e3e98b2216cd1b825247df2d9818d77"
+,"sha256": "22281c6c17751b721ae1a11a58001e17370175810cdb161f1c8d1830c65ab132",
+                    "sha1": "f17424aad1eb4e03ced30fbcf879a231a80300bd",
+                    "md5": "851a1b0bb41a3f54a96f5a50eadca683"
                 }
             ]
             ,"evidenceCollected": {
@@ -1132,9 +1132,9 @@
             "isVirtual": false,
             "fileName": "llama-server-natives-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-server-natives-1.0.0-SNAPSHOT.jar"
-,"md5": "fe18b86f96baf4ca35e0467731546c3e",
-            "sha1": "a0b975faca14b8a780384de24b2bdf94c05347e2",
-            "sha256": "b1b6d7e24241fb6307d1a39c0e64e6bdf4153269c662b94a5ce50665fec23592","description": "\n\t\tPre-built llama-server binaries from llama.cpp for each supported platform.\n\t\tThe binaries are extracted at runtime by LocalLlmEngine and managed as a\n\t\tsubprocess for LLM inference. To add a new platform, build llama-server\n\t\tfrom https:\/\/github.com\/ggml-org\/llama.cpp and place the binary under\n\t\tsrc\/main\/resources\/llama-server\/{OS}\/{arch}\/.\n\t"            ,"evidenceCollected": {
+,"md5": "7fe6174a2d5989974158977a6103acce",
+            "sha1": "d5437c5a18c3b1c6f2386778c782db7a581ecc08",
+            "sha256": "ce9c81d3c2c01d79faa560c31285a741b325a3f8e3632b827693b42ab7800b2e","description": "\n\t\tPre-built llama-server binaries from llama.cpp for each supported platform.\n\t\tThe binaries are extracted at runtime by LocalLlmEngine and managed as a\n\t\tsubprocess for LLM inference. To add a new platform, build llama-server\n\t\tfrom https:\/\/github.com\/ggml-org\/llama.cpp and place the binary under\n\t\tsrc\/main\/resources\/llama-server\/{OS}\/{arch}\/.\n\t"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1603,9 +1603,9 @@
             "isVirtual": false,
             "fileName": "llama-server-natives-1.0.0-SNAPSHOT.jar: llama-server.exe",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-server-natives-1.0.0-SNAPSHOT.jar\/llama-server\/Windows\/x86_64\/llama-server.exe"
-,"md5": "46436cf2dae8346552a4a62327a99ae7",
-            "sha1": "c8153c996f361f59c9ffa7cc3e7c6d9747cb5c98",
-            "sha256": "b10f491d2ed4fde494623667878f0f64a468ddf63f135d86404165f91a35a365"            ,"evidenceCollected": {
+,"md5": "03c6311140afbde4dff82d145c5ca279",
+            "sha1": "ef9cf48eaca23df11d950eed29c8a2196dc3ded6",
+            "sha256": "7800a911dc5f79e4013a8c6fe36eb87b78cbed5ff637d6377f1bb398511478ee"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
