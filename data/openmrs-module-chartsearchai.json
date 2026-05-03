@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.1",
+        "engineVersion": "12.2.2",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-02T12:05:49Z"
+                "timestamp": "2026-05-03T12:04:59Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-02T11:15:58Z"
+                "timestamp": "2026-05-03T11:16:13Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-02T12:05:49Z"
+                "timestamp": "2026-05-03T12:04:59Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-02T11:15:58Z"
+                "timestamp": "2026-05-03T11:16:13Z"
             }
         ]
 
@@ -25,13 +25,13 @@
     },
     "projectInfo": {
         "name": "openmrs-module-chartsearchai",
-        "reportDate": "2026-05-02T23:04:54.607423885Z",
+        "reportDate": "2026-05-03T19:53:19.370668418Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
             "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
             "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
-            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
         }
     },
     "dependencies": [
@@ -482,9 +482,9 @@
             "isVirtual": false,
             "fileName": "chartsearchai-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT.jar"
-,"md5": "9c90478a87f25c7cb15423c8bac7532c",
-            "sha1": "6deb73eb4d5c89a8019bd3f3ce3d3e4aa9ef8692",
-            "sha256": "c32945cf50a363481aeb442b64b93ece91270120d5722377186863ca1e9e4a4e"            ,"evidenceCollected": {
+,"md5": "cf7679b85abe1a6ceef0c81a30de6c5c",
+            "sha1": "f677c181e1da87a6b60eec07575af3f639a0da43",
+            "sha256": "82dc81531eb607db01f60dae50a67fc003fff165ab0d29b91630ceeff94319b8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -595,16 +595,16 @@
             "isVirtual": false,
             "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"md5": "851a1b0bb41a3f54a96f5a50eadca683",
-            "sha1": "f17424aad1eb4e03ced30fbcf879a231a80300bd",
-            "sha256": "22281c6c17751b721ae1a11a58001e17370175810cdb161f1c8d1830c65ab132","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
+,"md5": "ca969523447c205a60d1251c0181835b",
+            "sha1": "2b6a16d4e3b105807eb4ad6d5738718e8e3b5f62",
+            "sha256": "65b9eb3bc6579f1f0235d021f1ce68fdd20e537fe525c60166b6eb233c600bad","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "22281c6c17751b721ae1a11a58001e17370175810cdb161f1c8d1830c65ab132",
-                    "sha1": "f17424aad1eb4e03ced30fbcf879a231a80300bd",
-                    "md5": "851a1b0bb41a3f54a96f5a50eadca683"
+,"sha256": "65b9eb3bc6579f1f0235d021f1ce68fdd20e537fe525c60166b6eb233c600bad",
+                    "sha1": "2b6a16d4e3b105807eb4ad6d5738718e8e3b5f62",
+                    "md5": "ca969523447c205a60d1251c0181835b"
                 }
             ]
             ,"evidenceCollected": {
@@ -1132,9 +1132,9 @@
             "isVirtual": false,
             "fileName": "llama-server-natives-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-server-natives-1.0.0-SNAPSHOT.jar"
-,"md5": "7fe6174a2d5989974158977a6103acce",
-            "sha1": "d5437c5a18c3b1c6f2386778c782db7a581ecc08",
-            "sha256": "ce9c81d3c2c01d79faa560c31285a741b325a3f8e3632b827693b42ab7800b2e","description": "\n\t\tPre-built llama-server binaries from llama.cpp for each supported platform.\n\t\tThe binaries are extracted at runtime by LocalLlmEngine and managed as a\n\t\tsubprocess for LLM inference. To add a new platform, build llama-server\n\t\tfrom https:\/\/github.com\/ggml-org\/llama.cpp and place the binary under\n\t\tsrc\/main\/resources\/llama-server\/{OS}\/{arch}\/.\n\t"            ,"evidenceCollected": {
+,"md5": "e10c603103cf46daf2f96c67fd3fa252",
+            "sha1": "e3bc0cc6e9b3076b3182196b24c1590f76e46e21",
+            "sha256": "f676a4cf5ee815daa99e0e8db3f5ebf9bfec80d43e649b17795fb8880cab88a0","description": "\n\t\tPre-built llama-server binaries from llama.cpp for each supported platform.\n\t\tThe binaries are extracted at runtime by LocalLlmEngine and managed as a\n\t\tsubprocess for LLM inference. To add a new platform, build llama-server\n\t\tfrom https:\/\/github.com\/ggml-org\/llama.cpp and place the binary under\n\t\tsrc\/main\/resources\/llama-server\/{OS}\/{arch}\/.\n\t"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1603,9 +1603,9 @@
             "isVirtual": false,
             "fileName": "llama-server-natives-1.0.0-SNAPSHOT.jar: llama-server.exe",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/llama-server-natives-1.0.0-SNAPSHOT.jar\/llama-server\/Windows\/x86_64\/llama-server.exe"
-,"md5": "03c6311140afbde4dff82d145c5ca279",
-            "sha1": "ef9cf48eaca23df11d950eed29c8a2196dc3ded6",
-            "sha256": "7800a911dc5f79e4013a8c6fe36eb87b78cbed5ff637d6377f1bb398511478ee"            ,"evidenceCollected": {
+,"md5": "cfe5a20bc20e8d12f6b1f10e038eb70c",
+            "sha1": "bc9c9b96d86d85d718316b99efa30212aff9b138",
+            "sha256": "aa4d36f4748b451f77d67a0e2b2e7a008036aab44b767f25c633ccbfe1f653b4"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
