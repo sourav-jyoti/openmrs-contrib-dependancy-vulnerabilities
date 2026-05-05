@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.1",
+        "engineVersion": "12.2.2",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-18T11:56:24Z"
+                "timestamp": "2026-05-05T12:45:27Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-18T10:16:12Z"
+                "timestamp": "2026-05-05T11:16:33Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-18T11:56:24Z"
+                "timestamp": "2026-05-05T12:45:27Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-18T10:16:12Z"
+                "timestamp": "2026-05-05T11:16:33Z"
             }
         ]
 
@@ -25,13 +25,13 @@
     },
     "projectInfo": {
         "name": "openmrs-module-legacyui",
-        "reportDate": "2026-04-18T13:33:24.837819356Z",
+        "reportDate": "2026-05-05T13:20:51.219102953Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
             "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
             "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
-            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
         }
     },
     "dependencies": [
@@ -5861,9 +5861,9 @@
             "isVirtual": false,
             "fileName": "dwr-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT\/lib\/dwr-3.0.0-SNAPSHOT.jar"
-,"md5": "bb26b0415cb85aee8c8a79beec7e5e98",
-            "sha1": "1ccd7a0a4fa18f66e8ec7428367705b72809841d",
-            "sha256": "96455f3435b9677b792074f6d5fda7f99535f0f789da097fb6c5bc0b78c3d026","description": "\n        DWR is easy Ajax for Java. It makes it simple to call Java code directly from Javascript.\n        It gets rid of almost all the boilerplate code between the web browser and your Java code.\n        Customized for OpenMRS (see README in META-INF)\n    ","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+,"md5": "b10de5370a4905232a489302444d09ae",
+            "sha1": "9e2a01a1b1b9da53702fc38f92656f5877fca3dd",
+            "sha256": "4897f25c07233287ab1f6c8e86a058a127abc08926a7ddd483606b0c6d790872","description": "\n        DWR is easy Ajax for Java. It makes it simple to call Java code directly from Javascript.\n        It gets rid of almost all the boilerplate code between the web browser and your Java code.\n        Customized for OpenMRS (see README in META-INF)\n    ","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6090,9 +6090,9 @@
             "isVirtual": false,
             "fileName": "dwr-3.0.0-SNAPSHOT.jar: util.js",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT\/lib\/dwr-3.0.0-SNAPSHOT.jar\/org\/openmrs\/contrib\/dwr\/util.js"
-,"md5": "7f3896de516a0eec213d47dac26c0e58",
-            "sha1": "068a5dbde4f81e599d691e3b2a70f1cb4869c505",
-            "sha256": "0d32d4b46b56554060f74589d4f20c198390dff99e7527c61a97fed396c59381"            ,"evidenceCollected": {
+,"md5": "a1edf3c3584df3f9a7083c7d1607669d",
+            "sha1": "37afebd5291c08a321f7de0858713aec592d5dd1",
+            "sha256": "763fcf1d0e5992aa9c3c24175b0f153f705d3986d64390f66d200e9e5c88a42d"            ,"evidenceCollected": {
                 "vendorEvidence": [
                 ],
                 "productEvidence": [
@@ -8633,9 +8633,9 @@
             "isVirtual": false,
             "fileName": "legacyui-3.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT-tests.jar"
-,"md5": "448f7a76f4e1e06400ed4985ee40cc8e",
-            "sha1": "e8a43d0a6796a3aa3bee2d38f37cdce9426a3a47",
-            "sha256": "c354e28e32d024dc069da47f511f9db861f81daf3e4eae8841acacae9854eca4"            ,"evidenceCollected": {
+,"md5": "162114990379a941287ac17ce00c36e1",
+            "sha1": "41e052805d33deddc62410a87185fd05bb98152e",
+            "sha256": "68f370ca9f7bd1d57f2224d50e439a637d1859ed262a824aeb6d13d5c35ba8a9"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -8663,7 +8663,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                         }
                 ],
                 "productEvidence": [
@@ -8679,13 +8679,6 @@
                             "confidence": "LOW",
                             "source": "jar",
                             "name": "package name",
-                            "value": "controller"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "jar",
-                            "name": "package name",
                             "value": "web"
                     }
 ,{
@@ -8693,7 +8686,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                     }
                 ],
                 "versionEvidence": [
@@ -8716,7 +8709,7 @@
                         "confidence": "LOW",
                         "source": "Manifest",
                         "name": "build-jdk-spec",
-                        "value": "21"
+                        "value": "25"
                     }
 ,                    {
                         "type": "version",
@@ -8732,9 +8725,9 @@
             "isVirtual": false,
             "fileName": "legacyui-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT.jar"
-,"md5": "53e1077d4949dc5a28b1ae054d3fa936",
-            "sha1": "aa9cb6bdfe09ef7e6335558883802081ee6e2c0e",
-            "sha256": "bd693289d1d16bb85f93f2f27adfd0c34774844f9cc2dad285176d6340bbae01"            ,"evidenceCollected": {
+,"md5": "f3b77aa0f5783e436d23aa1ecbca4a30",
+            "sha1": "02ae0e5481e8b554821d75a8a6c642f31a4d87fc",
+            "sha256": "8774ed876831e9926ec726173c8e0401d047437fac6b33b79290cbc63d000fe0"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -8762,7 +8755,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                         }
                 ],
                 "productEvidence": [
@@ -8785,7 +8778,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                     }
                 ],
                 "versionEvidence": [
@@ -8808,7 +8801,7 @@
                         "confidence": "LOW",
                         "source": "Manifest",
                         "name": "build-jdk-spec",
-                        "value": "21"
+                        "value": "25"
                     }
 ,                    {
                         "type": "version",
@@ -8824,16 +8817,16 @@
             "isVirtual": false,
             "fileName": "legacyui-api-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/legacyui-api-3.0.0-SNAPSHOT.jar"
-,"md5": "43b623850f1b93cc8e2428365636405d",
-            "sha1": "df321285f079100921dda0f34cc53458a8229cfe",
-            "sha256": "82c2444a4d467c0620e57d9be2ce13be01805cfba430272864eb3f39503ffa16","description": "API project for LegacyUI"            ,"relatedDependencies": [
+,"md5": "5c9456e0b22e0395873893a1b4b0f381",
+            "sha1": "c43ebacce0a5668604f6bf9b51058644e02e74cb",
+            "sha256": "135d32d7e9ebd81b0b9d1b85fb3b2796969fd5f7c03784fe1214672638baf330","description": "API project for LegacyUI"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "legacyui-api-3.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/legacyui-api-3.0.0-SNAPSHOT-tests.jar"
-,"sha256": "d770100d2dd762fa772a0e382e9b179726e28c6a5d9ccca1717dfd3790b43caf",
-                    "sha1": "92669fe4e3aa03b1028239455d31bbb0539d0c20",
-                    "md5": "ca97b3cf055a3e9d772f21a78222ab25",
+,"sha256": "c1e8212dc449d9130789302fdedf4f1f29aea120e7758f4016d1e859483be7b0",
+                    "sha1": "07b2792866a6518cc0f2e3983241b1641400c97a",
+                    "md5": "292b6271457b71c125db65f7d83d53b7",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/legacyui-api@3.0.0-SNAPSHOT"
@@ -8844,9 +8837,9 @@
                     "isVirtual": false,
                     "fileName": "legacyui-api-3.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT\/lib\/legacyui-api-3.0.0-SNAPSHOT.jar"
-,"sha256": "82c2444a4d467c0620e57d9be2ce13be01805cfba430272864eb3f39503ffa16",
-                    "sha1": "df321285f079100921dda0f34cc53458a8229cfe",
-                    "md5": "43b623850f1b93cc8e2428365636405d"
+,"sha256": "135d32d7e9ebd81b0b9d1b85fb3b2796969fd5f7c03784fe1214672638baf330",
+                    "sha1": "c43ebacce0a5668604f6bf9b51058644e02e74cb",
+                    "md5": "5c9456e0b22e0395873893a1b4b0f381"
                 }
             ]
             ,"evidenceCollected": {
@@ -8891,7 +8884,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                         }
 ,{
                             "type": "vendor",
@@ -8963,7 +8956,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                     }
 ,{
                             "type": "product",
