@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-legacyui",
-        "reportDate": "2026-05-05T13:20:51.219102953Z",
+        "reportDate": "2026-05-05T14:22:45.768053859Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -8633,9 +8633,9 @@
             "isVirtual": false,
             "fileName": "legacyui-3.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT-tests.jar"
-,"md5": "162114990379a941287ac17ce00c36e1",
-            "sha1": "41e052805d33deddc62410a87185fd05bb98152e",
-            "sha256": "68f370ca9f7bd1d57f2224d50e439a637d1859ed262a824aeb6d13d5c35ba8a9"            ,"evidenceCollected": {
+,"md5": "12c420ba8852ca1fffad432aa2661746",
+            "sha1": "35b0e175d2b41597919d4a0ecf472b4fd941c764",
+            "sha256": "6ee0190310389568ab717a7931e1ecc8002069f395801a3af36b94d6f55d8371"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -8725,9 +8725,9 @@
             "isVirtual": false,
             "fileName": "legacyui-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT.jar"
-,"md5": "f3b77aa0f5783e436d23aa1ecbca4a30",
-            "sha1": "02ae0e5481e8b554821d75a8a6c642f31a4d87fc",
-            "sha256": "8774ed876831e9926ec726173c8e0401d047437fac6b33b79290cbc63d000fe0"            ,"evidenceCollected": {
+,"md5": "f32ecab936849ab51dfef4a65c7bab45",
+            "sha1": "3a30b98651bc6c31adc6680560f0cf81e7ad9aaa",
+            "sha256": "c1aba92bc1d912982ab353e4b17960269e20306dda9dbc8f23fc554cd2a2650a"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -8817,16 +8817,16 @@
             "isVirtual": false,
             "fileName": "legacyui-api-3.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/legacyui-api-3.0.0-SNAPSHOT.jar"
-,"md5": "5c9456e0b22e0395873893a1b4b0f381",
-            "sha1": "c43ebacce0a5668604f6bf9b51058644e02e74cb",
-            "sha256": "135d32d7e9ebd81b0b9d1b85fb3b2796969fd5f7c03784fe1214672638baf330","description": "API project for LegacyUI"            ,"relatedDependencies": [
+,"md5": "2d0efb15da6491c1c68b40e608db7c06",
+            "sha1": "ad52c0146f6ed0a57ab90455b4b2333719378801",
+            "sha256": "9b06e6571f03bb9ed0a5cb60186676da35fa740b78bfd2b9ecb82e1b5beb116d","description": "API project for LegacyUI"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "legacyui-api-3.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/legacyui-api-3.0.0-SNAPSHOT-tests.jar"
-,"sha256": "c1e8212dc449d9130789302fdedf4f1f29aea120e7758f4016d1e859483be7b0",
-                    "sha1": "07b2792866a6518cc0f2e3983241b1641400c97a",
-                    "md5": "292b6271457b71c125db65f7d83d53b7",
+,"sha256": "7bd5342352677225198c6eed6b22049e4d9cdba1434213174570d67e26338def",
+                    "sha1": "d3ed5602d17bd587e13e57fbe2d14d6f771460fc",
+                    "md5": "6d47c8819fb13cd308f883b6b2d44188",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/legacyui-api@3.0.0-SNAPSHOT"
@@ -8837,9 +8837,9 @@
                     "isVirtual": false,
                     "fileName": "legacyui-api-3.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/legacyui-3.0.0-SNAPSHOT\/lib\/legacyui-api-3.0.0-SNAPSHOT.jar"
-,"sha256": "135d32d7e9ebd81b0b9d1b85fb3b2796969fd5f7c03784fe1214672638baf330",
-                    "sha1": "c43ebacce0a5668604f6bf9b51058644e02e74cb",
-                    "md5": "5c9456e0b22e0395873893a1b4b0f381"
+,"sha256": "9b06e6571f03bb9ed0a5cb60186676da35fa740b78bfd2b9ecb82e1b5beb116d",
+                    "sha1": "ad52c0146f6ed0a57ab90455b4b2333719378801",
+                    "md5": "2d0efb15da6491c1c68b40e608db7c06"
                 }
             ]
             ,"evidenceCollected": {
