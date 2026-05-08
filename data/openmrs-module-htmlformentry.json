@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-htmlformentry",
-        "reportDate": "2026-05-08T17:04:31.229925703Z",
+        "reportDate": "2026-05-08T17:37:50.333491937Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -1994,16 +1994,16 @@
             "isVirtual": false,
             "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar"
-,"md5": "d253310a2aa05f3aaaabce8d6d778c6f",
-            "sha1": "d5cac615a7bee022c10f0d9855f9ca48aefff798",
-            "sha256": "8fded45f2bdaa9968ca8f65c0ae6863b50a0fc49f4ed9d3acf81d1b84b563f50"            ,"relatedDependencies": [
+,"md5": "cfd5f5d5ebd3069839c722e042653ad0",
+            "sha1": "c40fb2138e20f33d312ec6c8497f7f4c1b1946fb",
+            "sha256": "e4ad77800d4e5398b59654d67a0365a698339dedf21139da66ce1dac2f3c31c7"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlformentry-7.2.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT-tests.jar"
-,"sha256": "123fbdff89f854a861c31337dd9c6beb671f64a954277db0b17556268eff9baa",
-                    "sha1": "7ce67bb1c4eea36a774b49b655ba6ab9f6bf5196",
-                    "md5": "c7f28471181834bd99ae4f4d3086f60b"
+,"sha256": "38074eb7d113c9f8e2409d6dfa6caf1d2b7d8f736a3a8a9ff7e0d3aa3def3349",
+                    "sha1": "e9501833236055c6cc5870026b9ac54e0b4981ce",
+                    "md5": "a500e20707bcb7be29b6c27824a8b0ff"
                 }
             ]
             ,"evidenceCollected": {
@@ -2121,16 +2121,16 @@
             "isVirtual": false,
             "fileName": "htmlformentry-api-7.2.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.2.0-SNAPSHOT.jar"
-,"md5": "195f38910c7ebdc0809e22445b12944a",
-            "sha1": "696fb3f1f67088448ea0c5fb184afb2328ed25ae",
-            "sha256": "d9a7dbbacaaebc79e9ad181a308f8d0af0fc2dfca70de0c1a159c6c117afd57c","description": "API project for HTML Form Entry"            ,"relatedDependencies": [
+,"md5": "59b6923fe97bc07927c3d7d19f71be4f",
+            "sha1": "61693afe1951afc71058c4b1a1696ced60109c73",
+            "sha256": "b4874f694cdf0049c6d79483d9eea5849f43bbec0055a7331daf9ccace80e358","description": "API project for HTML Form Entry"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlformentry-api-7.2.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.2.0-SNAPSHOT-tests.jar"
-,"sha256": "7f6d033269f0e8092043173363b37a7356d22fde40cc6a60f7c66dfb5d1bc65d",
-                    "sha1": "5ba7a1b0b45e6ed7ed5043bbdf7ee87453114d98",
-                    "md5": "1fbe5361086a83f8135a10e81e890c28",
+,"sha256": "08db2d3c9debb62d61a1acdae7eb71d3edd7fe8c573919ceacf2a25eb54c9d0e",
+                    "sha1": "8f632b0a9512868c6420aeb6ddd96320d1c0b352",
+                    "md5": "1e067855f699fec109c23ec7dad0f116",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/htmlformentry-api@7.2.0-SNAPSHOT"
@@ -2141,9 +2141,9 @@
                     "isVirtual": false,
                     "fileName": "htmlformentry-api-7.2.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/htmlformentry-api-7.2.0-SNAPSHOT.jar"
-,"sha256": "d9a7dbbacaaebc79e9ad181a308f8d0af0fc2dfca70de0c1a159c6c117afd57c",
-                    "sha1": "696fb3f1f67088448ea0c5fb184afb2328ed25ae",
-                    "md5": "195f38910c7ebdc0809e22445b12944a"
+,"sha256": "b4874f694cdf0049c6d79483d9eea5849f43bbec0055a7331daf9ccace80e358",
+                    "sha1": "61693afe1951afc71058c4b1a1696ced60109c73",
+                    "md5": "59b6923fe97bc07927c3d7d19f71be4f"
                 }
             ]
             ,"evidenceCollected": {
@@ -2339,16 +2339,16 @@
             "isVirtual": false,
             "fileName": "htmlformentry-api-tests-7.2.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.2.0-SNAPSHOT.jar"
-,"md5": "6bbaec83fd77f4a1b24cd704197fa183",
-            "sha1": "9ea8f7286ceb0b2a6d43ac04b503a7c8494af3a7",
-            "sha256": "290249205d1c9744ce2e7f377e4186cad335cf650b29d4ba128a2049a1502789","description": "API tests for HTML Form Entry"            ,"relatedDependencies": [
+,"md5": "64cf925c25d2e24b0fcf9c46036cf78a",
+            "sha1": "30a959935c31fdc8c9e01df21370c9159e061642",
+            "sha256": "f07cb8b1555df65d69963cf04317991e65169d869f5ad3b845a7b6e072bea1a4","description": "API tests for HTML Form Entry"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlformentry-api-tests-7.2.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.2.0-SNAPSHOT-tests.jar"
-,"sha256": "67d3d3240e71cd2b729e33e9ac2d5f976dc4261884d101104e4b4a233e7ed646",
-                    "sha1": "8eabfd4672502f9de9c5bdf4cbad623eda189b58",
-                    "md5": "28bb75fc9203b8b6f0335c56d33c11fa",
+,"sha256": "3ac27099e219f5f3ef9f228a0c85c611efc842f67494f7d2ebd7d1a3834b3d69",
+                    "sha1": "2677856a142176a99d35032535580045a1c9dc67",
+                    "md5": "acf22c28d611613213d66f2253ce0bb0",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/htmlformentry-api-tests@7.2.0-SNAPSHOT"
