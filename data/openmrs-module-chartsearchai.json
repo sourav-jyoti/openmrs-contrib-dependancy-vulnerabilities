@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-11T14:01:54Z"
+                "timestamp": "2026-05-12T13:19:28Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-11T13:39:21Z"
+                "timestamp": "2026-05-12T12:17:23Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-11T14:01:54Z"
+                "timestamp": "2026-05-12T13:19:28Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-11T13:39:21Z"
+                "timestamp": "2026-05-12T12:17:23Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-chartsearchai",
-        "reportDate": "2026-05-12T00:23:59.541981731Z",
+        "reportDate": "2026-05-12T23:05:07.715433891Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -225,6 +225,82 @@
                         "software": { 
                             "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
 ,"versionEndIncluding":"2.11"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40076",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 8.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "2.8","impactScore": "5.9","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:H\/UI:N\/VC:H\/VI:H\/VA:H\/SC:H\/SI:H\/SA:H\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "NONE"
+                        ,"privilegesRequired": "HIGH"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "HIGH"
+                        ,"vulnerableSystemAvailability": "HIGH"
+                        ,"subsequentSystemConfidentiality": "HIGH"
+                        ,"subsequentSystemIntegrity": "HIGH"
+                        ,"subsequentSystemAvailability": "HIGH"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 9.4
+                        ,"baseSeverity": "CRITICAL"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the module upload endpoint at POST `\/openmrs\/ws\/rest\/v1\/module` is vulnerable to a Zip Slip path traversal attack. During automatic extraction of uploaded .omod archives in `WebModuleUtil.startModule()`, ZIP entries under web\/module\/ are checked only to see whether the full entry path starts with `..,` and the remaining path is then concatenated into the destination path without normalization or a boundary check. A crafted archive can therefore include entries such as `web\/module\/..\/..\/..\/..\/malicious.jsp` and cause files to be written outside the intended module directory.\n\nAn authenticated attacker with module upload access can write arbitrary files to locations such as the web application root and achieve remote code execution by uploading a JSP file and then requesting it. The issue is compounded by the fact that the module.allow_web_admin runtime property is enforced in the legacy UI controller but not in the REST API upload path, so deployments relying on that property to block web-based module administration remain exposed through the REST endpoint. This issue has been fixed in versions after 2.7.8 in the 2.7.x line and in version 2.8.6 and later.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -482,9 +558,9 @@
             "isVirtual": false,
             "fileName": "chartsearchai-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT.jar"
-,"md5": "c2c8d9a8780e48a321601ec3c85e6086",
-            "sha1": "63eaeb09229dc89ab9496d6d88cab4363632ddc3",
-            "sha256": "d71628dec7792e6824a596d986000c10edffca7f8383967d1d2ea2520d434926"            ,"evidenceCollected": {
+,"md5": "f4bc808fcee7d54c3aa3ded10d2d6d29",
+            "sha1": "981ced7926fe4e5a64d72c120b7ec5d89ca99504",
+            "sha256": "fb7a65404adc750c7ac9380b1367855b0089cd6f81ab00968fd88a8451a76870"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -595,16 +671,16 @@
             "isVirtual": false,
             "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"md5": "bec787f9cbab47d261ef99cb405457f4",
-            "sha1": "321729268b67b2307d05de45fea3510bf23998c7",
-            "sha256": "6c37b6cbe549c1dafb521bdbee5ace3c1575de04ebddc77994ad9c3e14887164","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
+,"md5": "03ca0810a0280055ba34235fb3dff803",
+            "sha1": "cffb7f7607695c3a824453545db6dd78a431cd6b",
+            "sha256": "15c15d86a7aa9a0140823e2303e673493c15875f9932ad587eff572b3cff62b6","description": "API project for the Chart Search AI Module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "chartsearchai-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/chartsearchai-1.0.0-SNAPSHOT\/lib\/chartsearchai-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "6c37b6cbe549c1dafb521bdbee5ace3c1575de04ebddc77994ad9c3e14887164",
-                    "sha1": "321729268b67b2307d05de45fea3510bf23998c7",
-                    "md5": "bec787f9cbab47d261ef99cb405457f4"
+,"sha256": "15c15d86a7aa9a0140823e2303e673493c15875f9932ad587eff572b3cff62b6",
+                    "sha1": "cffb7f7607695c3a824453545db6dd78a431cd6b",
+                    "md5": "03ca0810a0280055ba34235fb3dff803"
                 }
             ]
             ,"evidenceCollected": {
@@ -875,6 +951,82 @@
                         "software": { 
                             "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
 ,"versionEndIncluding":"2.11"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40076",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 8.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "2.8","impactScore": "5.9","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:H\/UI:N\/VC:H\/VI:H\/VA:H\/SC:H\/SI:H\/SA:H\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "NONE"
+                        ,"privilegesRequired": "HIGH"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "HIGH"
+                        ,"vulnerableSystemAvailability": "HIGH"
+                        ,"subsequentSystemConfidentiality": "HIGH"
+                        ,"subsequentSystemIntegrity": "HIGH"
+                        ,"subsequentSystemAvailability": "HIGH"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 9.4
+                        ,"baseSeverity": "CRITICAL"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the module upload endpoint at POST `\/openmrs\/ws\/rest\/v1\/module` is vulnerable to a Zip Slip path traversal attack. During automatic extraction of uploaded .omod archives in `WebModuleUtil.startModule()`, ZIP entries under web\/module\/ are checked only to see whether the full entry path starts with `..,` and the remaining path is then concatenated into the destination path without normalization or a boundary check. A crafted archive can therefore include entries such as `web\/module\/..\/..\/..\/..\/malicious.jsp` and cause files to be written outside the intended module directory.\n\nAn authenticated attacker with module upload access can write arbitrary files to locations such as the web application root and achieve remote code execution by uploading a JSP file and then requesting it. The issue is compounded by the fact that the module.allow_web_admin runtime property is enforced in the legacy UI controller but not in the REST API upload path, so deployments relying on that property to block web-based module administration remain exposed through the REST endpoint. This issue has been fixed in versions after 2.7.8 in the 2.7.x line and in version 2.8.6 and later.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -1346,6 +1498,82 @@
                         "software": { 
                             "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
 ,"versionEndIncluding":"2.11"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40076",
+                    "severity" : "CRITICAL",
+                    "cvssv3": {
+                        "baseScore": 8.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "2.8","impactScore": "5.9","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:H\/UI:N\/VC:H\/VI:H\/VA:H\/SC:H\/SI:H\/SA:H\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "NONE"
+                        ,"privilegesRequired": "HIGH"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "HIGH"
+                        ,"vulnerableSystemAvailability": "HIGH"
+                        ,"subsequentSystemConfidentiality": "HIGH"
+                        ,"subsequentSystemIntegrity": "HIGH"
+                        ,"subsequentSystemAvailability": "HIGH"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 9.4
+                        ,"baseSeverity": "CRITICAL"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the module upload endpoint at POST `\/openmrs\/ws\/rest\/v1\/module` is vulnerable to a Zip Slip path traversal attack. During automatic extraction of uploaded .omod archives in `WebModuleUtil.startModule()`, ZIP entries under web\/module\/ are checked only to see whether the full entry path starts with `..,` and the remaining path is then concatenated into the destination path without normalization or a boundary check. A crafted archive can therefore include entries such as `web\/module\/..\/..\/..\/..\/malicious.jsp` and cause files to be written outside the intended module directory.\n\nAn authenticated attacker with module upload access can write arbitrary files to locations such as the web application root and achieve remote code execution by uploading a JSP file and then requesting it. The issue is compounded by the fact that the module.allow_web_admin runtime property is enforced in the legacy UI controller but not in the REST API upload path, so deployments relying on that property to block web-based module administration remain exposed through the REST endpoint. This issue has been fixed in versions after 2.7.8 in the 2.7.x line and in version 2.8.6 and later.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
                     }                ]
                 }, {
                 "source": "NVD",
