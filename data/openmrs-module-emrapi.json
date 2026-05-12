@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-07T13:14:17Z"
+                "timestamp": "2026-05-11T14:01:54Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-07T12:53:49Z"
+                "timestamp": "2026-05-11T13:39:21Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-07T13:14:17Z"
+                "timestamp": "2026-05-11T14:01:54Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-07T12:53:49Z"
+                "timestamp": "2026-05-11T13:39:21Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-emrapi",
-        "reportDate": "2026-05-08T08:41:11.269732616Z",
+        "reportDate": "2026-05-12T09:06:25.344108042Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -37,11 +37,11 @@
     "dependencies": [
 {
             "isVirtual": false,
-            "fileName": "emrapi-3.4.0-SNAPSHOT-javadoc.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-javadoc.jar"
-,"md5": "73e24077a42e4b3b87d7045154e0fe1e",
-            "sha1": "c0a8dd5fdb03029a12c768c37374500cbae19010",
-            "sha256": "3873098df44a8806e6da32bbe76cc634cd77cf66187296d06dbaa0749e9a7c3f"            ,"evidenceCollected": {
+            "fileName": "emrapi-3.5.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT-javadoc.jar"
+,"md5": "23fc37d5941e00c688030607ae485a3e",
+            "sha1": "94dd7988072f97d13bb09e48fb5ac083930fe452",
+            "sha256": "6e0b2b7df93193ecf71afe1e4c111cbf6e86edc4f3f7b915c8d5e370dd7270b2"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -73,28 +73,71 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "3.4.0.snapshot"
+                        "value": "3.5.0.snapshot"
                     }
                 ]
             }
 
         },{
             "isVirtual": false,
-            "fileName": "emrapi-3.4.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:emrapi-omod:3.4.0-SNAPSHOT)",
-            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/emrapi-omod\/pom.xml"
-,"md5": "f86d891c3be7806f6d15982d9fa4a79e",
-            "sha1": "3eb435b90c339530d996fd0e686d7f4fdf1a395c",
-            "sha256": "bc300dd67cadb1c5d51a226cdb47cab288c8b29bb3de6ebe97d8b76989332803","description": "OMOD project for EMRAPI"            ,"relatedDependencies": [
+            "fileName": "emrapi-3.5.0-SNAPSHOT-sources.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT-sources.jar"
+,"md5": "7f9804ca0ac1016e8b24d3846001f770",
+            "sha1": "cbffbe36293bf37898e443b6edba9b051d92d81c",
+            "sha256": "6d74ec251e4fa949371ada7d76049a01fd10bb820f423ebddc38cc3331b6ed0c"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.5.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-3.5.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:emrapi-omod:3.5.0-SNAPSHOT)",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/emrapi-omod\/pom.xml"
+,"md5": "13fc00e098da71efb11ad9472f3cb129",
+            "sha1": "43f5c594ac9d781f9312795f808e68627c626dc2",
+            "sha256": "e546b74a3db2b687aee17258dcc936868f086f9abec90cc64f48b573ab61e132","description": "OMOD project for EMRAPI"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "emrapi-3.4.0-SNAPSHOT.jar (shaded: org.openmrs.module:emrapi-omod:3.4.0-SNAPSHOT)",
-                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/emrapi-omod\/pom.xml"
-,"sha256": "bc300dd67cadb1c5d51a226cdb47cab288c8b29bb3de6ebe97d8b76989332803",
-                    "sha1": "3eb435b90c339530d996fd0e686d7f4fdf1a395c",
-                    "md5": "f86d891c3be7806f6d15982d9fa4a79e",
+                    "fileName": "emrapi-3.5.0-SNAPSHOT.jar (shaded: org.openmrs.module:emrapi-omod:3.5.0-SNAPSHOT)",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/emrapi-omod\/pom.xml"
+,"sha256": "e546b74a3db2b687aee17258dcc936868f086f9abec90cc64f48b573ab61e132",
+                    "sha1": "43f5c594ac9d781f9312795f808e68627c626dc2",
+                    "md5": "13fc00e098da71efb11ad9472f3cb129",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/emrapi-omod@3.4.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/emrapi-omod@3.5.0-SNAPSHOT"
                             }
                     ]
                 }
@@ -166,26 +209,26 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "3.4.0-SNAPSHOT"
+                        "value": "3.5.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/emrapi-omod@3.4.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/emrapi-omod@3.5.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.5.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.5.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
-            "fileName": "emrapi-3.4.0-SNAPSHOT-tests.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-tests.jar"
-,"md5": "d94d54677425228b2d9207bc447b3e56",
-            "sha1": "3f635ff3e258f995673ac2476e0bf9194bc8589e",
-            "sha256": "05581cd9a842f29a84a1dce4d254cd017b2fb9efd24f54a0bb89142b5f347d6b"            ,"evidenceCollected": {
+            "fileName": "emrapi-3.5.0-SNAPSHOT-tests.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT-tests.jar"
+,"md5": "0cd6019dd683482d403ca3d16d113161",
+            "sha1": "1b868dd238da868df00031e2c4d54e3e437aae86",
+            "sha256": "796867c8142823f5a645138e5d3bd4e87abda33262854b8554f798bb3bcfb43c"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -273,7 +316,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "3.4.0.snapshot"
+                        "value": "3.5.0.snapshot"
                     }
 ,                    {
                         "type": "version",
@@ -294,11 +337,11 @@
 
         },{
             "isVirtual": false,
-            "fileName": "emrapi-3.4.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT.jar"
-,"md5": "c3e96a9b6edf1fbd2edd776d37a63107",
-            "sha1": "627b2988ef6ab6cacad28edf2275d6a0df589cd6",
-            "sha256": "92326f3b7b0e9a8ed86bea0053f02836b594f45f0fd6b11339b5267508f09394"            ,"evidenceCollected": {
+            "fileName": "emrapi-3.5.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT.jar"
+,"md5": "bbe182ecc3fb26f59ff7e9079cf58b37",
+            "sha1": "cdb3b4c56b9cdeeacf1c1f142413b5ffef98d4ba",
+            "sha256": "fbcb585563c6521fc2b4675f6bdb9d810a06fa69b6c2e0c92e303400641778d8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -361,6 +404,13 @@
 ,{
                             "type": "product",
                             "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "web"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
                             "value": "1.8"
@@ -379,7 +429,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "3.4.0.snapshot"
+                        "value": "3.5.0.snapshot"
                     }
 ,                    {
                         "type": "version",
@@ -400,11 +450,11 @@
 
         },{
             "isVirtual": false,
-            "fileName": "emrapi-api-3.4.0-SNAPSHOT-javadoc.jar",
-            "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT-javadoc.jar"
-,"md5": "ac8fd8cab7b89215b3032d42cee419b3",
-            "sha1": "f27efd80e4e43411c8082ec5ddf26d4e9f36011d",
-            "sha256": "139da34563657feac74333c57ae49c7b668816ad7187db7a69be581bc3994faa"            ,"evidenceCollected": {
+            "fileName": "emrapi-api-3.5.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.5.0-SNAPSHOT-javadoc.jar"
+,"md5": "742a43719fbd1f3697254f7713702cab",
+            "sha1": "c84e836ac71c29199e19d40c8f8ff0a3c4911b35",
+            "sha256": "1369620a1f0434bdee7502e5af90166d2dc7c1b122efe6ee5af342694b950b55"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -436,38 +486,81 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "3.4.0.snapshot"
+                        "value": "3.5.0.snapshot"
                     }
                 ]
             }
 
         },{
             "isVirtual": false,
-            "fileName": "emrapi-api-3.4.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT.jar"
-,"md5": "f48e8a91d379a110f2d57e051aba2425",
-            "sha1": "a85a5661fd3a6e99aa62ed4cd86d3855fab374fc",
-            "sha256": "e554f562231a5ce747a0cb648ded8c3d743900ae1494c1184f984c511629d2f9","description": "API project for EMRAPI"            ,"relatedDependencies": [
+            "fileName": "emrapi-api-3.5.0-SNAPSHOT-sources.jar",
+            "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.5.0-SNAPSHOT-sources.jar"
+,"md5": "c91d19a01ba6a3d9a377f4310f46b911",
+            "sha1": "e80a5a92e9bc37e830106746b83fb25a69930970",
+            "sha256": "49a6c8ae0144b957c674112eddc79722d96e3b6813e0785824bae70797023b0d"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi-api"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.5.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-api-3.5.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.5.0-SNAPSHOT.jar"
+,"md5": "c69b9eca14647766eece927f2b1a95a2",
+            "sha1": "c594555ca41ce7febe506e077b894294dc11f43c",
+            "sha256": "74ed0874ca66e6c459bc5c0d3b5b8a42815c0d58810992ede0ca3bad8907ac34","description": "API project for EMRAPI"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "emrapi-api-3.4.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT-tests.jar"
-,"sha256": "23b3d9401c28efc511dda0356642d8b44066c924539e06fce060bb098fb423a6",
-                    "sha1": "f90a61e10ed78974ed0ae9c8afa950bf119aa9dc",
-                    "md5": "377a3974d290d35b4616ac2744fc6c47",
+                    "fileName": "emrapi-api-3.5.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.5.0-SNAPSHOT-tests.jar"
+,"sha256": "2ba6e46555865b13d80223597788be7dafd275138b1d093c743efa83647db083",
+                    "sha1": "b12065aa5c96a5f076abbcb279caade9ba29c26c",
+                    "md5": "271a7ed3aa028559cc7c79f6ccf1aa77",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/emrapi-api@3.4.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/emrapi-api@3.5.0-SNAPSHOT"
                             }
                     ]
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "emrapi-api-3.4.0-SNAPSHOT.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT\/lib\/emrapi-api-3.4.0-SNAPSHOT.jar"
-,"sha256": "e554f562231a5ce747a0cb648ded8c3d743900ae1494c1184f984c511629d2f9",
-                    "sha1": "a85a5661fd3a6e99aa62ed4cd86d3855fab374fc",
-                    "md5": "f48e8a91d379a110f2d57e051aba2425"
+                    "fileName": "emrapi-api-3.5.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT\/lib\/emrapi-api-3.5.0-SNAPSHOT.jar"
+,"sha256": "74ed0874ca66e6c459bc5c0d3b5b8a42815c0d58810992ede0ca3bad8907ac34",
+                    "sha1": "c594555ca41ce7febe506e077b894294dc11f43c",
+                    "md5": "c69b9eca14647766eece927f2b1a95a2"
                 }
             ]
             ,"evidenceCollected": {
@@ -607,26 +700,26 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "3.4.0-SNAPSHOT"
+                        "value": "3.5.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/emrapi-api@3.4.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/emrapi-api@3.5.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.5.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.5.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
-            "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar",
-            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar"
-,"md5": "35444c408c89decd2964da2052e6b85b",
-            "sha1": "cdbccc9516e11b864fc563c82e834f03626d421f",
-            "sha256": "adc7fd1e6358c9e2c793464ce8f847305373d23bab66ba2bb4a85ec2e8d9bef9"            ,"evidenceCollected": {
+            "fileName": "emrapi-api-reporting-3.5.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.5.0-SNAPSHOT-javadoc.jar"
+,"md5": "effc336eb13c9317a73be36cf1d96cf9",
+            "sha1": "0dba44806df750b53a36bc7225f413723d4b4173",
+            "sha256": "1ed37e86f2f41e95e8fb50621d4b4ebd067c28babfdb7acf8bfa2af396a0860f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -658,30 +751,30 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "3.4.0.snapshot"
+                        "value": "3.5.0.snapshot"
                     }
                 ]
             }
 
         },{
             "isVirtual": false,
-            "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar: script.js",
-            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT-javadoc.jar\/script.js"
+            "fileName": "emrapi-api-reporting-3.5.0-SNAPSHOT-javadoc.jar: script.js",
+            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.5.0-SNAPSHOT-javadoc.jar\/script.js"
 ,"md5": "4a010b8264c9873452f055748133bb29",
             "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
             "sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "emrapi-3.4.0-SNAPSHOT-javadoc.jar: script.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT-javadoc.jar\/script.js"
+                    "fileName": "emrapi-3.5.0-SNAPSHOT-javadoc.jar: script.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT-javadoc.jar\/script.js"
 ,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
                     "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
                     "md5": "4a010b8264c9873452f055748133bb29"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "emrapi-api-3.4.0-SNAPSHOT-javadoc.jar: script.js",
-                    "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.4.0-SNAPSHOT-javadoc.jar\/script.js"
+                    "fileName": "emrapi-api-3.5.0-SNAPSHOT-javadoc.jar: script.js",
+                    "filePath": "\/github\/workspace\/api\/target\/emrapi-api-3.5.0-SNAPSHOT-javadoc.jar\/script.js"
 ,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
                     "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
                     "md5": "4a010b8264c9873452f055748133bb29"
@@ -722,31 +815,74 @@
 
         },{
             "isVirtual": false,
-            "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT.jar"
-,"md5": "a28a2decc35d984723d1d3e4f8303872",
-            "sha1": "1012a189704f72626f060a0afb722a329bacc422",
-            "sha256": "754064532fc3ca33fb42667277dc0f247f1cf50fd8e558dbe1793bf9f3ddb422"            ,"relatedDependencies": [
+            "fileName": "emrapi-api-reporting-3.5.0-SNAPSHOT-sources.jar",
+            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.5.0-SNAPSHOT-sources.jar"
+,"md5": "756fa22e528cb366801ab5e0d5aaaa1a",
+            "sha1": "7e505fbd7e77636436809e11df47e0da4bb03cf2",
+            "sha256": "c1b0518c980f6cab687cb91ec8ac731e4b149d981f70aee1bb226f85cb240ad1"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api-reporting"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "emrapi-api-reporting"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "emrapi-api-reporting"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.5.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emrapi-api-reporting-3.5.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.5.0-SNAPSHOT.jar"
+,"md5": "496b3105591f5c1ed3c4270ff6dc9329",
+            "sha1": "abfff67cdfdeddb38b08bf14d293616c4427074f",
+            "sha256": "34ac5cab64f2a28fa0cc93ec0aaab3a6214107fae4604ed0d150a5bcacaa0b66"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.4.0-SNAPSHOT-tests.jar"
-,"sha256": "b2cabeeb8cd0fdf3505347e3aaeece6454a56d9920fe4cbd6d8ba0e76af0a572",
-                    "sha1": "19f52cc06d55e191a848aca0d8c9e4c03db1ed49",
-                    "md5": "59e56a0d02e10a84bbe02498f0a89b4c",
+                    "fileName": "emrapi-api-reporting-3.5.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api-reporting\/target\/emrapi-api-reporting-3.5.0-SNAPSHOT-tests.jar"
+,"sha256": "731dfb7256559fc1a0ff812c1b541b20f913cd56d0f4b63efe374bdf87288320",
+                    "sha1": "af8d97f8610a4945c43a1169ae62433ed853f512",
+                    "md5": "136c0b54570f088107b91d4c0966236a",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/emrapi-api-reporting@3.4.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/emrapi-api-reporting@3.5.0-SNAPSHOT"
                             }
                     ]
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "emrapi-api-reporting-3.4.0-SNAPSHOT.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT\/lib\/emrapi-api-reporting-3.4.0-SNAPSHOT.jar"
-,"sha256": "754064532fc3ca33fb42667277dc0f247f1cf50fd8e558dbe1793bf9f3ddb422",
-                    "sha1": "1012a189704f72626f060a0afb722a329bacc422",
-                    "md5": "a28a2decc35d984723d1d3e4f8303872"
+                    "fileName": "emrapi-api-reporting-3.5.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT\/lib\/emrapi-api-reporting-3.5.0-SNAPSHOT.jar"
+,"sha256": "34ac5cab64f2a28fa0cc93ec0aaab3a6214107fae4604ed0d150a5bcacaa0b66",
+                    "sha1": "abfff67cdfdeddb38b08bf14d293616c4427074f",
+                    "md5": "496b3105591f5c1ed3c4270ff6dc9329"
                 }
             ]
             ,"evidenceCollected": {
@@ -886,26 +1022,26 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "3.4.0-SNAPSHOT"
+                        "value": "3.5.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/emrapi-api-reporting@3.4.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/emrapi-api-reporting@3.5.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:3.4.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:3.5.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A3.5.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:openmrs:openmrs_module_reporting:3.4.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs_module_reporting%3A3.4.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs_module_reporting:3.5.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs_module_reporting%3A3.5.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
             "fileName": "joda-time-2.12.5.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.4.0-SNAPSHOT\/lib\/joda-time-2.12.5.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/emrapi-3.5.0-SNAPSHOT\/lib\/joda-time-2.12.5.jar"
 ,"md5": "a0f575850531c768542236ea245b7516",
             "sha1": "698ce67b5e58becfb4ef2cf0393422775e59dff4",
             "sha256": "10628411ecb40c4634196c544f34681abdeef826f377096357433d1f9a135bc6","description": "Date and time library to replace JDK date handling","license": "Apache License, Version 2.0: https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
