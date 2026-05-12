@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.1",
+        "engineVersion": "12.2.2",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-15T12:10:14Z"
+                "timestamp": "2026-05-11T14:01:54Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-14T23:16:29Z"
+                "timestamp": "2026-05-11T13:39:21Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-15T12:10:14Z"
+                "timestamp": "2026-05-11T14:01:54Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-14T23:16:29Z"
+                "timestamp": "2026-05-11T13:39:21Z"
             }
         ]
 
@@ -25,13 +25,13 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientdocuments",
-        "reportDate": "2026-04-15T15:16:47.547584978Z",
+        "reportDate": "2026-05-12T09:06:50.946119936Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
             "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
             "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
-            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
         }
     },
     "dependencies": [
@@ -5744,9 +5744,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT-tests.jar"
-,"md5": "bac8ad3ec1c8f22851d099640b42810d",
-            "sha1": "9649175fd2fa4a235b46d50099a10c15cb6a33ab",
-            "sha256": "8f45450f563125f71bcc5cfa35c7c0bca9607e9f2541c6381d7534148d1c69a0"            ,"evidenceCollected": {
+,"md5": "a70b691250b95befa98940cdbb402171",
+            "sha1": "241369bec730f9c9ca8e31a83b1125c8b4e964fe",
+            "sha256": "0ef6eba208950300f2abc546b20ca1c333ba8fe6670754b4d4ba4e9cf0c2c1dc"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5857,9 +5857,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT.jar"
-,"md5": "d6fbc96b752cd7f1b7b53b0a29b6b798",
-            "sha1": "2222105ff32d09ed3df76649b93e79823e58d7c1",
-            "sha256": "1172d2a57d9f86b36ab49ab73ca51b5ad68951d919a551b98c213bdc15d74672"            ,"evidenceCollected": {
+,"md5": "a7b226c1d7e30c8b9fe1bb8d50fd977c",
+            "sha1": "70a1ee88cba39859f9f42c0aba167021c7e88786",
+            "sha256": "ae28c744609bada055d1b864f56832f467313cfdd12b2600d04ab04dacd736c7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5970,16 +5970,16 @@
             "isVirtual": false,
             "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"md5": "639ad385feb08ceb554cdf8bf70fedd8",
-            "sha1": "e2ae874ac8717beeca7bb28a1dc08ca6dbb2a04c",
-            "sha256": "084be69ba82fbc12ca60bec0fa2114b30c90dfe82e444d063dd11ebe2f165f11","description": "API project for Patient Documents"            ,"relatedDependencies": [
+,"md5": "170e25bcadb284d10358181a1eba27f3",
+            "sha1": "4da49396134c853bade6dc915c6c7e4249c2776b",
+            "sha256": "7e5b1af18f46c8135cfde4824a11600ce1a760c2600a1cdb89a872deb69143bf","description": "API project for Patient Documents"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "430f8fa6b54a0905c708fe8b845a3dd08fafc31313ebb7415629e72f8b8b05ae",
-                    "sha1": "7141c6747b7f949ad33411fb76012e975ec3830a",
-                    "md5": "c67302333d81817c294a439c0e464122",
+,"sha256": "760306dce09ae80549725b55c249463fa7064d432c3f5185d62d18e01cf014c0",
+                    "sha1": "7ee8e9d03c9d4c341cc5b7716dc6b6ae03c96203",
+                    "md5": "e231d6ab0d8a6637499728ce3245e352",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientdocuments-api@1.1.0-SNAPSHOT"
@@ -5990,9 +5990,9 @@
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "084be69ba82fbc12ca60bec0fa2114b30c90dfe82e444d063dd11ebe2f165f11",
-                    "sha1": "e2ae874ac8717beeca7bb28a1dc08ca6dbb2a04c",
-                    "md5": "639ad385feb08ceb554cdf8bf70fedd8"
+,"sha256": "7e5b1af18f46c8135cfde4824a11600ce1a760c2600a1cdb89a872deb69143bf",
+                    "sha1": "4da49396134c853bade6dc915c6c7e4249c2776b",
+                    "md5": "170e25bcadb284d10358181a1eba27f3"
                 }
             ]
             ,"evidenceCollected": {
