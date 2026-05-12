@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.1",
+        "engineVersion": "12.2.2",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-29T13:06:18Z"
+                "timestamp": "2026-05-11T14:01:54Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-29T12:47:57Z"
+                "timestamp": "2026-05-11T13:39:21Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-29T13:06:18Z"
+                "timestamp": "2026-05-11T14:01:54Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-29T12:47:57Z"
+                "timestamp": "2026-05-11T13:39:21Z"
             }
         ]
 
@@ -25,13 +25,13 @@
     },
     "projectInfo": {
         "name": "openmrs-module-webservices.rest",
-        "reportDate": "2026-04-29T19:20:58.158157361Z",
+        "reportDate": "2026-05-12T13:16:14.034747114Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
             "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
             "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
-            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
         }
     },
     "dependencies": [
@@ -4557,9 +4557,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-4.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-4.0.0-SNAPSHOT-tests.jar"
-,"md5": "fd675ad78f602735563b68f7a53627e8",
-            "sha1": "281699a64b55d8288c1bb3f46407009f23aaede4",
-            "sha256": "9fbca64c26ff49a8698f9a5188d144e9cfa98638ca97f8ca65b81f33cd03f720"            ,"evidenceCollected": {
+,"md5": "3ed23060409b381ceaca51b74bb1ddd3",
+            "sha1": "dd911536eb63890a21a405ce9c0cd7591425caf4",
+            "sha256": "1a7c17d2a387c14699d554b9cf79d446d8679307b216edc464b46f6d263e17d6"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4594,7 +4594,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                         }
                 ],
                 "productEvidence": [
@@ -4631,7 +4631,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                     }
                 ],
                 "versionEvidence": [
@@ -4654,7 +4654,7 @@
                         "confidence": "LOW",
                         "source": "Manifest",
                         "name": "build-jdk-spec",
-                        "value": "21"
+                        "value": "25"
                     }
 ,                    {
                         "type": "version",
@@ -4670,9 +4670,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-4.0.0-SNAPSHOT.jar"
-,"md5": "f1d713362d1304283491d1fb4d044a43",
-            "sha1": "fac1ff11d6170ecdd953311acf631518d4e261f3",
-            "sha256": "6bb7e82faf1b04e6f0781aa577168e7087676f0947db0122e99ee392407d0c37"            ,"evidenceCollected": {
+,"md5": "9d56b6c7db9595d73a14854454c1b52c",
+            "sha1": "966764f3f510c5a78a952f8c7996e7238efca096",
+            "sha256": "d4d7a43cb20db6e527e985f8540a512be18087dda038a327c51719c12d3844e2"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4707,7 +4707,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                         }
                 ],
                 "productEvidence": [
@@ -4744,7 +4744,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                     }
                 ],
                 "versionEvidence": [
@@ -4767,7 +4767,7 @@
                         "confidence": "LOW",
                         "source": "Manifest",
                         "name": "build-jdk-spec",
-                        "value": "21"
+                        "value": "25"
                     }
 ,                    {
                         "type": "version",
@@ -4783,16 +4783,16 @@
             "isVirtual": false,
             "fileName": "webservices.rest-omod-common-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-4.0.0-SNAPSHOT.jar"
-,"md5": "93c5bb5f363eb1dd865c00f58ab32fd3",
-            "sha1": "83c03ed60f5f041ef5339c785caf216fa598b39e",
-            "sha256": "cfa16578a9e7f11288417a01d654a3440f1b0e51b709ad7de97bfd10f67736bd","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
+,"md5": "105ffe90aba53eeb002c67e68baa33c4",
+            "sha1": "e3d58baf875d56444d0ecaa4a70af6e23d2f402d",
+            "sha256": "244ae2523b1f296ff52dfd8d7f7b3b865c9de71da413f757b602367302bc5fc6","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-4.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-4.0.0-SNAPSHOT-tests.jar"
-,"sha256": "fed8c195c6655c7729189577ab16ed6d4a6477f25ce28ea2a57a543656194c59",
-                    "sha1": "78eb681cc0050733a517efe0b04f5f22779c1a38",
-                    "md5": "15a43f75dcf23a4043e5c5f5a34f3abb",
+,"sha256": "6f7d91e3e2c73a6e996848a7f3a9ec48b482751d2e513ca5e7bd1ae03bfeeb21",
+                    "sha1": "c93f26239322f4db5156ac639845d321c63d4f7f",
+                    "md5": "fa177859e26bdf03ca092ba7d1b7b6ae",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/webservices.rest-omod-common@4.0.0-SNAPSHOT"
@@ -4803,9 +4803,9 @@
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-4.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-4.0.0-SNAPSHOT\/lib\/webservices.rest-omod-common-4.0.0-SNAPSHOT.jar"
-,"sha256": "cfa16578a9e7f11288417a01d654a3440f1b0e51b709ad7de97bfd10f67736bd",
-                    "sha1": "83c03ed60f5f041ef5339c785caf216fa598b39e",
-                    "md5": "93c5bb5f363eb1dd865c00f58ab32fd3"
+,"sha256": "244ae2523b1f296ff52dfd8d7f7b3b865c9de71da413f757b602367302bc5fc6",
+                    "sha1": "e3d58baf875d56444d0ecaa4a70af6e23d2f402d",
+                    "md5": "105ffe90aba53eeb002c67e68baa33c4"
                 }
             ]
             ,"evidenceCollected": {
@@ -4850,7 +4850,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                         }
 ,{
                             "type": "vendor",
@@ -4922,7 +4922,7 @@
                             "confidence": "LOW",
                             "source": "Manifest",
                             "name": "build-jdk-spec",
-                            "value": "21"
+                            "value": "25"
                     }
 ,{
                             "type": "product",
