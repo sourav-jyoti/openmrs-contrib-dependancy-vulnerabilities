@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.1",
+        "engineVersion": "12.2.2",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-05-13T13:34:52Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-05-12T12:17:23Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-13T12:40:14Z"
+                "timestamp": "2026-05-13T13:34:52Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-13T11:38:48Z"
+                "timestamp": "2026-05-12T12:17:23Z"
             }
         ]
 
@@ -25,13 +25,13 @@
     },
     "projectInfo": {
         "name": "openmrs-module-queue",
-        "reportDate": "2026-04-13T21:35:03.594669614Z",
+        "reportDate": "2026-05-13T16:43:15.488741884Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
             "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
             "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
-            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
         }
     },
     "dependencies": [
@@ -125,9 +125,9 @@
             "isVirtual": false,
             "fileName": "queue-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT.jar"
-,"md5": "1e9e293d49f316e816eed831e094d32c",
-            "sha1": "788183ba6f47b45ff9cdc8519da9aefdb5e59da8",
-            "sha256": "c268341172d7612c8188d4cf65f986468f63a3eb90c7fc353bdc407e22e77c50"            ,"evidenceCollected": {
+,"md5": "aa8dcc351e2f7dbee10dbb4acd92a355",
+            "sha1": "06f37712d625272b0c6f7dc7c04f35631ef405c0",
+            "sha256": "c9cf107f9006a111481b92fee4b9416aeb3824734475c71c4bc95f9a0da6b947"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -238,16 +238,16 @@
             "isVirtual": false,
             "fileName": "queue-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT.jar"
-,"md5": "8dfa0351dbc89db2793afdc75577e247",
-            "sha1": "ef74076822994037b5fb8aea6b703f3fa817d60c",
-            "sha256": "91c0f3980eb23c0a1fe3a3426fd7c5029a26130aa1c1750e21a1a8040122d09f","description": "API project for Queue"            ,"relatedDependencies": [
+,"md5": "dcf8596b29a442c8b2b1709a8d35bf58",
+            "sha1": "c9d977f2a98542450613d9ae64f017086a651bf8",
+            "sha256": "f2d067b5373bdf1b968f6dfdb038248da682ada83ed6abe85e157a2337edcd85","description": "API project for Queue"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "queue-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT\/lib\/queue-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "91c0f3980eb23c0a1fe3a3426fd7c5029a26130aa1c1750e21a1a8040122d09f",
-                    "sha1": "ef74076822994037b5fb8aea6b703f3fa817d60c",
-                    "md5": "8dfa0351dbc89db2793afdc75577e247"
+,"sha256": "f2d067b5373bdf1b968f6dfdb038248da682ada83ed6abe85e157a2337edcd85",
+                    "sha1": "c9d977f2a98542450613d9ae64f017086a651bf8",
+                    "md5": "dcf8596b29a442c8b2b1709a8d35bf58"
                 }
             ]
             ,"evidenceCollected": {
@@ -418,9 +418,9 @@
             "isVirtual": false,
             "fileName": "queue-integration-tests-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/queue-integration-tests-3.1.0-SNAPSHOT.jar"
-,"md5": "f88040f577e53f344138754537d5f270",
-            "sha1": "c381279eb8c3cddbe0535135361eb6a193a86355",
-            "sha256": "01323ad5c4937547d97a8709fa3e5e36af5208a94b46a5b03f1de421097d0766","description": "Integration Tests project for Queue"            ,"evidenceCollected": {
+,"md5": "0e0628c23daa960cbef20b0cc9c8c772",
+            "sha1": "4685a0fe663d1af89d6e616360f87ce9f731f4a3",
+            "sha256": "1f9352df992563bbb254f8880174c0011690ea40d99eab18782d75cdb0b97286","description": "Integration Tests project for Queue"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
