@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-queue",
-        "reportDate": "2026-05-13T16:43:15.488741884Z",
+        "reportDate": "2026-05-13T17:14:47.377804826Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -37,11 +37,112 @@
     "dependencies": [
 {
             "isVirtual": false,
-            "fileName": "queue-3.1.0-SNAPSHOT.jar (shaded: org.openmrs.module:queue-omod:3.1.0-SNAPSHOT)",
-            "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/queue-omod\/pom.xml"
-,"md5": "769ce8f7a197d518e2f8efaae4e776ec",
-            "sha1": "aae5921a02d6689dc874feba53343b8b07d45718",
-            "sha256": "3438841247efa865c8701beec64d8bc92a3354ad6ace2d6609f3f6463ff863a7","description": "Omod submodule for Queue"            ,"evidenceCollected": {
+            "fileName": "queue-3.1.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-javadoc.jar"
+,"md5": "dd80c2c037129bbac6ba7a1b00a9eb6f",
+            "sha1": "5267e60c03915feba255035bff2b0c0fe782fb79",
+            "sha256": "fbb63518e2aaca74749fe6e6c83089f9270d5a146a0ca9c839499d24b152fe77"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "queue"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.1.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "queue-3.1.0-SNAPSHOT-sources.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-sources.jar"
+,"md5": "3faa8a13d193a53cd75cb5c6e4643948",
+            "sha1": "047405d81b5c9792233e158ce81a10d6ac98889a",
+            "sha256": "8a1ad87368a6812a01077ec139e3f2fb29e5e1da81f4a1b4d66d083e7c22db5d"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "queue"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.1.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "queue-3.1.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:queue-omod:3.1.0-SNAPSHOT)",
+            "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/queue-omod\/pom.xml"
+,"md5": "f2e9d9b1dbd658d96fe0aa387241d207",
+            "sha1": "0c5dfc991026f7d022950f5a26db5ce7e49b02c3",
+            "sha256": "ca5b6cb5c36e2c109ff38308be705042a831a685b2f7f4d8499340f33f1fd51b","description": "Omod submodule for Queue"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "queue-3.1.0-SNAPSHOT.jar (shaded: org.openmrs.module:queue-omod:3.1.0-SNAPSHOT)",
+                    "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/queue-omod\/pom.xml"
+,"sha256": "ca5b6cb5c36e2c109ff38308be705042a831a685b2f7f4d8499340f33f1fd51b",
+                    "sha1": "0c5dfc991026f7d022950f5a26db5ce7e49b02c3",
+                    "md5": "f2e9d9b1dbd658d96fe0aa387241d207",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/queue-omod@3.1.0-SNAPSHOT"
+                            }
+                    ]
+                }
+            ]
+            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -123,11 +224,11 @@
             ]
         },{
             "isVirtual": false,
-            "fileName": "queue-3.1.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT.jar"
-,"md5": "aa8dcc351e2f7dbee10dbb4acd92a355",
-            "sha1": "06f37712d625272b0c6f7dc7c04f35631ef405c0",
-            "sha256": "c9cf107f9006a111481b92fee4b9416aeb3824734475c71c4bc95f9a0da6b947"            ,"evidenceCollected": {
+            "fileName": "queue-3.1.0-SNAPSHOT-tests.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-tests.jar"
+,"md5": "ebdb9487fcdd7d618f99ffb98fca4ed1",
+            "sha1": "f878a98bf092d96b5e1ce2f5f44c0136be2b7b3a",
+            "sha256": "6394f4adf369ee3ab7274fc1c8480f87bc95d8fd3faf55ff0a639b53c6b8a6b7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -236,18 +337,263 @@
 
         },{
             "isVirtual": false,
-            "fileName": "queue-api-3.1.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT.jar"
-,"md5": "dcf8596b29a442c8b2b1709a8d35bf58",
-            "sha1": "c9d977f2a98542450613d9ae64f017086a651bf8",
-            "sha256": "f2d067b5373bdf1b968f6dfdb038248da682ada83ed6abe85e157a2337edcd85","description": "API project for Queue"            ,"relatedDependencies": [
+            "fileName": "queue-3.1.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT.jar"
+,"md5": "d6e8c9fc600bf44dcddcae3d0ed2f609",
+            "sha1": "87a293f80151bece68ed3095b448bcb82ae852e4",
+            "sha256": "eb154a85ef4ef8a858b03878c3da6f67781eca0b9a5c623af916e14a72f62f30"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "queue"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "queue"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "web"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "queue"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.1.0.snapshot"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "LOW",
+                        "source": "Manifest",
+                        "name": "build-jdk-spec",
+                        "value": "1.8"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "Manifest",
+                        "name": "java-version",
+                        "value": "8"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "queue-api-3.1.0-SNAPSHOT-javadoc.jar",
+            "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT-javadoc.jar"
+,"md5": "d1e2476cad68c3af76e8ffc1422d6796",
+            "sha1": "82c6d78a29f7ec043b5c640fcede644064f801a2",
+            "sha256": "801a53e85bb4601ec90cb01c4a22ce5aaca4887c96c3a76675764020d74e4d44"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue-api"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue-api"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "queue-api"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.1.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "queue-api-3.1.0-SNAPSHOT-javadoc.jar: script.js",
+            "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT-javadoc.jar\/script.js"
+,"md5": "4a010b8264c9873452f055748133bb29",
+            "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+            "sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "queue-api-3.1.0-SNAPSHOT.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT\/lib\/queue-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "f2d067b5373bdf1b968f6dfdb038248da682ada83ed6abe85e157a2337edcd85",
-                    "sha1": "c9d977f2a98542450613d9ae64f017086a651bf8",
-                    "md5": "dcf8596b29a442c8b2b1709a8d35bf58"
+                    "fileName": "queue-3.1.0-SNAPSHOT-javadoc.jar: script.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-javadoc.jar\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "script.js",
+                    "filePath": "\/github\/workspace\/api\/target\/reports\/apidocs\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "script.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/reports\/apidocs\/script.js"
+,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
+                    "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
+                    "md5": "4a010b8264c9873452f055748133bb29"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "queue-api-3.1.0-SNAPSHOT-sources.jar",
+            "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT-sources.jar"
+,"md5": "f9ecf6237a12bcf2c3272c74b7f5c2bf",
+            "sha1": "ed98c38a8717ea8cb0fe53469d164b2330e688b2",
+            "sha256": "e61ac39dad242d073404a92caf253fe3b66047169d0b19583a33bd0cf70e334a"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue-api"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "queue-api"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "queue-api"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "3.1.0.snapshot"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "queue-api-3.1.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT.jar"
+,"md5": "bd0b8060ad898f0a5915d81eb6402c73",
+            "sha1": "0513728b5a09fc47fd01c5801df25c14be83975b",
+            "sha256": "a20aea543368e918d4e945066726430d303c27fa5d26ac0d663bbac6f5b3107a","description": "API project for Queue"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "queue-api-3.1.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT-tests.jar"
+,"sha256": "625c27b63f71111c7b5922bbe0565db296f8f69fb6d0843e82452aa2b5dd7ed7",
+                    "sha1": "03de59eebe358c98588a2ff84ff98817e1c12f03",
+                    "md5": "30cb9fd8f5289dc2b3142d39bf33982f",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/queue-api@3.1.0-SNAPSHOT"
+                            }
+                    ]
                 }
             ]
             ,"evidenceCollected": {
@@ -418,9 +764,24 @@
             "isVirtual": false,
             "fileName": "queue-integration-tests-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/queue-integration-tests-3.1.0-SNAPSHOT.jar"
-,"md5": "0e0628c23daa960cbef20b0cc9c8c772",
-            "sha1": "4685a0fe663d1af89d6e616360f87ce9f731f4a3",
-            "sha256": "1f9352df992563bbb254f8880174c0011690ea40d99eab18782d75cdb0b97286","description": "Integration Tests project for Queue"            ,"evidenceCollected": {
+,"md5": "cef45cbf6fc6c93bf3f9d86c391c105e",
+            "sha1": "2f8bb10a5ce683d0489d2d4ede323cfd2522feda",
+            "sha256": "be03391c0852997e0a9cc0964dbef1d33d501995276d7a5c87a5621d2c85a3d8","description": "Integration Tests project for Queue"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "queue-integration-tests-3.1.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/integration-tests\/target\/queue-integration-tests-3.1.0-SNAPSHOT-tests.jar"
+,"sha256": "2f9e7deedaed68253c581b5b1524ddfe7d07a98325bea84a5c7a062269ad864b",
+                    "sha1": "3bec2e6521bf76355858fc7b0b530a9c058f1417",
+                    "md5": "76978da41197c6fa9ce50dfba3d5edd2",
+                    "packageIds": [
+                            {
+                                "id": "pkg:maven/org.openmrs.module/queue-integration-tests@3.1.0-SNAPSHOT"
+                            }
+                    ]
+                }
+            ]
+            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
