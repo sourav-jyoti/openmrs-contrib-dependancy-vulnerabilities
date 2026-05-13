@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-queue",
-        "reportDate": "2026-05-13T17:14:47.377804826Z",
+        "reportDate": "2026-05-13T17:29:16.418916312Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "queue-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "dd80c2c037129bbac6ba7a1b00a9eb6f",
-            "sha1": "5267e60c03915feba255035bff2b0c0fe782fb79",
-            "sha256": "fbb63518e2aaca74749fe6e6c83089f9270d5a146a0ca9c839499d24b152fe77"            ,"evidenceCollected": {
+,"md5": "0902024716c0e8a33d9ffc2b988f7521",
+            "sha1": "08a4679fa40f331b218f2743d9a17f35961a5442",
+            "sha256": "1d722992522c98db337bd82ad5b63eccddbbedda047cf2d80817918d6adb13b8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -82,9 +82,9 @@
             "isVirtual": false,
             "fileName": "queue-3.1.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-sources.jar"
-,"md5": "3faa8a13d193a53cd75cb5c6e4643948",
-            "sha1": "047405d81b5c9792233e158ce81a10d6ac98889a",
-            "sha256": "8a1ad87368a6812a01077ec139e3f2fb29e5e1da81f4a1b4d66d083e7c22db5d"            ,"evidenceCollected": {
+,"md5": "33451252da07dd5996c5d532c0329907",
+            "sha1": "349be864670a7febebfbee6fc392784256ec4541",
+            "sha256": "211d8f86fa6623a4b1da4794789ce2db5a0d8fd70ce4b458c52590371e585c3f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -125,16 +125,16 @@
             "isVirtual": false,
             "fileName": "queue-3.1.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:queue-omod:3.1.0-SNAPSHOT)",
             "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/queue-omod\/pom.xml"
-,"md5": "f2e9d9b1dbd658d96fe0aa387241d207",
-            "sha1": "0c5dfc991026f7d022950f5a26db5ce7e49b02c3",
-            "sha256": "ca5b6cb5c36e2c109ff38308be705042a831a685b2f7f4d8499340f33f1fd51b","description": "Omod submodule for Queue"            ,"relatedDependencies": [
+,"md5": "48b304eda2941ec26819a6063f08f339",
+            "sha1": "a046cc654e38941b8a709329279bd802940638d0",
+            "sha256": "24b88f5d095b52dfc4571e29fd892853cae264305a75e33fb17045dbcc592917","description": "Omod submodule for Queue"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "queue-3.1.0-SNAPSHOT.jar (shaded: org.openmrs.module:queue-omod:3.1.0-SNAPSHOT)",
                     "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/queue-omod\/pom.xml"
-,"sha256": "ca5b6cb5c36e2c109ff38308be705042a831a685b2f7f4d8499340f33f1fd51b",
-                    "sha1": "0c5dfc991026f7d022950f5a26db5ce7e49b02c3",
-                    "md5": "f2e9d9b1dbd658d96fe0aa387241d207",
+,"sha256": "24b88f5d095b52dfc4571e29fd892853cae264305a75e33fb17045dbcc592917",
+                    "sha1": "a046cc654e38941b8a709329279bd802940638d0",
+                    "md5": "48b304eda2941ec26819a6063f08f339",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/queue-omod@3.1.0-SNAPSHOT"
@@ -226,9 +226,9 @@
             "isVirtual": false,
             "fileName": "queue-3.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT-tests.jar"
-,"md5": "ebdb9487fcdd7d618f99ffb98fca4ed1",
-            "sha1": "f878a98bf092d96b5e1ce2f5f44c0136be2b7b3a",
-            "sha256": "6394f4adf369ee3ab7274fc1c8480f87bc95d8fd3faf55ff0a639b53c6b8a6b7"            ,"evidenceCollected": {
+,"md5": "a65d7ecb1fea9021ec8cc20d09e4ebcd",
+            "sha1": "b99b5c6edb3859d56f7df178f476b7a640473462",
+            "sha256": "f953ce05fcbaa41b1e29c1e093a7df0482564b0e8da0f6bdf6bdd1568c081680"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -339,9 +339,9 @@
             "isVirtual": false,
             "fileName": "queue-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT.jar"
-,"md5": "d6e8c9fc600bf44dcddcae3d0ed2f609",
-            "sha1": "87a293f80151bece68ed3095b448bcb82ae852e4",
-            "sha256": "eb154a85ef4ef8a858b03878c3da6f67781eca0b9a5c623af916e14a72f62f30"            ,"evidenceCollected": {
+,"md5": "b6f33821e9e2d34fc016ae4db0b13d2a",
+            "sha1": "e980ac14969b4a799d20217cb2d55fccd6e9bc14",
+            "sha256": "3a055c4ae83c92b13edb1003ac1bb11632d337c811bf7497d560c6d58ef1651e"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -452,9 +452,9 @@
             "isVirtual": false,
             "fileName": "queue-api-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "d1e2476cad68c3af76e8ffc1422d6796",
-            "sha1": "82c6d78a29f7ec043b5c640fcede644064f801a2",
-            "sha256": "801a53e85bb4601ec90cb01c4a22ce5aaca4887c96c3a76675764020d74e4d44"            ,"evidenceCollected": {
+,"md5": "8cddeef31efb212c3b10242032239535",
+            "sha1": "1ede1e39ac0a4d2597ab99cf94f4fd1cb745b647",
+            "sha256": "06b848304859ed87a2a5c89a6fabfc4a9fff60b191aca1c8a8c323ff2de06c73"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -536,9 +536,9 @@
             "isVirtual": false,
             "fileName": "queue-api-3.1.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT-sources.jar"
-,"md5": "f9ecf6237a12bcf2c3272c74b7f5c2bf",
-            "sha1": "ed98c38a8717ea8cb0fe53469d164b2330e688b2",
-            "sha256": "e61ac39dad242d073404a92caf253fe3b66047169d0b19583a33bd0cf70e334a"            ,"evidenceCollected": {
+,"md5": "60237860ecc5984d7843d44b7a414c8d",
+            "sha1": "e50bfddd99d9b7ff53357dc1695a789187feac9d",
+            "sha256": "682c7aef0ace5bcd755f37eddd1c4a0328855017d20b5195c70314f7b8c9e531"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -579,21 +579,29 @@
             "isVirtual": false,
             "fileName": "queue-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT.jar"
-,"md5": "bd0b8060ad898f0a5915d81eb6402c73",
-            "sha1": "0513728b5a09fc47fd01c5801df25c14be83975b",
-            "sha256": "a20aea543368e918d4e945066726430d303c27fa5d26ac0d663bbac6f5b3107a","description": "API project for Queue"            ,"relatedDependencies": [
+,"md5": "40ea29d9d2f1f11e99a054993c39a498",
+            "sha1": "3a524881ee16e1f971734cbe459ade968941e675",
+            "sha256": "4dbd2c16bcee432bd282a62cc051acd96e6922b9f1e15a261779cfef6deacff4","description": "API project for Queue"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "queue-api-3.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/queue-api-3.1.0-SNAPSHOT-tests.jar"
-,"sha256": "625c27b63f71111c7b5922bbe0565db296f8f69fb6d0843e82452aa2b5dd7ed7",
-                    "sha1": "03de59eebe358c98588a2ff84ff98817e1c12f03",
-                    "md5": "30cb9fd8f5289dc2b3142d39bf33982f",
+,"sha256": "96ccd80298b999ec565f0fc020e7b47b8598c3ded4505b53581015e0237c6565",
+                    "sha1": "bf4bda32f4233d9965dbf45b030489461db625a6",
+                    "md5": "564ae3d547c5feccbd737de4e3376840",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/queue-api@3.1.0-SNAPSHOT"
                             }
                     ]
+                }
+ , {
+                    "isVirtual": false,
+                    "fileName": "queue-api-3.1.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/queue-3.1.0-SNAPSHOT\/lib\/queue-api-3.1.0-SNAPSHOT.jar"
+,"sha256": "4dbd2c16bcee432bd282a62cc051acd96e6922b9f1e15a261779cfef6deacff4",
+                    "sha1": "3a524881ee16e1f971734cbe459ade968941e675",
+                    "md5": "40ea29d9d2f1f11e99a054993c39a498"
                 }
             ]
             ,"evidenceCollected": {
@@ -764,16 +772,16 @@
             "isVirtual": false,
             "fileName": "queue-integration-tests-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/queue-integration-tests-3.1.0-SNAPSHOT.jar"
-,"md5": "cef45cbf6fc6c93bf3f9d86c391c105e",
-            "sha1": "2f8bb10a5ce683d0489d2d4ede323cfd2522feda",
-            "sha256": "be03391c0852997e0a9cc0964dbef1d33d501995276d7a5c87a5621d2c85a3d8","description": "Integration Tests project for Queue"            ,"relatedDependencies": [
+,"md5": "e8841a1985abdac9558545c08c8ad559",
+            "sha1": "d639935cda7cae79e776e3fcefaec56df87b0051",
+            "sha256": "fc40ae2cfbf6c6c50ffc25a1fe6deb7e933be66bfae7f5518de26f5630b925ae","description": "Integration Tests project for Queue"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "queue-integration-tests-3.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/integration-tests\/target\/queue-integration-tests-3.1.0-SNAPSHOT-tests.jar"
-,"sha256": "2f9e7deedaed68253c581b5b1524ddfe7d07a98325bea84a5c7a062269ad864b",
-                    "sha1": "3bec2e6521bf76355858fc7b0b530a9c058f1417",
-                    "md5": "76978da41197c6fa9ce50dfba3d5edd2",
+,"sha256": "24337462604538b4349d86ad96a85aabab74ace92657a474081facb00ef959e4",
+                    "sha1": "cfe9503b6c2fb387caea6612d95930ae444f6b6b",
+                    "md5": "102a86ede5f086df40b4750507499758",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/queue-integration-tests@3.1.0-SNAPSHOT"
