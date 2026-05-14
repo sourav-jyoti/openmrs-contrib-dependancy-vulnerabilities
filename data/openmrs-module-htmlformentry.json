@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-08T12:52:07Z"
+                "timestamp": "2026-05-14T13:14:29Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-08T12:04:08Z"
+                "timestamp": "2026-05-14T12:52:16Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-08T12:52:07Z"
+                "timestamp": "2026-05-14T13:14:29Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-08T12:04:08Z"
+                "timestamp": "2026-05-14T12:52:16Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-htmlformentry",
-        "reportDate": "2026-05-08T18:26:24.276254692Z",
+        "reportDate": "2026-05-14T16:56:49.924943200Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -38,7 +38,7 @@
 {
             "isVirtual": false,
             "fileName": "ano-web-2.1.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/ano-web-2.1.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/ano-web-2.1.0.jar"
 ,"md5": "284f1fbf8abaa08857592be7ce47b521",
             "sha1": "7fa866bcfa28195a9b94fc6b4f499b5bf9d16014",
             "sha256": "2eee294f6db57d4c3c20da92a9c5a0a122be6fe4b46f541b8d8aa3af3525dca5"            ,"evidenceCollected": {
@@ -218,7 +218,7 @@
         },{
             "isVirtual": false,
             "fileName": "hamcrest-3.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/hamcrest-3.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/hamcrest-3.0.jar"
 ,"md5": "781023c38b054e9cf1c818c77895e1eb",
             "sha1": "8fd9b78a8e6a6510a078a9e30e9e86a6035cfaf7",
             "sha256": "5d66b6a4a680755cb6ed7cb104fa7835ef644667586ff0737adeb977c39ecdbc","description": "Core API and libraries of hamcrest matcher framework.","license": "BSD-3-Clause: https:\/\/raw.githubusercontent.com\/hamcrest\/JavaHamcrest\/master\/LICENSE"            ,"evidenceCollected": {
@@ -510,7 +510,7 @@
         },{
             "isVirtual": false,
             "fileName": "hamcrest-core-2.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/hamcrest-core-2.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/hamcrest-core-2.2.jar"
 ,"md5": "be43e37f4c7b4f6fadba382933006b15",
             "sha1": "3f2bd07716a31c395e2837254f37f21f0f0ab24b",
             "sha256": "094f5d92b4b7d9c8a2bf53cc69d356243ae89c3499457bcb4b92f7ed3bf95879","description": "Core Hamcrest API - deprecated, please use \"hamcrest\" instead","license": "BSD License 3: http:\/\/opensource.org\/licenses\/BSD-3-Clause"            ,"evidenceCollected": {
@@ -844,7 +844,7 @@
         },{
             "isVirtual": false,
             "fileName": "hamcrest-library-2.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/hamcrest-library-2.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/hamcrest-library-2.2.jar"
 ,"md5": "e55927fb7e4a3c7a4ecd325677ea8cb3",
             "sha1": "cf530c8a0bc993487c64e940ae639bb4a6104dc6",
             "sha256": "3851523a201a0d4825c25a61a6edc50712825a39bd3d03391b98c48ca3cb396c","description": "A library of Hamcrest matchers - deprecated, please use \"hamcrest\" instead","license": "BSD License 3: http:\/\/opensource.org\/licenses\/BSD-3-Clause"            ,"evidenceCollected": {
@@ -1193,15 +1193,15 @@
  , {
                     "isVirtual": false,
                     "fileName": "handlebars.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/web\/module\/resources\/handlebars.min.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/handlebars.min.js"
 ,"sha256": "655ad5ba8efef717440bdfc9c478d393bbb9d2cf5d4e40706cd133ad4718db59",
                     "sha1": "339c394800eb91ae3a28f0d3f03d4b8344fb3b24",
                     "md5": "694996a42ffc69e94adac1af82325e65"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar: handlebars.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/web\/module\/resources\/handlebars.min.js"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: handlebars.min.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/handlebars.min.js"
 ,"sha256": "655ad5ba8efef717440bdfc9c478d393bbb9d2cf5d4e40706cd133ad4718db59",
                     "sha1": "339c394800eb91ae3a28f0d3f03d4b8344fb3b24",
                     "md5": "694996a42ffc69e94adac1af82325e65",
@@ -1805,32 +1805,32 @@
             "isVirtual": false,
             "fileName": "htmlForm.js",
             "filePath": "\/github\/workspace\/omod\/src\/main\/webapp\/resources\/htmlForm.js"
-,"md5": "a92bb04e3c93119abd9c0fcd07bc0ec6",
-            "sha1": "0778754644d082fe605a878e1f86a7dc2139abea",
-            "sha256": "a2dfecb9bfc3b5676370b4f94d7593ef82ecd5467d0f9663625b429727591af1"            ,"relatedDependencies": [
+,"md5": "7130f1f191a2409f3cf0cabb635f4e10",
+            "sha1": "d246c1ce13ea50fff28614ff8beb2d573b58b680",
+            "sha256": "1c32b8e07adb7d1085ebf2567e2536bc4162e55314d0e67055d5661dee6a28d7"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlForm.js",
                     "filePath": "\/github\/workspace\/omod\/target\/classes\/web\/module\/resources\/htmlForm.js"
-,"sha256": "a2dfecb9bfc3b5676370b4f94d7593ef82ecd5467d0f9663625b429727591af1",
-                    "sha1": "0778754644d082fe605a878e1f86a7dc2139abea",
-                    "md5": "a92bb04e3c93119abd9c0fcd07bc0ec6"
+,"sha256": "1c32b8e07adb7d1085ebf2567e2536bc4162e55314d0e67055d5661dee6a28d7",
+                    "sha1": "d246c1ce13ea50fff28614ff8beb2d573b58b680",
+                    "md5": "7130f1f191a2409f3cf0cabb635f4e10"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "htmlForm.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/web\/module\/resources\/htmlForm.js"
-,"sha256": "a2dfecb9bfc3b5676370b4f94d7593ef82ecd5467d0f9663625b429727591af1",
-                    "sha1": "0778754644d082fe605a878e1f86a7dc2139abea",
-                    "md5": "a92bb04e3c93119abd9c0fcd07bc0ec6"
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/htmlForm.js"
+,"sha256": "1c32b8e07adb7d1085ebf2567e2536bc4162e55314d0e67055d5661dee6a28d7",
+                    "sha1": "d246c1ce13ea50fff28614ff8beb2d573b58b680",
+                    "md5": "7130f1f191a2409f3cf0cabb635f4e10"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar: htmlForm.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/web\/module\/resources\/htmlForm.js"
-,"sha256": "a2dfecb9bfc3b5676370b4f94d7593ef82ecd5467d0f9663625b429727591af1",
-                    "sha1": "0778754644d082fe605a878e1f86a7dc2139abea",
-                    "md5": "a92bb04e3c93119abd9c0fcd07bc0ec6"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: htmlForm.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/htmlForm.js"
+,"sha256": "1c32b8e07adb7d1085ebf2567e2536bc4162e55314d0e67055d5661dee6a28d7",
+                    "sha1": "d246c1ce13ea50fff28614ff8beb2d573b58b680",
+                    "md5": "7130f1f191a2409f3cf0cabb635f4e10"
                 }
             ]
             ,"evidenceCollected": {
@@ -1860,15 +1860,15 @@
  , {
                     "isVirtual": false,
                     "fileName": "htmlFormEntry.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/web\/module\/resources\/htmlFormEntry.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/htmlFormEntry.js"
 ,"sha256": "179039e418cc2b9e1754bd0a9a074d7331240e70db4a43ac096a412f3bf34227",
                     "sha1": "ec3a02dcc812591eee375d4930a7462073955b98",
                     "md5": "1d5ee2ffa8ed399202474428c38f868f"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar: htmlFormEntry.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/web\/module\/resources\/htmlFormEntry.js"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: htmlFormEntry.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/htmlFormEntry.js"
 ,"sha256": "179039e418cc2b9e1754bd0a9a074d7331240e70db4a43ac096a412f3bf34227",
                     "sha1": "ec3a02dcc812591eee375d4930a7462073955b98",
                     "md5": "1d5ee2ffa8ed399202474428c38f868f"
@@ -1885,21 +1885,21 @@
 
         },{
             "isVirtual": false,
-            "fileName": "htmlformentry-7.2.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:htmlformentry-omod:7.2.0-SNAPSHOT)",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/htmlformentry-omod\/pom.xml"
-,"md5": "e74b4f6c6d8ffcbb4f27fbae3ccbdd2e",
-            "sha1": "cc3378295a62b49a4d018691bd0e26b549022477",
-            "sha256": "4e32d295471c69bbbca347e5738b07631b29e1055277793d52e4d3818eb4d416","description": "OpenMRS module project for HTML Form Entry"            ,"relatedDependencies": [
+            "fileName": "htmlformentry-7.3.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:htmlformentry-omod:7.3.0-SNAPSHOT)",
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/htmlformentry-omod\/pom.xml"
+,"md5": "23f81b8c63cf081b17de77d6b04243fa",
+            "sha1": "5d97c2e8b8095ebd82017d1e854848dcd7ddd9a9",
+            "sha256": "abb9763db071f0decafb4bffab10551b2f9fde45cac07c24aedb0336f3f68837","description": "OpenMRS module project for HTML Form Entry"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar (shaded: org.openmrs.module:htmlformentry-omod:7.2.0-SNAPSHOT)",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/htmlformentry-omod\/pom.xml"
-,"sha256": "4e32d295471c69bbbca347e5738b07631b29e1055277793d52e4d3818eb4d416",
-                    "sha1": "cc3378295a62b49a4d018691bd0e26b549022477",
-                    "md5": "e74b4f6c6d8ffcbb4f27fbae3ccbdd2e",
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar (shaded: org.openmrs.module:htmlformentry-omod:7.3.0-SNAPSHOT)",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/htmlformentry-omod\/pom.xml"
+,"sha256": "abb9763db071f0decafb4bffab10551b2f9fde45cac07c24aedb0336f3f68837",
+                    "sha1": "5d97c2e8b8095ebd82017d1e854848dcd7ddd9a9",
+                    "md5": "23f81b8c63cf081b17de77d6b04243fa",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/htmlformentry-omod@7.2.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/htmlformentry-omod@7.3.0-SNAPSHOT"
                             }
                     ]
                 }
@@ -1971,39 +1971,39 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "7.2.0-SNAPSHOT"
+                        "value": "7.3.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/htmlformentry-omod@7.2.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/htmlformentry-omod@7.3.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Ahtmlformentry%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Ahtmlformentry%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:openmrs:openmrs:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:openmrs:openmrs-module-htmlformentry:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs-module-htmlformentry%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs-module-htmlformentry:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs-module-htmlformentry%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
-            "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar"
-,"md5": "151062ffaa2395e686ff1c6fb5c4a37e",
-            "sha1": "6c3db7e8a83ef5b62551a4550d161a0612d179f5",
-            "sha256": "616dac476018f02c22041fc913c8a03667dd6f57f78e2a634b9f32956507b5f7"            ,"relatedDependencies": [
+            "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar"
+,"md5": "c5214b952ab4465d4640ddf22a84b2b8",
+            "sha1": "dbca87c3e79b71db10f03222b52d72ddaad31b82",
+            "sha256": "5885a1386cd3536f2d8da7a6cff852838ede109e316147a162a85a17c3be0b83"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT-tests.jar"
-,"sha256": "3d6aa8d0aef66ee71f4154098a1fe96ba43ff4a01d6ddf1daedf3a9f5301be8f",
-                    "sha1": "a905eeb6e6a01e2fd25f56903fcc074d96c6d2aa",
-                    "md5": "dffc3a11ff24d9100c33c6844b614293"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT-tests.jar"
+,"sha256": "2e1859954b9b90746da2f0c0831ae8f1ae7ce4eb1d1d56485b46ff1ef93c6bdc",
+                    "sha1": "1aa1758c9f61c0f1477742e1a7e08955586eae97",
+                    "md5": "5015700bc33f473f8338c810b49bbbaf"
                 }
             ]
             ,"evidenceCollected": {
@@ -2094,7 +2094,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "7.2.0.snapshot"
+                        "value": "7.3.0.snapshot"
                     }
 ,                    {
                         "type": "version",
@@ -2114,36 +2114,36 @@
             }
                 ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.2.0:snapshot:*:*:*:*:*:*"
+                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.3.0:snapshot:*:*:*:*:*:*"
 ,"confidence": "LOW"                }
             ]
         },{
             "isVirtual": false,
-            "fileName": "htmlformentry-api-7.2.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.2.0-SNAPSHOT.jar"
-,"md5": "0d159cc55203650f73f43205db72d0c1",
-            "sha1": "f4c2fbf5e6138b9390cd3bef4f02df8918c397ff",
-            "sha256": "0bf2ea3d96652b482f193e31fc219ffa7e619348eb9da670c33e8c7b37749334","description": "API project for HTML Form Entry"            ,"relatedDependencies": [
+            "fileName": "htmlformentry-api-7.3.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.3.0-SNAPSHOT.jar"
+,"md5": "75b69633406e4b4d40fae2bd8cb8e469",
+            "sha1": "c602d254d5fe5a4b4de76adf61e535668b64aa39",
+            "sha256": "af25982b0fdeaf70da1d1dcb47defe3c10079c9c0f339a906af17ab059310bb8","description": "API project for HTML Form Entry"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-api-7.2.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.2.0-SNAPSHOT-tests.jar"
-,"sha256": "297edae1e3269a206d949b3a4d3cb67c1a8dff9f68c46b96613913b5f45a9b2a",
-                    "sha1": "efdbce9c6590a0e67ed0f825f05ee3c9b10ba884",
-                    "md5": "e4021510c8ab2607639ec5bec1b3600c",
+                    "fileName": "htmlformentry-api-7.3.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.3.0-SNAPSHOT-tests.jar"
+,"sha256": "4341c8e33069ecb518b9cdc8732bf4ba733fedcae116f7662972eefea7f5a5db",
+                    "sha1": "d2d6dad56a0c9413a98af84862758c30e803b180",
+                    "md5": "69031947bb68f3078da402cef15204cc",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/htmlformentry-api@7.2.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/htmlformentry-api@7.3.0-SNAPSHOT"
                             }
                     ]
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-api-7.2.0-SNAPSHOT.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/htmlformentry-api-7.2.0-SNAPSHOT.jar"
-,"sha256": "0bf2ea3d96652b482f193e31fc219ffa7e619348eb9da670c33e8c7b37749334",
-                    "sha1": "f4c2fbf5e6138b9390cd3bef4f02df8918c397ff",
-                    "md5": "0d159cc55203650f73f43205db72d0c1"
+                    "fileName": "htmlformentry-api-7.3.0-SNAPSHOT.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/htmlformentry-api-7.3.0-SNAPSHOT.jar"
+,"sha256": "af25982b0fdeaf70da1d1dcb47defe3c10079c9c0f339a906af17ab059310bb8",
+                    "sha1": "c602d254d5fe5a4b4de76adf61e535668b64aa39",
+                    "md5": "75b69633406e4b4d40fae2bd8cb8e469"
                 }
             ]
             ,"evidenceCollected": {
@@ -2283,29 +2283,29 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "7.2.0-SNAPSHOT"
+                        "value": "7.3.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/htmlformentry-api@7.2.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/htmlformentry-api@7.3.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Ahtmlformentry%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Ahtmlformentry%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:openmrs:openmrs:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:openmrs:openmrs-module-htmlformentry:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs-module-htmlformentry%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs-module-htmlformentry:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs-module-htmlformentry%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
-            "fileName": "htmlformentry-api-tests-7.2.0-SNAPSHOT-tests.jar: subform1.js",
-            "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.2.0-SNAPSHOT-tests.jar\/org\/openmrs\/module\/htmlformentry\/subform1.js"
+            "fileName": "htmlformentry-api-tests-7.3.0-SNAPSHOT-tests.jar: subform1.js",
+            "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.3.0-SNAPSHOT-tests.jar\/org\/openmrs\/module\/htmlformentry\/subform1.js"
 ,"md5": "1bbd43c0a08f58a07ea9f2d5e637b180",
             "sha1": "d739406e61d6cf37a4fd402defdc8df28bf1982f",
             "sha256": "7801447e43a3b391f30982c18e6879132c6d86b69f07c6104efd105ffb26a4b5"            ,"relatedDependencies": [
@@ -2337,21 +2337,21 @@
 
         },{
             "isVirtual": false,
-            "fileName": "htmlformentry-api-tests-7.2.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.2.0-SNAPSHOT.jar"
-,"md5": "20d2aac373c05f5bcbf06a82c5785102",
-            "sha1": "f6e6a230554df977376369d81b3dedd561ee3923",
-            "sha256": "ec21bac2cab0a88aac1580099e6f3f167a7ad05a48ccd9a8c82c34d39764845b","description": "API tests for HTML Form Entry"            ,"relatedDependencies": [
+            "fileName": "htmlformentry-api-tests-7.3.0-SNAPSHOT.jar",
+            "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.3.0-SNAPSHOT.jar"
+,"md5": "f6e821017fe36fb58e9e671bc2ee683d",
+            "sha1": "e715bd4819705679c757193aa404d8175037a256",
+            "sha256": "9da90ceb99ddd50b787b3cba5d1776c23c87093b0c73588a9d8971b0a02933fe","description": "API tests for HTML Form Entry"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-api-tests-7.2.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.2.0-SNAPSHOT-tests.jar"
-,"sha256": "37db2bbeee82eb4e905f3ddabc74312c9ca0af2cc890aa50b3c6a17ab86af300",
-                    "sha1": "17794f4344d98dd3b748fb4822a147c830fdd831",
-                    "md5": "eba505443d1363e28a23f704233977a2",
+                    "fileName": "htmlformentry-api-tests-7.3.0-SNAPSHOT-tests.jar",
+                    "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.3.0-SNAPSHOT-tests.jar"
+,"sha256": "bfae887524303a7f053a5ba9ffb7f3732808c9cbe9543d1ecf3b60e8af39bf37",
+                    "sha1": "b19a81b5c49d3e1dd970a7608726d32c664be112",
+                    "md5": "24676f36a39c3b4f1f416fb48c973f3b",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/htmlformentry-api-tests@7.2.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/htmlformentry-api-tests@7.3.0-SNAPSHOT"
                             }
                     ]
                 }
@@ -2451,29 +2451,29 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "7.2.0-SNAPSHOT"
+                        "value": "7.3.0-SNAPSHOT"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/htmlformentry-api-tests@7.2.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/htmlformentry-api-tests@7.3.0-SNAPSHOT"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Ahtmlformentry%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:htmlformentry:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Ahtmlformentry%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:openmrs:openmrs:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:openmrs:openmrs-module-htmlformentry:7.2.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs-module-htmlformentry%3A7.2.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs-module-htmlformentry:7.3.0:snapshot:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs-module-htmlformentry%3A7.3.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
         },{
             "isVirtual": false,
             "fileName": "joda-convert-1.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/joda-convert-1.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/joda-convert-1.2.jar"
 ,"md5": "b0da47d5736aa6c16c0da7fd4fcfb8ba",
             "sha1": "35ec554f0cd00c956cc69051514d9488b1374dec",
             "sha256": "5703e1a2ac1969fe90f87076c1f1136822bf31d8948252159c86e6d0535c81a8","description": "Library to convert Objects to and from String","license": "Apache 2: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -2758,7 +2758,7 @@
         },{
             "isVirtual": false,
             "fileName": "joda-time-2.12.5.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/lib\/joda-time-2.12.5.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/joda-time-2.12.5.jar"
 ,"md5": "a0f575850531c768542236ea245b7516",
             "sha1": "698ce67b5e58becfb4ef2cf0393422775e59dff4",
             "sha256": "10628411ecb40c4634196c544f34681abdeef826f377096357433d1f9a135bc6","description": "Date and time library to replace JDK date handling","license": "Apache License, Version 2.0: https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -3105,8 +3105,8 @@
             "sha256": "61c6caebd23921741fb5ffe6603f16634fca9840c2bf56ac8201e9264d6daccf"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar: jquery-1.8.3.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/web\/module\/resources\/jquery-1.8.3.min.js"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: jquery-1.8.3.min.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/jquery-1.8.3.min.js"
 ,"sha256": "61c6caebd23921741fb5ffe6603f16634fca9840c2bf56ac8201e9264d6daccf",
                     "sha1": "06e872300088b9ba8a08427d28ed0efcdf9c6ff5",
                     "md5": "3576a6e73c9dccdbbc4a2cf8ff544ad7",
@@ -3127,7 +3127,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "jquery-1.8.3.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/web\/module\/resources\/jquery-1.8.3.min.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/jquery-1.8.3.min.js"
 ,"sha256": "61c6caebd23921741fb5ffe6603f16634fca9840c2bf56ac8201e9264d6daccf",
                     "sha1": "06e872300088b9ba8a08427d28ed0efcdf9c6ff5",
                     "md5": "3576a6e73c9dccdbbc4a2cf8ff544ad7"
@@ -6305,8 +6305,8 @@
             "sha256": "0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar: jquery-3.4.1.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/web\/module\/resources\/jquery-3.4.1.min.js"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: jquery-3.4.1.min.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/jquery-3.4.1.min.js"
 ,"sha256": "0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a",
                     "sha1": "88523924351bac0b5d560fe0c5781e2556e7693d",
                     "md5": "220afd743d9e9643852e31a135a9f3ae",
@@ -6327,7 +6327,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "jquery-3.4.1.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/web\/module\/resources\/jquery-3.4.1.min.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/jquery-3.4.1.min.js"
 ,"sha256": "0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a",
                     "sha1": "88523924351bac0b5d560fe0c5781e2556e7693d",
                     "md5": "220afd743d9e9643852e31a135a9f3ae"
@@ -7607,8 +7607,8 @@
             "sha256": "325a39c1a6bf3bd009393606c2d8039d341d84e0ce9b276374c67e7fda7ae66e"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar: jquery-ui-1.9.2.custom.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/web\/module\/resources\/jquery-ui-1.9.2.custom.min.js"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: jquery-ui-1.9.2.custom.min.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/jquery-ui-1.9.2.custom.min.js"
 ,"sha256": "325a39c1a6bf3bd009393606c2d8039d341d84e0ce9b276374c67e7fda7ae66e",
                     "sha1": "bb5dd52bd0b3e1e2b699f2a9281ca08ab618c821",
                     "md5": "a3282e48954fcf4678cdf4f0340ce354",
@@ -7635,7 +7635,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "jquery-ui-1.9.2.custom.min.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/web\/module\/resources\/jquery-ui-1.9.2.custom.min.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/jquery-ui-1.9.2.custom.min.js"
 ,"sha256": "325a39c1a6bf3bd009393606c2d8039d341d84e0ce9b276374c67e7fda7ae66e",
                     "sha1": "bb5dd52bd0b3e1e2b699f2a9281ca08ab618c821",
                     "md5": "a3282e48954fcf4678cdf4f0340ce354"
@@ -8963,8 +8963,8 @@
             "sha256": "9fc5a63103cece18a8f22a2593e6767b96ade0c0cb577779870ce77848bb2dec"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "htmlformentry-7.2.0-SNAPSHOT.jar: orderWidget.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT.jar\/web\/module\/resources\/orderWidget.js"
+                    "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: orderWidget.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/orderWidget.js"
 ,"sha256": "9fc5a63103cece18a8f22a2593e6767b96ade0c0cb577779870ce77848bb2dec",
                     "sha1": "3c69ce644cdb294c8f8f854140248f0ee34137e8",
                     "md5": "0501de95c2a63ef41e867bf26723e735"
@@ -8980,7 +8980,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "orderWidget.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.2.0-SNAPSHOT\/web\/module\/resources\/orderWidget.js"
+                    "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/orderWidget.js"
 ,"sha256": "9fc5a63103cece18a8f22a2593e6767b96ade0c0cb577779870ce77848bb2dec",
                     "sha1": "3c69ce644cdb294c8f8f854140248f0ee34137e8",
                     "md5": "0501de95c2a63ef41e867bf26723e735"
