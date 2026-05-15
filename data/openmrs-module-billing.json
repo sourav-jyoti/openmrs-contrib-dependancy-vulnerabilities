@@ -5,27 +5,82 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-13T13:34:52Z"
+                "timestamp": "2026-05-14T13:14:29Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-12T12:17:23Z"
+                "timestamp": "2026-05-14T12:52:16Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-13T13:34:52Z"
+                "timestamp": "2026-05-14T13:14:29Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-12T12:17:23Z"
+                "timestamp": "2026-05-14T12:52:16Z"
             }
         ]
 
+            ,"analysisExceptions":[
+{            
+            
+            
+            "exception":{"message":"org.owasp.dependencycheck.analyzer.exception.AnalysisException: Could not connect to Central search. Analysis failed; disabling Central analyzer - this could lead to both false positives and false negatives."
+                ,"stackTrace":[
+"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:332)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+                ,            
+            
+            
+            "cause":{"message":"java.io.IOException: Finally failed connecting to Central search. Giving up after 3 tries."
+                ,"stackTrace":[
+"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:380)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+                ,            
+            
+            
+            "cause":{"message":"java.io.IOException: https:\/\/search.maven.org\/solrsearch\/select?q=1:23b3e7954d6fd5227b92f68f59062c67a029abcc&wt=xml - Server status: 502 - Server reason: Bad Gateway"
+                ,"stackTrace":[
+"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:744)"
+,"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:701)"
+,"org.owasp.dependencycheck.data.central.CentralSearch.searchSha1(CentralSearch.java:163)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:357)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+            }
+
+            }
+
+            }
+}
+            ]
 
     },
     "projectInfo": {
         "name": "openmrs-module-billing",
-        "reportDate": "2026-05-14T11:23:39.323409780Z",
+        "reportDate": "2026-05-15T06:09:09.194258420Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -271,9 +326,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "9b3c69c6a22f1b40e36028263a49efdb",
-            "sha1": "9d296e00a370ba5c44b11ccec01216e479756f8f",
-            "sha256": "85493378c635e59f524204e27a2f8854ad4b362a70074ccc4e41181db5e5f346"            ,"evidenceCollected": {
+,"md5": "65e3f3b27042efd2ddb9d05a84b8662d",
+            "sha1": "0ed5996bef67356cbdc5b7d970bcac18c27b5e43",
+            "sha256": "1798426708a4abe64ceb01227a9a9c12ee6740ea93014ebf0c03c626cc8023b5"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -314,9 +369,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "ac40dea935f2800e06c988051663ad4b",
-            "sha1": "d25f3e17b23c3343e99a565e2a7397672383ff3c",
-            "sha256": "65a1fa97c9cbd58c2f1f5e3726fbc228ebcce6cf5e5a6de729bd1b1a6c54bbd7"            ,"evidenceCollected": {
+,"md5": "f051d8681a1f63f3aa74ff4d0cacf99f",
+            "sha1": "366269dd36dca54e951c75fc31a4b58599738b8f",
+            "sha256": "bc3910756579bce7b060c1ca7ede15db3acc309a5ac87b2f687f661ae1867147"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -625,6 +680,82 @@
 ,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40075",
+                    "severity" : "HIGH",
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "PRESENT"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "NONE"
+                        ,"vulnerableSystemAvailability": "NONE"
+                        ,"subsequentSystemConfidentiality": "NONE"
+                        ,"subsequentSystemIntegrity": "NONE"
+                        ,"subsequentSystemAvailability": "NONE"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 8.2
+                        ,"baseSeverity": "HIGH"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the `\/openmrs\/moduleResources\/{moduleid}` endpoint is vulnerable to a path traversal attack. The ModuleResourcesServlet constructs a filesystem path from user-controlled input without performing path boundary validation \u2014 the getFile() method concatenates the user-supplied path into an absolute filesystem path without calling normalize() or checking that the result stays within the allowed module resources directory. Because this endpoint serves static resources required for rendering the login page, it is not protected by authentication filters, allowing unauthenticated exploitation.\n\nAn attacker can traverse directories and read arbitrary files from the server filesystem, including \/etc\/passwd and application configuration files containing database credentials. Successful exploitation requires the target deployment to run on Apache Tomcat versions prior to 8.5.31, where the ..; path parameter bypass is not mitigated by the container. Deployments on Tomcat 8.5.31 or later and Tomcat 9.0.10 or later are protected at the container level, though the underlying code defect remains. This issue has been fixed in versions after 2.7.8 (within the 2.7.x branch) and in version 2.8.6 and later.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
                         "software": { 
@@ -961,9 +1092,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-tests.jar"
-,"md5": "5aff706af1a1b93d3341906b335ee9a4",
-            "sha1": "b5561adff4dcaa8441343082b1681a8e00904b06",
-            "sha256": "e97d02ea95b267a22f735922a9ca3f8e4ef880710e1ccb70144723e7db8bb677"            ,"evidenceCollected": {
+,"md5": "b7e162874155c9a4b165ad47602aac93",
+            "sha1": "23b3e7954d6fd5227b92f68f59062c67a029abcc",
+            "sha256": "0bf9db49559332fb82ed9e033246fbc72d23dea2acd432155a2c3ff22d3183fb"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1074,9 +1205,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT.jar"
-,"md5": "537d62cf1d63ab6cbf1b3472b574195b",
-            "sha1": "ac545b13cef3e790238e535c63bdde129b40dc1b",
-            "sha256": "18811047c6758518ccc3e7473b9e6cb09f2e0fc58eb17597fb0664e82c1ebc9e"            ,"evidenceCollected": {
+,"md5": "46dbe182ac7e47b5d48f762c06e26c9b",
+            "sha1": "c214811d8c55efa1e7c4ce16bb1f82d5f16a0169",
+            "sha256": "1ff87958045e1c6cd699e17dba21fd7a03313878f1aeff6281406bc253c12d37"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1187,9 +1318,9 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "4501d19843dfb25ff04489ebc8f100a0",
-            "sha1": "55ad43234860d7b1c494797046613a9e510ae9bb",
-            "sha256": "d7ffe30512f34b4fa5683efbccc3c4b66eed8ba1961784b27e4bb8da75dde05f"            ,"evidenceCollected": {
+,"md5": "7f6ed28af76a50266a02321fddb92cd1",
+            "sha1": "c8114626c50bbe3ac64e5d070a39c4bfec2876ac",
+            "sha256": "e0c4c4305ae4704a417ea7b42878a63c48d8c85d9e7ef9eb2f1f5da9574f0b96"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1287,9 +1418,9 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "483505c2a91f415e62bee6ef879dbf41",
-            "sha1": "0a87956cf9d77b50af32c4c15cfc073137bb0e64",
-            "sha256": "03acac2cbe0006d1012a668660c3ec2729568e35bc669972026e9b7f0c646f9b"            ,"evidenceCollected": {
+,"md5": "e604c38ca7d645f1c6d4a29d8cb052bf",
+            "sha1": "4847b3479b3a16e83e99b13d0509dd0548e2b482",
+            "sha256": "08372b13dd7d116235e36a367ec6d880ffb09687677d4855272d14e8712a404a"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1330,16 +1461,16 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT.jar"
-,"md5": "4d043a7c9251c1a2922e53ddc9012a0b",
-            "sha1": "cb705b719eb4cea9e7bee65233aa652f0a51a911",
-            "sha256": "ccffca184a199ed8613c7694bd33fe67c34e1e98c1f4a73c1bdf73f77d4a0037","description": "API project for the OpenMRS Billing module"            ,"relatedDependencies": [
+,"md5": "24a14d97347fac122690403ac3c639ff",
+            "sha1": "023960ceb26a0ca0df985f5796dfcc9dcf2f5b8d",
+            "sha256": "5ffb0208a1125a240ff7b3c444d7635b2881316fbaa1f14e150b7c64b6f38ed8","description": "API project for the OpenMRS Billing module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "billing-api-2.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-tests.jar"
-,"sha256": "efed57e0228fe509428aecb1d3a807ff7eb6c5c1dfdd7aaa7af32c170bdda70c",
-                    "sha1": "468c62262f332f6d3288c9063a478cd08ce9ab8c",
-                    "md5": "01f91fa8f2b00021062c2e39b7c5fe3b",
+,"sha256": "14dbaba29c657aab271b4afc12e440ce9d5914b7abb06b987e50e689e2dcd7e4",
+                    "sha1": "b59eaf9752c375e85f7c121a6c7c3ca568c37bde",
+                    "md5": "145435150c97c5dbf9398961c3088cb5",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/billing-api@2.3.0-SNAPSHOT"
@@ -1350,17 +1481,17 @@
                     "isVirtual": false,
                     "fileName": "billing-api-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/billing-api-2.3.0-SNAPSHOT.jar"
-,"sha256": "ccffca184a199ed8613c7694bd33fe67c34e1e98c1f4a73c1bdf73f77d4a0037",
-                    "sha1": "cb705b719eb4cea9e7bee65233aa652f0a51a911",
-                    "md5": "4d043a7c9251c1a2922e53ddc9012a0b"
+,"sha256": "5ffb0208a1125a240ff7b3c444d7635b2881316fbaa1f14e150b7c64b6f38ed8",
+                    "sha1": "023960ceb26a0ca0df985f5796dfcc9dcf2f5b8d",
+                    "md5": "24a14d97347fac122690403ac3c639ff"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "billing-fhir-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT.jar"
-,"sha256": "b6d4ebd0ce434e8861df098331cb19960345659ef6049f8a87e91149fbec7b58",
-                    "sha1": "e2a4f670d206de42372e5e96c38e8fbb7753ebbc",
-                    "md5": "ba1b171f917930875a14a23271148449",
+,"sha256": "2eef4be9197fbb365d269bb66d073091a0796e94deaded8a6209de34bd1b20c4",
+                    "sha1": "7d18c8f639800c4a505a84a3dc80b16675743c71",
+                    "md5": "cb6f73bbffac3dc40f0008b901ead99c",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/billing-fhir@2.3.0-SNAPSHOT"
@@ -1371,9 +1502,9 @@
                     "isVirtual": false,
                     "fileName": "billing-fhir-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/billing-fhir-2.3.0-SNAPSHOT.jar"
-,"sha256": "b6d4ebd0ce434e8861df098331cb19960345659ef6049f8a87e91149fbec7b58",
-                    "sha1": "e2a4f670d206de42372e5e96c38e8fbb7753ebbc",
-                    "md5": "ba1b171f917930875a14a23271148449"
+,"sha256": "2eef4be9197fbb365d269bb66d073091a0796e94deaded8a6209de34bd1b20c4",
+                    "sha1": "7d18c8f639800c4a505a84a3dc80b16675743c71",
+                    "md5": "cb6f73bbffac3dc40f0008b901ead99c"
                 }
             ]
             ,"evidenceCollected": {
@@ -1723,6 +1854,82 @@
                     }                ]
                 }, {
                 "source": "NVD",
+                "name": "CVE-2026-40075",
+                    "severity" : "HIGH",
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "PRESENT"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "NONE"
+                        ,"vulnerableSystemAvailability": "NONE"
+                        ,"subsequentSystemConfidentiality": "NONE"
+                        ,"subsequentSystemIntegrity": "NONE"
+                        ,"subsequentSystemAvailability": "NONE"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 8.2
+                        ,"baseSeverity": "HIGH"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the `\/openmrs\/moduleResources\/{moduleid}` endpoint is vulnerable to a path traversal attack. The ModuleResourcesServlet constructs a filesystem path from user-controlled input without performing path boundary validation \u2014 the getFile() method concatenates the user-supplied path into an absolute filesystem path without calling normalize() or checking that the result stays within the allowed module resources directory. Because this endpoint serves static resources required for rendering the login page, it is not protected by authentication filters, allowing unauthenticated exploitation.\n\nAn attacker can traverse directories and read arbitrary files from the server filesystem, including \/etc\/passwd and application configuration files containing database credentials. Successful exploitation requires the target deployment to run on Apache Tomcat versions prior to 8.5.31, where the ..; path parameter bypass is not mitigated by the container. Deployments on Tomcat 8.5.31 or later and Tomcat 9.0.10 or later are protected at the container level, though the underlying code defect remains. This issue has been fixed in versions after 2.7.8 (within the 2.7.x branch) and in version 2.8.6 and later.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
                 "name": "CVE-2022-23612",
                     "severity" : "HIGH",
                     "cvssv2": {
@@ -2047,9 +2254,9 @@
             "isVirtual": false,
             "fileName": "billing-fhir-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "c3eb959b43773722b9ad358396e69cdb",
-            "sha1": "cd2d89f8bfc7c21a5261b399ccfc91c1904a3bb3",
-            "sha256": "bd5dcd6751033247495aa65cd1dec656f420586deb9bdb7c735984c0db43fb62"            ,"evidenceCollected": {
+,"md5": "e1b199a239ca0f406356b8a205094ad7",
+            "sha1": "c24acbd85fa47d472099e5cbada3474cd2ca865f",
+            "sha256": "ae789a8f5bc5d6e21649510e3f2d894658acffa52895d3bdb49081bfce20f498"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2090,9 +2297,9 @@
             "isVirtual": false,
             "fileName": "billing-fhir-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "057201e84e86db021092201a18ba52a4",
-            "sha1": "15a1ffca9653d88c6e7a1a04ba4547156423284c",
-            "sha256": "41f7b3df1b42992c6ea1e035a946b5dbc37da49a1828f68d821478e7a680ae13"            ,"evidenceCollected": {
+,"md5": "8c42bc0f8d9e1c0eae9678bbd533a949",
+            "sha1": "c8bdcade3f3e392dfa6e0858a2b4d04f124d8d94",
+            "sha256": "1457316d27fc6d7620d20e05b9cdff505b38922d82e1fde5d3a32bd07be0991f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
