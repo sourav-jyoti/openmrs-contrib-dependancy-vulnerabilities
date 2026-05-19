@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-15T13:12:50Z"
+                "timestamp": "2026-05-19T14:07:47Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-15T12:45:53Z"
+                "timestamp": "2026-05-19T13:49:27Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-15T13:12:50Z"
+                "timestamp": "2026-05-19T14:07:47Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-15T12:45:53Z"
+                "timestamp": "2026-05-19T13:49:27Z"
             }
         ]
 
@@ -203,7 +203,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-openconceptlab",
-        "reportDate": "2026-05-15T19:45:12.328358155Z",
+        "reportDate": "2026-05-19T19:33:16.819342835Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -38999,64 +38999,6 @@
                     }                ]
                 }, {
                 "source": "NVD",
-                "name": "CVE-2025-58754",
-                    "severity" : "HIGH",
-                    "cvssv3": {
-                        "baseScore": 7.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "HIGH"
-,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-770"                    ],
-                "description": "Axios is a promise based HTTP client for the browser and Node.js. When Axios starting in version 0.28.0 and prior to versions 0.30.2 and 1.12.0 runs on Node.js and is given a URL with the `data:` scheme, it does not perform HTTP. Instead, its Node http adapter decodes the entire payload into memory (`Buffer`\/`Blob`) and returns a synthetic 200 response. This path ignores `maxContentLength` \/ `maxBodyLength` (which only protect HTTP responses), so an attacker can supply a very large `data:` URI and cause the process to allocate unbounded memory and crash (DoS), even if the caller requested `responseType: 'stream'`. Versions 0.30.2 and 1.12.0 contain a patch for the issue.",
-                "notes": "",
-                "references": [
- {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/945435fc51467303768202250debb8d4ae892593","name": "PATCH"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/a1b1d3f073a988601583a604f5f9f5d05a3d0b67","name": "PATCH"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.12.0","name": "RELEASE_NOTES"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/c30252f685e8f4326722de84923fcbc8cf557f06"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/945435fc51467303768202250debb8d4ae892593","name": "https:\/\/github.com\/axios\/axios\/commit\/945435fc51467303768202250debb8d4ae892593"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj","name": "EXPLOIT,VENDOR_ADVISORY"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7011","name": "https:\/\/github.com\/axios\/axios\/pull\/7011"                    }, {
-                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj","name": "EXPLOIT,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7011","name": "ISSUE_TRACKING,PATCH"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7034","name": "ISSUE_TRACKING"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.12.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.12.0"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.2","name": "RELEASE_NOTES"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionEndExcluding":"0.30.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.12.0"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
                 "name": "CVE-2026-25639",
                     "severity" : "HIGH",
                     "cvssv3": {
@@ -39492,44 +39434,6 @@
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
 ,"versionEndExcluding":"1.15.0"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2026-39865",
-                    "severity" : "MEDIUM",
-                    "cvssv3": {
-                        "baseScore": 5.9
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "HIGH"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.2","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-400",                        "CWE-662"                    ],
-                "description": "Axios is a promise based HTTP client for the browser and Node.js. Starting in version 1.13.0 and prior to 1.13.2, Axios HTTP\/2 session cleanup logic contains a state corruption bug that allows a malicious server to crash the client process through concurrent session closures. The vulnerability exists in the Http2Sessions.getSession() method in lib\/adapters\/http.js. The session cleanup logic contains a control flow error when removing sessions from the sessions array. This vulnerability is fixed in 1.13.2.",
-                "notes": "",
-                "references": [
- {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/0588880ac7ddba7594ef179930493884b7e90bf5"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8","name": "EXPLOIT,VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.13.2"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -40057,64 +39961,6 @@
                     }                ]
                 }, {
                 "source": "NVD",
-                "name": "CVE-2025-58754",
-                    "severity" : "HIGH",
-                    "cvssv3": {
-                        "baseScore": 7.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "HIGH"
-,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-770"                    ],
-                "description": "Axios is a promise based HTTP client for the browser and Node.js. When Axios starting in version 0.28.0 and prior to versions 0.30.2 and 1.12.0 runs on Node.js and is given a URL with the `data:` scheme, it does not perform HTTP. Instead, its Node http adapter decodes the entire payload into memory (`Buffer`\/`Blob`) and returns a synthetic 200 response. This path ignores `maxContentLength` \/ `maxBodyLength` (which only protect HTTP responses), so an attacker can supply a very large `data:` URI and cause the process to allocate unbounded memory and crash (DoS), even if the caller requested `responseType: 'stream'`. Versions 0.30.2 and 1.12.0 contain a patch for the issue.",
-                "notes": "",
-                "references": [
- {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/945435fc51467303768202250debb8d4ae892593","name": "PATCH"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/a1b1d3f073a988601583a604f5f9f5d05a3d0b67","name": "PATCH"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.12.0","name": "RELEASE_NOTES"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/c30252f685e8f4326722de84923fcbc8cf557f06"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/945435fc51467303768202250debb8d4ae892593","name": "https:\/\/github.com\/axios\/axios\/commit\/945435fc51467303768202250debb8d4ae892593"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj","name": "EXPLOIT,VENDOR_ADVISORY"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7011","name": "https:\/\/github.com\/axios\/axios\/pull\/7011"                    }, {
-                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj","name": "EXPLOIT,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7011","name": "ISSUE_TRACKING,PATCH"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7034","name": "ISSUE_TRACKING"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.12.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.12.0"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.2","name": "RELEASE_NOTES"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-4hjh-wcwx-xvwj"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionEndExcluding":"0.30.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.12.0"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
                 "name": "CVE-2026-25639",
                     "severity" : "HIGH",
                     "cvssv3": {
@@ -40550,44 +40396,6 @@
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
 ,"versionEndExcluding":"1.15.0"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2026-39865",
-                    "severity" : "MEDIUM",
-                    "cvssv3": {
-                        "baseScore": 5.9
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "HIGH"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.2","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-400",                        "CWE-662"                    ],
-                "description": "Axios is a promise based HTTP client for the browser and Node.js. Starting in version 1.13.0 and prior to 1.13.2, Axios HTTP\/2 session cleanup logic contains a state corruption bug that allows a malicious server to crash the client process through concurrent session closures. The vulnerability exists in the Http2Sessions.getSession() method in lib\/adapters\/http.js. The session cleanup logic contains a control flow error when removing sessions from the sessions array. This vulnerability is fixed in 1.13.2.",
-                "notes": "",
-                "references": [
- {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/0588880ac7ddba7594ef179930493884b7e90bf5"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2"                    }, {
-                        "source": "info"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.2"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-qj83-cq47-w5f8","name": "EXPLOIT,VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.13.2"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -162265,9 +162073,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "ef39dacd6d800177bf803eca6e78fafe",
-            "sha1": "18a86ecc3583dbf22a755ace2ad5a80cefd47513",
-            "sha256": "20178070a9d09b0825ac37190f2b98aca0353a7b0043f96dae1fa57a7cc32b5b"            ,"evidenceCollected": {
+,"md5": "59bc0dd18c5da691b9ffb564241a233f",
+            "sha1": "b34cf5e5c96163ff4ebddd89c1a539165ccf3e40",
+            "sha256": "93b051a4f8e6685dfda3118d7ad5f684bddf036698016ffdc72889d9e31d7fc8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -162394,9 +162202,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT.jar"
-,"md5": "32133ebe1df06e18d920b11b137d6780",
-            "sha1": "4a0a0676340db29e47b7766206b4811ebf852604",
-            "sha256": "3069cd9b1c923d9a29dbd2e2db62ec270ef04013eb40e7476043ac1bce70fcbd"            ,"evidenceCollected": {
+,"md5": "b9ad3684840c9bd453b477df544e4582",
+            "sha1": "c23cf5f4848957b172b6100d3a630219a371f6fd",
+            "sha256": "0abb51eb373aa0debbc81d1307cd075ea0de01a6df69d518cf61dbe7f7f3e06b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -162500,9 +162308,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "ea11859c2dde6659b366654a9b9e7dd5",
-            "sha1": "71bd4b0ee1b6af485237c857ff882d36de39b8dc",
-            "sha256": "594556fc731d9bdedfe817135b9e3fd1584e7b544d872701c3a4856826926de1"            ,"evidenceCollected": {
+,"md5": "f2c839e1132cee5d26e1ac859e21d62c",
+            "sha1": "fe154ed7f740d62d27d4ff92a86c5c6c3d3b781e",
+            "sha256": "c6ed6be4992faa58e35b2e9715fbaeca527b03d45089bdfca4e9322e9739b12c"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -162584,16 +162392,16 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"md5": "ced85c43e09186b1dc478272f9f9428e",
-            "sha1": "f7c47d653560569c95d3206af3c3dffe6ac5897f",
-            "sha256": "ae9dc7980a6ee0f5a1e9f6c8836f53dcdef67a4ddf12ed4d56a263235de19bb0","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
+,"md5": "77938f7f12969a431f4cf1a0f12ca7c1",
+            "sha1": "127311484c1ca875de99976cd912cd371df517a9",
+            "sha256": "40bf792acfd09680ed0eb5038e84a156bc9877589e364d38430ed7d0874e69a0","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT\/lib\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "ae9dc7980a6ee0f5a1e9f6c8836f53dcdef67a4ddf12ed4d56a263235de19bb0",
-                    "sha1": "f7c47d653560569c95d3206af3c3dffe6ac5897f",
-                    "md5": "ced85c43e09186b1dc478272f9f9428e"
+,"sha256": "40bf792acfd09680ed0eb5038e84a156bc9877589e364d38430ed7d0874e69a0",
+                    "sha1": "127311484c1ca875de99976cd912cd371df517a9",
+                    "md5": "77938f7f12969a431f4cf1a0f12ca7c1"
                 }
             ]
             ,"evidenceCollected": {
