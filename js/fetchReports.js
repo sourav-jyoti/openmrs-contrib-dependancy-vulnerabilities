@@ -31,7 +31,10 @@ export async function fetchReports() {
     "openmrs-module-stockmanagement.json",
     "openmrs-module-webservices.rest.json",
     "openmrs-esm-patient-chart.json",
-    "openmrs-esm-patient-management.json"
+    "openmrs-esm-patient-management.json",
+    "openmrs-module-reporting.json",
+    "openmrs-module-chartsearchai.json",
+    
   ];
 
   const responses = await Promise.all(
