@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-tasks",
-        "reportDate": "2026-05-20T16:07:09.655101545Z",
+        "reportDate": "2026-05-21T11:49:55.138213093Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -642,32 +642,32 @@
             "isVirtual": false,
             "fileName": "tasks-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT.jar"
-,"md5": "048c44c23617685a7f2f697f00675934",
-            "sha1": "8fb5f125dce68b62ec6741ac90e45ac2996e9ed0",
-            "sha256": "105ddae522c70c9b7e07dc6efa0a716adf39615d2623b2545076b8d84ce7f88b"            ,"relatedDependencies": [
+,"md5": "99b2097d6983ee42f49bec0a09e6ad26",
+            "sha1": "ef7bfd067b013b24de3d38fb2845d3e638eb520b",
+            "sha256": "5d64c4a130c43558e37a6d637d2e21207b3ce845c7edce85ecc6cc141001763a"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "tasks-1.1.0-SNAPSHOT-javadoc.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-javadoc.jar"
-,"sha256": "8d9bb2a408d028e9a6e66e083171cb7bcd39de5064173da9e518726ee1ba8a79",
-                    "sha1": "c70e8dc46120aaab0f73061d5eed88ab1a021201",
-                    "md5": "ed355795fc750b6f41a0a96e4f22e5b7"
+,"sha256": "378864b02c028f4673e675f8fdb26994ace99a711be67813d802bc64857b9b71",
+                    "sha1": "1c819a7695271518a7f2c4becbaf2cb2e8bb3b19",
+                    "md5": "a85a25191024d4c071952d5cff7abfc4"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "tasks-1.1.0-SNAPSHOT-sources.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-sources.jar"
-,"sha256": "eb433633c36f933f2f89e886b2eb6de96aa7a434ff73dceb57de9509cf5448f9",
-                    "sha1": "f21d2ffa36fd350344a5496fd2f75973ee57fa26",
-                    "md5": "41c344c4c47e4353634a7c1f815f108e"
+,"sha256": "26deefb457dd6dfb072a73cbaa20feec9c999eb98a9b85fc75890f0080b2125b",
+                    "sha1": "e9f85945e67b16000cdc28458d3bcb6508a705c2",
+                    "md5": "2fdd4404944ed1868e14b580d7ed3677"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "tasks-1.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "7981e00a2e5d274a320b3a9c19787c9de87b8a4aff8be8bfcd292741c75d9ccb",
-                    "sha1": "0e5d89cf6783435659b086b85eb10506fcc0aee3",
-                    "md5": "6012aca2e8ee1e6f50807ec29c8eedda"
+,"sha256": "5696f7c2bb7a73bc7facc7f89b8c57927f30e47cf230c4de29dea962bcc8d3a7",
+                    "sha1": "82a9d4170e9a6da8694a02a135dce5e2e091ee2f",
+                    "md5": "a3d12366f70d339ddecf45c065a041d0"
                 }
             ]
             ,"evidenceCollected": {
@@ -865,16 +865,16 @@
             "isVirtual": false,
             "fileName": "tasks-api-1.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "87627a9bff180051a24fbc889b228152",
-            "sha1": "589f665c57db234ddfaf0e702cf52292c311b500",
-            "sha256": "66ea32b97c6c078ee7059fded4b21d5458a69354a3a00a0cdc7fcb1d2d6fc6fc"            ,"relatedDependencies": [
+,"md5": "3c8782a1780b9b999d80184ee6ecc51c",
+            "sha1": "d49177181d283b1e698716fbd17706e50f6c4c7c",
+            "sha256": "368301bc5a243c80b87e3dfa84a53d994958b7d5f9c6b929099dc947680c11c4"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "tasks-api-1.1.0-SNAPSHOT-sources.jar",
                     "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT-sources.jar"
-,"sha256": "5a34daddc5e975b3c6b5ee59f1cdfca0448f89a301e108238ece041d35fb152e",
-                    "sha1": "27bfb5178707313f26466c3f3d8293fd55a77e56",
-                    "md5": "175899ea3d830cea5b5521bad9c2a98a"
+,"sha256": "f983ea1b3f8180af891211f5073ac047ea0c9abc95e1648647ac11786e3b41e7",
+                    "sha1": "cf5b85527df6820fc55f23b045275796278eb761",
+                    "md5": "933111b84dcbf1b979c7073196846b4a"
                 }
             ]
             ,"evidenceCollected": {
@@ -1050,16 +1050,16 @@
             "isVirtual": false,
             "fileName": "tasks-api-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT.jar"
-,"md5": "7d1b6d54bb90dc5665002f46433b3e72",
-            "sha1": "b66d5ff441ccc5396adac809ff5d6f3aad9458ef",
-            "sha256": "1de2b99f783ac91a495f680e6d95eb17ba0fb877b74af1e158e96f362180056c","description": "API project for Tasks"            ,"relatedDependencies": [
+,"md5": "dcb9b5c284a642f25a704dd9806c714f",
+            "sha1": "d317d55823076ca4d5187587f812c5510d5eae35",
+            "sha256": "327646b9f55ec87357e2f29e5e4c5c2a58336c139e706431da6af08af473ec21","description": "API project for Tasks"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "tasks-api-1.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "6a990b0229850c9bc0838a934c1a39864047418c92d04cc5edbbcae823c1fc5c",
-                    "sha1": "f9039d1f9c8bd8dd1efda1c4f1c7c7d1263f1fb4",
-                    "md5": "9909f86e4ca787c461ff5a3b0f513918",
+,"sha256": "b8c075a759cef5ea7eb7dd43db95973f5aa57a5479433afac1da5a653a0e5134",
+                    "sha1": "20d1d171789311549b1f1b5cead95fb711e2b467",
+                    "md5": "3db8cea887d90f85220773a64daf159c",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/tasks-api@1.1.0-SNAPSHOT"
@@ -1070,9 +1070,9 @@
                     "isVirtual": false,
                     "fileName": "tasks-api-1.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT\/lib\/tasks-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "1de2b99f783ac91a495f680e6d95eb17ba0fb877b74af1e158e96f362180056c",
-                    "sha1": "b66d5ff441ccc5396adac809ff5d6f3aad9458ef",
-                    "md5": "7d1b6d54bb90dc5665002f46433b3e72"
+,"sha256": "327646b9f55ec87357e2f29e5e4c5c2a58336c139e706431da6af08af473ec21",
+                    "sha1": "d317d55823076ca4d5187587f812c5510d5eae35",
+                    "md5": "dcb9b5c284a642f25a704dd9806c714f"
                 }
             ]
             ,"evidenceCollected": {
