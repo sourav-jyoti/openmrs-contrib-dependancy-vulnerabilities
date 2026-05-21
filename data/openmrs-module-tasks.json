@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-tasks",
-        "reportDate": "2026-05-21T11:49:55.138213093Z",
+        "reportDate": "2026-05-21T13:44:33.952623602Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -37,21 +37,21 @@
     "dependencies": [
 {
             "isVirtual": false,
-            "fileName": "tasks-1.1.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:tasks-omod:1.1.0-SNAPSHOT)",
-            "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/tasks-omod\/pom.xml"
-,"md5": "50f1896edebbf01592ac31d282e66f6f",
-            "sha1": "1d573faf15831a21da18d4e24076b29b4cb50c20",
-            "sha256": "b24f7c6b6bd970f7613f14c240e46653aa83f2d3a06ffc10a2e015d9ae2a3b98","description": "OMOD submodule for Tasks"            ,"relatedDependencies": [
+            "fileName": "tasks-2.0.0-tests.jar (shaded: org.openmrs.module:tasks-omod:2.0.0)",
+            "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0-tests.jar\/META-INF\/maven\/org.openmrs.module\/tasks-omod\/pom.xml"
+,"md5": "dc961017e51e539f82d6a223de50d3de",
+            "sha1": "340850ea447b8e9f4682fc6a3356520170cf7729",
+            "sha256": "039768b6c1f6ff0de3dbd4f10853a45bda73658593bc8cda8001997da23487fd","description": "OMOD submodule for Tasks"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "tasks-1.1.0-SNAPSHOT.jar (shaded: org.openmrs.module:tasks-omod:1.1.0-SNAPSHOT)",
-                    "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/tasks-omod\/pom.xml"
-,"sha256": "b24f7c6b6bd970f7613f14c240e46653aa83f2d3a06ffc10a2e015d9ae2a3b98",
-                    "sha1": "1d573faf15831a21da18d4e24076b29b4cb50c20",
-                    "md5": "50f1896edebbf01592ac31d282e66f6f",
+                    "fileName": "tasks-2.0.0.jar (shaded: org.openmrs.module:tasks-omod:2.0.0)",
+                    "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0.jar\/META-INF\/maven\/org.openmrs.module\/tasks-omod\/pom.xml"
+,"sha256": "039768b6c1f6ff0de3dbd4f10853a45bda73658593bc8cda8001997da23487fd",
+                    "sha1": "340850ea447b8e9f4682fc6a3356520170cf7729",
+                    "md5": "dc961017e51e539f82d6a223de50d3de",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/tasks-omod@1.1.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/tasks-omod@2.0.0"
                             }
                     ]
                 }
@@ -123,21 +123,87 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "1.1.0-SNAPSHOT"
+                        "value": "2.0.0"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/tasks-omod@1.1.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/tasks-omod@2.0.0"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A1.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:2.0.0:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A2.0.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
             ,"vulnerabilities": [
  {
+                "source": "NVD",
+                "name": "CVE-2018-19276",
+                    "severity" : "CRITICAL",
+                    "cvssv2": {
+                        "score": 10.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "COMPLETE"
+                        ,"integrityImpact": "COMPLETE"
+                        ,"availabilityImpact": "COMPLETE"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "10.0"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-502"                    ],
+                "description": "OpenMRS before 2.24.0 is affected by an Insecure Object Deserialization vulnerability that allows an unauthenticated user to execute arbitrary commands on the targeted system via crafted XML data in a request body.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/know.bishopfox.com\/advisories\/news\/2019\/02\/openmrs-insecure-object-deserialization","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/know.bishopfox.com\/advisories\/news\/2019\/02\/openmrs-insecure-object-deserialization","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "http:\/\/packetstormsecurity.com\/files\/151553\/OpenMRS-Platform-Insecure-Object-Deserialization.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "http:\/\/packetstormsecurity.com\/files\/155691\/OpenMRS-Java-Deserialization-Remote-Code-Execution.html","name": "THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-cve-2018-19276-2019-02-04\/21607","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/www.exploit-db.com\/exploits\/46327\/","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.exploit-db.com\/exploits\/46327\/","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "http:\/\/packetstormsecurity.com\/files\/151553\/OpenMRS-Platform-Insecure-Object-Deserialization.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "http:\/\/packetstormsecurity.com\/files\/155691\/OpenMRS-Java-Deserialization-Remote-Code-Execution.html","name": "THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-cve-2018-19276-2019-02-04\/21607","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"1.12.0","versionEndExcluding":"1.12.1"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionStartIncluding":"2.0.0","versionEndExcluding":"2.0.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.1.0","versionEndExcluding":"2.1.4"                        }
+                    }                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2026-40076",
                     "severity" : "CRITICAL",
@@ -288,6 +354,76 @@
                         "software": { 
                             "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
 ,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2022-23612",
+                    "severity" : "HIGH",
+                    "cvssv2": {
+                        "score": 5.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "PARTIAL"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS is a patient-based medical record system focusing on giving providers a free customizable electronic medical record system. Affected versions are subject to arbitrary file exfiltration due to failure to sanitize request when satisfying GET requests for `\/images` & `\/initfilter\/scripts`. This can allow an attacker to access any file on a system running OpenMRS that is accessible to the user id OpenMRS is running under. Affected implementations should update to the latest patch version of OpenMRS Core for the minor version they use. These are: 2.1.5, 2.2.1, 2.3.5, 2.4.5 and 2.5.3. As a general rule, this vulnerability is already mitigated by Tomcat's URL normalization in Tomcat 7.0.28+. Users on older versions of Tomcat should consider upgrading their Tomcat instance as well as their OpenMRS instance.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/commit\/db8454bf19a092a78d53ee4dba2af628b730a6e7#diff-7c64d9f61d4d4e2ddba92920d7cf63ec96091b308d43904956b3846bc0c26d80R128","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-8rgr-ww69-jv65","name": "EXPLOIT,PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/blob\/ee3373a7a775bfdfa263e2e912c72e64342fb4f0\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-8rgr-ww69-jv65","name": "EXPLOIT,PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lgtm.com\/projects\/g\/openmrs\/openmrs-core\/snapshot\/fb1335c925ca4c94be5a546707b90d2c1efa4dcc\/files\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/commit\/db8454bf19a092a78d53ee4dba2af628b730a6e7#diff-7c64d9f61d4d4e2ddba92920d7cf63ec96091b308d43904956b3846bc0c26d80R128","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/blob\/ee3373a7a775bfdfa263e2e912c72e64342fb4f0\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lgtm.com\/projects\/g\/openmrs\/openmrs-core\/snapshot\/fb1335c925ca4c94be5a546707b90d2c1efa4dcc\/files\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionStartIncluding":"1.6","versionEndExcluding":"2.1.5"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.2.0","versionEndExcluding":"2.2.1"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.3.0","versionEndExcluding":"2.3.5"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.4.0","versionEndExcluding":"2.4.5"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.5.0","versionEndExcluding":"2.5.3"                        }
                     }                ]
                 }            ]            ,"suppressedVulnerabilities": [
  {
@@ -640,34 +776,34 @@
                     }                ]
                 }            ]        },{
             "isVirtual": false,
-            "fileName": "tasks-1.1.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT.jar"
-,"md5": "99b2097d6983ee42f49bec0a09e6ad26",
-            "sha1": "ef7bfd067b013b24de3d38fb2845d3e638eb520b",
-            "sha256": "5d64c4a130c43558e37a6d637d2e21207b3ce845c7edce85ecc6cc141001763a"            ,"relatedDependencies": [
+            "fileName": "tasks-2.0.0.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0.jar"
+,"md5": "4d520aa0a716ee9263a7c4d8945bdca7",
+            "sha1": "3cd232ed6031ec934af1173438627b200c43556e",
+            "sha256": "c75251c05767f0c01ed34c3d7edfa0dd01415ac1cb6bea1b69920f90ac98cf31"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "tasks-1.1.0-SNAPSHOT-javadoc.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-javadoc.jar"
-,"sha256": "378864b02c028f4673e675f8fdb26994ace99a711be67813d802bc64857b9b71",
-                    "sha1": "1c819a7695271518a7f2c4becbaf2cb2e8bb3b19",
-                    "md5": "a85a25191024d4c071952d5cff7abfc4"
+                    "fileName": "tasks-2.0.0-javadoc.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0-javadoc.jar"
+,"sha256": "39a75ca42231910973a54e16a44a8c4c52dcf2c64898ee426964eb44972dfbf3",
+                    "sha1": "f299aa867b806fafe4e68487a7c79c476252a8eb",
+                    "md5": "414ba96e113069e85fb719141079da35"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "tasks-1.1.0-SNAPSHOT-sources.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-sources.jar"
-,"sha256": "26deefb457dd6dfb072a73cbaa20feec9c999eb98a9b85fc75890f0080b2125b",
-                    "sha1": "e9f85945e67b16000cdc28458d3bcb6508a705c2",
-                    "md5": "2fdd4404944ed1868e14b580d7ed3677"
+                    "fileName": "tasks-2.0.0-sources.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0-sources.jar"
+,"sha256": "32f061547b1ed7e555d040fb958b2fdbeab753ae24c7feefd91134a202422d44",
+                    "sha1": "4c7ec35164845641a3a9fdeb9a6a0abd36ef8e5d",
+                    "md5": "962ad8a3688a27b85e05cff72edf9f73"
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "tasks-1.1.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "5696f7c2bb7a73bc7facc7f89b8c57927f30e47cf230c4de29dea962bcc8d3a7",
-                    "sha1": "82a9d4170e9a6da8694a02a135dce5e2e091ee2f",
-                    "md5": "a3d12366f70d339ddecf45c065a041d0"
+                    "fileName": "tasks-2.0.0-tests.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0-tests.jar"
+,"sha256": "d28fa1e2cc75f53fa7ae7bb1194cb6387f2d54f322b168fb0776d04cca757ec6",
+                    "sha1": "486ee086a144cb2098a4487764fbba5857da3868",
+                    "md5": "f2ce8160ed2e19fb503a2e5f828a978f"
                 }
             ]
             ,"evidenceCollected": {
@@ -758,7 +894,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "1.1.0.snapshot"
+                        "value": "2.0.0"
                     }
 ,                    {
                         "type": "version",
@@ -771,7 +907,7 @@
             }
                 ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:tasks:tasks:1.1.0:snapshot:*:*:*:*:*:*"
+                    "id": "cpe:2.3:a:tasks:tasks:2.0.0:*:*:*:*:*:*:*"
 ,"confidence": "LOW"                }
             ]
             ,"vulnerabilities": [
@@ -863,18 +999,18 @@
                     }                ]
                 }            ]        },{
             "isVirtual": false,
-            "fileName": "tasks-api-1.1.0-SNAPSHOT-javadoc.jar",
-            "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "3c8782a1780b9b999d80184ee6ecc51c",
-            "sha1": "d49177181d283b1e698716fbd17706e50f6c4c7c",
-            "sha256": "368301bc5a243c80b87e3dfa84a53d994958b7d5f9c6b929099dc947680c11c4"            ,"relatedDependencies": [
+            "fileName": "tasks-api-2.0.0-javadoc.jar",
+            "filePath": "\/github\/workspace\/api\/target\/tasks-api-2.0.0-javadoc.jar"
+,"md5": "9f19714d2fcecfad6dc64a21f30f2f71",
+            "sha1": "01b16f1ef67daa41920d260a29ced7d1785f3a64",
+            "sha256": "8d4ea39f7b75bda7b0d7f2a564e465230941f1f70d3f409683815243bec76f3d"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "tasks-api-1.1.0-SNAPSHOT-sources.jar",
-                    "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT-sources.jar"
-,"sha256": "f983ea1b3f8180af891211f5073ac047ea0c9abc95e1648647ac11786e3b41e7",
-                    "sha1": "cf5b85527df6820fc55f23b045275796278eb761",
-                    "md5": "933111b84dcbf1b979c7073196846b4a"
+                    "fileName": "tasks-api-2.0.0-sources.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/tasks-api-2.0.0-sources.jar"
+,"sha256": "ba76c97aa66b037242aaab0e17364f5fea760654347333f56602465cc33c801e",
+                    "sha1": "20ff05fc7fc7f3e7013a7721efef5da7355d3937",
+                    "md5": "07085c9786e642cb7c3322d023aba8da"
                 }
             ]
             ,"evidenceCollected": {
@@ -909,13 +1045,13 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "1.1.0.snapshot"
+                        "value": "2.0.0"
                     }
                 ]
             }
                 ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:tasks:tasks:1.1.0:snapshot:*:*:*:*:*:*"
+                    "id": "cpe:2.3:a:tasks:tasks:2.0.0:*:*:*:*:*:*:*"
 ,"confidence": "LOW"                }
             ]
             ,"vulnerabilities": [
@@ -1007,8 +1143,8 @@
                     }                ]
                 }            ]        },{
             "isVirtual": false,
-            "fileName": "tasks-api-1.1.0-SNAPSHOT-javadoc.jar: script.js",
-            "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT-javadoc.jar\/script.js"
+            "fileName": "tasks-api-2.0.0-javadoc.jar: script.js",
+            "filePath": "\/github\/workspace\/api\/target\/tasks-api-2.0.0-javadoc.jar\/script.js"
 ,"md5": "4a010b8264c9873452f055748133bb29",
             "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
             "sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7"            ,"relatedDependencies": [
@@ -1030,8 +1166,8 @@
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "tasks-1.1.0-SNAPSHOT-javadoc.jar: script.js",
-                    "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT-javadoc.jar\/script.js"
+                    "fileName": "tasks-2.0.0-javadoc.jar: script.js",
+                    "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0-javadoc.jar\/script.js"
 ,"sha256": "506393161b692568f588d68beaecf9ad5d33f147abad909d9cde12918dbce7b7",
                     "sha1": "58e5151d49209a2e12b988e84e9a74b781c68a2e",
                     "md5": "4a010b8264c9873452f055748133bb29"
@@ -1048,31 +1184,31 @@
 
         },{
             "isVirtual": false,
-            "fileName": "tasks-api-1.1.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT.jar"
-,"md5": "dcb9b5c284a642f25a704dd9806c714f",
-            "sha1": "d317d55823076ca4d5187587f812c5510d5eae35",
-            "sha256": "327646b9f55ec87357e2f29e5e4c5c2a58336c139e706431da6af08af473ec21","description": "API project for Tasks"            ,"relatedDependencies": [
+            "fileName": "tasks-api-2.0.0.jar",
+            "filePath": "\/github\/workspace\/api\/target\/tasks-api-2.0.0.jar"
+,"md5": "bd477969c825c5a9363d7602cd7e28da",
+            "sha1": "24165afa6b5f7980cec7c2ad7641ac2b4d469763",
+            "sha256": "edd663a944ac551ea45e326ba09109eff5c4cd152816dbbcea64d71e064b0fef","description": "API project for Tasks"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "tasks-api-1.1.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/api\/target\/tasks-api-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "b8c075a759cef5ea7eb7dd43db95973f5aa57a5479433afac1da5a653a0e5134",
-                    "sha1": "20d1d171789311549b1f1b5cead95fb711e2b467",
-                    "md5": "3db8cea887d90f85220773a64daf159c",
+                    "fileName": "tasks-api-2.0.0-tests.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/tasks-api-2.0.0-tests.jar"
+,"sha256": "a4a3edabd849a3f5e9b3e00dfe9b64f12a04c44d0be64efc89f01d9cd9524214",
+                    "sha1": "29a0250ad0a22b6284b8a47c95fe7f9f7126a373",
+                    "md5": "44f6a59383e78589e80250a03c094654",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/tasks-api@1.1.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/tasks-api@2.0.0"
                             }
                     ]
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "tasks-api-1.1.0-SNAPSHOT.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/tasks-1.1.0-SNAPSHOT\/lib\/tasks-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "327646b9f55ec87357e2f29e5e4c5c2a58336c139e706431da6af08af473ec21",
-                    "sha1": "d317d55823076ca4d5187587f812c5510d5eae35",
-                    "md5": "dcb9b5c284a642f25a704dd9806c714f"
+                    "fileName": "tasks-api-2.0.0.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/tasks-2.0.0\/lib\/tasks-api-2.0.0.jar"
+,"sha256": "edd663a944ac551ea45e326ba09109eff5c4cd152816dbbcea64d71e064b0fef",
+                    "sha1": "24165afa6b5f7980cec7c2ad7641ac2b4d469763",
+                    "md5": "bd477969c825c5a9363d7602cd7e28da"
                 }
             ]
             ,"evidenceCollected": {
@@ -1223,27 +1359,100 @@
                 "versionEvidence": [
                     {
                         "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "2.0.0"
+                    }
+,                    {
+                        "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "1.1.0-SNAPSHOT"
+                        "value": "2.0.0"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/tasks-api@1.1.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/tasks-api@2.0.0"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A1.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:openmrs:openmrs:2.0.0:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A2.0.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
 ,                {
-                    "id": "cpe:2.3:a:tasks:tasks:1.1.0:snapshot:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Atasks%3Atasks%3A1.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:tasks:tasks:2.0.0:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Atasks%3Atasks%3A2.0.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
             ,"vulnerabilities": [
  {
+                "source": "NVD",
+                "name": "CVE-2018-19276",
+                    "severity" : "CRITICAL",
+                    "cvssv2": {
+                        "score": 10.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "COMPLETE"
+                        ,"integrityImpact": "COMPLETE"
+                        ,"availabilityImpact": "COMPLETE"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "10.0"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-502"                    ],
+                "description": "OpenMRS before 2.24.0 is affected by an Insecure Object Deserialization vulnerability that allows an unauthenticated user to execute arbitrary commands on the targeted system via crafted XML data in a request body.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/know.bishopfox.com\/advisories\/news\/2019\/02\/openmrs-insecure-object-deserialization","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/know.bishopfox.com\/advisories\/news\/2019\/02\/openmrs-insecure-object-deserialization","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "http:\/\/packetstormsecurity.com\/files\/151553\/OpenMRS-Platform-Insecure-Object-Deserialization.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "http:\/\/packetstormsecurity.com\/files\/155691\/OpenMRS-Java-Deserialization-Remote-Code-Execution.html","name": "THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-cve-2018-19276-2019-02-04\/21607","name": "VENDOR_ADVISORY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "https:\/\/www.exploit-db.com\/exploits\/46327\/","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/www.exploit-db.com\/exploits\/46327\/","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "cve@mitre.org"
+,"url": "http:\/\/packetstormsecurity.com\/files\/151553\/OpenMRS-Platform-Insecure-Object-Deserialization.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "http:\/\/packetstormsecurity.com\/files\/155691\/OpenMRS-Java-Deserialization-Remote-Code-Execution.html","name": "THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-cve-2018-19276-2019-02-04\/21607","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"1.12.0","versionEndExcluding":"1.12.1"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionStartIncluding":"2.0.0","versionEndExcluding":"2.0.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.1.0","versionEndExcluding":"2.1.4"                        }
+                    }                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2026-40076",
                     "severity" : "CRITICAL",
@@ -1394,6 +1603,76 @@
                         "software": { 
                             "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
 ,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2022-23612",
+                    "severity" : "HIGH",
+                    "cvssv2": {
+                        "score": 5.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "PARTIAL"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS is a patient-based medical record system focusing on giving providers a free customizable electronic medical record system. Affected versions are subject to arbitrary file exfiltration due to failure to sanitize request when satisfying GET requests for `\/images` & `\/initfilter\/scripts`. This can allow an attacker to access any file on a system running OpenMRS that is accessible to the user id OpenMRS is running under. Affected implementations should update to the latest patch version of OpenMRS Core for the minor version they use. These are: 2.1.5, 2.2.1, 2.3.5, 2.4.5 and 2.5.3. As a general rule, this vulnerability is already mitigated by Tomcat's URL normalization in Tomcat 7.0.28+. Users on older versions of Tomcat should consider upgrading their Tomcat instance as well as their OpenMRS instance.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/commit\/db8454bf19a092a78d53ee4dba2af628b730a6e7#diff-7c64d9f61d4d4e2ddba92920d7cf63ec96091b308d43904956b3846bc0c26d80R128","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-8rgr-ww69-jv65","name": "EXPLOIT,PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/blob\/ee3373a7a775bfdfa263e2e912c72e64342fb4f0\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-8rgr-ww69-jv65","name": "EXPLOIT,PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/lgtm.com\/projects\/g\/openmrs\/openmrs-core\/snapshot\/fb1335c925ca4c94be5a546707b90d2c1efa4dcc\/files\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/commit\/db8454bf19a092a78d53ee4dba2af628b730a6e7#diff-7c64d9f61d4d4e2ddba92920d7cf63ec96091b308d43904956b3846bc0c26d80R128","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/blob\/ee3373a7a775bfdfa263e2e912c72e64342fb4f0\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/lgtm.com\/projects\/g\/openmrs\/openmrs-core\/snapshot\/fb1335c925ca4c94be5a546707b90d2c1efa4dcc\/files\/web\/src\/main\/java\/org\/openmrs\/web\/filter\/StartupFilter.java#L123","name": "PATCH,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionStartIncluding":"1.6","versionEndExcluding":"2.1.5"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.2.0","versionEndExcluding":"2.2.1"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.3.0","versionEndExcluding":"2.3.5"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.4.0","versionEndExcluding":"2.4.5"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.5.0","versionEndExcluding":"2.5.3"                        }
                     }                ]
                 }, {
                 "source": "NVD",
