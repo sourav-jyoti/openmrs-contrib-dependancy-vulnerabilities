@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-billing",
-        "reportDate": "2026-05-21T09:04:18.980287038Z",
+        "reportDate": "2026-05-21T13:38:28.415343605Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -37,11 +37,11 @@
     "dependencies": [
 {
             "isVirtual": false,
-            "fileName": "barcodes-8.0.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/barcodes-8.0.2.jar"
-,"md5": "44319d132bfef12673ea58a38b605c60",
-            "sha1": "a9edd4a5b7f2cd0417492faa16dd98f6ce19988f",
-            "sha256": "edd9f78b056e5a1b1f51f0cf6b4b74f1320baa5866f8ea84f387dc78eb598c3c"            ,"evidenceCollected": {
+            "fileName": "barcodes-8.0.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/barcodes-8.0.5.jar"
+,"md5": "d6497865e4e14cb9b91ad2efb5f8ed25",
+            "sha1": "b42d60ffcec4d8e0288b76393a1e1408aa01f294",
+            "sha256": "2712e17eed8cc62cf0edced97d923e5814a8f4fcb73e28999817f2ede3d33542"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -192,88 +192,33 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/com.itextpdf\/barcodes@8.0.2"
+                        "id": "pkg:maven\/com.itextpdf\/barcodes@8.0.5"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.2%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:itextpdf:itext:8.0.5:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2023-6298",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 5.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-129",                        "NVD-CWE-noinfo"                    ],
-                "description": "A vulnerability classified as problematic was found in Apryse iText 8.0.2. This vulnerability affects the function main of the file PdfDocument.java. The manipulation leads to improper validation of array index. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-246124. NOTE: The vendor was contacted early about this disclosure but did not respond in any way. A statement published afterwards explains that the exception is not a vulnerability and the identified CWEs might not apply to the software.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
-                    }                ]
-                }            ]        },{
+        },{
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "16fc4e9a30c6f48fd051391e0fedfcc7",
-            "sha1": "9c267f9b5cfc36dc4fdbe4527c7cd1e244a96150",
-            "sha256": "40b591335560048d1f4595f757badf3c0a8aacf62aa39e2640734c62ba77045c"            ,"evidenceCollected": {
+,"md5": "b7ae0263d7ce66de6572f6d62bf3b971",
+            "sha1": "37a5ea78148279bee6e00bcfbab50833876f36c8",
+            "sha256": "33a7e967aef189c5efba1eb394a1af12fd4a1c263ee739a54045184f6482bed5"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -314,9 +259,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "55eaf47081b562d2896b6e4879dc884a",
-            "sha1": "260cce54220c66933f2ee72cd0d06506c6a9492c",
-            "sha256": "b0f06adfd0bcecd07ca11291da342364eab2dadcee194b6509008001ab443579"            ,"evidenceCollected": {
+,"md5": "135123f75da8010ff70b39791cc59deb",
+            "sha1": "b44b947e8c8e3fdabd4285eaaeb0e1d5d7884d3b",
+            "sha256": "b31d8c9ef89b446163d92407fc7adbc547a547a87fc33fde1912d5387ce4d030"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1030,9 +975,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-tests.jar"
-,"md5": "b411139abaeff660452b2869bd675e9e",
-            "sha1": "221919db75b8fa6375ceb6339513719299aebf1c",
-            "sha256": "63847ecd91b355cb954c14bc05490a8b2ab05b241368d1b9801e710ab0361d7d"            ,"evidenceCollected": {
+,"md5": "18d528eab75c854b8cacac7d37e2525d",
+            "sha1": "d45199a88264559909f9fd66db0e2e39134b78fd",
+            "sha256": "cd8f730c8dec51d43adab33eb1733e7d69edf8e8d841daa841462469ca29c879"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1143,9 +1088,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT.jar"
-,"md5": "eab25d4c3b3afaf212fffbad113ad2ce",
-            "sha1": "244dc830cf532924f372cec204eb53664debc229",
-            "sha256": "d9876370c1fb4812252bfade245c01fae74715cc57c27e394f7ce214308116c5"            ,"evidenceCollected": {
+,"md5": "e58e82750c92e44e24b8ff1b81a0c3b1",
+            "sha1": "8bb9fa48cedfcf5721274e255926ec005945607f",
+            "sha256": "ed77ed245a3651120c62361e2342b9e2551a7a13f3f2bc6ea463d56987655bd9"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1256,9 +1201,9 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "be52c2005dae3f14d9e0c6b6b3d4f759",
-            "sha1": "1884868f27839d236b3e6ac3734b236199f81835",
-            "sha256": "c6e350a10ead723ee3eecdbcbd90778567568cb395b6507872b208e28ea60425"            ,"evidenceCollected": {
+,"md5": "660a547491fd18199cba731cfd8aa6e4",
+            "sha1": "be833e0d34706349e5f1bf619593a5ad32c66518",
+            "sha256": "b4088cb23312b666ff62c14cc0ddd66195063905674890db97975eb500d4a722"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1356,9 +1301,9 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "b1127fc8c2f3ba58446ba46ac17a2cca",
-            "sha1": "b8eb6ef345f74080e6b2616cceec5b176f49c79f",
-            "sha256": "aa6ba78ea2c5250f89770eea00c7bda5ed015edf3f1f3c1e6bb73530ad303446"            ,"evidenceCollected": {
+,"md5": "c73bf1acf2af7dd4e9d992a44fde659d",
+            "sha1": "6e9f96adf006a4fc37f17125fff37c1a943864ff",
+            "sha256": "9c1cf1a1632f08479eb8d6984b62cdc6fecad9214a3856e5d368c993ad2a9e88"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1399,16 +1344,16 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT.jar"
-,"md5": "781f5ec1a955225b3aeeab86f65afaab",
-            "sha1": "32451f53fc9384eecadf3f9997088c0e59abec3c",
-            "sha256": "28e370a28d0d31829515d9abb1366f644fb863445398dd5d4080d88e330c3edf","description": "API project for the OpenMRS Billing module"            ,"relatedDependencies": [
+,"md5": "c16462fd82a9b414389c33b147eef6a9",
+            "sha1": "7606806cecb7eba3a3e82f24e7f3482f464f05d4",
+            "sha256": "3a8c9fe20c63e5fbbaef3ea38c5e715016ffdf48248b8fe20858960ddd58018c","description": "API project for the OpenMRS Billing module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "billing-api-2.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-tests.jar"
-,"sha256": "8d2b969c57c3012d3ef742d19afc46c8298e348cb74a04ac86a10c474aa7452f",
-                    "sha1": "bbccacf924b89267a8a0479ea0236252e7b70fdc",
-                    "md5": "3e68eae4eeb668a51269846e73993dab",
+,"sha256": "aeebe86c0d2ac1846d2d44bc24b4b1a0cd5c0d434f3da1d2ae9a15a637733f67",
+                    "sha1": "47659bac33a2b928323fc7e3e984be365531234a",
+                    "md5": "cf4ca6bb351b72d40eb78f535c42b7e6",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/billing-api@2.3.0-SNAPSHOT"
@@ -1419,17 +1364,17 @@
                     "isVirtual": false,
                     "fileName": "billing-api-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/billing-api-2.3.0-SNAPSHOT.jar"
-,"sha256": "28e370a28d0d31829515d9abb1366f644fb863445398dd5d4080d88e330c3edf",
-                    "sha1": "32451f53fc9384eecadf3f9997088c0e59abec3c",
-                    "md5": "781f5ec1a955225b3aeeab86f65afaab"
+,"sha256": "3a8c9fe20c63e5fbbaef3ea38c5e715016ffdf48248b8fe20858960ddd58018c",
+                    "sha1": "7606806cecb7eba3a3e82f24e7f3482f464f05d4",
+                    "md5": "c16462fd82a9b414389c33b147eef6a9"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "billing-fhir-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT.jar"
-,"sha256": "aefa08a5d8d091765237b5550123aaa88e03cbc70f43d2eae0ffd59e026d808d",
-                    "sha1": "3806b0c21056cd5b41705cf8623bc4a2c20150bf",
-                    "md5": "685196b6b0699fa6b5c3a1ef3f798815",
+,"sha256": "ab935b0ea35028e22038159ecf88cdcc905546dd6f7dacb785cc61325b23c23e",
+                    "sha1": "7113646c9ddd574875411c98cf6ea0ba4d6d9534",
+                    "md5": "a32f701c0b82f6a160feddc26323e29e",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/billing-fhir@2.3.0-SNAPSHOT"
@@ -1440,9 +1385,9 @@
                     "isVirtual": false,
                     "fileName": "billing-fhir-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/billing-fhir-2.3.0-SNAPSHOT.jar"
-,"sha256": "aefa08a5d8d091765237b5550123aaa88e03cbc70f43d2eae0ffd59e026d808d",
-                    "sha1": "3806b0c21056cd5b41705cf8623bc4a2c20150bf",
-                    "md5": "685196b6b0699fa6b5c3a1ef3f798815"
+,"sha256": "ab935b0ea35028e22038159ecf88cdcc905546dd6f7dacb785cc61325b23c23e",
+                    "sha1": "7113646c9ddd574875411c98cf6ea0ba4d6d9534",
+                    "md5": "a32f701c0b82f6a160feddc26323e29e"
                 }
             ]
             ,"evidenceCollected": {
@@ -2185,9 +2130,9 @@
             "isVirtual": false,
             "fileName": "billing-fhir-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "3fb0e3e611b6a418c32b9d2e6b738a10",
-            "sha1": "552a82c3e0b92a0dcc27fc4e9a6730e9d0cfba7b",
-            "sha256": "637ef71b1e86f536b60d0e53b333a8c16b7db60f08d53e2ff3307f123ba40165"            ,"evidenceCollected": {
+,"md5": "ce3b8e8e7b80e7386f3783b25752acb6",
+            "sha1": "1c67dcc4861643d8a3d7722e8adcaced228346a8",
+            "sha256": "90cbac11947b435b4229327de17c2b94d310a1e69a5f3463ca8bb7c5276c4669"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2228,9 +2173,9 @@
             "isVirtual": false,
             "fileName": "billing-fhir-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "5462bf4e946df359e54d19db0987f434",
-            "sha1": "0513a4c9c87914f0f4337ffaa50f3680573e9e87",
-            "sha256": "e987d2578387fe1fa1073bb589b75f824b54ebc8ae2b58eb2f6afda0e7e5574e"            ,"evidenceCollected": {
+,"md5": "7819b708a7a9b181549f62c86fa5fc51",
+            "sha1": "1f84acc949f9603c9ba6fd2e0d2741af193e389e",
+            "sha256": "e287edb8f30b01187b6c310691f5826cc4fbc71f9b9ff6d685fa2f067daacc8a"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2269,11 +2214,11 @@
 
         },{
             "isVirtual": false,
-            "fileName": "bouncy-castle-connector-8.0.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/bouncy-castle-connector-8.0.2.jar"
-,"md5": "ecdd0d918b4f481d6e7ebb22959e10bb",
-            "sha1": "15563e97b944c4976458570fdb5ae529204c1a72",
-            "sha256": "c03fbe3589db25086c84887fcb7012a1b7f3270a1e38fbd783cb4d84eaef4b80"            ,"evidenceCollected": {
+            "fileName": "bouncy-castle-connector-8.0.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/bouncy-castle-connector-8.0.5.jar"
+,"md5": "2c0748d83f9463f117495eafddb46b30",
+            "sha1": "730366271216667b537da864444846bb6a0fc83b",
+            "sha256": "d0c4f844f49b5062b33e2056882f7676bfd443a2794e17218e612fbe651d403f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2403,88 +2348,33 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/com.itextpdf\/bouncy-castle-connector@8.0.2"
+                        "id": "pkg:maven\/com.itextpdf\/bouncy-castle-connector@8.0.5"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.2%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:itextpdf:itext:8.0.5:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2023-6298",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 5.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-129",                        "NVD-CWE-noinfo"                    ],
-                "description": "A vulnerability classified as problematic was found in Apryse iText 8.0.2. This vulnerability affects the function main of the file PdfDocument.java. The manipulation leads to improper validation of array index. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-246124. NOTE: The vendor was contacted early about this disclosure but did not respond in any way. A statement published afterwards explains that the exception is not a vulnerability and the identified CWEs might not apply to the software.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
-                    }                ]
-                }            ]        },{
+        },{
             "isVirtual": false,
-            "fileName": "commons-8.0.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/commons-8.0.2.jar"
-,"md5": "52f062d0e2df63bb8608139579fcc909",
-            "sha1": "8387ef8346202c756d155f85255ef5cba2dfca5f",
-            "sha256": "5109c0dd229442e590d49c476694312bcb6ab461ab46eafad9296fc25be89be7"            ,"evidenceCollected": {
+            "fileName": "commons-8.0.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/commons-8.0.5.jar"
+,"md5": "2c729c7818ad8d58cd8d96c2d492f3b2",
+            "sha1": "b6d7d322892527ee067fc3a888e2836d161f4353",
+            "sha256": "d6dd6bfa4bb39425fa77317892b83c98be2b92a981d80de033f65b8ddad1b714"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2642,88 +2532,33 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/com.itextpdf\/commons@8.0.2"
+                        "id": "pkg:maven\/com.itextpdf\/commons@8.0.5"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.2%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:itextpdf:itext:8.0.5:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2023-6298",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 5.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-129",                        "NVD-CWE-noinfo"                    ],
-                "description": "A vulnerability classified as problematic was found in Apryse iText 8.0.2. This vulnerability affects the function main of the file PdfDocument.java. The manipulation leads to improper validation of array index. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-246124. NOTE: The vendor was contacted early about this disclosure but did not respond in any way. A statement published afterwards explains that the exception is not a vulnerability and the identified CWEs might not apply to the software.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
-                    }                ]
-                }            ]        },{
+        },{
             "isVirtual": false,
-            "fileName": "font-asian-8.0.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/font-asian-8.0.2.jar"
-,"md5": "e84dca77bf83e9111e7a10296dfb94d6",
-            "sha1": "da11a2e99685104bd49c58f6aca479acb8d0edef",
-            "sha256": "4d3accbb1b563eaed7da21af5915575d128fa50fdbc85b965052abdac514b489","description": "iText Asian fonts for use in conjunction with iText, a free Java-PDF library","license": "Various licenses (see individual files)"            ,"evidenceCollected": {
+            "fileName": "font-asian-8.0.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/font-asian-8.0.5.jar"
+,"md5": "7ef4caab974f7643232ceba0a9104a6c",
+            "sha1": "8bc8da66f094fa13ff7bc00d42b271fb85a75b7b",
+            "sha256": "b2e833ef3ce0904f66f15085702ea5310c913fdac91064971ff17149f44ba7b2","description": "iText Asian fonts for use in conjunction with iText, a free Java-PDF library","license": "Various licenses (see individual files)"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2818,88 +2653,33 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/com.itextpdf\/font-asian@8.0.2"
+                        "id": "pkg:maven\/com.itextpdf\/font-asian@8.0.5"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.2%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:itextpdf:itext:8.0.5:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2023-6298",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 5.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-129",                        "NVD-CWE-noinfo"                    ],
-                "description": "A vulnerability classified as problematic was found in Apryse iText 8.0.2. This vulnerability affects the function main of the file PdfDocument.java. The manipulation leads to improper validation of array index. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-246124. NOTE: The vendor was contacted early about this disclosure but did not respond in any way. A statement published afterwards explains that the exception is not a vulnerability and the identified CWEs might not apply to the software.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
-                    }                ]
-                }            ]        },{
+        },{
             "isVirtual": false,
-            "fileName": "io-8.0.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/io-8.0.2.jar"
-,"md5": "142866f87b4995f2b179f2672feefdf3",
-            "sha1": "3489fa695eb6f3e5beec6cfeb68ed145311f4560",
-            "sha256": "f9ac22a383216f985095cc9ad8a01054c0592e1a70b066fe352f01c4389c862e"            ,"evidenceCollected": {
+            "fileName": "io-8.0.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/io-8.0.5.jar"
+,"md5": "1f3c2a22975844f9acaa7d31dd6aa496",
+            "sha1": "67062c6d240855c2b45f2a7ce4ff2eb06e9bfb45",
+            "sha256": "bf77ff993c7fc9bde43db504c72942b8853ba2a5c6c34236c197497d4652aac8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3057,88 +2837,33 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/com.itextpdf\/io@8.0.2"
+                        "id": "pkg:maven\/com.itextpdf\/io@8.0.5"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.2%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:itextpdf:itext:8.0.5:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2023-6298",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 5.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-129",                        "NVD-CWE-noinfo"                    ],
-                "description": "A vulnerability classified as problematic was found in Apryse iText 8.0.2. This vulnerability affects the function main of the file PdfDocument.java. The manipulation leads to improper validation of array index. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-246124. NOTE: The vendor was contacted early about this disclosure but did not respond in any way. A statement published afterwards explains that the exception is not a vulnerability and the identified CWEs might not apply to the software.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
-                    }                ]
-                }            ]        },{
+        },{
             "isVirtual": false,
-            "fileName": "kernel-8.0.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/kernel-8.0.2.jar"
-,"md5": "e97af211d8ddb93cc220300f1e2078ce",
-            "sha1": "a0a8982cefd2e3d57f8e47603534b2b6c5768fa0",
-            "sha256": "2e2c296b0d24a458e902fc8c0ab6cd5409d542da91f180b57ac70f569b02cbd8"            ,"evidenceCollected": {
+            "fileName": "kernel-8.0.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/kernel-8.0.5.jar"
+,"md5": "f4f5924bd1ab1053235a768e761a004f",
+            "sha1": "45beaf2cb5133de074afcccdbbc66ff26dbf8bf7",
+            "sha256": "44558ecac9f4f8d9e6d86271d35c9be31dc325d3dda7558088ee991bd08c1f48"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3296,88 +3021,33 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/com.itextpdf\/kernel@8.0.2"
+                        "id": "pkg:maven\/com.itextpdf\/kernel@8.0.5"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.2%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:itextpdf:itext:8.0.5:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2023-6298",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 5.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-129",                        "NVD-CWE-noinfo"                    ],
-                "description": "A vulnerability classified as problematic was found in Apryse iText 8.0.2. This vulnerability affects the function main of the file PdfDocument.java. The manipulation leads to improper validation of array index. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-246124. NOTE: The vendor was contacted early about this disclosure but did not respond in any way. A statement published afterwards explains that the exception is not a vulnerability and the identified CWEs might not apply to the software.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
-                    }                ]
-                }            ]        },{
+        },{
             "isVirtual": false,
-            "fileName": "layout-8.0.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/layout-8.0.2.jar"
-,"md5": "0178ae3034e317fcf36fd202c9b8726e",
-            "sha1": "01df3cc35b5c6a477b101972fec6cf3742237d49",
-            "sha256": "92fbcbef55d8a01f8ced71b377bfba19d90e907b0943c1b6510c6d7327ccd92b"            ,"evidenceCollected": {
+            "fileName": "layout-8.0.5.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/layout-8.0.5.jar"
+,"md5": "6e6a283868f7ff81c7bc2eb5f1df6331",
+            "sha1": "4117f0047dccb33a2331e0709cbf702c965268a7",
+            "sha256": "97c41d5769ad516500ea7ee98ef928764f1070b48ef4e46ebc16659253d8ee15"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -3521,80 +3191,25 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "8.0.2"
+                        "value": "8.0.5"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/com.itextpdf\/layout@8.0.2"
+                        "id": "pkg:maven\/com.itextpdf\/layout@8.0.5"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.2%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+                    "id": "cpe:2.3:a:itextpdf:itext:8.0.5:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aitextpdf%3Aitext%3A8.0.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2023-6298",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 5.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "2.9"                    },
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-129",                        "NVD-CWE-noinfo"                    ],
-                "description": "A vulnerability classified as problematic was found in Apryse iText 8.0.2. This vulnerability affects the function main of the file PdfDocument.java. The manipulation leads to improper validation of array index. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier of this vulnerability is VDB-246124. NOTE: The vendor was contacted early about this disclosure but did not respond in any way. A statement published afterwards explains that the exception is not a vulnerability and the identified CWEs might not apply to the software.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/drive.google.com\/drive\/folders\/1OBAeGH_rNfa1os6g6QlIt4pL-2NKHZm_?usp=sharing","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/kb.itextpdf.com\/itext\/statement-regarding-cve-2022-24198-and-2023-6298","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "cna@vuldb.com"
-,"url": "https:\/\/vuldb.com\/?id.246124","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/vuldb.com\/?ctiid.246124","name": "THIRD_PARTY_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:itextpdf:itext:8.0.2:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
-                    }                ]
-                }            ]        }    ]
+        }    ]
 }
