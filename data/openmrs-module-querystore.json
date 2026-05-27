@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-querystore",
-        "reportDate": "2026-05-27T21:38:26.946672227Z",
+        "reportDate": "2026-05-27T21:42:53.339666663Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -2005,10 +2005,10 @@
             ]                ,"suppressedVulnerabilityIds": [
                     {
                         "id": "cpe:2.3:a:elastic:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelastic%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "co.elastic.clients:elasticsearch-java is the Java REST client library, not the\n        Elasticsearch server. The scanner's CPE matcher conflates the client jar with\n        cpe:\/a:elastic:elasticsearch and cpe:\/a:elasticsearch:elasticsearch (the server product),\n        so every server-only CVE published against that Elasticsearch version is falsely\n        attributed to the client jar (e.g. CVE-2024-23445, CVE-2024-52979\/52980\/52981,\n        CVE-2025-37731, CVE-2025-68384 \u2014 all server-side: cross-cluster API keys, query\n        StackOverflow\/DoS in the server, etc.). Suppress the two server CPEs for the client jar\n        rather than enumerating CVEs, so the suppression survives client version bumps and future\n        server-only CVEs. A genuine client-library CVE would carry the co.elastic.clients\n        coordinate (or a client-specific CPE), not these server CPEs, so it still surfaces."                    }
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelastic%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
 ,                    {
                         "id": "cpe:2.3:a:elasticsearch:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelasticsearch%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "co.elastic.clients:elasticsearch-java is the Java REST client library, not the\n        Elasticsearch server. The scanner's CPE matcher conflates the client jar with\n        cpe:\/a:elastic:elasticsearch and cpe:\/a:elasticsearch:elasticsearch (the server product),\n        so every server-only CVE published against that Elasticsearch version is falsely\n        attributed to the client jar (e.g. CVE-2024-23445, CVE-2024-52979\/52980\/52981,\n        CVE-2025-37731, CVE-2025-68384 \u2014 all server-side: cross-cluster API keys, query\n        StackOverflow\/DoS in the server, etc.). Suppress the two server CPEs for the client jar\n        rather than enumerating CVEs, so the suppression survives client version bumps and future\n        server-only CVEs. A genuine client-library CVE would carry the co.elastic.clients\n        coordinate (or a client-specific CPE), not these server CPEs, so it still surfaces."                    }
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelasticsearch%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
             ]
             ,"suppressedVulnerabilities": [
  {
@@ -2650,19 +2650,18 @@
                     {
                         "id": "pkg:maven\/org.elasticsearch.client\/elasticsearch-rest-client@8.13.4"
 ,"confidence": "HIGH"                    }
-            ]                ,"vulnerabilityIds": [
-                {
-                    "id": "cpe:2.3:a:elastic:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelastic%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
-,                {
-                    "id": "cpe:2.3:a:elasticsearch:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelasticsearch%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]                ,"suppressedVulnerabilityIds": [
+                    {
+                        "id": "cpe:2.3:a:elastic:elasticsearch:8.13.4:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelastic%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
+,                    {
+                        "id": "cpe:2.3:a:elasticsearch:elasticsearch:8.13.4:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelasticsearch%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
             ]
-            ,"vulnerabilities": [
+            ,"suppressedVulnerabilities": [
  {
                 "source": "NVD",
                 "name": "CVE-2024-52979",
-                    "severity" : "HIGH",
                     "cvssv3": {
                         "baseScore": 7.5
                         ,"attackVector": "NETWORK"
@@ -2681,7 +2680,7 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "bressers@elastic.co"
+                    "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-7-17-25-and-8-16-0-security-update-esa-2024-40\/377709","name": "PATCH,VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2696,7 +2695,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-52981",
-                    "severity" : "HIGH",
                     "cvssv3": {
                         "baseScore": 7.5
                         ,"attackVector": "NETWORK"
@@ -2715,7 +2713,7 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "bressers@elastic.co"
+                    "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-7-17-24-and-8-15-1-security-update-esa-2024-37\/376924","name": "PATCH,VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2730,7 +2728,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-37731",
-                    "severity" : "HIGH",
                     "cvssv3": {
                         "baseScore": 7.4
                         ,"attackVector": "NETWORK"
@@ -2749,7 +2746,7 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "security@elastic.co"
+                    "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-8-9-1-8-and-9-2-2-security-update-esa-2025-27\/384063","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2772,7 +2769,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-23445",
-                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 6.5
                         ,"attackVector": "NETWORK"
@@ -2791,9 +2787,9 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "bressers@elastic.co"
+                    "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-13\/360898","name": "PATCH"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-13\/360898","name": "PATCH"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2804,7 +2800,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-52980",
-                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 6.5
                         ,"attackVector": "NETWORK"
@@ -2823,7 +2818,7 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "bressers@elastic.co"
+                    "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-15-1-security-update-esa-2024-34\/376919","name": "ISSUE_TRACKING,PATCH,VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2834,7 +2829,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-68384",
-                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 6.5
                         ,"attackVector": "NETWORK"
@@ -2853,7 +2847,7 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "security@elastic.co"
+                    "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-9-9-1-9-and-9-2-3-security-update-esa-2025-33\/384181","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2876,7 +2870,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-37727",
-                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 5.7
                         ,"attackVector": "ADJACENT_NETWORK"
@@ -2895,7 +2888,7 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "security@elastic.co"
+                    "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-18-8-8-19-5-9-0-8-9-1-5-security-update-esa-2025-18\/382453","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2922,7 +2915,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-37280",
-                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 4.9
                         ,"attackVector": "NETWORK"
@@ -2941,11 +2933,11 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "bressers@elastic.co"
+                    "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-14\/361007","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20240816-0003\/"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-14\/361007","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2956,7 +2948,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-68390",
-                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 4.9
                         ,"attackVector": "NETWORK"
@@ -2975,7 +2966,7 @@
                 "notes": "",
                 "references": [
  {
-                        "source": "security@elastic.co"
+                    "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-8-9-1-8-and-9-2-2-security-update-esa-2025-37\/384185","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -6026,9 +6017,9 @@
             "isVirtual": false,
             "fileName": "querystore-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT.jar"
-,"md5": "d6fa630840da475ad59f06eaca51cd1d",
-            "sha1": "ee7a6d3b0229fbd339ac220b07943a6e8b93a784",
-            "sha256": "b35d6811234991e1aa7a1c7ac68a9a498952e1fde09d813bd75ba155c79acaae"            ,"evidenceCollected": {
+,"md5": "8b89e6b947090449981c6881ac8b8372",
+            "sha1": "b70654fd81141fd79d1e000a9ec987a1c0fb3cb5",
+            "sha256": "ac28b34a543a0878361c32771eec3e2af175ec0cf6bf9bc8bbcc0974c8dc53d5"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6090,16 +6081,16 @@
             "isVirtual": false,
             "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"md5": "43a0782b6b763698618a977dd2991911",
-            "sha1": "89e14ebd3168e176f2fc91df2587ad97d31af2e7",
-            "sha256": "2cfc1397f71dc073d3ce2406eec750eaf837fb3cde7aeeed52e0a5d97523a025","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
+,"md5": "2b2b6a13a7d71fdf5373972da9c893da",
+            "sha1": "f3d41b7fbd8604d32e59be7cbe2fd24542919666",
+            "sha256": "b5fb162e5d1c7bf30bcc54f92fa1a1a231e7067b4018f49bebe2ab016878065b","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "2cfc1397f71dc073d3ce2406eec750eaf837fb3cde7aeeed52e0a5d97523a025",
-                    "sha1": "89e14ebd3168e176f2fc91df2587ad97d31af2e7",
-                    "md5": "43a0782b6b763698618a977dd2991911"
+,"sha256": "b5fb162e5d1c7bf30bcc54f92fa1a1a231e7067b4018f49bebe2ab016878065b",
+                    "sha1": "f3d41b7fbd8604d32e59be7cbe2fd24542919666",
+                    "md5": "2b2b6a13a7d71fdf5373972da9c893da"
                 }
             ]
             ,"evidenceCollected": {
