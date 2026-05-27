@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-19T14:07:47Z"
+                "timestamp": "2026-05-27T14:37:00Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-19T13:49:27Z"
+                "timestamp": "2026-05-27T14:26:15Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-19T14:07:47Z"
+                "timestamp": "2026-05-27T14:37:00Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-19T13:49:27Z"
+                "timestamp": "2026-05-27T14:26:15Z"
             }
         ]
 
@@ -203,7 +203,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-openconceptlab",
-        "reportDate": "2026-05-19T19:33:16.819342835Z",
+        "reportDate": "2026-05-27T19:40:58.576731368Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -39026,7 +39026,7 @@
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.5","name": "PRODUCT,RELEASE_NOTES"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.3"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e","name": "PATCH"                    }, {
                         "source": "info"
 ,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e","name": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e"                    }, {
                         "source": "info"
@@ -39038,20 +39038,24 @@
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-43fc-jf86-j433","name": "EXPLOIT,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7388"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7369"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/7369","name": "ISSUE_TRACKING"                    }, {
                         "source": "info"
 ,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "PATCH"                    }                ],
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.3","name": "RELEASE_NOTES"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/7388","name": "ISSUE_TRACKING"                    }                ],
                 "vulnerableSoftware": [
  {
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionEndExcluding":"1.13.5"                        }
+,"versionEndExcluding":"0.30.3"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.13.5"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -39433,7 +39437,11 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionEndExcluding":"1.15.0"                        }
+,"versionEndExcluding":"0.31.0"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.15.0"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -39567,7 +39575,7 @@
 ,"exploitabilityScore": "2.2","impactScore": "2.5","version": "3.1"                    },
                     "cwes": [
                         "CWE-444",                        "CWE-918",                        "CWE-113"                    ],
-                "description": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0 and 0.3.1, the Axios library is vulnerable to a specific \"Gadget\" attack chain that allows Prototype Pollution in any third-party dependency to be escalated into Remote Code Execution (RCE) or Full Cloud Compromise (via AWS IMDSv2 bypass). This vulnerability is fixed in 1.15.0 and 0.3.1.",
+                "description": "Axios is a promise based HTTP client for the browser and Node.js. Versions prior to 1.15.0 and 0.3.1 are vulnerable to a specific gadget-style attack chain in which prototype pollution in a third-party dependency may be leveraged to inject unsanitized header values into outbound requests. This vulnerability is fixed in 1.15.0 and 0.3.1.",
                 "notes": "",
                 "references": [
  {
@@ -39988,7 +39996,7 @@
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.5","name": "PRODUCT,RELEASE_NOTES"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.3"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e","name": "PATCH"                    }, {
                         "source": "info"
 ,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e","name": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e"                    }, {
                         "source": "info"
@@ -40000,20 +40008,24 @@
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-43fc-jf86-j433","name": "EXPLOIT,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7388"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7369"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/7369","name": "ISSUE_TRACKING"                    }, {
                         "source": "info"
 ,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "PATCH"                    }                ],
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.3","name": "RELEASE_NOTES"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "PATCH"                    }, {
+                        "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/7388","name": "ISSUE_TRACKING"                    }                ],
                 "vulnerableSoftware": [
  {
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionEndExcluding":"1.13.5"                        }
+,"versionEndExcluding":"0.30.3"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.13.5"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -40395,7 +40407,11 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"versionEndExcluding":"1.15.0"                        }
+,"versionEndExcluding":"0.31.0"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.15.0"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -40529,7 +40545,7 @@
 ,"exploitabilityScore": "2.2","impactScore": "2.5","version": "3.1"                    },
                     "cwes": [
                         "CWE-444",                        "CWE-918",                        "CWE-113"                    ],
-                "description": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0 and 0.3.1, the Axios library is vulnerable to a specific \"Gadget\" attack chain that allows Prototype Pollution in any third-party dependency to be escalated into Remote Code Execution (RCE) or Full Cloud Compromise (via AWS IMDSv2 bypass). This vulnerability is fixed in 1.15.0 and 0.3.1.",
+                "description": "Axios is a promise based HTTP client for the browser and Node.js. Versions prior to 1.15.0 and 0.3.1 are vulnerable to a specific gadget-style attack chain in which prototype pollution in a third-party dependency may be leveraged to inject unsanitized header values into outbound requests. This vulnerability is fixed in 1.15.0 and 0.3.1.",
                 "notes": "",
                 "references": [
  {
@@ -41051,22 +41067,26 @@
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v1.13.5","name": "PRODUCT,RELEASE_NOTES"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.3"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e","name": "PATCH"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-43fc-jf86-j433","name": "EXPLOIT,VENDOR_ADVISORY"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/d7ff1409c68168d3057fc3891f911b2b92616f9e"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/7369","name": "ISSUE_TRACKING"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7388"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.30.3","name": "RELEASE_NOTES"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/pull\/7369"                    }, {
+,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "PATCH"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/axios\/axios\/commit\/28c721588c7a77e7503d0a434e016f852c597b57","name": "PATCH"                    }                ],
+,"url": "https:\/\/github.com\/axios\/axios\/pull\/7388","name": "ISSUE_TRACKING"                    }                ],
                 "vulnerableSoftware": [
  {
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.13.5"                        }
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"0.30.3"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.13.5"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -41736,7 +41756,11 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
-,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.15.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"0.31.0"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
+,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.15.0"                        }
                     }                ]
                 }, {
                 "source": "NPM",
@@ -42016,7 +42040,7 @@
 ,"version": "3.1"                    },
                     "cwes": [
                         "CWE-444",                        "CWE-918",                        "CWE-113"                    ],
-                "description": "# Vulnerability Disclosure: Unrestricted Cloud Metadata Exfiltration via Header Injection Chain\n\n## Summary\nThe Axios library is vulnerable to a specific \"Gadget\" attack chain that allows **Prototype Pollution** in any third-party dependency to be escalated into **Remote Code Execution (RCE)** or **Full Cloud Compromise** (via AWS IMDSv2 bypass).\n\nWhile Axios patches exist for *preventing check* pollution, the library remains vulnerable to *being used* as a gadget when pollution occurs elsewhere. This is due to a lack of HTTP Header Sanitization (CWE-113) combined with default SSRF capabilities.\n\n**Severity**: Critical (CVSS 9.9)\n**Affected Versions**: All versions (v0.x - v1.x)\n**Vulnerable Component**: `lib\/adapters\/http.js` (Header Processing)\n\n## Usage of \"Helper\" Vulnerabilities\nThis vulnerability is unique because it requires **Zero Direct User Input**.\nIf an attacker can pollute `Object.prototype` via *any* other library in the stack (e.g., `qs`, `minimist`, `ini`, `body-parser`), Axios will automatically pick up the polluted properties during its config merge.\n\nBecause Axios does not sanitise these merged header values for CRLF (`\\r\\n`) characters, the polluted property becomes a **Request Smuggling** payload.\n\n## Proof of Concept\n\n### 1. The Setup (Simulated Pollution)\nImagine a scenario where a known vulnerability exists in a query parser. The attacker sends a payload that sets:\n```javascript\nObject.prototype['x-amz-target'] = \"dummy\\r\\n\\r\\nPUT \/latest\/api\/token HTTP\/1.1\\r\\nHost: 169.254.169.254\\r\\nX-aws-ec2-metadata-token-ttl-seconds: 21600\\r\\n\\r\\nGET \/ignore\";\n```\n\n### 2. The Gadget Trigger (Safe Code)\nThe application makes a completely safe, hardcoded request:\n```javascript\n\/\/ This looks safe to the developer\nawait axios.get('https:\/\/analytics.internal\/pings'); \n```\n\n### 3. The Execution\nAxios merges the prototype property `x-amz-target` into the request headers. It then writes the header value directly to the socket without validation.\n\n**Resulting HTTP traffic:**\n```http\nGET \/pings HTTP\/1.1\nHost: analytics.internal\nx-amz-target: dummy\n\nPUT \/latest\/api\/token HTTP\/1.1\nHost: 169.254.169.254\nX-aws-ec2-metadata-token-ttl-seconds: 21600\n\nGET \/ignore HTTP\/1.1\n...\n```\n\n### 4. The Impact (IMDSv2 Bypass)\nThe \"Smuggled\" second request is a valid `PUT` request to the AWS Metadata Service. It includes the required `X-aws-ec2-metadata-token-ttl-seconds` header (which a normal SSRF cannot send).\nThe Metadata Service returns a session token, allowing the attacker to steal IAM credentials and compromise the cloud account.\n\n## Impact Analysis\n-   **Security Control Bypass**: Defeats AWS IMDSv2 (Session Tokens).\n-   **Authentication Bypass**: Can inject headers (`Cookie`, `Authorization`) to pivot into internal administrative panels.\n-   **Cache Poisoning**: Can inject `Host` headers to poison shared caches.\n\n## Recommended Fix\nValidate all header values in `lib\/adapters\/http.js` and `xhr.js` before passing them to the underlying request function.\n\n**Patch Suggestion:**\n```javascript\n\/\/ In lib\/adapters\/http.js\nutils.forEach(requestHeaders, function setRequestHeader(val, key) {\n  if (\/[\\r\\n]\/.test(val)) {\n    throw new Error('Security: Header value contains invalid characters');\n  }\n  \/\/ ... proceed to set header\n});\n```\n\n## References\n-   **OWASP**: CRLF Injection (CWE-113)\n\nThis report was generated as part of a security audit of the Axios library.",
+                "description": "# Vulnerability Disclosure: Unrestricted Cloud Metadata Exfiltration via Header Injection Chain\n\n## Summary\nThe Axios library is vulnerable to a specific gadget-style attack chain in which **prototype pollution** in a third-party dependency may be leveraged to inject unsanitized header values into outbound requests.\n\nAxios can be used as a gadget after pollution occurs elsewhere because header values merged from attacker-controlled prototype properties are not sanitized for CRLF (`\\r\\n`) characters before being written to the request. In affected deployments, this may enable limited request manipulation or metadata access as part of a higher-complexity exploit chain.\n\n**Severity**: Moderate (CVSS 3.1 Base Score: 4.8)\n**Affected Versions**: All versions (v0.x - v1.x)\n**Vulnerable Component**: `lib\/adapters\/http.js` (Header Processing)\n\n## Usage of \\\"Helper\\\" Vulnerabilities\nThis issue requires a separate **prototype pollution** vulnerability in another library in the application stack (for example, `qs`, `minimist`, `ini`, or `body-parser`). If an attacker can pollute `Object.prototype`, Axios may pick up the polluted properties during config merge.\n\nBecause Axios does not sanitise these merged header values for CRLF (`\\r\\n`) characters, the polluted property can alter the structure of an outbound HTTP request.\n\n## Proof of Concept\n\n### 1. The Setup (Simulated Pollution)\nImagine a scenario where a known vulnerability exists in a query parser. The attacker sends a payload that sets:\n```javascript\nObject.prototype['x-amz-target'] = \\\"dummy\\r\\n\\r\\nPUT \/latest\/api\/token HTTP\/1.1\\r\\nHost: 169.254.169.254\\r\\nX-aws-ec2-metadata-token-ttl-seconds: 21600\\r\\n\\r\\nGET \/ignore\\\";\n```\n\n### 2. The Gadget Trigger (Safe Code)\nThe application makes a completely safe, hardcoded request:\n```javascript\n\/\/ This looks safe to the developer\nawait axios.get('https:\/\/analytics.internal\/pings'); \n```\n\n### 3. The Execution\nAxios merges the prototype property `x-amz-target` into the request headers. It then writes the header value directly to the socket without validation.\n\n**Resulting HTTP traffic:**\n```http\nGET \/pings HTTP\/1.1\nHost: analytics.internal\nx-amz-target: dummy\n\nPUT \/latest\/api\/token HTTP\/1.1\nHost: 169.254.169.254\nX-aws-ec2-metadata-token-ttl-seconds: 21600\n\nGET \/ignore HTTP\/1.1\n...\n```\n\n### 4. The Impact\nIn environments where requests can reach cloud metadata endpoints or sensitive internal services, the injected header content may help bypass expected request constraints and expose limited credentials or modify request semantics. This impact depends on application context and a separate prototype-pollution primitive.\n\n## Impact Analysis\n-   **Confidentiality**: May expose limited sensitive information in affected network environments.\n-   **Integrity**: May allow modification of outbound request structure or injected headers.\n-   **Attack Complexity**: Exploitation requires a separate prototype-pollution vulnerability and a reachable target service.\n\n## Recommended Fix\nValidate all header values in `lib\/adapters\/http.js` and `xhr.js` before passing them to the underlying request function.\n\n**Patch Suggestion:**\n```javascript\n\/\/ In lib\/adapters\/http.js\nutils.forEach(requestHeaders, function setRequestHeader(val, key) {\n  if (\/[\\r\\n]\/.test(val)) {\n    throw new Error('Security: Header value contains invalid characters');\n  }\n  \/\/ ... proceed to set header\n});\n```\n\n## References\n-   **OWASP**: CRLF Injection (CWE-113)\n\nThis report was generated as part of a security audit of the Axios library.",
                 "notes": "",
                 "references": [
  {
@@ -42024,6 +42048,8 @@
 ,"url": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0","name": "https:\/\/github.com\/axios\/axios\/releases\/tag\/v0.31.0"                    }, {
                         "source": "NPM Advisory reference: "
 ,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660","name": "https:\/\/github.com\/axios\/axios\/pull\/10660"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-876049.html","name": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-876049.html"                    }, {
                         "source": "NPM Advisory reference: "
 ,"url": "https:\/\/github.com\/axios\/axios\/pull\/10660#issuecomment-4224168081","name": "https:\/\/github.com\/axios\/axios\/pull\/10660#issuecomment-4224168081"                    }, {
                         "source": "NPM Advisory reference: "
@@ -42098,7 +42124,7 @@
 ,"exploitabilityScore": "2.2","impactScore": "2.5","version": "3.1"                    },
                     "cwes": [
                         "CWE-444",                        "CWE-918",                        "CWE-113"                    ],
-                "description": "Axios is a promise based HTTP client for the browser and Node.js. Prior to 1.15.0 and 0.3.1, the Axios library is vulnerable to a specific \"Gadget\" attack chain that allows Prototype Pollution in any third-party dependency to be escalated into Remote Code Execution (RCE) or Full Cloud Compromise (via AWS IMDSv2 bypass). This vulnerability is fixed in 1.15.0 and 0.3.1.",
+                "description": "Axios is a promise based HTTP client for the browser and Node.js. Versions prior to 1.15.0 and 0.3.1 are vulnerable to a specific gadget-style attack chain in which prototype pollution in a third-party dependency may be leveraged to inject unsanitized header values into outbound requests. This vulnerability is fixed in 1.15.0 and 0.3.1.",
                 "notes": "",
                 "references": [
  {
@@ -63885,1973 +63911,6 @@
                         "software": { 
                             "id":"cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*"
 ,"versionEndExcluding":"1.7.6"                        }
-                    }                ]
-                }            ]        },{
-            "isVirtual": false,
-            "fileName": "commons-io-2.17.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT\/lib\/commons-io-2.17.0.jar"
-,"md5": "f6232d0e290d58bb93f74f67165bf91f",
-            "sha1": "ddcc8433eb019fb48fe25207c0278143f3e1d7e2",
-            "sha256": "4aa4ca48f3dfd30b78220b7881d8cb93eac4093ec94361b6befa9487998a550b","description": "\nThe Apache Commons IO library contains utility classes, stream implementations, file filters,\nfile comparators, endian transformation classes, and much more.\n  ","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
-                "vendorEvidence": [
-{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "commons-io"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "apache"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "commons"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "file"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "io"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "automatic-module-name",
-                            "value": "org.apache.commons.io"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "build-jdk-spec",
-                            "value": "17"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "bundle-docurl",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-io\/"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "bundle-symbolicname",
-                            "value": "org.apache.commons.commons-io"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "Manifest",
-                            "name": "Implementation-Vendor",
-                            "value": "The Apache Software Foundation"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "multi-release",
-                            "value": "true"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "specification-vendor",
-                            "value": "The Apache Software Foundation"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "commons-io"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "bayard@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "dion@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "ggregory at apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "jeremias@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "jochen.wiedmann@gmail.com"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "krosenvold@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "martinc@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "matth@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "nicolaken@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "roxspring@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "sanders@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "bayard"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "dion"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "ggregory"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jeremias"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jochen"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jukka"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "krosenvold"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "martinc"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "matth"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "niallp"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "nicolaken"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "roxspring"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "sanders"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "scolebourne"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "dIon Gillard"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Gary Gregory"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Henri Yandell"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Jeremias Maerki"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Jochen Wiedmann"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Jukka Zitting"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Kristian Rosenvold"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Martin Cooper"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Matthew Hawthorne"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Niall Pemberton"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Nicola Ken Barozzi"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Rob Oxspring"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Scott Sanders"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Stephen Colebourne"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "The Apache Software Foundation"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org URL",
-                            "value": "https:\/\/www.apache.org\/"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "commons-io"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "Apache Commons IO"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "parent-artifactid",
-                            "value": "commons-parent"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "parent-groupid",
-                            "value": "org.apache.commons"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-io\/"
-                        }
-                ],
-                "productEvidence": [
-{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "commons-io"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "apache"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "commons"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "file"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "io"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "automatic-module-name",
-                            "value": "org.apache.commons.io"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "build-jdk-spec",
-                            "value": "17"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "bundle-docurl",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-io\/"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "Bundle-Name",
-                            "value": "Apache Commons IO"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "bundle-symbolicname",
-                            "value": "org.apache.commons.commons-io"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "Manifest",
-                            "name": "Implementation-Title",
-                            "value": "Apache Commons IO"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "multi-release",
-                            "value": "true"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "specification-title",
-                            "value": "Apache Commons IO"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "commons-io"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "bayard@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "dion@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "ggregory at apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "jeremias@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "jochen.wiedmann@gmail.com"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "krosenvold@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "martinc@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "matth@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "nicolaken@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "roxspring@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "sanders@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "bayard"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "dion"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "ggregory"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jeremias"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jochen"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jukka"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "krosenvold"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "martinc"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "matth"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "niallp"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "nicolaken"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "roxspring"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "sanders"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "scolebourne"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "dIon Gillard"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Gary Gregory"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Henri Yandell"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Jeremias Maerki"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Jochen Wiedmann"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Jukka Zitting"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Kristian Rosenvold"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Martin Cooper"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Matthew Hawthorne"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Niall Pemberton"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Nicola Ken Barozzi"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Rob Oxspring"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Scott Sanders"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Stephen Colebourne"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "The Apache Software Foundation"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org URL",
-                            "value": "https:\/\/www.apache.org\/"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "commons-io"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "Apache Commons IO"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "parent-artifactid",
-                            "value": "commons-parent"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "parent-groupid",
-                            "value": "org.apache.commons"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-io\/"
-                    }
-                ],
-                "versionEvidence": [
-                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "file",
-                        "name": "version",
-                        "value": "2.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "Manifest",
-                        "name": "Bundle-Version",
-                        "value": "2.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "Manifest",
-                        "name": "Implementation-Version",
-                        "value": "2.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "LOW",
-                        "source": "pom",
-                        "name": "parent-version",
-                        "value": "2.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "pom",
-                        "name": "version",
-                        "value": "2.17.0"
-                    }
-                ]
-            }
-                ,"packages": [
-                    {
-                        "id": "pkg:maven\/commons-io\/commons-io@2.17.0"
-,"confidence": "HIGH"                    }
-            ]                ,"vulnerabilityIds": [
-                {
-                    "id": "cpe:2.3:a:apache:commons_io:2.17.0:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aapache%3Acommons_io%3A2.17.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
-            ]
-        },{
-            "isVirtual": false,
-            "fileName": "commons-lang3-3.17.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT\/lib\/commons-lang3-3.17.0.jar"
-,"md5": "7730df72b7fdff4a3a32d89a314f826a",
-            "sha1": "b17d2136f0460dcc0d2016ceefca8723bdf4ee70",
-            "sha256": "6ee731df5c8e5a2976a1ca023b6bb320ea8d3539fbe64c8a1d5cb765127c33b4","description": "\n  Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.\n\n  The code is tested using the latest revision of the JDK for supported\n  LTS releases: 8, 11, 17 and 21 currently.\n  See https:\/\/github.com\/apache\/commons-lang\/blob\/master\/.github\/workflows\/maven.yml\n  \n  Please ensure your build environment is up-to-date and kindly report any build issues.\n  ","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
-                "vendorEvidence": [
-{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "commons-lang3"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "apache"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "commons"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "lang3"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "automatic-module-name",
-                            "value": "org.apache.commons.lang3"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "build-jdk-spec",
-                            "value": "17"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "bundle-docurl",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-lang\/"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "bundle-symbolicname",
-                            "value": "org.apache.commons.lang3"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "Manifest",
-                            "name": "Implementation-Vendor",
-                            "value": "The Apache Software Foundation"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "multi-release",
-                            "value": "true"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "specification-vendor",
-                            "value": "The Apache Software Foundation"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "commons-lang3"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "bayard@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "britter@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "chtompki@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "djones@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "dlr@finemaltcoding.com"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "ggregory at apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "jcarman@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "joerg.schaible@gmx.de"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "lguibert@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "oheger@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "pbenedict@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "rdonkin@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "scolebourne@joda.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "stevencaswell@apache.org"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "bayard"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "britter"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "chtompki"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "djones"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "dlr"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "fredrik"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "ggregory"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jcarman"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "joehni"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "lguibert"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "mbenson"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "niallp"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "oheger"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "pbenedict"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "rdonkin"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "scaswell"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "scolebourne"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Benedikt Ritter"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Daniel Rall"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Duncan Jones"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Fredrik Westermarck"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Gary Gregory"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Henri Yandell"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "James Carman"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Joerg Schaible"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Loic Guibert"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Matt Benson"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Niall Pemberton"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Oliver Heger"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Paul Benedict"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Rob Tompkins"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Robert Burrell Donkin"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Stephen Colebourne"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Steven Caswell"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "Carman Consulting, Inc."
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "CollabNet, Inc."
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "SITA ATS Ltd"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "The Apache Software Foundation"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer org URL",
-                            "value": "https:\/\/www.apache.org\/"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "org.apache.commons"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "Apache Commons Lang"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "parent-artifactid",
-                            "value": "commons-parent"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-lang\/"
-                        }
-                ],
-                "productEvidence": [
-{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "file",
-                            "name": "name",
-                            "value": "commons-lang3"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "apache"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "commons"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "jar",
-                            "name": "package name",
-                            "value": "lang3"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "automatic-module-name",
-                            "value": "org.apache.commons.lang3"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "build-jdk-spec",
-                            "value": "17"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "bundle-docurl",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-lang\/"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "Bundle-Name",
-                            "value": "Apache Commons Lang"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "bundle-symbolicname",
-                            "value": "org.apache.commons.lang3"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "Manifest",
-                            "name": "Implementation-Title",
-                            "value": "Apache Commons Lang"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "multi-release",
-                            "value": "true"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "specification-title",
-                            "value": "Apache Commons Lang"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "commons-lang3"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "bayard@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "britter@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "chtompki@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "djones@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "dlr@finemaltcoding.com"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "ggregory at apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "jcarman@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "joerg.schaible@gmx.de"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "lguibert@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "oheger@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "pbenedict@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "rdonkin@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "scolebourne@joda.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer email",
-                            "value": "stevencaswell@apache.org"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "bayard"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "britter"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "chtompki"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "djones"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "dlr"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "fredrik"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "ggregory"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "jcarman"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "joehni"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "lguibert"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "mbenson"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "niallp"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "oheger"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "pbenedict"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "rdonkin"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "scaswell"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "scolebourne"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Benedikt Ritter"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Daniel Rall"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Duncan Jones"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Fredrik Westermarck"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Gary Gregory"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Henri Yandell"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "James Carman"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Joerg Schaible"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Loic Guibert"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Matt Benson"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Niall Pemberton"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Oliver Heger"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Paul Benedict"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Rob Tompkins"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Robert Burrell Donkin"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Stephen Colebourne"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Steven Caswell"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "Carman Consulting, Inc."
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "CollabNet, Inc."
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "SITA ATS Ltd"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org",
-                            "value": "The Apache Software Foundation"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer org URL",
-                            "value": "https:\/\/www.apache.org\/"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "org.apache.commons"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "Apache Commons Lang"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "parent-artifactid",
-                            "value": "commons-parent"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-lang\/"
-                    }
-                ],
-                "versionEvidence": [
-                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "file",
-                        "name": "version",
-                        "value": "3.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "Manifest",
-                        "name": "Bundle-Version",
-                        "value": "3.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGH",
-                        "source": "Manifest",
-                        "name": "Implementation-Version",
-                        "value": "3.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "LOW",
-                        "source": "pom",
-                        "name": "parent-version",
-                        "value": "3.17.0"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "pom",
-                        "name": "version",
-                        "value": "3.17.0"
-                    }
-                ]
-            }
-                ,"packages": [
-                    {
-                        "id": "pkg:maven\/org.apache.commons\/commons-lang3@3.17.0"
-,"confidence": "HIGH"                    }
-            ]                ,"vulnerabilityIds": [
-                {
-                    "id": "cpe:2.3:a:apache:commons_lang:3.17.0:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aapache%3Acommons_lang%3A3.17.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
-            ]
-            ,"vulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2025-48924",
-                    "severity" : "MEDIUM",
-                    "cvssv3": {
-                        "baseScore": 5.3
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "LOW"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "3.9","impactScore": "1.4","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-674"                    ],
-                "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.\n\nThis issue affects Apache Commons Lang: Starting with\u00A0commons-lang:commons-lang\u00A02.0 to 2.6, and, from org.apache.commons:commons-lang3 3.0 before\u00A03.18.0.\n\nThe methods ClassUtils.getClass(...) can throw\u00A0StackOverflowError on very long inputs. Because an Error is usually not handled by applications and libraries, a \nStackOverflowError could\u00A0cause an application to stop.\n\nUsers are recommended to upgrade to version 3.18.0, which fixes the issue.",
-                "notes": "",
-                "references": [
- {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2025\/08\/msg00000.html"                    }, {
-                        "source": "security@apache.org"
-,"url": "https:\/\/lists.apache.org\/thread\/bgv0lpswokgol11tloxnjfzdl7yrc1g1","name": "MAILING_LIST,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/www.openwall.com\/lists\/oss-security\/2025\/07\/11\/1"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2025\/09\/msg00032.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2025\/09\/msg00036.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2025\/08\/msg00026.html"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:apache:commons_lang:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"2.0","versionEndExcluding":"2.6"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:apache:commons_lang:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"3.0","versionEndExcluding":"3.18.0"                        }
                     }                ]
                 }            ]        },{
             "isVirtual": false,
@@ -162073,9 +160132,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "59bc0dd18c5da691b9ffb564241a233f",
-            "sha1": "b34cf5e5c96163ff4ebddd89c1a539165ccf3e40",
-            "sha256": "93b051a4f8e6685dfda3118d7ad5f684bddf036698016ffdc72889d9e31d7fc8"            ,"evidenceCollected": {
+,"md5": "d6f9b7cb6a6d4f74782e40f23338d78e",
+            "sha1": "7d50f0ab2b235e5462d1b9f714faac24ab1b688d",
+            "sha256": "e161d366448aa642663bc6667fb2754e0d1e2ec352ed64e950c6d3c99676642c"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -162202,9 +160261,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT.jar"
-,"md5": "b9ad3684840c9bd453b477df544e4582",
-            "sha1": "c23cf5f4848957b172b6100d3a630219a371f6fd",
-            "sha256": "0abb51eb373aa0debbc81d1307cd075ea0de01a6df69d518cf61dbe7f7f3e06b"            ,"evidenceCollected": {
+,"md5": "60354d616b6c2212625d8fde9efa9276",
+            "sha1": "fc696ef7f43b2ee57bfb227f59d01a8d3c934dfa",
+            "sha256": "de0fccbc37923781a9ddad0544742c4c278c142cd1cd524138caadc3ffe8fa19"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -162308,9 +160367,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "f2c839e1132cee5d26e1ac859e21d62c",
-            "sha1": "fe154ed7f740d62d27d4ff92a86c5c6c3d3b781e",
-            "sha256": "c6ed6be4992faa58e35b2e9715fbaeca527b03d45089bdfca4e9322e9739b12c"            ,"evidenceCollected": {
+,"md5": "53f5a3bd74d8eabd5512d7263ca05eba",
+            "sha1": "73dc4286410c3002e6e9fb1de02b96d89f86131c",
+            "sha256": "1214da535b2474dcf8aee5f01ebcf0b65c9845ef8468d66c6b70bb98803be908"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -162392,16 +160451,16 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"md5": "77938f7f12969a431f4cf1a0f12ca7c1",
-            "sha1": "127311484c1ca875de99976cd912cd371df517a9",
-            "sha256": "40bf792acfd09680ed0eb5038e84a156bc9877589e364d38430ed7d0874e69a0","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
+,"md5": "a88ac05638c8925f1665b86aa4f6e2a0",
+            "sha1": "e0c7544ae7506f6d8d7b2dd8156b291917ee6810",
+            "sha256": "b86af5c38c9a241aebdf9d8808dbaa1371b2d6208e32c7a2f4eacc4ff644d3e9","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT\/lib\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "40bf792acfd09680ed0eb5038e84a156bc9877589e364d38430ed7d0874e69a0",
-                    "sha1": "127311484c1ca875de99976cd912cd371df517a9",
-                    "md5": "77938f7f12969a431f4cf1a0f12ca7c1"
+,"sha256": "b86af5c38c9a241aebdf9d8808dbaa1371b2d6208e32c7a2f4eacc4ff644d3e9",
+                    "sha1": "e0c7544ae7506f6d8d7b2dd8156b291917ee6810",
+                    "md5": "a88ac05638c8925f1665b86aa4f6e2a0"
                 }
             ]
             ,"evidenceCollected": {
