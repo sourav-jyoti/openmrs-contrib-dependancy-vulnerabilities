@@ -1,23 +1,23 @@
 {
     "reportSchema": "1.1",
     "scanInfo": {
-        "engineVersion": "12.2.1",
+        "engineVersion": "12.2.2",
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-04-18T11:56:24Z"
+                "timestamp": "2026-05-26T14:12:13Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-04-18T10:16:12Z"
+                "timestamp": "2026-05-26T13:50:13Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-04-18T11:56:24Z"
+                "timestamp": "2026-05-26T14:12:13Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-04-18T10:16:12Z"
+                "timestamp": "2026-05-26T13:50:13Z"
             }
         ]
 
@@ -25,13 +25,13 @@
     },
     "projectInfo": {
         "name": "openmrs-module-calculation",
-        "reportDate": "2026-04-18T13:36:10.114570346Z",
+        "reportDate": "2026-05-27T13:10:38.878760709Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
             "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
             "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
-            "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
         }
     },
     "dependencies": [
@@ -39,9 +39,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "b88b4ce59fa591d42cc31f1ae88de7b8",
-            "sha1": "407f3a499b5af4a2ef659501e27456c21f9b5027",
-            "sha256": "729dc61783a4b23bb137f6f8bc1afd23650d2fe2e8afb7749a57d0b48e0c8f0b"            ,"evidenceCollected": {
+,"md5": "0f4d91841b3e768f490b6e299101f558",
+            "sha1": "dd739499fd4cf72347ed893625f8e21318a3ed12",
+            "sha256": "fce67cbe2a06f3067032cba75b322342b000a0ab4b970fe2f5656aa0555a6df6"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -182,56 +182,6 @@
             ,"vulnerabilities": [
  {
                 "source": "NVD",
-                "name": "CVE-2017-12796",
-                    "severity" : "CRITICAL",
-                    "cvssv2": {
-                        "score": 10.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "COMPLETE"
-                        ,"integrityImpact": "COMPLETE"
-                        ,"availabilityImpact": "COMPLETE"
-                        ,"severity": "HIGH"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "10.0"                    },
-                    "cvssv3": {
-                        "baseScore": 9.8
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "HIGH"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "CRITICAL"
-,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.0"                    },
-                    "cwes": [
-                        "CWE-502"                    ],
-                "description": "The Reporting Compatibility Add On before 2.0.4 for OpenMRS, as distributed in OpenMRS Reference Application before 2.6.1, does not authenticate users when deserializing XML input into ReportSchema objects. The result is that remote unauthenticated users are able to execute operating system commands by crafting malicious XML payloads, as demonstrated by a single admin\/reports\/reportSchemaXml.form request.",
-                "notes": "",
-                "references": [
- {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndExcluding":"2.6.1"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
                 "name": "CVE-2018-19276",
                     "severity" : "CRITICAL",
                     "cvssv2": {
@@ -295,60 +245,6 @@
                         "software": { 
                             "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
 ,"vulnerabilityIdMatched":"true","versionStartIncluding":"2.1.0","versionEndExcluding":"2.1.4"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2021-43094",
-                    "severity" : "CRITICAL",
-                    "cvssv2": {
-                        "score": 7.5
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "PARTIAL"
-                        ,"integrityImpact": "PARTIAL"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "HIGH"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "6.4"                    },
-                    "cvssv3": {
-                        "baseScore": 9.8
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "HIGH"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "CRITICAL"
-,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-89"                    ],
-                "description": "An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.",
-                "notes": "",
-                "references": [
- {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.4.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"2.11"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -420,10 +316,262 @@
                             "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
 ,"versionStartIncluding":"2.5.0","versionEndExcluding":"2.5.3"                        }
                     }                ]
+                }            ]            ,"suppressedVulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2017-12796",
+                    "cvssv2": {
+                        "score": 10.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "COMPLETE"
+                        ,"integrityImpact": "COMPLETE"
+                        ,"availabilityImpact": "COMPLETE"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "10.0"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.0"                    },
+                    "cwes": [
+                        "CWE-502"                    ],
+                "description": "The Reporting Compatibility Add On before 2.0.4 for OpenMRS, as distributed in OpenMRS Reference Application before 2.6.1, does not authenticate users when deserializing XML input into ReportSchema objects. The result is that remote unauthenticated users are able to execute operating system commands by crafting malicious XML payloads, as demonstrated by a single admin\/reports\/reportSchemaXml.form request.",
+                "notes": "CVE-2017-12796: Unauthenticated XML deserialization RCE in the Reporting Compatibility Add On\n        (reportingcompatibility module) before 2.0.4, as shipped in OpenMRS Reference Application\n        before 2.6.1. This finding is a false positive if the scanned artifact is not the\n        reportingcompatibility module itself. The CVE scanner incorrectly matches on the shared\n        openmrs namespace rather than the specific affected artifact.",
+                "references": [
+ {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"2.6.1"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2021-43094",
+                    "cvssv2": {
+                        "score": 7.5
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "PARTIAL"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "PARTIAL"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "6.4"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-89"                    ],
+                "description": "An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.",
+                "notes": "CVE-2021-43094: SQL injection via arbitrary GET parameters in patient.page, affecting\n        OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition\n        <=2.4.0. This is a false positive for individual module JARs \u2014 the vulnerability is in the\n        standalone distribution packaging, not in module code. The scanner matches on the shared\n        openmrs namespace.",
+                "references": [
+ {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.4.0"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
+,"versionEndIncluding":"2.11"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40076",
+                    "cvssv3": {
+                        "baseScore": 8.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "2.8","impactScore": "5.9","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:H\/UI:N\/VC:H\/VI:H\/VA:H\/SC:H\/SI:H\/SA:H\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "NONE"
+                        ,"privilegesRequired": "HIGH"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "HIGH"
+                        ,"vulnerableSystemAvailability": "HIGH"
+                        ,"subsequentSystemConfidentiality": "HIGH"
+                        ,"subsequentSystemIntegrity": "HIGH"
+                        ,"subsequentSystemAvailability": "HIGH"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 9.4
+                        ,"baseSeverity": "CRITICAL"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the module upload endpoint at POST `\/openmrs\/ws\/rest\/v1\/module` is vulnerable to a Zip Slip path traversal attack. During automatic extraction of uploaded .omod archives in `WebModuleUtil.startModule()`, ZIP entries under web\/module\/ are checked only to see whether the full entry path starts with `..,` and the remaining path is then concatenated into the destination path without normalization or a boundary check. A crafted archive can therefore include entries such as `web\/module\/..\/..\/..\/..\/malicious.jsp` and cause files to be written outside the intended module directory.\n\nAn authenticated attacker with module upload access can write arbitrary files to locations such as the web application root and achieve remote code execution by uploading a JSP file and then requesting it. The issue is compounded by the fact that the module.allow_web_admin runtime property is enforced in the legacy UI controller but not in the REST API upload path, so deployments relying on that property to block web-based module administration remain exposed through the REST endpoint. This issue has been fixed in versions after 2.7.8 in the 2.7.x line and in version 2.8.6 and later.",
+                "notes": "CVE-2026-40076: Zip Slip path traversal in the module upload endpoint\n        (POST \/openmrs\/ws\/rest\/v1\/module) of openmrs-core 2.7.8 and prior and 2.8.0 through 2.8.5,\n        allowing an authenticated attacker with module upload access to write files outside the\n        module directory and achieve RCE. Fixed in openmrs-core 2.8.6. This is a false positive\n        for module JARs \u2014 the vulnerable extraction logic lives in openmrs-core, not in any module.\n        The scanner matches on the shared openmrs namespace.",
+                "references": [
+ {
+                    "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                    "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40075",
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "PRESENT"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "NONE"
+                        ,"vulnerableSystemAvailability": "NONE"
+                        ,"subsequentSystemConfidentiality": "NONE"
+                        ,"subsequentSystemIntegrity": "NONE"
+                        ,"subsequentSystemAvailability": "NONE"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 8.2
+                        ,"baseSeverity": "HIGH"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the `\/openmrs\/moduleResources\/{moduleid}` endpoint is vulnerable to a path traversal attack. The ModuleResourcesServlet constructs a filesystem path from user-controlled input without performing path boundary validation \u2014 the getFile() method concatenates the user-supplied path into an absolute filesystem path without calling normalize() or checking that the result stays within the allowed module resources directory. Because this endpoint serves static resources required for rendering the login page, it is not protected by authentication filters, allowing unauthenticated exploitation.\n\nAn attacker can traverse directories and read arbitrary files from the server filesystem, including \/etc\/passwd and application configuration files containing database credentials. Successful exploitation requires the target deployment to run on Apache Tomcat versions prior to 8.5.31, where the ..; path parameter bypass is not mitigated by the container. Deployments on Tomcat 8.5.31 or later and Tomcat 9.0.10 or later are protected at the container level, though the underlying code defect remains. This issue has been fixed in versions after 2.7.8 (within the 2.7.x branch) and in version 2.8.6 and later.",
+                "notes": "CVE-2026-40075: Path traversal in the \/openmrs\/moduleResources\/{moduleid} endpoint of\n        openmrs-core 2.7.8 and prior and 2.8.0 through 2.8.5. ModuleResourcesServlet builds a\n        filesystem path from user-controlled input without boundary validation, and because the\n        endpoint is unauthenticated it allows reading arbitrary files. Fixed in openmrs-core 2.8.6.\n        This is a false positive for module JARs \u2014 the vulnerable servlet belongs to openmrs-core,\n        not to any module. The scanner matches on the shared openmrs namespace.",
+                "references": [
+ {
+                    "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                    "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5728",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -449,12 +597,12 @@
                     "cwes": [
                         "CWE-79",                        "CWE-20"                    ],
                 "description": "OpenMRS 2.9 and prior copies \"Referrer\" header values into an html element named \"redirectUrl\" within many webpages (such as login.htm). There is insufficient validation for this parameter, which allows for the possibility of cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5728: XSS via unsanitized Referrer header copied into the redirectUrl field on\n        multiple web pages (e.g. login.htm) in openmrs-core 2.9 and prior. This is a false positive\n        for module JARs \u2014 the vulnerable code lives in the core web layer, not in any module.\n        The scanner matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -465,7 +613,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5729",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -491,12 +638,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the UI Framework Error Page reflects arbitrary, user-supplied input back to the browser, which can result in XSS. Any page that is able to trigger a UI Framework Error is susceptible to this issue.",
-                "notes": "",
+                "notes": "CVE-2020-5729: XSS via the UI Framework Error Page reflecting arbitrary user input in\n        openmrs-core 2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable\n        rendering logic belongs to openmrs-core's UI framework, not to any module. The scanner\n        matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -507,7 +654,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5730",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -533,12 +679,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the sessionLocation parameter for the login page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5730: XSS via the sessionLocation parameter on the login page in openmrs-core\n        2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable parameter is\n        handled by the core login controller, not by any module. The scanner matches on the\n        shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -549,7 +695,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5731",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -575,12 +720,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the app parameter for the ActiveVisit's page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5731: XSS via the app parameter on the ActiveVisits page in openmrs-core 2.9\n        and prior. This is a false positive for module JARs \u2014 the vulnerable page and parameter\n        handling are part of openmrs-core, not any module. The scanner matches on the shared\n        openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -591,7 +736,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5732",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -617,12 +761,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, he import functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows unauthenticated users to use a feature typically restricted to administrators.",
-                "notes": "",
+                "notes": "CVE-2020-5732: Missing authentication on the import endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior. This is a false positive if the scanned artifact is not\n        the dataexchange module itself. The access control bypass is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -633,7 +777,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5733",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -659,12 +802,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, the export functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows the export of potentially sensitive information.",
-                "notes": "",
+                "notes": "CVE-2020-5733: Missing authentication on the export endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior, allowing unauthenticated users to export potentially\n        sensitive data. This is a false positive if the scanned artifact is not the dataexchange\n        module itself. Like CVE-2020-5732, the vulnerability is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -676,9 +819,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT-tests.jar"
-,"md5": "31b79b8204c2f06b33dfee924ed7adac",
-            "sha1": "83e79947988f2cb25cb69eb50fe83c15e03354f0",
-            "sha256": "f1c497b43c420cf0f91821dda69b1b152b0363f456f284ed8c1b5703d228ef24"            ,"evidenceCollected": {
+,"md5": "40e8c5abad0935f8d6b8221dc6dde012",
+            "sha1": "10e8c313b4fe61e82c629fd9322c5d1a55697e0b",
+            "sha256": "7705a671b4a57cdcbdaf0270e62db9be76105771886be999596b02d8226b52a4"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -719,9 +862,9 @@
             "isVirtual": false,
             "fileName": "calculation-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT.jar"
-,"md5": "d979f17f44b76183a5bee52a00e2bf8e",
-            "sha1": "701332f317152181b0ab269be6032ee228ff4c6d",
-            "sha256": "7884bddf742b54cc6cf935308a0766936eff8a6c09d1c48272a6ce359813e1b7"            ,"evidenceCollected": {
+,"md5": "52d2fb634f7d85e39897ee7d5ec9ad91",
+            "sha1": "6fd58f8d28185a8856a1aeebc8bcc96541f78421",
+            "sha256": "1252d8b73231e89bf198bd19213d7f00e7a1c212308a503aa123b0368ec4a6df"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -783,9 +926,9 @@
             "isVirtual": false,
             "fileName": "calculation-api-2.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "99c4d16afbc773bfa4c86fafa7eb2875",
-            "sha1": "f07b13374d24173c8a88a02b3c89d800a778ca7b",
-            "sha256": "104d22128c8ba5444c51744001981a79d942d28c4a3aa555aebe132803a06d7a"            ,"evidenceCollected": {
+,"md5": "04cd4353f3bac519943b95d930a4dce1",
+            "sha1": "2e76d82f5bcdf39f006c5a78ddc5d1a8082525c8",
+            "sha256": "a2268f2852840929f411bec9695712c1b3b9a49cadde0e0b900a0ed33ca4f811"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -867,16 +1010,16 @@
             "isVirtual": false,
             "fileName": "calculation-api-2.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT.jar"
-,"md5": "0e838fd59f745cc3be0dae30075b90c2",
-            "sha1": "66dd3f38430e2a7e794fd86a83471d78ead00eea",
-            "sha256": "b0d0b5bba0e783a24fa5a30e30e442f2aed113561743a1f552a41c20d5608305","description": "API project for Calculation"            ,"relatedDependencies": [
+,"md5": "18dfcfcbacfbfc34e77afc263452f229",
+            "sha1": "50330e46c419822e7c6a8db79a9f770952e25ea0",
+            "sha256": "9637ad44349e4c260d68eccbf53aa8478995395eecf0d4ed62cc3c586e9cb7fb","description": "API project for Calculation"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "calculation-api-2.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/calculation-api-2.1.0-SNAPSHOT-tests.jar"
-,"sha256": "d10fdd89d8dfdb36af9d88880ca499ccb47991be7580a374efdd38e56b783185",
-                    "sha1": "393b0ef3ec17cbb1e685ed106b738244c9135db1",
-                    "md5": "0add79240796c648480b6acf1a3c641f",
+,"sha256": "8998f66ea0f62ba63d80df3c8ec781d3f9c4b1dd92dd994ea7cc3c5196660169",
+                    "sha1": "08c848a9f77ca23094c072e096dce5d34eb1f1e3",
+                    "md5": "28365a3b0ee9462ff30a58bb2897148b",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/calculation-api@2.1.0-SNAPSHOT"
@@ -887,9 +1030,9 @@
                     "isVirtual": false,
                     "fileName": "calculation-api-2.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/calculation-2.1.0-SNAPSHOT\/lib\/calculation-api-2.1.0-SNAPSHOT.jar"
-,"sha256": "b0d0b5bba0e783a24fa5a30e30e442f2aed113561743a1f552a41c20d5608305",
-                    "sha1": "66dd3f38430e2a7e794fd86a83471d78ead00eea",
-                    "md5": "0e838fd59f745cc3be0dae30075b90c2"
+,"sha256": "9637ad44349e4c260d68eccbf53aa8478995395eecf0d4ed62cc3c586e9cb7fb",
+                    "sha1": "50330e46c419822e7c6a8db79a9f770952e25ea0",
+                    "md5": "18dfcfcbacfbfc34e77afc263452f229"
                 }
             ]
             ,"evidenceCollected": {
@@ -1052,56 +1195,6 @@
             ,"vulnerabilities": [
  {
                 "source": "NVD",
-                "name": "CVE-2017-12796",
-                    "severity" : "CRITICAL",
-                    "cvssv2": {
-                        "score": 10.0
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "COMPLETE"
-                        ,"integrityImpact": "COMPLETE"
-                        ,"availabilityImpact": "COMPLETE"
-                        ,"severity": "HIGH"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "10.0"                    },
-                    "cvssv3": {
-                        "baseScore": 9.8
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "HIGH"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "CRITICAL"
-,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.0"                    },
-                    "cwes": [
-                        "CWE-502"                    ],
-                "description": "The Reporting Compatibility Add On before 2.0.4 for OpenMRS, as distributed in OpenMRS Reference Application before 2.6.1, does not authenticate users when deserializing XML input into ReportSchema objects. The result is that remote unauthenticated users are able to execute operating system commands by crafting malicious XML payloads, as demonstrated by a single admin\/reports\/reportSchemaXml.form request.",
-                "notes": "",
-                "references": [
- {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndExcluding":"2.6.1"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
                 "name": "CVE-2018-19276",
                     "severity" : "CRITICAL",
                     "cvssv2": {
@@ -1165,60 +1258,6 @@
                         "software": { 
                             "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
 ,"vulnerabilityIdMatched":"true","versionStartIncluding":"2.1.0","versionEndExcluding":"2.1.4"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2021-43094",
-                    "severity" : "CRITICAL",
-                    "cvssv2": {
-                        "score": 7.5
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "LOW"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "PARTIAL"
-                        ,"integrityImpact": "PARTIAL"
-                        ,"availabilityImpact": "PARTIAL"
-                        ,"severity": "HIGH"
-,"version": "2.0","exploitabilityScore": "10.0","impactScore": "6.4"                    },
-                    "cvssv3": {
-                        "baseScore": 9.8
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "HIGH"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "CRITICAL"
-,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-89"                    ],
-                "description": "An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.",
-                "notes": "",
-                "references": [
- {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
-                        "source": "cve@mitre.org"
-,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.4.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"2.11"                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -1290,10 +1329,262 @@
                             "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
 ,"versionStartIncluding":"2.5.0","versionEndExcluding":"2.5.3"                        }
                     }                ]
+                }            ]            ,"suppressedVulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2017-12796",
+                    "cvssv2": {
+                        "score": 10.0
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "COMPLETE"
+                        ,"integrityImpact": "COMPLETE"
+                        ,"availabilityImpact": "COMPLETE"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "10.0"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.0"                    },
+                    "cwes": [
+                        "CWE-502"                    ],
+                "description": "The Reporting Compatibility Add On before 2.0.4 for OpenMRS, as distributed in OpenMRS Reference Application before 2.6.1, does not authenticate users when deserializing XML input into ReportSchema objects. The result is that remote unauthenticated users are able to execute operating system commands by crafting malicious XML payloads, as demonstrated by a single admin\/reports\/reportSchemaXml.form request.",
+                "notes": "CVE-2017-12796: Unauthenticated XML deserialization RCE in the Reporting Compatibility Add On\n        (reportingcompatibility module) before 2.0.4, as shipped in OpenMRS Reference Application\n        before 2.6.1. This finding is a false positive if the scanned artifact is not the\n        reportingcompatibility module itself. The CVE scanner incorrectly matches on the shared\n        openmrs namespace rather than the specific affected artifact.",
+                "references": [
+ {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/wiki.openmrs.org\/display\/RES\/Release+Notes+2.6.1","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/isears.github.io\/jekyll\/update\/2017\/10\/21\/openmrs-rce.html","name": "EXPLOIT"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/talk.openmrs.org\/t\/critical-security-advisory-2017-09-12\/13291","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"2.6.1"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2021-43094",
+                    "cvssv2": {
+                        "score": 7.5
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "LOW"
+                        ,"authenticationr": "NONE"
+                        ,"confidentialityImpact": "PARTIAL"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "PARTIAL"
+                        ,"severity": "HIGH"
+,"version": "2.0","exploitabilityScore": "10.0","impactScore": "6.4"                    },
+                    "cvssv3": {
+                        "baseScore": 9.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "CRITICAL"
+,"exploitabilityScore": "3.9","impactScore": "5.9","version": "3.1"                    },
+                    "cwes": [
+                        "CWE-89"                    ],
+                "description": "An SQL Injection vulnerability exists in OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition <=2.4.0 via GET requests on arbitrary parameters in patient.page.",
+                "notes": "CVE-2021-43094: SQL injection via arbitrary GET parameters in patient.page, affecting\n        OpenMRS Reference Application Standalone Edition <=2.11 and Platform Standalone Edition\n        <=2.4.0. This is a false positive for individual module JARs \u2014 the vulnerability is in the\n        standalone distribution packaging, not in module code. The scanner matches on the shared\n        openmrs namespace.",
+                "references": [
+ {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/issues.openmrs.org\/browse\/TRUNK-6043","name": "ISSUE_TRACKING,THIRD_PARTY_ADVISORY,VENDOR_ADVISORY"                    }, {
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/openmrs.org\/demo\/","name": "PRODUCT"                    }, {
+                    "source": "cve@mitre.org"
+,"url": "https:\/\/wiki.openmrs.org\/display\/docs\/Reporting+Bugs","name": "VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.4.0"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:reference_application:*:*:*:*:*:*:*:*"
+,"versionEndIncluding":"2.11"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40076",
+                    "cvssv3": {
+                        "baseScore": 8.8
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "HIGH"
+                        ,"availabilityImpact": "HIGH"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "2.8","impactScore": "5.9","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:N\/PR:H\/UI:N\/VC:H\/VI:H\/VA:H\/SC:H\/SI:H\/SA:H\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "NONE"
+                        ,"privilegesRequired": "HIGH"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "HIGH"
+                        ,"vulnerableSystemAvailability": "HIGH"
+                        ,"subsequentSystemConfidentiality": "HIGH"
+                        ,"subsequentSystemIntegrity": "HIGH"
+                        ,"subsequentSystemAvailability": "HIGH"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 9.4
+                        ,"baseSeverity": "CRITICAL"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the module upload endpoint at POST `\/openmrs\/ws\/rest\/v1\/module` is vulnerable to a Zip Slip path traversal attack. During automatic extraction of uploaded .omod archives in `WebModuleUtil.startModule()`, ZIP entries under web\/module\/ are checked only to see whether the full entry path starts with `..,` and the remaining path is then concatenated into the destination path without normalization or a boundary check. A crafted archive can therefore include entries such as `web\/module\/..\/..\/..\/..\/malicious.jsp` and cause files to be written outside the intended module directory.\n\nAn authenticated attacker with module upload access can write arbitrary files to locations such as the web application root and achieve remote code execution by uploading a JSP file and then requesting it. The issue is compounded by the fact that the module.allow_web_admin runtime property is enforced in the legacy UI controller but not in the REST API upload path, so deployments relying on that property to block web-based module administration remain exposed through the REST endpoint. This issue has been fixed in versions after 2.7.8 in the 2.7.x line and in version 2.8.6 and later.",
+                "notes": "CVE-2026-40076: Zip Slip path traversal in the module upload endpoint\n        (POST \/openmrs\/ws\/rest\/v1\/module) of openmrs-core 2.7.8 and prior and 2.8.0 through 2.8.5,\n        allowing an authenticated attacker with module upload access to write files outside the\n        module directory and achieve RCE. Fixed in openmrs-core 2.8.6. This is a false positive\n        for module JARs \u2014 the vulnerable extraction logic lives in openmrs-core, not in any module.\n        The scanner matches on the shared openmrs namespace.",
+                "references": [
+ {
+                    "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                    "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-78fc-9688-w8xw","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
+                }, {
+                "source": "NVD",
+                "name": "CVE-2026-40075",
+                    "cvssv3": {
+                        "baseScore": 7.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "HIGH"
+,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
+                    "cvssv4": {
+                        "vectorString": "CVSS:4.0\/AV:N\/AC:L\/AT:P\/PR:N\/UI:N\/VC:H\/VI:N\/VA:N\/SC:N\/SI:N\/SA:N\/E:X\/CR:X\/IR:X\/AR:X\/MAV:X\/MAC:X\/MAT:X\/MPR:X\/MUI:X\/MVC:X\/MVI:X\/MVA:X\/MSC:X\/MSI:X\/MSA:X\/S:X\/AU:X\/R:X\/V:X\/RE:X\/U:X"
+                        ,"source": "security-advisories@github.com"
+                        ,"type": "Secondary"
+                        ,"version": "4.0"
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"attackRequirements": "PRESENT"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"vulnerableSystemConfidentiality": "HIGH"
+                        ,"vulnerableSystemIntegrity": "NONE"
+                        ,"vulnerableSystemAvailability": "NONE"
+                        ,"subsequentSystemConfidentiality": "NONE"
+                        ,"subsequentSystemIntegrity": "NONE"
+                        ,"subsequentSystemAvailability": "NONE"
+                        ,"exploitMaturity": "NOT_DEFINED"
+                        ,"confidentialityRequirements": "NOT_DEFINED"
+                        ,"integrityRequirements": "NOT_DEFINED"
+                        ,"availabilityRequirements": "NOT_DEFINED"
+                        ,"modifiedAttackVector": "NOT_DEFINED"
+                        ,"modifiedAttackComplexity": "NOT_DEFINED"
+                        ,"modifiedAttackRequirements": "NOT_DEFINED"
+                        ,"modifiedPrivilegesRequired": "NOT_DEFINED"
+                        ,"modifiedUserInteraction": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedVulnerableSystemAvailability": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemConfidentiality": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemIntegrity": "NOT_DEFINED"
+                        ,"modifiedSubsequentSystemAvailability": "NOT_DEFINED"
+                        ,"safety": "NOT_DEFINED"
+                        ,"automatable": "NOT_DEFINED"
+                        ,"recovery": "NOT_DEFINED"
+                        ,"valueDensity": "NOT_DEFINED"
+                        ,"vulnerabilityResponseEffort": "NOT_DEFINED"
+                        ,"providerUrgency": "NOT_DEFINED"
+                        ,"baseScore": 8.2
+                        ,"baseSeverity": "HIGH"
+                    },
+                    "cwes": [
+                        "CWE-22"                    ],
+                "description": "OpenMRS Core is an open source electronic medical record system platform. In versions 2.7.8 and earlier and versions 2.8.0 through 2.8.5, the `\/openmrs\/moduleResources\/{moduleid}` endpoint is vulnerable to a path traversal attack. The ModuleResourcesServlet constructs a filesystem path from user-controlled input without performing path boundary validation \u2014 the getFile() method concatenates the user-supplied path into an absolute filesystem path without calling normalize() or checking that the result stays within the allowed module resources directory. Because this endpoint serves static resources required for rendering the login page, it is not protected by authentication filters, allowing unauthenticated exploitation.\n\nAn attacker can traverse directories and read arbitrary files from the server filesystem, including \/etc\/passwd and application configuration files containing database credentials. Successful exploitation requires the target deployment to run on Apache Tomcat versions prior to 8.5.31, where the ..; path parameter bypass is not mitigated by the container. Deployments on Tomcat 8.5.31 or later and Tomcat 9.0.10 or later are protected at the container level, though the underlying code defect remains. This issue has been fixed in versions after 2.7.8 (within the 2.7.x branch) and in version 2.8.6 and later.",
+                "notes": "CVE-2026-40075: Path traversal in the \/openmrs\/moduleResources\/{moduleid} endpoint of\n        openmrs-core 2.7.8 and prior and 2.8.0 through 2.8.5. ModuleResourcesServlet builds a\n        filesystem path from user-controlled input without boundary validation, and because the\n        endpoint is unauthenticated it allows reading arbitrary files. Fixed in openmrs-core 2.8.6.\n        This is a false positive for module JARs \u2014 the vulnerable servlet belongs to openmrs-core,\n        not to any module. The scanner matches on the shared openmrs namespace.",
+                "references": [
+ {
+                    "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }, {
+                    "source": "security-advisories@github.com"
+,"url": "https:\/\/github.com\/openmrs\/openmrs-core\/security\/advisories\/GHSA-jjgj-cx3q-pw4w","name": "EXPLOIT,MITIGATION,VENDOR_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"2.7.8"                        }
+                    }, {
+                        "software": { 
+                            "id":"cpe:2.3:a:openmrs:openmrs:*:*:*:*:*:*:*:*"
+,"versionStartIncluding":"2.8.0","versionEndIncluding":"2.8.5"                        }
+                    }                ]
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5728",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -1319,12 +1610,12 @@
                     "cwes": [
                         "CWE-79",                        "CWE-20"                    ],
                 "description": "OpenMRS 2.9 and prior copies \"Referrer\" header values into an html element named \"redirectUrl\" within many webpages (such as login.htm). There is insufficient validation for this parameter, which allows for the possibility of cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5728: XSS via unsanitized Referrer header copied into the redirectUrl field on\n        multiple web pages (e.g. login.htm) in openmrs-core 2.9 and prior. This is a false positive\n        for module JARs \u2014 the vulnerable code lives in the core web layer, not in any module.\n        The scanner matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -1335,7 +1626,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5729",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -1361,12 +1651,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the UI Framework Error Page reflects arbitrary, user-supplied input back to the browser, which can result in XSS. Any page that is able to trigger a UI Framework Error is susceptible to this issue.",
-                "notes": "",
+                "notes": "CVE-2020-5729: XSS via the UI Framework Error Page reflecting arbitrary user input in\n        openmrs-core 2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable\n        rendering logic belongs to openmrs-core's UI framework, not to any module. The scanner\n        matches on the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -1377,7 +1667,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5730",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -1403,12 +1692,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the sessionLocation parameter for the login page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5730: XSS via the sessionLocation parameter on the login page in openmrs-core\n        2.9 and prior. This is a false positive for module JARs \u2014 the vulnerable parameter is\n        handled by the core login controller, not by any module. The scanner matches on the\n        shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -1419,7 +1708,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5731",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 4.3
                         ,"accessVector": "NETWORK"
@@ -1445,12 +1733,12 @@
                     "cwes": [
                         "CWE-79"                    ],
                 "description": "In OpenMRS 2.9 and prior, the app parameter for the ActiveVisit's page is vulnerable to cross-site scripting.",
-                "notes": "",
+                "notes": "CVE-2020-5731: XSS via the app parameter on the ActiveVisits page in openmrs-core 2.9\n        and prior. This is a false positive for module JARs \u2014 the vulnerable page and parameter\n        handling are part of openmrs-core, not any module. The scanner matches on the shared\n        openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -1461,7 +1749,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5732",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -1487,12 +1774,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, he import functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows unauthenticated users to use a feature typically restricted to administrators.",
-                "notes": "",
+                "notes": "CVE-2020-5732: Missing authentication on the import endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior. This is a false positive if the scanned artifact is not\n        the dataexchange module itself. The access control bypass is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -1503,7 +1790,6 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2020-5733",
-                    "severity" : "MEDIUM",
                     "cvssv2": {
                         "score": 5.8
                         ,"accessVector": "NETWORK"
@@ -1529,12 +1815,12 @@
                     "cwes": [
                         "CWE-601"                    ],
                 "description": "In OpenMRS 2.9 and prior, the export functionality of the Data Exchange Module does not properly redirect to a login page when an unauthenticated user attempts to access it. This allows the export of potentially sensitive information.",
-                "notes": "",
+                "notes": "CVE-2020-5733: Missing authentication on the export endpoint of the Data Exchange Module\n        in openmrs-core 2.9 and prior, allowing unauthenticated users to export potentially\n        sensitive data. This is a false positive if the scanned artifact is not the dataexchange\n        module itself. Like CVE-2020-5732, the vulnerability is specific to that module's\n        controller; the scanner incorrectly matches other JARs via the shared openmrs namespace.",
                 "references": [
  {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "vulnreport@tenable.com"
+                    "source": "vulnreport@tenable.com"
 ,"url": "https:\/\/www.tenable.com\/security\/research\/tra-2020-18","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2876,650 +3162,6 @@
                     }                ]
                 }, {
                 "source": "NVD",
-                "name": "CVE-2020-11022",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 4.3
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "MEDIUM"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "PARTIAL"
-                        ,"availabilityImpact": "NONE"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "8.6","impactScore": "2.9","userInteractionRequired": "true"                    },
-                    "cvssv3": {
-                        "baseScore": 6.1
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "CHANGED"
-                        ,"confidentialityImpact": "LOW"
-                        ,"integrityImpact": "LOW"
-                        ,"availabilityImpact": "NONE"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-79"                    ],
-                "description": "In jQuery starting with 1.12.0 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
-                "notes": "",
-                "references": [
- {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-11","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "http:\/\/security.netapp.com\/advisory\/ntap-20200511-0006"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/jquery-rails\/CVE-2020-11022.yml"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuapr2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2023\/08\/msg00040.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY\/"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/\/security-alerts\/cpujul2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html","name": "BROKEN_LINK"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20200511-0006\/","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/jquery\/jquery\/releases\/tag\/3.5.0"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/issues\/447"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/03\/msg00033.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html","name": "BROKEN_LINK"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2021.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-11","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/security.gentoo.org\/glsa\/202007-03","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133%40%3Ccommits.airflow.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/security.gentoo.org\/glsa\/202007-03","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/03\/msg00033.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133@%3Ccommits.airflow.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/github.com\/jquery\/jquery\/security\/advisories\/GHSA-gxr4-xjj5-5px2","name": "MITIGATION,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2023\/08\/msg00040.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/jquery\/jquery\/security\/advisories\/GHSA-gxr4-xjj5-5px2","name": "MITIGATION,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67%40%3Cdev.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5\/","name": "MITIGATION,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuapr2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/commit\/847216e60544258c881f2733d699bbcfeefac0fc"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67@%3Cdev.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K\/"                    }, {
-                        "source": "info"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html","name": "BROKEN_LINK"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"7.0","versionEndExcluding":"7.70"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.7.0","versionEndExcluding":"8.7.14"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.8.0","versionEndExcluding":"8.8.6"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:jquery:jquery:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"1.2","versionEndExcluding":"3.5.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:max_data:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:oncommand_system_manager:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"3.0","versionEndIncluding":"3.1.3"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:snap_creator_framework:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:snapcenter:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:agile_product_lifecycle_management_for_process:6.2.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:agile_product_supplier_collaboration_for_process:6.2.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:application_testing_suite:13.3.0.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"18.1","versionEndIncluding":"20.1"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:18.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:18.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:18.3:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:19.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:19.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:20.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:blockchain_platform:*:*:*:*:*:*:*:*"
-,"versionEndExcluding":"21.1.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_application_session_controller:3.8m0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_billing_and_revenue_management:7.5.0.23.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_billing_and_revenue_management:12.0.0.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_diameter_signaling_router_idih\\::*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.0","versionEndIncluding":"8.2.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_eagle_application_processor:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"16.1.0","versionEndIncluding":"16.4.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_services_gatekeeper:7.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_webrtc_session_controller:7.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:enterprise_manager_ops_center:12.4.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:enterprise_session_border_controller:8.4:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6.0.0","versionEndIncluding":"8.1.0.0.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_reconciliation_framework:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_reconciliation_framework:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_asset_liability_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_asset_liability_management:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_asset_liability_management:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_balance_sheet_planning:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_basic:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_basic:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_internal_ratings_based_approach:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_internal_ratings_based_approach:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_foundation:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_governance_for_us_regulatory_reporting:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.9"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_integration_hub:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_integration_hub:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_integration_hub:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_funds_transfer_pricing:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_funds_transfer_pricing:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_funds_transfer_pricing:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_hedge_management_and_ifrs_valuations:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_hedge_management_and_ifrs_valuations:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_institutional_performance_analytics:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_institutional_performance_analytics:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_institutional_performance_analytics:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_measurement_and_management:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_measurement_and_management:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_measurement_and_management:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_loan_loss_forecasting_and_provisioning:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_loan_loss_forecasting_and_provisioning:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_market_risk_measurement_and_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_market_risk_measurement_and_management:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_price_creation_and_discovery:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_price_creation_and_discovery:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_profitability_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_profitability_management:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_profitability_management:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_regulatory_reporting_for_european_banking_authority:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_regulatory_reporting_for_us_federal_reserve:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.9"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.1.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.2.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.2.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_materials_control:18.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"19.1.0","versionEndIncluding":"19.1.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:18.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:18.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:19.1.0-19.1.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_accounting_analyzer:8.0.9:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_allocation_manager_for_enterprise_profitability:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_allocation_manager_for_enterprise_profitability:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_data_foundation:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_data_foundation:8.0.6-8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_insbridge_rating_and_underwriting:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"5.0.0.0","versionEndIncluding":"5.6.0.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_insbridge_rating_and_underwriting:5.6.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:jdeveloper:11.1.1.9.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:jdeveloper:12.2.1.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:jdeveloper:12.2.1.4.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.56:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.57:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:policy_automation:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"12.2.0","versionEndIncluding":"12.2.20"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:policy_automation_connector_for_siebel:10.4.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:policy_automation_for_mobile_devices:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"12.2.0","versionEndIncluding":"12.2.20"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_back_office:14.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_back_office:14.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_customer_management_and_segmentation_foundation:19.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_returns_management:14.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_returns_management:14.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:siebel_ui_framework:20.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:storagetek_acsls:8.5.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:10.3.6.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:12.1.3.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:12.2.1.4.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:tenable:log_correlation_engine:*:*:*:*:*:*:*:*"
-,"versionEndExcluding":"6.0.9"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
                 "name": "CVE-2020-11023",
                 "knownExploitedVulnerability": {
                     "VendorProject": "JQuery",
@@ -4298,8 +3940,6 @@
  {
                         "source": "issue"
 ,"name": "162"                    }, {
-                        "source": "retid"
-,"name": "73"                    }, {
                         "source": "info"
 ,"url": "https:\/\/github.com\/jquery\/jquery.com\/issues\/162","name": "https:\/\/github.com\/jquery\/jquery.com\/issues\/162"                    }                ],
                 "vulnerableSoftware": [
@@ -5638,650 +5278,6 @@
                     }                ]
                 }, {
                 "source": "NVD",
-                "name": "CVE-2020-11022",
-                    "severity" : "MEDIUM",
-                    "cvssv2": {
-                        "score": 4.3
-                        ,"accessVector": "NETWORK"
-                        ,"accessComplexity": "MEDIUM"
-                        ,"authenticationr": "NONE"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "PARTIAL"
-                        ,"availabilityImpact": "NONE"
-                        ,"severity": "MEDIUM"
-,"version": "2.0","exploitabilityScore": "8.6","impactScore": "2.9","userInteractionRequired": "true"                    },
-                    "cvssv3": {
-                        "baseScore": 6.1
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "REQUIRED"
-                        ,"scope": "CHANGED"
-                        ,"confidentialityImpact": "LOW"
-                        ,"integrityImpact": "LOW"
-                        ,"availabilityImpact": "NONE"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "2.7","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-79"                    ],
-                "description": "In jQuery starting with 1.12.0 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
-                "notes": "",
-                "references": [
- {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-11","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "http:\/\/security.netapp.com\/advisory\/ntap-20200511-0006"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/jquery-rails\/CVE-2020-11022.yml"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuapr2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2023\/08\/msg00040.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY\/"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/\/security-alerts\/cpujul2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html","name": "BROKEN_LINK"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20200511-0006\/","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/jquery\/jquery\/releases\/tag\/3.5.0"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SAPQVX3XDNPGFT26QAQ6AJIXZZBZ4CD4\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/issues\/447"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r706cfbc098420f7113968cc377247ec3d1439bce42e679c11c609e2d@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/03\/msg00033.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html","name": "BROKEN_LINK"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r54565a8f025c7c4f305355fdfd75b68eca442eebdb5f31c2e7d977ae@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/ree3bd8ddb23df5fa4e372d11c226830ea3650056b1059f3965b3fce2%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.debian.org\/security\/2020\/dsa-4693","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2021.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2021.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/re4ae96fa5c1a2fe71ccbb7b7ac1538bd0cb677be270a2bf6e2f8d108@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-11","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/security.gentoo.org\/glsa\/202007-03","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00067.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133%40%3Ccommits.airflow.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/github.com\/jquery\/jquery\/commit\/1d61fd9407e6fbe82fe55cb0b938307aa0791f77","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/security.gentoo.org\/glsa\/202007-03","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/03\/msg00033.html","name": "MAILING_LIST,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.drupal.org\/sa-core-2020-002","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r564585d97bc069137e64f521e68ba490c7c9c5b342df5d73c49a0760@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-11\/msg00039.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rdf44341677cf7eec7e9aa96dcf3f37ed709544863d619cca8c36f133@%3Ccommits.airflow.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/github.com\/jquery\/jquery\/security\/advisories\/GHSA-gxr4-xjj5-5px2","name": "MITIGATION,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r0483ba0072783c2e1bfea613984bfb3c86e73ba8879d780dc1cc7d36%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.debian.org\/debian-lts-announce\/2023\/08\/msg00040.html"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/jquery\/jquery\/security\/advisories\/GHSA-gxr4-xjj5-5px2","name": "MITIGATION,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/SFP4UK4EGP4AFH2MWYJ5A5Z4I7XVFQ6B\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/packetstormsecurity.com\/files\/162159\/jQuery-1.2-Cross-Site-Scripting.html","name": "EXPLOIT,THIRD_PARTY_ADVISORY,VDB_ENTRY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67%40%3Cdev.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5\/","name": "MITIGATION,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2021.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujan2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuapr2022.html","name": "PATCH,THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/maximebf\/php-debugbar\/commit\/847216e60544258c881f2733d699bbcfeefac0fc"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpuoct2020.html","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2021-02","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r8f70b0f65d6bedf316ecd899371fd89e65333bc988f6326d2956735c@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rede9cfaa756e050a3d83045008f84a62802fc68c17f2b4eabeaae5e4@%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "RELEASE_NOTES,VENDOR_ADVISORY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/jquery.com\/upgrade-guide\/3.5"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/AVKYXLWCLZBV2N7M46KYK4LVA5OXWPBY"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.apache.org\/thread.html\/rbb448222ba62c430e21e13f940be4cb5cfc373cd3bce56b48c0ffa67@%3Cdev.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.apache.org\/thread.html\/r49ce4243b4738dd763caeb27fa8ad6afb426ae3e8c011ff00b8b1f48%40%3Cissues.flink.apache.org%3E"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/QPN2L2XVQGUA2V5HNQJWHK3APSK3VN7K\/"                    }, {
-                        "source": "info"
-,"url": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/","name": "https:\/\/blog.jquery.com\/2020\/04\/10\/jquery-3-5-0-released\/"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VOE7P7APPRQKD4FGNHBKJPDY6FFCOH3W"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.oracle.com\/security-alerts\/cpujul2022.html"                    }, {
-                        "source": "security-advisories@github.com"
-,"url": "https:\/\/www.tenable.com\/security\/tns-2020-10","name": "THIRD_PARTY_ADVISORY"                    }, {
-                        "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "http:\/\/lists.opensuse.org\/opensuse-security-announce\/2020-07\/msg00085.html","name": "BROKEN_LINK"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"7.0","versionEndExcluding":"7.70"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.7.0","versionEndExcluding":"8.7.14"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.8.0","versionEndExcluding":"8.8.6"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:jquery:jquery:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"1.2","versionEndExcluding":"3.5.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:max_data:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:oncommand_insight:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:oncommand_system_manager:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"3.0","versionEndIncluding":"3.1.3"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:snap_creator_framework:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:netapp:snapcenter:-:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:agile_product_lifecycle_management_for_process:6.2.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:agile_product_supplier_collaboration_for_process:6.2.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:application_testing_suite:13.3.0.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"18.1","versionEndIncluding":"20.1"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:18.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:18.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:18.3:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:19.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:19.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:banking_digital_experience:20.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:blockchain_platform:*:*:*:*:*:*:*:*"
-,"versionEndExcluding":"21.1.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_application_session_controller:3.8m0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_billing_and_revenue_management:7.5.0.23.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_billing_and_revenue_management:12.0.0.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_diameter_signaling_router_idih\\::*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.0","versionEndIncluding":"8.2.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_eagle_application_processor:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"16.1.0","versionEndIncluding":"16.4.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_services_gatekeeper:7.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:communications_webrtc_session_controller:7.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:enterprise_manager_ops_center:12.4.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:enterprise_session_border_controller:8.4:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_infrastructure:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6.0.0","versionEndIncluding":"8.1.0.0.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_reconciliation_framework:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_analytical_applications_reconciliation_framework:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_asset_liability_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_asset_liability_management:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_asset_liability_management:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_balance_sheet_planning:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_basic:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_basic:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_internal_ratings_based_approach:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_basel_regulatory_capital_internal_ratings_based_approach:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_foundation:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_governance_for_us_regulatory_reporting:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.9"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_integration_hub:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_integration_hub:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_data_integration_hub:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_funds_transfer_pricing:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_funds_transfer_pricing:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_funds_transfer_pricing:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_hedge_management_and_ifrs_valuations:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_hedge_management_and_ifrs_valuations:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_institutional_performance_analytics:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_institutional_performance_analytics:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_institutional_performance_analytics:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_measurement_and_management:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_measurement_and_management:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_liquidity_risk_measurement_and_management:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_loan_loss_forecasting_and_provisioning:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_loan_loss_forecasting_and_provisioning:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_market_risk_measurement_and_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_market_risk_measurement_and_management:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_price_creation_and_discovery:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_price_creation_and_discovery:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_profitability_management:8.0.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_profitability_management:8.0.7:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_profitability_management:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_regulatory_reporting_for_european_banking_authority:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:financial_services_regulatory_reporting_for_us_federal_reserve:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.0.9"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.1.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.2.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.2.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:healthcare_foundation:7.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_materials_control:18.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"19.1.0","versionEndIncluding":"19.1.2"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:18.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:18.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:hospitality_simphony:19.1.0-19.1.2:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_accounting_analyzer:8.0.9:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_allocation_manager_for_enterprise_profitability:8.0.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_allocation_manager_for_enterprise_profitability:8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_data_foundation:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.0.6","versionEndIncluding":"8.1.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_data_foundation:8.0.6-8.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_insbridge_rating_and_underwriting:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"5.0.0.0","versionEndIncluding":"5.6.0.0"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:insurance_insbridge_rating_and_underwriting:5.6.1.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:jdeveloper:11.1.1.9.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:jdeveloper:12.2.1.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:jdeveloper:12.2.1.4.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.56:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.57:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:peoplesoft_enterprise_peopletools:8.58:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:policy_automation:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"12.2.0","versionEndIncluding":"12.2.20"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:policy_automation_connector_for_siebel:10.4.6:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:policy_automation_for_mobile_devices:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"12.2.0","versionEndIncluding":"12.2.20"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_back_office:14.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_back_office:14.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_customer_management_and_segmentation_foundation:19.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_returns_management:14.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:retail_returns_management:14.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:siebel_ui_framework:20.8:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:storagetek_acsls:8.5.1:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:10.3.6.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:12.1.3.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:12.2.1.3.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:12.2.1.4.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:oracle:weblogic_server:14.1.1.0.0:*:*:*:*:*:*:*"
-                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:tenable:log_correlation_engine:*:*:*:*:*:*:*:*"
-,"versionEndExcluding":"6.0.9"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
                 "name": "CVE-2020-11023",
                 "knownExploitedVulnerability": {
                     "VendorProject": "JQuery",
@@ -7060,8 +6056,6 @@
  {
                         "source": "issue"
 ,"name": "162"                    }, {
-                        "source": "retid"
-,"name": "73"                    }, {
                         "source": "info"
 ,"url": "https:\/\/github.com\/jquery\/jquery.com\/issues\/162","name": "https:\/\/github.com\/jquery\/jquery.com\/issues\/162"                    }                ],
                 "vulnerableSoftware": [
