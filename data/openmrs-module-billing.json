@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-05-28T14:47:15Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-05-28T14:34:45Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-05-28T14:47:15Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-05-28T14:34:45Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-billing",
-        "reportDate": "2026-05-28T09:44:19.585626695Z",
+        "reportDate": "2026-05-28T16:26:24.979067653Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -216,9 +216,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "6007203ffa5681c0dfc610158cdf62f1",
-            "sha1": "1d64ea697c7fa5af47a5bbeb4a1012f0af979d57",
-            "sha256": "2cefd6d8539f842b33ec13da5e388d9124ecd802c180827da06606908dd16f65"            ,"evidenceCollected": {
+,"md5": "719f43c29c0b91f0dd51df971ae2fe85",
+            "sha1": "afbfafeca354e368a6f0bd6d7d803c0bd421d366",
+            "sha256": "54b1d1d95d119ee77a38829f40b7a6b687b5d805ef57edaf1bdb2d8795517395"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -259,9 +259,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "27e56b35c366b0f11d40bd12f8aca1ef",
-            "sha1": "14989a262e8cc847a5b8b7a9a3dd2fffc6fd758f",
-            "sha256": "9297a3c45ced5620a5453731affa5e1b56bc27e14f47e8d2fe27cfd910d6214e"            ,"evidenceCollected": {
+,"md5": "70e84b47b4c1f3ff2621d729437f8dc1",
+            "sha1": "932398139554f27f62f9f9182c44bb743116e8ef",
+            "sha256": "eeb7dc12e7375be12c3daec882047ec0da4364425f68c345efb92fe4cf5d7f64"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -973,9 +973,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT-tests.jar"
-,"md5": "43b7a4ca1d8577fbeb64374d3eb89779",
-            "sha1": "aec82f8605f055283c48144046fffe2cdaf77136",
-            "sha256": "8942990c048442594688941105bb039a32ecc38bafdff1518b3ef0940d306f63"            ,"evidenceCollected": {
+,"md5": "9ce2f3963c594a3fb4594589174815b8",
+            "sha1": "bf7454a802cf57a93f777dc24d0e753f5cf6505d",
+            "sha256": "25452a6db3cc986491f651399459458d709e595e447374fc68b126a1cc38b323"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1086,9 +1086,9 @@
             "isVirtual": false,
             "fileName": "billing-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT.jar"
-,"md5": "5d195be50de47a127bb4afb548ceee26",
-            "sha1": "f3070415f61f7a6bec3292ff72c93506ac1f0f5c",
-            "sha256": "14bca3915166545ede75a4feb2775e9fc6433b011205cdfc14a7fd20965c6f14"            ,"evidenceCollected": {
+,"md5": "1ddef4c43ab87acbd8118db85478bac4",
+            "sha1": "534ca79699e91546aec8edb909f26e58c87b5c20",
+            "sha256": "f3131e2212146e7795c4fac0cd993ad770f564ba7d003a2cb3c06d9f64d7a19f"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1199,9 +1199,9 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "7ec4ce666b57c5b50c51c1376a024985",
-            "sha1": "99c2704f8d427fdae8925446399f175c8ac601d6",
-            "sha256": "21f0f727235da291e7f0f1b8a2964001e33d2f2b070026ed516e0b91698025f9"            ,"evidenceCollected": {
+,"md5": "3069407e12e410dd8b911d3a9fd2110a",
+            "sha1": "141790d08daf46b8feb799a3a4189ca3085341a7",
+            "sha256": "30569308cb8ea010b0605ab4df1ef0a31cd9f7cd11f49fe8e55dafd3dbdefd21"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1299,9 +1299,9 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "949e730f7502d894f700322a43016b6b",
-            "sha1": "23b271c9043a37fab2db86ee154f048490db3bf8",
-            "sha256": "68db1b56ce9bdc026b41e15cb0fc8a7ec89ab95c18425f18cdbe809bd5003a7c"            ,"evidenceCollected": {
+,"md5": "3ae29bbae501c21ad5dada121bf4f410",
+            "sha1": "a2fd1633707596467012179a7a55f869ae43272e",
+            "sha256": "e7292192687b4d234c3ce18d89ed3a15886f766dc3633eb1c832b1d71482b470"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -1342,16 +1342,16 @@
             "isVirtual": false,
             "fileName": "billing-api-2.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT.jar"
-,"md5": "12cfd95fcc6ce90ebce196a7f770a930",
-            "sha1": "58e75f9d12b17ed822191ff53fafb598e3b844d4",
-            "sha256": "6cc5cf737bb5c7f126dc7771c7c32d3556e4ad889f39357f7d3770ad08f850c5","description": "API project for the OpenMRS Billing module"            ,"relatedDependencies": [
+,"md5": "75a967e6ca4d06c75bbe080aefc60bef",
+            "sha1": "611c031c53368d0061ad9234a024cc2fe402f9a1",
+            "sha256": "14d6ca9abf058ac65ee30639e1288027b76239326c7c597ce34839b56aa1f3b4","description": "API project for the OpenMRS Billing module"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "billing-api-2.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/billing-api-2.3.0-SNAPSHOT-tests.jar"
-,"sha256": "16d93cb9c7170190473bd741312d432d2f7d1621ccc992cd190235b66659f88e",
-                    "sha1": "4bb69bf5fe53290e1bfe25a2a5d54d9c09ed9a15",
-                    "md5": "89d019f50019d3d99bf295a15b83724a",
+,"sha256": "271e6031dc050fbd0b1e004d3ecc85a063d023a864b4f44a3bb03e2dee6cc826",
+                    "sha1": "f9c030d120fbd98061807ca8ad9bb88e0609a72d",
+                    "md5": "c9e546956bbb783f81387f4fb4d0f586",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/billing-api@2.3.0-SNAPSHOT"
@@ -1362,17 +1362,17 @@
                     "isVirtual": false,
                     "fileName": "billing-api-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/billing-api-2.3.0-SNAPSHOT.jar"
-,"sha256": "6cc5cf737bb5c7f126dc7771c7c32d3556e4ad889f39357f7d3770ad08f850c5",
-                    "sha1": "58e75f9d12b17ed822191ff53fafb598e3b844d4",
-                    "md5": "12cfd95fcc6ce90ebce196a7f770a930"
+,"sha256": "14d6ca9abf058ac65ee30639e1288027b76239326c7c597ce34839b56aa1f3b4",
+                    "sha1": "611c031c53368d0061ad9234a024cc2fe402f9a1",
+                    "md5": "75a967e6ca4d06c75bbe080aefc60bef"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "billing-fhir-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT.jar"
-,"sha256": "e8284c19da353e907dc06c2a5e090538eade133f73927db271d7c80b8f86c24b",
-                    "sha1": "6292d9ebe4f782aea1269fee14870ce7fa9640a5",
-                    "md5": "97003be300498632f1898894aa7259b2",
+,"sha256": "929a8599e61f6b9874d0ea12f4dc896386e4329f4e82db3007429a5bf8c8ebb8",
+                    "sha1": "6b792244d6efbd6928025e3d6edf3348b103f7f4",
+                    "md5": "fd2dcbf5c8a0747d2383035ae96db63c",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/billing-fhir@2.3.0-SNAPSHOT"
@@ -1383,9 +1383,9 @@
                     "isVirtual": false,
                     "fileName": "billing-fhir-2.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/billing-2.3.0-SNAPSHOT\/lib\/billing-fhir-2.3.0-SNAPSHOT.jar"
-,"sha256": "e8284c19da353e907dc06c2a5e090538eade133f73927db271d7c80b8f86c24b",
-                    "sha1": "6292d9ebe4f782aea1269fee14870ce7fa9640a5",
-                    "md5": "97003be300498632f1898894aa7259b2"
+,"sha256": "929a8599e61f6b9874d0ea12f4dc896386e4329f4e82db3007429a5bf8c8ebb8",
+                    "sha1": "6b792244d6efbd6928025e3d6edf3348b103f7f4",
+                    "md5": "fd2dcbf5c8a0747d2383035ae96db63c"
                 }
             ]
             ,"evidenceCollected": {
@@ -2126,9 +2126,9 @@
             "isVirtual": false,
             "fileName": "billing-fhir-2.3.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT-javadoc.jar"
-,"md5": "7e50d126f0e26bddfa3f70be7d7a7a9e",
-            "sha1": "f41d032efae21b8a9908ca912441d2f995e02363",
-            "sha256": "28ae637963998b695d3aac3883326c103bcaf25412e465e1ba298428b95b5fd9"            ,"evidenceCollected": {
+,"md5": "00b9872bda2a93e3108f3b3c2321e048",
+            "sha1": "28fc708f97b48df99a40fa17701492bf76f55683",
+            "sha256": "b315658ac19fef2b0b3a05bd163104d9cc227a981658c50182b1d90d52d394e6"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -2169,9 +2169,9 @@
             "isVirtual": false,
             "fileName": "billing-fhir-2.3.0-SNAPSHOT-sources.jar",
             "filePath": "\/github\/workspace\/fhir\/target\/billing-fhir-2.3.0-SNAPSHOT-sources.jar"
-,"md5": "2d820f1af68f9126b365242f69e05c6b",
-            "sha1": "451bfd4f503cf2266c5a29053f36d3810add2047",
-            "sha256": "1d32155615d934ca47f85e21ee1bad13f563f4c7b0f9c6c676844f0c63428f45"            ,"evidenceCollected": {
+,"md5": "f8f2cef8ee55c2aaeecc965363a30c7d",
+            "sha1": "ec60c37633242902e11753b9de33dae2677d4b79",
+            "sha256": "d57de55e5cdcac3cfc6191d27ddea6c75befe70d6ebfc09e363b2fa7714b8d5b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
