@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-05-31T12:56:11Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-05-31T11:16:47Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-05-31T12:56:11Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-05-31T11:16:47Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-querystore",
-        "reportDate": "2026-05-27T21:56:10.461653060Z",
+        "reportDate": "2026-05-31T22:48:32.387750748Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -37,11 +37,11 @@
     "dependencies": [
 {
             "isVirtual": false,
-            "fileName": "commons-codec-1.13.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/commons-codec-1.13.jar"
-,"md5": "5085f186156822fa3a02e55bcd5584a8",
-            "sha1": "3f18e1aa31031d89db6f01ba05d501258ce69d2c",
-            "sha256": "61f7a3079e92b9fdd605238d0295af5fd11ac411a0a0af48deace1f6c5ffa072","description": "\n     The Apache Commons Codec package contains simple encoder and decoders for\n     various formats such as Base64 and Hexadecimal.  In addition to these\n     widely used encoders and decoders, the codec package also maintains a\n     collection of phonetic encoding utilities.\n  ","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+            "fileName": "commons-codec-1.14.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/commons-codec-1.14.jar"
+,"md5": "e9158e0983096d3df09236f7b53125aa",
+            "sha1": "3cb1181b2141a7e752f5bdc998b7ef1849f726cf",
+            "sha256": "a128e4f93fabe5381ded64cf2873019e06030b718eb43ceeae0b0e5d17ad33e9","description": "\n     The Apache Commons Codec package contains simple encoder and decoders for\n     various formats such as Base64 and Hexadecimal.  In addition to these\n     widely used encoders and decoders, the codec package also maintains a\n     collection of phonetic encoding utilities.\n  ","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -89,6 +89,13 @@
                             "type": "vendor",
                             "confidence": "LOW",
                             "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "Manifest",
                             "name": "bundle-docurl",
                             "value": "https:\/\/commons.apache.org\/proper\/commons-codec\/"
                         }
@@ -101,24 +108,10 @@
                         }
 ,{
                             "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "implementation-url",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-codec\/"
-                        }
-,{
-                            "type": "vendor",
                             "confidence": "HIGH",
                             "source": "Manifest",
                             "name": "Implementation-Vendor",
                             "value": "The Apache Software Foundation"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "Manifest",
-                            "name": "Implementation-Vendor-Id",
-                            "value": "commons-codec"
                         }
 ,{
                             "type": "vendor",
@@ -455,6 +448,13 @@
                             "type": "product",
                             "confidence": "LOW",
                             "source": "Manifest",
+                            "name": "build-jdk-spec",
+                            "value": "1.8"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "Manifest",
                             "name": "bundle-docurl",
                             "value": "https:\/\/commons.apache.org\/proper\/commons-codec\/"
                     }
@@ -478,13 +478,6 @@
                             "source": "Manifest",
                             "name": "Implementation-Title",
                             "value": "Apache Commons Codec"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "Manifest",
-                            "name": "implementation-url",
-                            "value": "https:\/\/commons.apache.org\/proper\/commons-codec\/"
                     }
 ,{
                             "type": "product",
@@ -780,34 +773,34 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "1.13"
+                        "value": "1.14"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGH",
                         "source": "Manifest",
                         "name": "Implementation-Version",
-                        "value": "1.13"
+                        "value": "1.14"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "LOW",
                         "source": "pom",
                         "name": "parent-version",
-                        "value": "1.13"
+                        "value": "1.14"
                     }
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "1.13"
+                        "value": "1.14"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/commons-codec\/commons-codec@1.13"
+                        "id": "pkg:maven\/commons-codec\/commons-codec@1.14"
 ,"confidence": "HIGH"                    }
             ]
         },{
@@ -5432,9 +5425,9 @@
             "isVirtual": false,
             "fileName": "querystore-1.0.0-SNAPSHOT.jar (shaded: org.openmrs.module:querystore-omod:1.0.0-SNAPSHOT)",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/querystore-omod\/pom.xml"
-,"md5": "73d4eac5ce7f7c81950ae7ebc75e1324",
-            "sha1": "218836397be26b3a9c1bdaa5e7909fbfc598b87b",
-            "sha256": "29ed786edba98f5cadae9cf2d4c07f2c443cd740a162232670792d443268a6fb","description": "OMOD packaging for the OpenMRS Query Store Module."            ,"evidenceCollected": {
+,"md5": "c5c14778def536fdb92fdc562daefd00",
+            "sha1": "9409f1ef638a83431d74d824302e3ffb016bc993",
+            "sha256": "5a5759b5d9173c37cca347847d375f95a29e324cc167d8e4a8c310062e76a7b6","description": "OMOD packaging for the OpenMRS Query Store Module."            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6017,15 +6010,36 @@
             "isVirtual": false,
             "fileName": "querystore-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT.jar"
-,"md5": "f33c2412b48521e222df52a8982e47f7",
-            "sha1": "ccf2c1372eea4305a6c41b2a56cf15e43c0eb3e0",
-            "sha256": "d78d6b72d7785e96045dc1f787baf1a6868ee1a5ded53191fab8a3460356d442"            ,"evidenceCollected": {
+,"md5": "876d765e4f566aebd0b4076f0515f37a",
+            "sha1": "01ab89022c8c43574bc7f5619dc8e9344284c748",
+            "sha256": "8a09dd3cb3b87253fb44447f3e2ac2e3a906e3613f14c59b88244631580cd8d3"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
                             "name": "name",
+                            "value": "querystore"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "openmrs"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
                             "value": "querystore"
                         }
 ,{
@@ -6043,6 +6057,27 @@
                             "source": "file",
                             "name": "name",
                             "value": "querystore"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "module"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "querystore"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "LOW",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "web"
                     }
 ,{
                             "type": "product",
@@ -6081,16 +6116,16 @@
             "isVirtual": false,
             "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"md5": "8cc39226d2b2e9ef0dc19b23d5842fec",
-            "sha1": "b3fe9762331bb70be7650673dc020b7a14f022e4",
-            "sha256": "e639d8bd46a9e81fda2939562cc5ef29ac32be52bc8914b88b9b44e820c27a4b","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
+,"md5": "190a4c41a9f3d303bdf55a15ab13b6ac",
+            "sha1": "94503b640cc79d4c190696584a3abc111b3cba50",
+            "sha256": "bef7cc235227d585558964f4fdd1f4f745bd15c7537f19979cd9069f21012bc5","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "e639d8bd46a9e81fda2939562cc5ef29ac32be52bc8914b88b9b44e820c27a4b",
-                    "sha1": "b3fe9762331bb70be7650673dc020b7a14f022e4",
-                    "md5": "8cc39226d2b2e9ef0dc19b23d5842fec"
+,"sha256": "bef7cc235227d585558964f4fdd1f4f745bd15c7537f19979cd9069f21012bc5",
+                    "sha1": "94503b640cc79d4c190696584a3abc111b3cba50",
+                    "md5": "190a4c41a9f3d303bdf55a15ab13b6ac"
                 }
             ]
             ,"evidenceCollected": {
