@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-querystore",
-        "reportDate": "2026-06-01T21:47:16.810702284Z",
+        "reportDate": "2026-06-01T22:43:18.768982564Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -6010,9 +6010,9 @@
             "isVirtual": false,
             "fileName": "querystore-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT.jar"
-,"md5": "5421a59a527b4c15076aff980c1f8397",
-            "sha1": "b0cfaf0ed97c6290bf5c003bf5cd72603f7d43eb",
-            "sha256": "f65c351edd66f7854d8314184394acfd35af71bf463b759677023e1a8cf457a8"            ,"evidenceCollected": {
+,"md5": "7ff1be50a0d4fac356f0dc075ca96440",
+            "sha1": "9c82bd5c7039dfda6ff7d7de9f60d0864b614822",
+            "sha256": "2ccf2daaa8085b5bbe2430869ab62b0af13ce08e8c1e03f2b4e7bf2e363f8498"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6116,16 +6116,16 @@
             "isVirtual": false,
             "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"md5": "1076e90744745525b587925e96557814",
-            "sha1": "0a121037d5c89282038bb16f2641512d7c97cc72",
-            "sha256": "f2d1cbf28b780c5273ec80891e04f5eb37beea99cc71df8eeb6497c9b45e3fe0","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
+,"md5": "f8a828babca124a0337e1384fa4d69f8",
+            "sha1": "aef546c6f7d4fe8732538d5a8d2a606210866274",
+            "sha256": "4875ef325af94a40ba577a6edd2c492fdedc6e2ae1547a521ba5734ec5c8fdae","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "f2d1cbf28b780c5273ec80891e04f5eb37beea99cc71df8eeb6497c9b45e3fe0",
-                    "sha1": "0a121037d5c89282038bb16f2641512d7c97cc72",
-                    "md5": "1076e90744745525b587925e96557814"
+,"sha256": "4875ef325af94a40ba577a6edd2c492fdedc6e2ae1547a521ba5734ec5c8fdae",
+                    "sha1": "aef546c6f7d4fe8732538d5a8d2a606210866274",
+                    "md5": "f8a828babca124a0337e1384fa4d69f8"
                 }
             ]
             ,"evidenceCollected": {
