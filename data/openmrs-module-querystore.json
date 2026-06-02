@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-06-01T16:59:42Z"
+                "timestamp": "2026-06-02T15:38:39Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-06-01T16:41:18Z"
+                "timestamp": "2026-06-02T14:56:21Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-06-01T16:59:42Z"
+                "timestamp": "2026-06-02T15:38:39Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-06-01T16:41:18Z"
+                "timestamp": "2026-06-02T14:56:21Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-querystore",
-        "reportDate": "2026-06-02T10:18:08.157864814Z",
+        "reportDate": "2026-06-02T17:22:16.707052080Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -6010,9 +6010,9 @@
             "isVirtual": false,
             "fileName": "querystore-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT.jar"
-,"md5": "54cf8ba8bfe05be328729c49ab879754",
-            "sha1": "95d3fba8cd921eda46c08c345534a6c77bc610af",
-            "sha256": "d088a0f1ebdaf68bc9ae6930b564ee68038bf0ce90d2812166659c9985ba9cc2"            ,"evidenceCollected": {
+,"md5": "9955181ed34baa86f2911c5ff7084522",
+            "sha1": "53a0e616e602f7d36a12f3fb518979b97a2c525d",
+            "sha256": "4dad00e441f8c4acb212e0712f45c6fd0209ef2ac29a01e397da87c92863909b"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6116,16 +6116,16 @@
             "isVirtual": false,
             "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"md5": "0974fba9a5013d73fc3c6d76f699815e",
-            "sha1": "644abcbbeb7e5f3b7bfb92f4bbb6d6945688c4b4",
-            "sha256": "f97592aec61fd15f285feb7a9824e67b45d5b7079d3db055456e88bbbea1072e","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
+,"md5": "a27ba76e975781d3fd4e5ff18296fdbf",
+            "sha1": "c0c98db5e7a807d53a5d36c572c47e58595095ce",
+            "sha256": "4da389fbcd0f54ac05eecd63004eb466afffa40971dbc2fdd2ebd67fbb50a9f3","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "f97592aec61fd15f285feb7a9824e67b45d5b7079d3db055456e88bbbea1072e",
-                    "sha1": "644abcbbeb7e5f3b7bfb92f4bbb6d6945688c4b4",
-                    "md5": "0974fba9a5013d73fc3c6d76f699815e"
+,"sha256": "4da389fbcd0f54ac05eecd63004eb466afffa40971dbc2fdd2ebd67fbb50a9f3",
+                    "sha1": "c0c98db5e7a807d53a5d36c572c47e58595095ce",
+                    "md5": "a27ba76e975781d3fd4e5ff18296fdbf"
                 }
             ]
             ,"evidenceCollected": {
