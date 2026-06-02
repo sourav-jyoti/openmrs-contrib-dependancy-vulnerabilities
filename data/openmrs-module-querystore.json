@@ -21,11 +21,84 @@
             }
         ]
 
+            ,"analysisExceptions":[
+{            
+            
+            
+            "exception":{"message":"org.owasp.dependencycheck.analyzer.exception.AnalysisException: Could not connect to Central search. Analysis failed; disabling Central analyzer - this could lead to both false positives and false negatives."
+                ,"stackTrace":[
+"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:332)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+                ,            
+            
+            
+            "cause":{"message":"java.io.IOException: Finally failed connecting to Central search. Giving up after 3 tries."
+                ,"stackTrace":[
+"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:380)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+                ,            
+            
+            
+            "cause":{"message":"org.owasp.dependencycheck.utils.ForbiddenException: Forbidden access to MavenCentral https:\/\/search.maven.org\/solrsearch\/select?q=1:ea2b36b7f03cb44a79c69c7eefa62ff9554cfac9&wt=xml - Server status: 403 - Server reason: Forbidden"
+                ,"stackTrace":[
+"org.owasp.dependencycheck.data.central.CentralSearch.searchSha1(CentralSearch.java:186)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:357)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+                ,            
+            
+            
+            "cause":{"message":"org.owasp.dependencycheck.utils.ForbiddenException: https:\/\/search.maven.org\/solrsearch\/select?q=1:ea2b36b7f03cb44a79c69c7eefa62ff9554cfac9&wt=xml - Server status: 403 - Server reason: Forbidden"
+                ,"stackTrace":[
+"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:737)"
+,"org.owasp.dependencycheck.utils.Downloader.fetchAndHandle(Downloader.java:701)"
+,"org.owasp.dependencycheck.data.central.CentralSearch.searchSha1(CentralSearch.java:163)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.fetchMavenArtifacts(CentralAnalyzer.java:357)"
+,"org.owasp.dependencycheck.analyzer.CentralAnalyzer.analyzeDependency(CentralAnalyzer.java:229)"
+,"org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)"
+,"org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)"
+,"java.base\/java.util.concurrent.FutureTask.run(FutureTask.java:328)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)"
+,"java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)"
+,"java.base\/java.lang.Thread.run(Thread.java:1474)"
+                ]
+            }
+
+            }
+
+            }
+
+            }
+}
+            ]
 
     },
     "projectInfo": {
         "name": "openmrs-module-querystore",
-        "reportDate": "2026-06-02T17:22:16.707052080Z",
+        "reportDate": "2026-06-02T17:33:59.575040810Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -1724,23 +1797,9 @@
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/elasticsearch-java-8.13.4.jar"
 ,"md5": "d35425939500c2b2fe3b127f210c924d",
             "sha1": "3c8e5b92bef09595d94dd607810a1c2697a743ad",
-            "sha256": "dc8d804fa79626b1edf0b0dc8dfa79bf0b686db54dee02cf239ec9529f6c0df4","description": "Elasticsearch Java API Client","license": "The Apache Software License, Version 2.0: https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+            "sha256": "dc8d804fa79626b1edf0b0dc8dfa79bf0b686db54dee02cf239ec9529f6c0df4"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "elasticsearch-java"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "groupid",
-                            "value": "co.elastic.clients"
-                        }
-,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -1810,51 +1869,9 @@
                             "name": "x-git-revision",
                             "value": "2b8e64fb8aec5ed8a2a7ec6ef7cae685230e8dd7"
                         }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "elasticsearch-java"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Elastic"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "co.elastic.clients"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "Elasticsearch Java API Client"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "elastic\/elasticsearch-java\/"
-                        }
                 ],
                 "productEvidence": [
 {
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "elasticsearch-java"
-                    }
-,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -1931,49 +1948,14 @@
                             "name": "x-git-revision",
                             "value": "2b8e64fb8aec5ed8a2a7ec6ef7cae685230e8dd7"
                     }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "elasticsearch-java"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Elastic"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "co.elastic.clients"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "Elasticsearch Java API Client"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "elastic\/elasticsearch-java\/"
-                    }
                 ],
                 "versionEvidence": [
                     {
                         "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "central",
-                        "name": "version",
-                        "value": "8.13.4"
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "elasticsearch-java"
                     }
 ,                    {
                         "type": "version",
@@ -1985,28 +1967,29 @@
 ,                    {
                         "type": "version",
                         "confidence": "HIGHEST",
-                        "source": "pom",
-                        "name": "version",
-                        "value": "8.13.4"
+                        "source": "jar",
+                        "name": "package name",
+                        "value": "elastic"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "jar",
+                        "name": "package name",
+                        "value": "elasticsearch"
                     }
                 ]
             }
-                ,"packages": [
-                    {
-                        "id": "pkg:maven\/co.elastic.clients\/elasticsearch-java@8.13.4"
-,"confidence": "HIGH"                    }
-            ]                ,"suppressedVulnerabilityIds": [
-                    {
-                        "id": "cpe:2.3:a:elastic:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelastic%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
-,                    {
-                        "id": "cpe:2.3:a:elasticsearch:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelasticsearch%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
+                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:elastic:elasticsearch:8.13.4:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
             ]
-            ,"suppressedVulnerabilities": [
+            ,"vulnerabilities": [
  {
                 "source": "NVD",
                 "name": "CVE-2024-52979",
+                    "severity" : "HIGH",
                     "cvssv3": {
                         "baseScore": 7.5
                         ,"attackVector": "NETWORK"
@@ -2025,7 +2008,7 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "bressers@elastic.co"
+                        "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-7-17-25-and-8-16-0-security-update-esa-2024-40\/377709","name": "PATCH,VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2040,6 +2023,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-52981",
+                    "severity" : "HIGH",
                     "cvssv3": {
                         "baseScore": 7.5
                         ,"attackVector": "NETWORK"
@@ -2058,7 +2042,7 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "bressers@elastic.co"
+                        "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-7-17-24-and-8-15-1-security-update-esa-2024-37\/376924","name": "PATCH,VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2073,6 +2057,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-37731",
+                    "severity" : "HIGH",
                     "cvssv3": {
                         "baseScore": 7.4
                         ,"attackVector": "NETWORK"
@@ -2091,7 +2076,7 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "security@elastic.co"
+                        "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-8-9-1-8-and-9-2-2-security-update-esa-2025-27\/384063","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2114,6 +2099,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-23445",
+                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 6.5
                         ,"attackVector": "NETWORK"
@@ -2132,9 +2118,9 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "bressers@elastic.co"
+                        "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-13\/360898","name": "PATCH"                    }, {
-                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-13\/360898","name": "PATCH"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2145,6 +2131,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-52980",
+                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 6.5
                         ,"attackVector": "NETWORK"
@@ -2163,7 +2150,7 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "bressers@elastic.co"
+                        "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-15-1-security-update-esa-2024-34\/376919","name": "ISSUE_TRACKING,PATCH,VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2174,6 +2161,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-68384",
+                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 6.5
                         ,"attackVector": "NETWORK"
@@ -2192,7 +2180,7 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "security@elastic.co"
+                        "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-9-9-1-9-and-9-2-3-security-update-esa-2025-33\/384181","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2215,6 +2203,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-37727",
+                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 5.7
                         ,"attackVector": "ADJACENT_NETWORK"
@@ -2233,7 +2222,7 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "security@elastic.co"
+                        "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-18-8-8-19-5-9-0-8-9-1-5-security-update-esa-2025-18\/382453","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2260,6 +2249,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2024-37280",
+                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 4.9
                         ,"attackVector": "NETWORK"
@@ -2278,11 +2268,11 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "bressers@elastic.co"
+                        "source": "bressers@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-14\/361007","name": "VENDOR_ADVISORY"                    }, {
-                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20240816-0003\/"                    }, {
-                    "source": "af854a3a-2127-422b-91ae-364da2661108"
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-14\/361007","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2293,6 +2283,7 @@
                 }, {
                 "source": "NVD",
                 "name": "CVE-2025-68390",
+                    "severity" : "MEDIUM",
                     "cvssv3": {
                         "baseScore": 4.9
                         ,"attackVector": "NETWORK"
@@ -2311,7 +2302,7 @@
                 "notes": "",
                 "references": [
  {
-                    "source": "security@elastic.co"
+                        "source": "security@elastic.co"
 ,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-8-9-1-8-and-9-2-2-security-update-esa-2025-37\/384185","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
  {
@@ -2337,23 +2328,9 @@
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/elasticsearch-rest-client-8.13.4.jar"
 ,"md5": "6f943a417a01c23e33131953b61c6272",
             "sha1": "eb5be3f924f72faaec1df2a6a3890147e00d27ec",
-            "sha256": "579267b1137bd701e2210602c7c15950a410f3dbc6f6009798b07e7c2b800ac8","description": "Elasticsearch subproject :client:rest","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0"            ,"evidenceCollected": {
+            "sha256": "579267b1137bd701e2210602c7c15950a410f3dbc6f6009798b07e7c2b800ac8"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "elasticsearch-rest-client"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "groupid",
-                            "value": "org.elasticsearch.client"
-                        }
-,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -2430,51 +2407,9 @@
                             "name": "x-compile-elasticsearch-snapshot",
                             "value": "false"
                         }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "elasticsearch-rest-client"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Elastic"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "org.elasticsearch.client"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "rest"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "elastic\/elasticsearch"
-                        }
                 ],
                 "productEvidence": [
 {
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "elasticsearch-rest-client"
-                    }
-,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -2565,51 +2500,9 @@
                             "name": "x-compile-elasticsearch-snapshot",
                             "value": "false"
                     }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "elasticsearch-rest-client"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "Elastic"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "org.elasticsearch.client"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "rest"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "elastic\/elasticsearch"
-                    }
                 ],
                 "versionEvidence": [
                     {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "central",
-                        "name": "version",
-                        "value": "8.13.4"
-                    }
-,                    {
                         "type": "version",
                         "confidence": "HIGH",
                         "source": "file",
@@ -2623,363 +2516,14 @@
                         "name": "Implementation-Version",
                         "value": "8.13.4"
                     }
-,                    {
-                        "type": "version",
-                        "confidence": "MEDIUM",
-                        "source": "Manifest",
-                        "name": "x-compile-elasticsearch-version",
-                        "value": "8.13.4"
-                    }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "pom",
-                        "name": "version",
-                        "value": "8.13.4"
-                    }
                 ]
             }
-                ,"packages": [
-                    {
-                        "id": "pkg:maven\/org.elasticsearch.client\/elasticsearch-rest-client@8.13.4"
-,"confidence": "HIGH"                    }
-            ]                ,"suppressedVulnerabilityIds": [
-                    {
-                        "id": "cpe:2.3:a:elastic:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelastic%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
-,                    {
-                        "id": "cpe:2.3:a:elasticsearch:elasticsearch:8.13.4:*:*:*:*:*:*:*"
-,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelasticsearch%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A","notes": "The Elasticsearch Java client family \u2014 co.elastic.clients (the typed client) and\n        org.elasticsearch.client (the low-level rest-client and rest-client-sniffer it pulls in\n        transitively) \u2014 are client libraries, not the Elasticsearch server. The scanner's CPE\n        matcher conflates these client jars with cpe:\/a:elastic:elasticsearch and\n        cpe:\/a:elasticsearch:elasticsearch (the server product), so every server-only CVE\n        published against that Elasticsearch version is falsely attributed to them (e.g.\n        CVE-2024-23445, CVE-2024-52979\/52980\/52981, CVE-2025-37731, CVE-2025-68384 \u2014 all\n        server-side: cross-cluster API keys, query StackOverflow\/DoS in the server, etc.).\n        Suppress the two server CPEs for the client groups rather than enumerating CVEs, so the\n        suppression survives client version bumps and future server-only CVEs. The actual server\n        ships as org.elasticsearch:elasticsearch, which this packageUrl does NOT match, so a real\n        server dependency would still fire. A genuine client-library CVE would carry a\n        client-specific CPE, not these server CPEs, so it still surfaces."                    }
+                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:elasticsearch:elasticsearch:8.13.4:*:*:*:*:*:*:*"
+,"confidence": "HIGH","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aelasticsearch%3Aelasticsearch%3A8.13.4%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
-            ,"suppressedVulnerabilities": [
- {
-                "source": "NVD",
-                "name": "CVE-2024-52979",
-                    "cvssv3": {
-                        "baseScore": 7.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "HIGH"
-,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-400"                    ],
-                "description": "Uncontrolled Resource Consumption in Elasticsearch while evaluating specifically crafted search templates with Mustache functions can lead to Denial of Service by causing the Elasticsearch node to crash.",
-                "notes": "",
-                "references": [
- {
-                    "source": "bressers@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-7-17-25-and-8-16-0-security-update-esa-2024-40\/377709","name": "PATCH,VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionEndExcluding":"7.17.25"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.0.0","versionEndExcluding":"8.16.0"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2024-52981",
-                    "cvssv3": {
-                        "baseScore": 7.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "HIGH"
-,"exploitabilityScore": "3.9","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-400"                    ],
-                "description": "An issue was discovered in Elasticsearch, where a large recursion using the Well-KnownText formatted string with nested GeometryCollection objects could cause a stackoverflow.",
-                "notes": "",
-                "references": [
- {
-                    "source": "bressers@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-7-17-24-and-8-15-1-security-update-esa-2024-37\/376924","name": "PATCH,VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"7.17.0","versionEndExcluding":"7.17.24"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.0.0","versionEndExcluding":"8.15.1"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2025-37731",
-                    "cvssv3": {
-                        "baseScore": 7.4
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "HIGH"
-                        ,"privilegesRequired": "NONE"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "HIGH"
-                        ,"availabilityImpact": "NONE"
-                        ,"baseSeverity": "HIGH"
-,"exploitabilityScore": "2.2","impactScore": "5.2","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-287",                        "NVD-CWE-noinfo"                    ],
-                "description": "Improper Authentication in Elasticsearch PKI realm can lead to user impersonation via specially crafted client certificates. A malicious actor would need to have such a crafted client certificate signed by a legitimate, trusted Certificate Authority.",
-                "notes": "",
-                "references": [
- {
-                    "source": "security@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-8-9-1-8-and-9-2-2-security-update-esa-2025-27\/384063","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"7.0.0","versionEndIncluding":"7.17.29"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.0.0","versionEndExcluding":"8.19.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.0.0","versionEndExcluding":"9.1.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.2.0","versionEndExcluding":"9.2.2"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2024-23445",
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "LOW"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "NONE"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-922"                    ],
-                "description": "It was identified that if a  cross-cluster API key https:\/\/www.elastic.co\/guide\/en\/elasticsearch\/reference\/8.14\/security-api-create-cross-cluster-api-key.html#security-api-create-cross-cluster-api-key-request-body \u00A0restricts search for a given index using the query\u00A0or the field_security\u00A0parameter, and the same cross-cluster API key also grants replication for the same index, the search restrictions are not enforced during cross cluster search operations and search results may include documents and terms that should not be returned.\n\nThis issue only affects the  API key based security model for remote clusters https:\/\/www.elastic.co\/guide\/en\/elasticsearch\/reference\/8.14\/remote-clusters.html#remote-clusters-security-models \u00A0that was previously a beta feature and is released as GA with 8.14.0",
-                "notes": "",
-                "references": [
- {
-                    "source": "bressers@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-13\/360898","name": "PATCH"                    }, {
-                    "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-13\/360898","name": "PATCH"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.10.0","versionEndExcluding":"8.14.0"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2024-52980",
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "LOW"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-400"                    ],
-                "description": "A flaw was discovered in Elasticsearch, where a large recursion using the innerForbidCircularReferences function of the PatternBank class could cause the Elasticsearch node to crash.\n\nA successful attack requires a malicious user to have read_pipeline Elasticsearch cluster privilege assigned to them.",
-                "notes": "",
-                "references": [
- {
-                    "source": "bressers@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-15-1-security-update-esa-2024-34\/376919","name": "ISSUE_TRACKING,PATCH,VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"7.17.0","versionEndExcluding":"8.15.1"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2025-68384",
-                    "cvssv3": {
-                        "baseScore": 6.5
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "LOW"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.8","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-770"                    ],
-                "description": "Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow a low-privileged authenticated user to cause Excessive Allocation (CAPEC-130) causing a persistent denial of service (OOM crash) via submission of oversized user settings data.",
-                "notes": "",
-                "references": [
- {
-                    "source": "security@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-9-9-1-9-and-9-2-3-security-update-esa-2025-33\/384181","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"7.0.0","versionEndIncluding":"7.17.29"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.0.0","versionEndExcluding":"8.19.9"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.0.0","versionEndExcluding":"9.1.9"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.2.0","versionEndExcluding":"9.2.3"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2025-37727",
-                    "cvssv3": {
-                        "baseScore": 5.7
-                        ,"attackVector": "ADJACENT_NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "LOW"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "HIGH"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "NONE"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "2.1","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-532"                    ],
-                "description": "Insertion of sensitive information in log file in Elasticsearch can lead to loss of confidentiality under specific preconditions when auditing requests to the  reindex API https:\/\/www.elastic.co\/docs\/api\/doc\/elasticsearch\/operation\/operation-reindex",
-                "notes": "",
-                "references": [
- {
-                    "source": "security@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-18-8-8-19-5-9-0-8-9-1-5-security-update-esa-2025-18\/382453","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"7.0.0","versionEndIncluding":"7.17.29"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.0.0","versionEndExcluding":"8.18.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"8.19.0","versionEndExcluding":"8.19.5"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.0.0","versionEndExcluding":"9.0.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.1.0","versionEndExcluding":"9.1.5"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2024-37280",
-                    "cvssv3": {
-                        "baseScore": 4.9
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "HIGH"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "1.2","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-787",                        "CWE-122"                    ],
-                "description": "A flaw was discovered in Elasticsearch, affecting document ingestion when an index template contains a dynamic field mapping of \u201Cpassthrough\u201D type. Under certain circumstances, ingesting documents in this index would cause a StackOverflow exception to be thrown and ultimately lead to a Denial of Service. Note that passthrough fields is an experimental feature.",
-                "notes": "",
-                "references": [
- {
-                    "source": "bressers@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-14\/361007","name": "VENDOR_ADVISORY"                    }, {
-                    "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/security.netapp.com\/advisory\/ntap-20240816-0003\/"                    }, {
-                    "source": "af854a3a-2127-422b-91ae-364da2661108"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-14-0-security-update-esa-2024-14\/361007","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.13.1","versionEndExcluding":"8.14.0"                        }
-                    }                ]
-                }, {
-                "source": "NVD",
-                "name": "CVE-2025-68390",
-                    "cvssv3": {
-                        "baseScore": 4.9
-                        ,"attackVector": "NETWORK"
-                        ,"attackComplexity": "LOW"
-                        ,"privilegesRequired": "HIGH"
-                        ,"userInteraction": "NONE"
-                        ,"scope": "UNCHANGED"
-                        ,"confidentialityImpact": "NONE"
-                        ,"integrityImpact": "NONE"
-                        ,"availabilityImpact": "HIGH"
-                        ,"baseSeverity": "MEDIUM"
-,"exploitabilityScore": "1.2","impactScore": "3.6","version": "3.1"                    },
-                    "cwes": [
-                        "CWE-770"                    ],
-                "description": "Allocation of Resources Without Limits or Throttling (CWE-770) in Elasticsearch can allow an authenticated user with snapshot restore privileges to cause Excessive Allocation (CAPEC-130) of memory and a denial of service (DoS) via crafted HTTP request.",
-                "notes": "",
-                "references": [
- {
-                    "source": "security@elastic.co"
-,"url": "https:\/\/discuss.elastic.co\/t\/elasticsearch-8-19-8-9-1-8-and-9-2-2-security-update-esa-2025-37\/384185","name": "VENDOR_ADVISORY"                    }                ],
-                "vulnerableSoftware": [
- {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"7.0.0","versionEndIncluding":"7.17.29"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true","versionStartIncluding":"8.0.0","versionEndExcluding":"8.19.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.0.0","versionEndExcluding":"9.1.8"                        }
-                    }, {
-                        "software": { 
-                            "id":"cpe:2.3:a:elastic:elasticsearch:*:*:*:*:*:*:*:*"
-,"versionStartIncluding":"9.2.0","versionEndExcluding":"9.2.2"                        }
-                    }                ]
-                }            ]        },{
+        },{
             "isVirtual": false,
             "fileName": "httpasyncclient-4.1.5.jar",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/httpasyncclient-4.1.5.jar"
@@ -4687,23 +4231,9 @@
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/opentelemetry-api-1.29.0.jar"
 ,"md5": "536f2733b01c5fdd6f8b9e99fa5c9dcb",
             "sha1": "45010687a1181dc886fd12403e48cf76e94c65b1",
-            "sha256": "58616acc0a8d98f8ac85b667d5935fd4ce51d973df05fe98abfcb27171e89b65","description": "OpenTelemetry API","license": "The Apache License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+            "sha256": "58616acc0a8d98f8ac85b667d5935fd4ce51d973df05fe98abfcb27171e89b65"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "opentelemetry-api"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "groupid",
-                            "value": "io.opentelemetry"
-                        }
-,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -4759,58 +4289,9 @@
                             "name": "automatic-module-name",
                             "value": "io.opentelemetry.api"
                         }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "opentelemetry-api"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "opentelemetry"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "OpenTelemetry"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "io.opentelemetry"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "OpenTelemetry Java"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "open-telemetry\/opentelemetry-java"
-                        }
                 ],
                 "productEvidence": [
 {
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "opentelemetry-api"
-                    }
-,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -4866,58 +4347,9 @@
                             "name": "Implementation-Title",
                             "value": "all"
                     }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "opentelemetry-api"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "opentelemetry"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "OpenTelemetry"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "io.opentelemetry"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "OpenTelemetry Java"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "open-telemetry\/opentelemetry-java"
-                    }
                 ],
                 "versionEvidence": [
                     {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "central",
-                        "name": "version",
-                        "value": "1.29.0"
-                    }
-,                    {
                         "type": "version",
                         "confidence": "HIGH",
                         "source": "file",
@@ -4931,43 +4363,18 @@
                         "name": "Implementation-Version",
                         "value": "1.29.0"
                     }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "pom",
-                        "name": "version",
-                        "value": "1.29.0"
-                    }
                 ]
             }
-                ,"packages": [
-                    {
-                        "id": "pkg:maven\/io.opentelemetry\/opentelemetry-api@1.29.0"
-,"confidence": "HIGH"                    }
-            ]
+
         },{
             "isVirtual": false,
             "fileName": "opentelemetry-context-1.29.0.jar",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/opentelemetry-context-1.29.0.jar"
 ,"md5": "e56f08ba31fb86ba76719e320e05f371",
             "sha1": "a4cf6857f268b9637ea330fffc70c1e6421d1d55",
-            "sha256": "29c0a28fc8f8a026dde8c4ffac5ad55f1b7409a75e8aa82e200c5b860443f8f2","description": "OpenTelemetry Context (Incubator)","license": "The Apache License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
+            "sha256": "29c0a28fc8f8a026dde8c4ffac5ad55f1b7409a75e8aa82e200c5b860443f8f2"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "opentelemetry-context"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "groupid",
-                            "value": "io.opentelemetry"
-                        }
-,{
                             "type": "vendor",
                             "confidence": "HIGH",
                             "source": "file",
@@ -5023,58 +4430,9 @@
                             "name": "automatic-module-name",
                             "value": "io.opentelemetry.context"
                         }
-,{
-                            "type": "vendor",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "opentelemetry-context"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "opentelemetry"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "MEDIUM",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "OpenTelemetry"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "io.opentelemetry"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "OpenTelemetry Java"
-                        }
-,{
-                            "type": "vendor",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "open-telemetry\/opentelemetry-java"
-                        }
                 ],
                 "productEvidence": [
 {
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "central",
-                            "name": "artifactid",
-                            "value": "opentelemetry-context"
-                    }
-,{
                             "type": "product",
                             "confidence": "HIGH",
                             "source": "file",
@@ -5130,58 +4488,9 @@
                             "name": "Implementation-Title",
                             "value": "context"
                     }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "artifactid",
-                            "value": "opentelemetry-context"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer id",
-                            "value": "opentelemetry"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "LOW",
-                            "source": "pom",
-                            "name": "developer name",
-                            "value": "OpenTelemetry"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGHEST",
-                            "source": "pom",
-                            "name": "groupid",
-                            "value": "io.opentelemetry"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "name",
-                            "value": "OpenTelemetry Java"
-                    }
-,{
-                            "type": "product",
-                            "confidence": "HIGH",
-                            "source": "pom",
-                            "name": "url",
-                            "value": "open-telemetry\/opentelemetry-java"
-                    }
                 ],
                 "versionEvidence": [
                     {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "central",
-                        "name": "version",
-                        "value": "1.29.0"
-                    }
-,                    {
                         "type": "version",
                         "confidence": "HIGH",
                         "source": "file",
@@ -5195,20 +4504,9 @@
                         "name": "Implementation-Version",
                         "value": "1.29.0"
                     }
-,                    {
-                        "type": "version",
-                        "confidence": "HIGHEST",
-                        "source": "pom",
-                        "name": "version",
-                        "value": "1.29.0"
-                    }
                 ]
             }
-                ,"packages": [
-                    {
-                        "id": "pkg:maven\/io.opentelemetry\/opentelemetry-context@1.29.0"
-,"confidence": "HIGH"                    }
-            ]
+
         },{
             "isVirtual": false,
             "fileName": "parsson-1.0.5.jar",
@@ -6010,9 +5308,9 @@
             "isVirtual": false,
             "fileName": "querystore-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT.jar"
-,"md5": "9955181ed34baa86f2911c5ff7084522",
-            "sha1": "53a0e616e602f7d36a12f3fb518979b97a2c525d",
-            "sha256": "4dad00e441f8c4acb212e0712f45c6fd0209ef2ac29a01e397da87c92863909b"            ,"evidenceCollected": {
+,"md5": "2afb6048e0c15d01424fbc0481196099",
+            "sha1": "ea2b36b7f03cb44a79c69c7eefa62ff9554cfac9",
+            "sha256": "2496158452c312e206898d72b3b00211a640d8c72c3567a8c11295d145515bb5"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6116,16 +5414,16 @@
             "isVirtual": false,
             "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"md5": "a27ba76e975781d3fd4e5ff18296fdbf",
-            "sha1": "c0c98db5e7a807d53a5d36c572c47e58595095ce",
-            "sha256": "4da389fbcd0f54ac05eecd63004eb466afffa40971dbc2fdd2ebd67fbb50a9f3","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
+,"md5": "259675a63eb671a2e9eeea99efa14775",
+            "sha1": "acd1cce1cef4408d1df3b666faa392aa39b823bd",
+            "sha256": "2f63221076c62d7bed61a9779f60837d2391df5b7db537e3d70d0194ccca2983","description": "API code for the OpenMRS Query Store Module."            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "querystore-api-1.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/querystore-1.0.0-SNAPSHOT\/lib\/querystore-api-1.0.0-SNAPSHOT.jar"
-,"sha256": "4da389fbcd0f54ac05eecd63004eb466afffa40971dbc2fdd2ebd67fbb50a9f3",
-                    "sha1": "c0c98db5e7a807d53a5d36c572c47e58595095ce",
-                    "md5": "a27ba76e975781d3fd4e5ff18296fdbf"
+,"sha256": "2f63221076c62d7bed61a9779f60837d2391df5b7db537e3d70d0194ccca2983",
+                    "sha1": "acd1cce1cef4408d1df3b666faa392aa39b823bd",
+                    "md5": "259675a63eb671a2e9eeea99efa14775"
                 }
             ]
             ,"evidenceCollected": {
