@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-06-02T15:38:39Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-06-02T14:56:21Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-06-02T15:38:39Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-06-02T14:56:21Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-webservices.rest",
-        "reportDate": "2026-05-27T15:00:23.231627045Z",
+        "reportDate": "2026-06-03T09:52:16.244188423Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4557,9 +4557,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-4.0.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-4.0.0-SNAPSHOT-tests.jar"
-,"md5": "0b4e0ddfc861bd50fafb7fbf464ab3ad",
-            "sha1": "fe708441cb5ea8c2268ed76fb15c7bbe0de306c3",
-            "sha256": "21cb8bb03a932dc0e7e0355fa03a3d483edcca2cfd0017aa680b6d6644a32a08"            ,"evidenceCollected": {
+,"md5": "5757aa5a2602f66b260a127a9b849176",
+            "sha1": "49ef4698295bf6b449e3291b4908651e66bb43e1",
+            "sha256": "764761db21816df4e277b6ceeb4211bc0bbd7683d220faf2e28b2a8f14cb73f7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4670,9 +4670,9 @@
             "isVirtual": false,
             "fileName": "webservices.rest-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-4.0.0-SNAPSHOT.jar"
-,"md5": "0b8186244b2a54e7c03fac265e409492",
-            "sha1": "2e42e7a6d4ccad87fc6347d18c6a2ecc10bec26b",
-            "sha256": "b8105be9570d69af27d23dbfdcc67ddb4a033385fc95ea4bc94cb4bb8a0ef3d3"            ,"evidenceCollected": {
+,"md5": "c9833b14644b26ba5514d286cafe036c",
+            "sha1": "92731a8dae06c6c6123e480b02f65150f0ac04e9",
+            "sha256": "fd95f4861667f8ab31d76391a3d79b7458cfd90566085070a58da9f9d322d0be"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -4783,16 +4783,16 @@
             "isVirtual": false,
             "fileName": "webservices.rest-omod-common-4.0.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-4.0.0-SNAPSHOT.jar"
-,"md5": "dd833ab69230ee1cd243affe5729ba56",
-            "sha1": "308fae3d0992a358df5fb8e1f516910e5f461794",
-            "sha256": "922c716ee94be3be8aa6b61c06d2acf1f1a3d4b8ffe2840627a6434cf65baa5d","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
+,"md5": "4ea4ed4ca47363801704fd06efc2566d",
+            "sha1": "2f1bbdcfe4631a69768b04041bc0a5c6c2209120",
+            "sha256": "04579d8ada1d774cfd45f0b60f0b8b5bcada2a6d484f3de0318ecfc3cd70f117","description": "OpenMRS module project for Rest Web Services"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-4.0.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/omod-common\/target\/webservices.rest-omod-common-4.0.0-SNAPSHOT-tests.jar"
-,"sha256": "46aaf37a45ca52acaf7944080389bdfaa43f97b349fb0675338478d2ad5fec0a",
-                    "sha1": "fe59db51c9dc15c336ace93bb1e07d3bfbdb92b2",
-                    "md5": "dcdfec7f135e84d40e9bcd8c80975e6c",
+,"sha256": "e70d04d9a1fc9a66ec6ce009edc828972f06398cdf8bef6c8197d1f62551691c",
+                    "sha1": "7cafe35c4d0c3b75c8bd6247d13fea2beba12f4f",
+                    "md5": "47cdfe90c7e349a011f41a8592f38aa7",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/webservices.rest-omod-common@4.0.0-SNAPSHOT"
@@ -4803,9 +4803,9 @@
                     "isVirtual": false,
                     "fileName": "webservices.rest-omod-common-4.0.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/webservices.rest-4.0.0-SNAPSHOT\/lib\/webservices.rest-omod-common-4.0.0-SNAPSHOT.jar"
-,"sha256": "922c716ee94be3be8aa6b61c06d2acf1f1a3d4b8ffe2840627a6434cf65baa5d",
-                    "sha1": "308fae3d0992a358df5fb8e1f516910e5f461794",
-                    "md5": "dd833ab69230ee1cd243affe5729ba56"
+,"sha256": "04579d8ada1d774cfd45f0b60f0b8b5bcada2a6d484f3de0318ecfc3cd70f117",
+                    "sha1": "2f1bbdcfe4631a69768b04041bc0a5c6c2209120",
+                    "md5": "4ea4ed4ca47363801704fd06efc2566d"
                 }
             ]
             ,"evidenceCollected": {
