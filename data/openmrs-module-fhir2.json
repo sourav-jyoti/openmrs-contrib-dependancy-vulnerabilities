@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-fhir2",
-        "reportDate": "2026-06-03T16:13:56.616256416Z",
+        "reportDate": "2026-06-03T17:18:58.865287382Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4923,9 +4923,9 @@
             "isVirtual": false,
             "fileName": "fhir2-4.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.1.0-SNAPSHOT-tests.jar"
-,"md5": "379d00509fa84e49c0fbf8eb3df4fdeb",
-            "sha1": "c97e3dfaca8ce1c6ac77d9bd03405c44b47c3fd2",
-            "sha256": "5eeaa73527cd70b28208587a6710880847d9e340d623f974d55ecfc99f4b451d"            ,"evidenceCollected": {
+,"md5": "bb1c80575ae7b1012bf552b66ff071d0",
+            "sha1": "d912670a7e94f0eeeba5b9c34306d305a68a0ebb",
+            "sha256": "f011c8b2e3a1bdd9775484a1411930cdbbcf64b77f825c87f65feb596b96a120"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5029,9 +5029,9 @@
             "isVirtual": false,
             "fileName": "fhir2-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.1.0-SNAPSHOT.jar"
-,"md5": "79fc9660e0473f2bd8fb14d321686c05",
-            "sha1": "d729da69342dde60bf1746b41cd747364ce451e7",
-            "sha256": "4427f6a46b8f0b03b762ce3f24819b788fc2720b2f54054018ef004b9990d9c0"            ,"evidenceCollected": {
+,"md5": "d903018fbf62e1ee571304df65384724",
+            "sha1": "3bdf023d6963f0645631b480edcb72bc8609a78e",
+            "sha256": "86a7692add72fc711c0905910bc85be7ff325eeaa609d0d2fed7874bab577210"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5135,16 +5135,16 @@
             "isVirtual": false,
             "fileName": "fhir2-api-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/fhir2-api-4.1.0-SNAPSHOT.jar"
-,"md5": "457135f9c882018f29b338aae147776a",
-            "sha1": "e98930ee250f4b538c07b7037dd491f1624d39cc",
-            "sha256": "d2f7374f2c6ed9fafedc98865b3b9687f777992fc5d29cb3d9ca894d88a86011","description": "API for FHIR2"            ,"relatedDependencies": [
+,"md5": "a8df0f7a9cda1b8f65cfa8c0782f1cc3",
+            "sha1": "28ea83ab461783d4b0e618567ad6825327b79ed3",
+            "sha256": "b2df8d6c986926287041679e6d502180755955abfc0129103b8a0bb202b6be2e","description": "API for FHIR2"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-api-4.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/fhir2-api-4.1.0-SNAPSHOT-tests.jar"
-,"sha256": "c2e68a44f7c08453e593a3538c7c58f1a16d8900add23ed3fa8e76c81186d93f",
-                    "sha1": "c5247f597f5b85513b4efb82c489cd0f50c01304",
-                    "md5": "e9fabf9d17d98b45987398916ca5fa8f",
+,"sha256": "61073fb0edb6e25b2bd85f307a0acf387fd74ce5a2f9422ce08e7b5c414c50da",
+                    "sha1": "2e3ef6fdbd04f1ea2e95d4a30007be4fbf0c23cb",
+                    "md5": "9a33408819fa1943f1048a60a45e8ca4",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-api@4.1.0-SNAPSHOT"
@@ -5155,9 +5155,9 @@
                     "isVirtual": false,
                     "fileName": "fhir2-api-4.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/fhir2-4.1.0-SNAPSHOT\/lib\/fhir2-api-4.1.0-SNAPSHOT.jar"
-,"sha256": "d2f7374f2c6ed9fafedc98865b3b9687f777992fc5d29cb3d9ca894d88a86011",
-                    "sha1": "e98930ee250f4b538c07b7037dd491f1624d39cc",
-                    "md5": "457135f9c882018f29b338aae147776a"
+,"sha256": "b2df8d6c986926287041679e6d502180755955abfc0129103b8a0bb202b6be2e",
+                    "sha1": "28ea83ab461783d4b0e618567ad6825327b79ed3",
+                    "md5": "a8df0f7a9cda1b8f65cfa8c0782f1cc3"
                 }
             ]
             ,"evidenceCollected": {
@@ -5328,9 +5328,9 @@
             "isVirtual": false,
             "fileName": "fhir2-integration-tests-4.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/integration-tests\/target\/fhir2-integration-tests-4.1.0-SNAPSHOT-tests.jar"
-,"md5": "7ebe8dccdc51cbac394b6595f9ed7d29",
-            "sha1": "68b7946e7668f20e625a4edc0529f2d700c8d4d8",
-            "sha256": "2ec3ee84e400362b32c90b411a482ff42019626ad022005e7609f46e9b81be75","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
+,"md5": "473865862ff415478ae5a00774edae7b",
+            "sha1": "7df5d2fa6f1b706fa186ee29614d893c3d820391",
+            "sha256": "c04e03abdc7a3abea78c0b9c05c3319ea6603e0b30c4cb50a0c52ffea6c65cbe","description": "Integration Tests for the FHIR2 Module"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5484,16 +5484,16 @@
             "isVirtual": false,
             "fileName": "fhir2-test-data-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-4.1.0-SNAPSHOT.jar"
-,"md5": "01870086037a57c148e358bd34e0679c",
-            "sha1": "2437debf1af784b72ea73604b4fe9c271e00f81e",
-            "sha256": "04ec7a9f977e4c2d6e37d4b61a0ef0c28580d9c695fb55f0027920cdb94b78b2","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
+,"md5": "7eaef3d1dbee02b68c5253ebf2b15980",
+            "sha1": "0d48240d9483ab10e6a6a6d0d194b6a6c257f924",
+            "sha256": "2e2b4a2d7dccae7ebc22526935b563aeaa372899f12acf2ad90fa76271c4316a","description": "This submodule holds the various data file for FHIR2 unit and integration tests"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "fhir2-test-data-4.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/test-data\/target\/fhir2-test-data-4.1.0-SNAPSHOT-tests.jar"
-,"sha256": "4e63c99f54bbdc536ecd7fb69d1f5709ae59898258c38c88b28896512a26f5b2",
-                    "sha1": "9e9b3ed35d865914772bbf3f4f85a14f62f4753a",
-                    "md5": "3bff31730bc889828c376b3addb724e7",
+,"sha256": "77af6ee41d2e60dc0ef0a5b4db42d0b7b7ae685ee2492384d68d2a7a155c5bee",
+                    "sha1": "bdca5521c62b67d91b41860ab7242d6e6a6c1420",
+                    "md5": "476e6f907ff177a798d26116b54f139f",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/fhir2-test-data@4.1.0-SNAPSHOT"
