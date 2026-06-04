@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-26T14:12:13Z"
+                "timestamp": "2026-06-03T15:58:37Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-26T13:50:13Z"
+                "timestamp": "2026-06-03T15:42:35Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-26T14:12:13Z"
+                "timestamp": "2026-06-03T15:58:37Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-26T13:50:13Z"
+                "timestamp": "2026-06-03T15:42:35Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientdocuments",
-        "reportDate": "2026-05-27T13:14:07.039301320Z",
+        "reportDate": "2026-06-04T11:09:41.067059964Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -5886,9 +5886,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT-tests.jar"
-,"md5": "cda93a6f698d38c412cf722f78fab8e5",
-            "sha1": "f1d8f3d5957752ea2cc9d03c2b800bacf45b0829",
-            "sha256": "104ad6ad99b3506866aa2a0fc0ecda2a14b1defe5fd73a64393fdb78473d12e2"            ,"evidenceCollected": {
+,"md5": "983153869276a5e54788c833f25f69ac",
+            "sha1": "da6af47e00bf33420a05896e1ddd22be27cb7168",
+            "sha256": "4cb22df0b9be573b3e4a30714eb9be3475e1bca12428a196f43f8c96d7f8fe57"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5999,9 +5999,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT.jar"
-,"md5": "df9ac4df0919e7665b7aa4066975a420",
-            "sha1": "36fc476f1e11a66afbf476e9b22024fde2f7a005",
-            "sha256": "eda423ec09a191ab6edb00b96085db1235718363b19ce0027cfb5401bb30a8ba"            ,"evidenceCollected": {
+,"md5": "2f84a54c2e62e8f8bb86e5dfcd867714",
+            "sha1": "9767915ff8b84712f50a28164a237a12e10fe8f2",
+            "sha256": "d1e0373b152f3a5107757b1db69037715c5fc148f203eb1ffea26f8fdbc33f39"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6112,16 +6112,16 @@
             "isVirtual": false,
             "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"md5": "1bac64c852e2af499e46c4c634101179",
-            "sha1": "7c721e9af2eb4398b5ac70cd6ea7f133cb219ac1",
-            "sha256": "b564d962b670aa3c6a5d8bc3f88c3f6a38b912cccc57653902f61b8501388747","description": "API project for Patient Documents"            ,"relatedDependencies": [
+,"md5": "6afe1f0fc0d15f430ea6e4fe7b12c2b1",
+            "sha1": "6c5a5a2158d1f911f9439246fbfdeb80af7629b8",
+            "sha256": "3d44d248073158c3615990ac75b1699bbb6ac6605fb837f3e2d050ab9c9fca07","description": "API project for Patient Documents"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "5a4b60a7765c8cee521b634a48dcad5db3a95cbef96d633526f989d265003981",
-                    "sha1": "82adaf8ef34da0db8394ffd27153275215b95906",
-                    "md5": "cfad8db4d316dfb7f18dae8814836b31",
+,"sha256": "6380ff726eb00ccac5df70c69979e497e1afa2e26485be4264ab9c6d498201cb",
+                    "sha1": "9e35678d6ce3b47088436e4324695bdf15448403",
+                    "md5": "71b60cdf39bf7701b04ad42f006b33a8",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientdocuments-api@1.1.0-SNAPSHOT"
@@ -6132,9 +6132,9 @@
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "b564d962b670aa3c6a5d8bc3f88c3f6a38b912cccc57653902f61b8501388747",
-                    "sha1": "7c721e9af2eb4398b5ac70cd6ea7f133cb219ac1",
-                    "md5": "1bac64c852e2af499e46c4c634101179"
+,"sha256": "3d44d248073158c3615990ac75b1699bbb6ac6605fb837f3e2d050ab9c9fca07",
+                    "sha1": "6c5a5a2158d1f911f9439246fbfdeb80af7629b8",
+                    "md5": "6afe1f0fc0d15f430ea6e4fe7b12c2b1"
                 }
             ]
             ,"evidenceCollected": {
