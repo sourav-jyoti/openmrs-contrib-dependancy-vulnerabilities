@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientdocuments",
-        "reportDate": "2026-06-04T11:58:16.332598046Z",
+        "reportDate": "2026-06-04T12:23:54.382191019Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -38,7 +38,7 @@
 {
             "isVirtual": false,
             "fileName": "avalon-framework-api-4.3.1.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/avalon-framework-api-4.3.1.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/avalon-framework-api-4.3.1.jar"
 ,"md5": "7c543869a7eb2bad323a54e873973acf",
             "sha1": "2dacadeb49bc14420990b1f28897d46f96e2181d",
             "sha256": "bca4c94b5e53acee3c97fe11cce0749d682d5591bf4a217cd45273adeb08c60f","description": "Avalon Framework API"            ,"evidenceCollected": {
@@ -239,7 +239,7 @@
         },{
             "isVirtual": false,
             "fileName": "avalon-framework-impl-4.2.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/avalon-framework-impl-4.2.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/avalon-framework-impl-4.2.0.jar"
 ,"md5": "5c1f8f5c8c6c043538fc4ea038c2aaf6",
             "sha1": "4da1db18947eb6950abb7ad79253011b9aec0e48",
             "sha256": "ed42c573cab460ca634b5c64a3b40ed1d67d6ee47fe25f87947370bede6af814"            ,"evidenceCollected": {
@@ -461,7 +461,7 @@
         },{
             "isVirtual": false,
             "fileName": "avalon-framework-impl-4.3.1.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/avalon-framework-impl-4.3.1.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/avalon-framework-impl-4.3.1.jar"
 ,"md5": "004ac42a2cda8c444451ef187b24284f",
             "sha1": "2d5f5a07fd14513ce6d7a7bfaff69419c26dbd0b",
             "sha256": "1a429bd5ba87c55b9c84648d0404eb6499b7c05a2c9f21b1bb9621fbf117589f","description": "Avalon Framework Implementation"            ,"evidenceCollected": {
@@ -662,7 +662,7 @@
         },{
             "isVirtual": false,
             "fileName": "barcode4j-2.1.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/barcode4j-2.1.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/barcode4j-2.1.jar"
 ,"md5": "4fc30cdb7b1abaf1ce08f26b0666e351",
             "sha1": "4b38b2219c0d522fcea8238493f2ea3e238ef529",
             "sha256": "eb7252cc41a1539bcd018348e9f60e0942872bdaa49c58051e656a6be94969fb","description": "Barcode4J is a flexible generator for barcodes written in Java.","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -1087,7 +1087,7 @@
         },{
             "isVirtual": false,
             "fileName": "barcode4j-fop-ext-2.1.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/barcode4j-fop-ext-2.1.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/barcode4j-fop-ext-2.1.jar"
 ,"md5": "c78625e84ca0fd2853cf327505d99396",
             "sha1": "38749ed6e6412628c45d5ba344a0ab796e6807f9",
             "sha256": "b2b219886d8f99ee2f11adbf908711c8de17479621d85b55cbf453248975c726","description": "Barcode4J is a flexible generator for barcodes written in Java.","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -1470,14 +1470,14 @@
         },{
             "isVirtual": false,
             "fileName": "batik-css-1.17.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-css-1.17.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-css-1.17.jar"
 ,"md5": "b1b046ef30c8b779093a5f53ccea593e",
             "sha1": "d5ff4e0463af8a0ea5ab8d782c5418bab2f45c4d",
             "sha256": "dcf9a902bd0c4b1a84ac0561d7b66052bc93381c4923a5bc5602290c1c82b779","description": "Batik CSS engine"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "batik-anim-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-anim-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-anim-1.17.jar"
 ,"sha256": "67d9d691ecec857ac3628fbd2167c201940d3c4b65ab7386484ac730cb8cf9ea",
                     "sha1": "89e5d61a4328d6755dd7903fb5e7f0b265ff8fbe",
                     "md5": "cce78d82fdfb72eca1548253d1e99f8d",
@@ -1490,7 +1490,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-awt-util-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-awt-util-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-awt-util-1.17.jar"
 ,"sha256": "7fe38f9451eb94575214323261c8192b63f1dfd2610659255fbbbbfde94a2a66",
                     "sha1": "0e3f71c6f07da863228b64a59bf059c4611c3952",
                     "md5": "5c9f34b96b97266521ebf8347bd553c4",
@@ -1503,7 +1503,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-bridge-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-bridge-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-bridge-1.17.jar"
 ,"sha256": "3bd027e19a0be2496c2c3950152525c91461a7d081edbd828bb3d2d269ec5870",
                     "sha1": "d8246a26d8e0503fc30822fed2a8595b3659af90",
                     "md5": "500b1cd69e73cbd90a98d46477fecc0d",
@@ -1516,7 +1516,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-codec-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-codec-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-codec-1.17.jar"
 ,"sha256": "6434a48717b69f05986866653e75d52840f812cd2bc27a5bf5d88aee95e4121f",
                     "sha1": "7cceac705d050a9730e7032da43a42c66cfadc41",
                     "md5": "a364f08b65424e0e008ac8530286f65b",
@@ -1529,7 +1529,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-constants-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-constants-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-constants-1.17.jar"
 ,"sha256": "75db00180bde4ef5caee3916d6f65e5045051d59cf51d57e673c03969d7bbbcd",
                     "sha1": "22bf8b4c207dc46859db0269853186d8dfc8cb9a",
                     "md5": "25af6878d4a0c41eac9e95b7859dcdf5",
@@ -1542,7 +1542,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-dom-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-dom-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-dom-1.17.jar"
 ,"sha256": "f242ddb05b268b15ff055d1d1aaf2dc9c3418e842ba806731408a984d4e3240c",
                     "sha1": "efcb39f1007187565c264a5f1d12ebcf67efb761",
                     "md5": "fbd60443aa1ab34d49c6aecefba03479",
@@ -1555,7 +1555,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-ext-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-ext-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-ext-1.17.jar"
 ,"sha256": "8267fc60b4a5b0f2afa7dcfdad40beb0e723d6a19b66b8e24bc37c2ec6dc5450",
                     "sha1": "fd2e4166a14f8bbe099162ad88cfe64be09d35a2",
                     "md5": "27602a8b9693b77f8adcb506a96de0e5",
@@ -1568,7 +1568,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-extension-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-extension-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-extension-1.17.jar"
 ,"sha256": "618df01da8e4056662add3b0dbcb3a8c6cd46c5b21a48a04d4db7b1dcf193e79",
                     "sha1": "038e68a13398b16518df5207559b99e95928b142",
                     "md5": "633533e867c24edb92b1589c92482c8d",
@@ -1581,7 +1581,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-gvt-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-gvt-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-gvt-1.17.jar"
 ,"sha256": "93f4e4a844cafc5b3d5731a299bc00cf14404026ddcb1d749d29ca79486b4b90",
                     "sha1": "33f70788de9f7d31d69db22c0afaf304424ff799",
                     "md5": "50c7e65cee8e63ba42e9c43e6d4b783a",
@@ -1594,7 +1594,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-parser-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-parser-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-parser-1.17.jar"
 ,"sha256": "5e448bbfaf6127567f41f698ee25ad79b844363071c12d1175896c78891717d7",
                     "sha1": "da9d3057be108e6ac8799cc8efed1e2b490ba37c",
                     "md5": "6741bd653bef804842752750a61b82f4",
@@ -1607,7 +1607,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-script-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-script-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-script-1.17.jar"
 ,"sha256": "2ccbb4bd6d5a630fb7d26f0dd3118d4742f7bae0e972ee672130e803f672950c",
                     "sha1": "958bad8baa3a77a73152281418256b608801232d",
                     "md5": "8eda4f615442add85df22ca19f4eec8b",
@@ -1620,7 +1620,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-shared-resources-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-shared-resources-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-shared-resources-1.17.jar"
 ,"sha256": "5d74182b9ca19ecd8d4814f2ff4b42a4aeea6e18977e905cc84e8a6f81940c9f",
                     "sha1": "2862b81d9dc63990cb5586323b4a2410fc1f2249",
                     "md5": "59f84de4324c9e33fa823d99c99622e9",
@@ -1633,7 +1633,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-svg-dom-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-svg-dom-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-svg-dom-1.17.jar"
 ,"sha256": "19347218a490670c4b9d2cd15a45155c1af9f41e77f7eada99eb94dbb90be8e3",
                     "sha1": "54a25b9b691bcc302c0dd36d80f56e81a9ebed91",
                     "md5": "001b2fb1ccbe27f894b30173837cacc2",
@@ -1646,7 +1646,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-svggen-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-svggen-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-svggen-1.17.jar"
 ,"sha256": "108f725ffe135dca566d925f3ace26a5f80399f288ca190561805dec28005d63",
                     "sha1": "2ecd4a5ab064e89172fbdd025c422e04a57a1024",
                     "md5": "d046a35fe073d3fbf26ef8422d49941b",
@@ -1659,7 +1659,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-transcoder-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-transcoder-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-transcoder-1.17.jar"
 ,"sha256": "1f69e986b46e91f707cf13143f4e2e930b9f60a697858dbabdbab5cb86cd5a0f",
                     "sha1": "59714b2b8848f0ade8de47ca555f9a75d5191834",
                     "md5": "3b641288570014cc8dfcd67f57ebfe4e",
@@ -1672,7 +1672,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-util-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-util-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-util-1.17.jar"
 ,"sha256": "a1e4f743c8b80ac682edd4b397faa4ac42de591343036324c80ee8f22973c976",
                     "sha1": "83ef2a8b449444a1d57e91e938522899317a8672",
                     "md5": "27e4b764585781f8d8db4ce2d617b143",
@@ -1685,7 +1685,7 @@
  , {
                     "isVirtual": false,
                     "fileName": "batik-xml-1.17.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-xml-1.17.jar"
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-xml-1.17.jar"
 ,"sha256": "fbcc2300066ac4042876c52c327acdf0b515962f1690400ed7a78ed2c0d4c1b4",
                     "sha1": "15a0b4ba6260f3430632e4b1dad95383196107a8",
                     "md5": "4416fbd8c81ea80efa76b4e56d0cf847",
@@ -1901,7 +1901,7 @@
         },{
             "isVirtual": false,
             "fileName": "batik-i18n-1.17.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/batik-i18n-1.17.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/batik-i18n-1.17.jar"
 ,"md5": "10ba9936f23cfab12698ae80618660a9",
             "sha1": "39b233a71430ffa9d0282d47789a58fa8bf4f861",
             "sha256": "d5a64680363e7b36b3f28c34a3a536d76e847f77cec0740aab7c799a67b52d8b","description": "Batik i18n library"            ,"evidenceCollected": {
@@ -2081,7 +2081,7 @@
         },{
             "isVirtual": false,
             "fileName": "commons-cli-1.0.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/commons-cli-1.0.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/commons-cli-1.0.jar"
 ,"md5": "f6feeb3b3d95f7d09180fd71e96cead4",
             "sha1": "6dac9733315224fc562f6268df58e92d65fd0137",
             "sha256": "43f24850b7b7b7d79c5fa652418518fbdf427e602b1edabe6f11b85fb93eb013","description": "Commons CLI provides a simple API for working with the command line arguments and options."            ,"evidenceCollected": {
@@ -2551,7 +2551,7 @@
         },{
             "isVirtual": false,
             "fileName": "commons-logging-1.2.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/commons-logging-1.2.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/commons-logging-1.2.jar"
 ,"md5": "040b4b4d8eac886f6b4a2a3bd2f31b00",
             "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
             "sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636","description": "Apache Commons Logging is a thin adapter allowing configurable bridging to other,\n    well known logging systems.","license": "http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -3382,7 +3382,7 @@
         },{
             "isVirtual": false,
             "fileName": "fontbox-2.0.32.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/fontbox-2.0.32.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/fontbox-2.0.32.jar"
 ,"md5": "85f8c369b74af94108a24352ed48876a",
             "sha1": "4806823774350c343f8d6f270bae2916abd03587",
             "sha256": "057983e9d4cabb9d649d286a5ae507a1d8e13b66744fd9432b3a0b3d04180fc3","description": "\n    The Apache FontBox library is an open source Java tool to obtain low level information\n    from font files. FontBox is a subproject of Apache PDFBox.\n  ","license": "https:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -3639,7 +3639,7 @@
         },{
             "isVirtual": false,
             "fileName": "fop-2.9.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/fop-2.9.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/fop-2.9.jar"
 ,"md5": "6407ae64a7de48fd4b13cf328ea78be9",
             "sha1": "672b17331403e04e3f6ac9700ba2d22e75107b7c",
             "sha256": "5bb475ee278cc3adc1c1b322febeae781dad20f5da4ab391723b3980f3903d46","description": "XML Graphics Format Object Processor All-In-One"            ,"evidenceCollected": {
@@ -3816,7 +3816,7 @@
         },{
             "isVirtual": false,
             "fileName": "fop-core-2.9.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/fop-core-2.9.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/fop-core-2.9.jar"
 ,"md5": "d49d8a821bd23446351afa50807f3a2c",
             "sha1": "c5a19ff9f0321d1794266c7cae48d4e55c57e9a3",
             "sha256": "1baa3ff38b966cbfbb1577045cdb0c39da2ef39ef337f482642f89c32e84ed0c","description": "XML Graphics Format Object Processor"            ,"evidenceCollected": {
@@ -3982,7 +3982,7 @@
         },{
             "isVirtual": false,
             "fileName": "fop-events-2.9.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/fop-events-2.9.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/fop-events-2.9.jar"
 ,"md5": "ef7042148ceb2efdb0109687472c38a9",
             "sha1": "701a480375d8bd9b46e1f43e05d76d11c4f0a8fa",
             "sha256": "e1d741336a7aab7cfd7f0613c703dec0e931cb1fe0b77380a9748cf445f5ceb6","description": "XML Graphics Format Object Processor Events"            ,"evidenceCollected": {
@@ -4162,7 +4162,7 @@
         },{
             "isVirtual": false,
             "fileName": "fop-util-2.9.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/fop-util-2.9.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/fop-util-2.9.jar"
 ,"md5": "eb79450b6b84055347fc818b642d2753",
             "sha1": "0b1802fc1b330c69b1e0484425653bdb4a78498f",
             "sha256": "7c9cf03e1e3c2af4794312256070829e13f2451bb64c972993c60597993d043f","description": "XML Graphics Format Object Processor Utilities"            ,"evidenceCollected": {
@@ -4348,21 +4348,21 @@
             ]
         },{
             "isVirtual": false,
-            "fileName": "patientdocuments-1.1.0-SNAPSHOT-tests.jar (shaded: org.openmrs.module:patientdocuments-omod:1.1.0-SNAPSHOT)",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT-tests.jar\/META-INF\/maven\/org.openmrs.module\/patientdocuments-omod\/pom.xml"
-,"md5": "03f835a01bff0ca76b6637ad39262833",
-            "sha1": "ddc408ea8cf750a6ad94c491ed5f7eeec13ec773",
-            "sha256": "9fbe87d7e78c4e27823125746bf8d3e603c6a5149fdf1a5669534601a8f385a9","description": "OMOD submodule for Patient Documents"            ,"relatedDependencies": [
+            "fileName": "patientdocuments-1.1.0-tests.jar (shaded: org.openmrs.module:patientdocuments-omod:1.1.0)",
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-tests.jar\/META-INF\/maven\/org.openmrs.module\/patientdocuments-omod\/pom.xml"
+,"md5": "681b971469d644b4568bd85272ae6bf7",
+            "sha1": "067af7a403fee7cc8ceab7faa207adb03d38df9b",
+            "sha256": "48cf5b31325d107c9eb5798b2df0f3551e6a80cade3656c21cbbd9da6ce6f27d","description": "OMOD submodule for Patient Documents"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "patientdocuments-1.1.0-SNAPSHOT.jar (shaded: org.openmrs.module:patientdocuments-omod:1.1.0-SNAPSHOT)",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT.jar\/META-INF\/maven\/org.openmrs.module\/patientdocuments-omod\/pom.xml"
-,"sha256": "9fbe87d7e78c4e27823125746bf8d3e603c6a5149fdf1a5669534601a8f385a9",
-                    "sha1": "ddc408ea8cf750a6ad94c491ed5f7eeec13ec773",
-                    "md5": "03f835a01bff0ca76b6637ad39262833",
+                    "fileName": "patientdocuments-1.1.0.jar (shaded: org.openmrs.module:patientdocuments-omod:1.1.0)",
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0.jar\/META-INF\/maven\/org.openmrs.module\/patientdocuments-omod\/pom.xml"
+,"sha256": "48cf5b31325d107c9eb5798b2df0f3551e6a80cade3656c21cbbd9da6ce6f27d",
+                    "sha1": "067af7a403fee7cc8ceab7faa207adb03d38df9b",
+                    "md5": "681b971469d644b4568bd85272ae6bf7",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/patientdocuments-omod@1.1.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/patientdocuments-omod@1.1.0"
                             }
                     ]
                 }
@@ -4434,17 +4434,17 @@
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "1.1.0-SNAPSHOT"
+                        "value": "1.1.0"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/patientdocuments-omod@1.1.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/patientdocuments-omod@1.1.0"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:snapshot:*:*:*:*:*:*"
+                    "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:*:*:*:*:*:*:*"
 ,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A1.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
             ,"suppressedVulnerabilities": [
@@ -4948,11 +4948,11 @@
                     }                ]
                 }            ]        },{
             "isVirtual": false,
-            "fileName": "patientdocuments-1.1.0-SNAPSHOT-tests.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT-tests.jar"
-,"md5": "9b34949430a4898fa04d47735ea44166",
-            "sha1": "4e79bab5c9f5cf434488eb55d6fdc8c20dea9c4f",
-            "sha256": "478738b764fec0497d1e7ee523ba337aad111caa64ba9cf86a1d11da9c77605b"            ,"evidenceCollected": {
+            "fileName": "patientdocuments-1.1.0-tests.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-tests.jar"
+,"md5": "aafa953f3479c7d9415621b6ac94d6b0",
+            "sha1": "a6945e182c7d0fc23d7452b028ddf469c36919c9",
+            "sha256": "4009f4ba268356e654d7a3bd1335270cc5c0363083f9cb1fbaa0d46526e36bae"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5040,7 +5040,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "1.1.0.snapshot"
+                        "value": "1.1.0"
                     }
 ,                    {
                         "type": "version",
@@ -5061,11 +5061,11 @@
 
         },{
             "isVirtual": false,
-            "fileName": "patientdocuments-1.1.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT.jar"
-,"md5": "ef770ff546d9b4c01fef4b6d082db2cd",
-            "sha1": "a86da3a375d643eb89176e549c001dc278c70a4e",
-            "sha256": "ca183c58684ba1175872d33b9bd0b16a9e8c3adc7704d732483945726de3e90d"            ,"evidenceCollected": {
+            "fileName": "patientdocuments-1.1.0.jar",
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0.jar"
+,"md5": "16699bb73f4d4dd636e2909bd78896ca",
+            "sha1": "d346cfd8271a74be08c1f9f2cb87232f1ea9b3b9",
+            "sha256": "c786d44e6881db4da03f1054dc2b6a23d9b05e1ac7aa9247d307b6b40d4561a9"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5153,7 +5153,7 @@
                         "confidence": "HIGH",
                         "source": "file",
                         "name": "version",
-                        "value": "1.1.0.snapshot"
+                        "value": "1.1.0"
                     }
 ,                    {
                         "type": "version",
@@ -5174,31 +5174,31 @@
 
         },{
             "isVirtual": false,
-            "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
-            "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"md5": "a9241944594d3c83affe808f05994ffb",
-            "sha1": "c2605eb87dab875871bb1a2ca516e727319c51be",
-            "sha256": "987455550096d9d9a7d0994db888069e5f4be0c3774494b0c28e397ad18f8684","description": "API project for Patient Documents"            ,"relatedDependencies": [
+            "fileName": "patientdocuments-api-1.1.0.jar",
+            "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0.jar"
+,"md5": "8b3c6d9e7403a7a7ee1a38ed31f95cde",
+            "sha1": "48933da722e015f6c6ad4293dac6516ca7a6a7f4",
+            "sha256": "21131800019436c14780221b4eb1434c1ff73d7155743446006b55ea58547407","description": "API project for Patient Documents"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
-                    "fileName": "patientdocuments-api-1.1.0-SNAPSHOT-tests.jar",
-                    "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "f70227a211f485e08eeb24b0df1e25a43f53b9a2897316f2e8b33fbf077211db",
-                    "sha1": "ff1fd4d798725780bd005b23dffa1deb431977e1",
-                    "md5": "4d412608fda5cbb201dfe1b2f3fdcfd0",
+                    "fileName": "patientdocuments-api-1.1.0-tests.jar",
+                    "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-tests.jar"
+,"sha256": "3a923ffe179938dd2d3c890bfe19237454083f55f88dc55326d83ad0f284c1b5",
+                    "sha1": "e4cec210a76d4c94a17d26648b057aec3cde4ea8",
+                    "md5": "43a869f3427a645219ebbf48ec347053",
                     "packageIds": [
                             {
-                                "id": "pkg:maven/org.openmrs.module/patientdocuments-api@1.1.0-SNAPSHOT"
+                                "id": "pkg:maven/org.openmrs.module/patientdocuments-api@1.1.0"
                             }
                     ]
                 }
  , {
                     "isVirtual": false,
-                    "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
-                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "987455550096d9d9a7d0994db888069e5f4be0c3774494b0c28e397ad18f8684",
-                    "sha1": "c2605eb87dab875871bb1a2ca516e727319c51be",
-                    "md5": "a9241944594d3c83affe808f05994ffb"
+                    "fileName": "patientdocuments-api-1.1.0.jar",
+                    "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/patientdocuments-api-1.1.0.jar"
+,"sha256": "21131800019436c14780221b4eb1434c1ff73d7155743446006b55ea58547407",
+                    "sha1": "48933da722e015f6c6ad4293dac6516ca7a6a7f4",
+                    "md5": "8b3c6d9e7403a7a7ee1a38ed31f95cde"
                 }
             ]
             ,"evidenceCollected": {
@@ -5335,20 +5335,27 @@
                 "versionEvidence": [
                     {
                         "type": "version",
+                        "confidence": "HIGH",
+                        "source": "file",
+                        "name": "version",
+                        "value": "1.1.0"
+                    }
+,                    {
+                        "type": "version",
                         "confidence": "HIGHEST",
                         "source": "pom",
                         "name": "version",
-                        "value": "1.1.0-SNAPSHOT"
+                        "value": "1.1.0"
                     }
                 ]
             }
                 ,"packages": [
                     {
-                        "id": "pkg:maven\/org.openmrs.module\/patientdocuments-api@1.1.0-SNAPSHOT"
+                        "id": "pkg:maven\/org.openmrs.module\/patientdocuments-api@1.1.0"
 ,"confidence": "HIGH"                    }
             ]                ,"vulnerabilityIds": [
                 {
-                    "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:snapshot:*:*:*:*:*:*"
+                    "id": "cpe:2.3:a:openmrs:openmrs:1.1.0:*:*:*:*:*:*:*"
 ,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Aopenmrs%3Aopenmrs%3A1.1.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
             ]
             ,"suppressedVulnerabilities": [
@@ -5853,7 +5860,7 @@
                 }            ]        },{
             "isVirtual": false,
             "fileName": "qdox-1.12.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/qdox-1.12.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/qdox-1.12.jar"
 ,"md5": "b8d83192c2f42a04f40bef4e24a8d7c5",
             "sha1": "466993f8362511ecc42e6508d3db1880bfcd5c56",
             "sha256": "f9d7ad96f70d69e9c06c10e515b878f33810f1ad677cce9f6ae6772778d570ab","description": "\n    QDox is a high speed, small footprint parser for extracting class\/interface\/method definitions from source files\n    complete with JavaDoc @tags. It is designed to be used by active code generators or documentation tools.\n  ","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
@@ -6215,7 +6222,7 @@
         },{
             "isVirtual": false,
             "fileName": "xml-apis-ext-1.3.04.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/xml-apis-ext-1.3.04.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/xml-apis-ext-1.3.04.jar"
 ,"md5": "bcb07d3b8d2397db7a3013b6465d347b",
             "sha1": "41a8b86b358e87f3f13cf46069721719105aff66",
             "sha256": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646","description": "xml-commons provides an Apache-hosted set of DOM, SAX, and \n    JAXP interfaces for use in other xml-based projects. Our hope is that we \n    can standardize on both a common version and packaging scheme for these \n    critical XML standards interfaces to make the lives of both our developers \n    and users easier. The External Components portion of xml-commons contains \n    interfaces that are defined by external standards organizations. For DOM, \n    that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for \n    JAXP it's Sun."            ,"evidenceCollected": {
@@ -6525,7 +6532,7 @@
         },{
             "isVirtual": false,
             "fileName": "xmlgraphics-commons-2.9.jar",
-            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/xmlgraphics-commons-2.9.jar"
+            "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0\/lib\/xmlgraphics-commons-2.9.jar"
 ,"md5": "f398edbe3eb048508d88158378b55c48",
             "sha1": "de2d1bd8d40474bbe876bb269410c750489f08e5",
             "sha256": "2ebd333ab2a624514793c336e3af086608673286fe37ba1e639e0ac3e1b58be2","description": "\n    Apache XML Graphics Commons is a library that consists of several reusable \n    components used by Apache Batik and Apache FOP. Many of these components \n    can easily be used separately outside the domains of SVG and XSL-FO.\n  ","license": "The Apache Software License, Version 2.0: http:\/\/www.apache.org\/licenses\/LICENSE-2.0.txt"            ,"evidenceCollected": {
