@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientdocuments",
-        "reportDate": "2026-06-04T11:09:41.067059964Z",
+        "reportDate": "2026-06-04T11:40:56.615127967Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -5886,9 +5886,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT-tests.jar"
-,"md5": "983153869276a5e54788c833f25f69ac",
-            "sha1": "da6af47e00bf33420a05896e1ddd22be27cb7168",
-            "sha256": "4cb22df0b9be573b3e4a30714eb9be3475e1bca12428a196f43f8c96d7f8fe57"            ,"evidenceCollected": {
+,"md5": "818eb2e8a7b878f1a2a41cf6d3676369",
+            "sha1": "2ee05e283c96756a0161197753efb68f5075318d",
+            "sha256": "7407ed5dc3b7c15f2a3ad66b8d5ce334813c2f4a7d610a898e2c8377409e5bc2"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5999,9 +5999,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT.jar"
-,"md5": "2f84a54c2e62e8f8bb86e5dfcd867714",
-            "sha1": "9767915ff8b84712f50a28164a237a12e10fe8f2",
-            "sha256": "d1e0373b152f3a5107757b1db69037715c5fc148f203eb1ffea26f8fdbc33f39"            ,"evidenceCollected": {
+,"md5": "3b91be03e46130554b8b71bbfae3d0d9",
+            "sha1": "7c50a48f0cc4705efe394eb9e61e550821d06cb5",
+            "sha256": "425003260ec350643e182e07f65c4487ef17b7b14290c0edf3e69b307e167078"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -6112,16 +6112,16 @@
             "isVirtual": false,
             "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"md5": "6afe1f0fc0d15f430ea6e4fe7b12c2b1",
-            "sha1": "6c5a5a2158d1f911f9439246fbfdeb80af7629b8",
-            "sha256": "3d44d248073158c3615990ac75b1699bbb6ac6605fb837f3e2d050ab9c9fca07","description": "API project for Patient Documents"            ,"relatedDependencies": [
+,"md5": "c32efa97e6365fe03aec5b95ab35eb24",
+            "sha1": "56c46ae922ec521e9ea8374d4df0321cc1c8d865",
+            "sha256": "a82ba87cfe467be9e21144f09df00a2c5595c885fbdacfa7a1efe8a6f248c71b","description": "API project for Patient Documents"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.1.0-SNAPSHOT-tests.jar"
-,"sha256": "6380ff726eb00ccac5df70c69979e497e1afa2e26485be4264ab9c6d498201cb",
-                    "sha1": "9e35678d6ce3b47088436e4324695bdf15448403",
-                    "md5": "71b60cdf39bf7701b04ad42f006b33a8",
+,"sha256": "95709197b6699045f48a23836e6da96096322831e87321543c023541f23ff554",
+                    "sha1": "85e470342703b2a5f33b6efde801b31e88ccd7e6",
+                    "md5": "f2394596fd1ab8d5d4f29b497e0493c7",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientdocuments-api@1.1.0-SNAPSHOT"
@@ -6132,9 +6132,9 @@
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.1.0-SNAPSHOT\/lib\/patientdocuments-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "3d44d248073158c3615990ac75b1699bbb6ac6605fb837f3e2d050ab9c9fca07",
-                    "sha1": "6c5a5a2158d1f911f9439246fbfdeb80af7629b8",
-                    "md5": "6afe1f0fc0d15f430ea6e4fe7b12c2b1"
+,"sha256": "a82ba87cfe467be9e21144f09df00a2c5595c885fbdacfa7a1efe8a6f248c71b",
+                    "sha1": "56c46ae922ec521e9ea8374d4df0321cc1c8d865",
+                    "md5": "c32efa97e6365fe03aec5b95ab35eb24"
                 }
             ]
             ,"evidenceCollected": {
