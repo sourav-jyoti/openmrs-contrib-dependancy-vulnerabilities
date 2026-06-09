@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-05-29T14:17:35Z"
+                "timestamp": "2026-06-09T13:57:57Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-05-29T14:09:18Z"
+                "timestamp": "2026-06-09T13:44:49Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-05-29T14:17:35Z"
+                "timestamp": "2026-06-09T13:57:57Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-05-29T14:09:18Z"
+                "timestamp": "2026-06-09T13:44:49Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-htmlformentry",
-        "reportDate": "2026-05-29T16:07:39.368147978Z",
+        "reportDate": "2026-06-09T14:52:31.740415401Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -1697,7 +1697,7 @@
                 "source": "RETIREJS",
                 "name": "GHSA-q2c6-c6pm-g3gh",
 "unscored": "true", "severity" : "high",
-                "description": "Versions of `handlebars` prior to 3.0.8 or 4.5.3 are vulnerable to Arbitrary Code Execution. The package's lookup helper fails to properly validate templates, allowing attackers to submit templates that execute arbitrary JavaScript in the system. It is due to an incomplete fix for a [previous issue](https:\/\/www.npmjs.com\/advisories\/1316). This vulnerability can be used to run arbitrary code in a server processing Handlebars templates or on a victim's browser (effectively serving as Cross-Site Scripting)",
+                "description": "Handlebars prior to 3.0.8 or 4.5.3 is vulnerable to Arbitrary Code Execution; the lookup helper fails to properly validate templates, allowing attackers to run arbitrary JavaScript in the server or victim's browser.",
                 "notes": "",
                 "references": [
  {
@@ -1994,16 +1994,16 @@
             "isVirtual": false,
             "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar"
-,"md5": "951dafb6ba169d30b4684f5f9ebf41e9",
-            "sha1": "cc8bf2ebafd11d15a7cc25685711d0df851b3b88",
-            "sha256": "013ba067ca9e836d78d9104523622a52556d9bd028653ea0413ad5dbd5df9896"            ,"relatedDependencies": [
+,"md5": "c2691238af71a46a91d55563dd1822e8",
+            "sha1": "9b5ba7bc787f2eea0f9c2f0c97177a13d5896a92",
+            "sha256": "5008798da09b17ed62bb176477a004aeae0a37d5c03e92161c14e5a664a0d76f"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlformentry-7.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT-tests.jar"
-,"sha256": "ef248ebafa4632d1203511e3f80f14d202dd92d8fa0cadd1cfb84effd8e126e1",
-                    "sha1": "0701b2c19cd2d65eef4a00490f9721df30fb17f2",
-                    "md5": "b04ea7726568072cd5bdc6e7c31cadc7"
+,"sha256": "9559949eec7478f6cf7a1c9b4b2a4a590058942ff67b170355e049802a565616",
+                    "sha1": "2b33845f9b8304f9e348ceaaf2e93bf780cb57aa",
+                    "md5": "0be1f483afe5663ecbb3e1ab9a721564"
                 }
             ]
             ,"evidenceCollected": {
@@ -2121,16 +2121,16 @@
             "isVirtual": false,
             "fileName": "htmlformentry-api-7.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.3.0-SNAPSHOT.jar"
-,"md5": "f10f5e167ea3b734a99904a597d02b91",
-            "sha1": "9c3c74cdc830bc4d512b3d5a62b399b32db20c5a",
-            "sha256": "59b662cbd80a941cb9e31b0482f8e4f4e327723a4303a13d69f3648e48e14a3b","description": "API project for HTML Form Entry"            ,"relatedDependencies": [
+,"md5": "5727ce33b8fd195fd70b2f5d5991cdf3",
+            "sha1": "a1ad24f1d159c81665d4d6da298ecb26870c4ac9",
+            "sha256": "c63993e525f994154d376c40ab8ca4d078692ab81ef3d1fd78a267e2ab80986c","description": "API project for HTML Form Entry"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlformentry-api-7.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/htmlformentry-api-7.3.0-SNAPSHOT-tests.jar"
-,"sha256": "3a356424358c8abd468e50a854f49b967006e1375852b164d22c845de358414a",
-                    "sha1": "e390c4c75c1c4e2ab5d571c0a621188fa99c04f9",
-                    "md5": "d6eaa559b6c67660aa5562891369b2c1",
+,"sha256": "996c83e437104d4b7277bbd874e81c7a1e47da34bc4f8890190c54a722598c13",
+                    "sha1": "4cdd15594bb9909792a8651b9a1cc678a5e56175",
+                    "md5": "2423f9b0b1f418e3671fc1e3dc1d901d",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/htmlformentry-api@7.3.0-SNAPSHOT"
@@ -2141,9 +2141,9 @@
                     "isVirtual": false,
                     "fileName": "htmlformentry-api-7.3.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/lib\/htmlformentry-api-7.3.0-SNAPSHOT.jar"
-,"sha256": "59b662cbd80a941cb9e31b0482f8e4f4e327723a4303a13d69f3648e48e14a3b",
-                    "sha1": "9c3c74cdc830bc4d512b3d5a62b399b32db20c5a",
-                    "md5": "f10f5e167ea3b734a99904a597d02b91"
+,"sha256": "c63993e525f994154d376c40ab8ca4d078692ab81ef3d1fd78a267e2ab80986c",
+                    "sha1": "a1ad24f1d159c81665d4d6da298ecb26870c4ac9",
+                    "md5": "5727ce33b8fd195fd70b2f5d5991cdf3"
                 }
             ]
             ,"evidenceCollected": {
@@ -2339,16 +2339,16 @@
             "isVirtual": false,
             "fileName": "htmlformentry-api-tests-7.3.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.3.0-SNAPSHOT.jar"
-,"md5": "6e5854de58823b646aa2087e53eb6db6",
-            "sha1": "e3dd959d1009fcd0c4a618d18cb19037ca40175c",
-            "sha256": "74103321556b2876968cc7127b6e89dbf003c7cd90d5e3a6c68cae91bf63db8b","description": "API tests for HTML Form Entry"            ,"relatedDependencies": [
+,"md5": "75cb3cf2c8e852912c9b402fceba35a3",
+            "sha1": "4ddf0125ac5327125ca7bb617d5417bd609a9c93",
+            "sha256": "13a20dc84065c1ba0477c7ba8796802fdb46587f0eb9d4feeaaaff34b5c05fae","description": "API tests for HTML Form Entry"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlformentry-api-tests-7.3.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api-tests\/target\/htmlformentry-api-tests-7.3.0-SNAPSHOT-tests.jar"
-,"sha256": "7916a57ea6276e7992089a43a7319823ead0ba92ad4161304a6d130978bb66d3",
-                    "sha1": "5cfee306506df64c65de880448047c5b640c2c6f",
-                    "md5": "3ec6f735968fdabc411a9fcc54c46edb",
+,"sha256": "a28ff4a6a73daf6cf893535958c9c7ec90b14980bd5cf88862a5d562296b567c",
+                    "sha1": "75525172477cba02e8f8f358a8ea8193f10c705a",
+                    "md5": "c2f1a1d03983d27bc5b81beb2c383036",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/htmlformentry-api-tests@7.3.0-SNAPSHOT"
@@ -8314,32 +8314,32 @@
             "isVirtual": false,
             "fileName": "orderWidget.js",
             "filePath": "\/github\/workspace\/omod\/src\/main\/webapp\/resources\/orderWidget.js"
-,"md5": "0501de95c2a63ef41e867bf26723e735",
-            "sha1": "3c69ce644cdb294c8f8f854140248f0ee34137e8",
-            "sha256": "9fc5a63103cece18a8f22a2593e6767b96ade0c0cb577779870ce77848bb2dec"            ,"relatedDependencies": [
+,"md5": "c175751f5a19c6ef0f8e5dfe94c15422",
+            "sha1": "6d28981a613b4d7bf4e8a40c443f4f876ea5da65",
+            "sha256": "daa3dabc0eb0c06a6cedd3bc05ff2fcb3785c26efd9a36cd89060075b17871e5"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "htmlformentry-7.3.0-SNAPSHOT.jar: orderWidget.js",
                     "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT.jar\/web\/module\/resources\/orderWidget.js"
-,"sha256": "9fc5a63103cece18a8f22a2593e6767b96ade0c0cb577779870ce77848bb2dec",
-                    "sha1": "3c69ce644cdb294c8f8f854140248f0ee34137e8",
-                    "md5": "0501de95c2a63ef41e867bf26723e735"
+,"sha256": "daa3dabc0eb0c06a6cedd3bc05ff2fcb3785c26efd9a36cd89060075b17871e5",
+                    "sha1": "6d28981a613b4d7bf4e8a40c443f4f876ea5da65",
+                    "md5": "c175751f5a19c6ef0f8e5dfe94c15422"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "orderWidget.js",
                     "filePath": "\/github\/workspace\/omod\/target\/classes\/web\/module\/resources\/orderWidget.js"
-,"sha256": "9fc5a63103cece18a8f22a2593e6767b96ade0c0cb577779870ce77848bb2dec",
-                    "sha1": "3c69ce644cdb294c8f8f854140248f0ee34137e8",
-                    "md5": "0501de95c2a63ef41e867bf26723e735"
+,"sha256": "daa3dabc0eb0c06a6cedd3bc05ff2fcb3785c26efd9a36cd89060075b17871e5",
+                    "sha1": "6d28981a613b4d7bf4e8a40c443f4f876ea5da65",
+                    "md5": "c175751f5a19c6ef0f8e5dfe94c15422"
                 }
  , {
                     "isVirtual": false,
                     "fileName": "orderWidget.js",
                     "filePath": "\/github\/workspace\/omod\/target\/htmlformentry-7.3.0-SNAPSHOT\/web\/module\/resources\/orderWidget.js"
-,"sha256": "9fc5a63103cece18a8f22a2593e6767b96ade0c0cb577779870ce77848bb2dec",
-                    "sha1": "3c69ce644cdb294c8f8f854140248f0ee34137e8",
-                    "md5": "0501de95c2a63ef41e867bf26723e735"
+,"sha256": "daa3dabc0eb0c06a6cedd3bc05ff2fcb3785c26efd9a36cd89060075b17871e5",
+                    "sha1": "6d28981a613b4d7bf4e8a40c443f4f876ea5da65",
+                    "md5": "c175751f5a19c6ef0f8e5dfe94c15422"
                 }
             ]
             ,"evidenceCollected": {
