@@ -1,0 +1,3432 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "12.2.2",
+        "dataSource": [
+{
+                "name": "NVD API Last Checked",
+                "timestamp": "2026-06-09T13:57:57Z"
+            }
+,{
+                "name": "NVD API Last Modified",
+                "timestamp": "2026-06-09T13:44:49Z"
+            }
+,{
+                "name": "NVD Cache Last Checked",
+                "timestamp": "2026-06-09T13:57:57Z"
+            }
+,{
+                "name": "NVD Cache Last Modified",
+                "timestamp": "2026-06-09T13:44:49Z"
+            }
+        ]
+
+
+    },
+    "projectInfo": {
+        "name": "openmrs-esm-fast-data-entry-app",
+        "reportDate": "2026-06-10T07:42:52.794363661Z",
+        "credits": {
+            "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+            "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
+        }
+    },
+    "dependencies": [
+{
+            "isVirtual": true,
+            "fileName": "@babel\/helpers:7.18.9",
+            "filePath": "\/github\/workspace\/yarn.lock?@babel\/helpers"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/helpers"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/helpers"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "7.18.9"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/%40babel%2Fhelpers@7.18.9"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-968p-4wvh-cqc8",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-968p-4wvh-cqc8ID: 1104001",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:\\@babel\\\/helpers:\\<7.26.10:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "@babel\/plugin-transform-modules-systemjs:7.18.9",
+            "filePath": "\/github\/workspace\/yarn.lock?@babel\/plugin-transform-modules-systemjs"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/plugin-transform-modules-systemjs"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/plugin-transform-modules-systemjs"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "7.18.9"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/%40babel%2Fplugin-transform-modules-systemjs@7.18.9"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-fv7c-fp4j-7gwp",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-fv7c-fp4j-7gwpID: 1120258",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:\\@babel\\\/plugin-transform-modules-systemjs:\\>\\=7.12.0\\<\\=7.29.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "@babel\/runtime-corejs3:7.18.9",
+            "filePath": "\/github\/workspace\/yarn.lock?@babel\/runtime-corejs3"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/runtime-corejs3"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/runtime-corejs3"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "7.18.9"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/%40babel%2Fruntime-corejs3@7.18.9"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-968p-4wvh-cqc8",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-968p-4wvh-cqc8ID: 1103998",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:\\@babel\\\/runtime-corejs3:\\<7.26.10:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "@babel\/traverse:7.18.13",
+            "filePath": "\/github\/workspace\/yarn.lock?@babel\/traverse"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/traverse"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@babel\/traverse"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "7.18.13"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/%40babel%2Ftraverse@7.18.13"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-67hx-6x53-jw92",
+"unscored": "true", "severity" : "critical",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-67hx-6x53-jw92ID: 1117420",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:\\@babel\\\/traverse:\\<7.23.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "@remix-run\/router:1.15.3",
+            "filePath": "\/github\/workspace\/yarn.lock?@remix-run\/router"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@remix-run\/router"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@remix-run\/router"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.15.3"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/%40remix-run%2Frouter@1.15.3"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-2w69-qvjg-hvjx",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-2w69-qvjg-hvjxID: 1112052",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:\\@remix-run\\\/router:\\<\\=1.23.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "@tootallnate\/once:2.0.0",
+            "filePath": "\/github\/workspace\/yarn.lock?@tootallnate\/once"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@tootallnate\/once"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "@tootallnate\/once"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.0.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/%40tootallnate%2Fonce@2.0.0"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-vpq2-c234-7xj6",
+"unscored": "true", "severity" : "low",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-vpq2-c234-7xj6ID: 1119438",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:\\@tootallnate\\\/once:\\<2.0.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "ajv:6.12.6",
+            "filePath": "\/github\/workspace\/yarn.lock?ajv"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ajv"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ajv"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "6.12.6"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/ajv@6.12.6"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-2g4f-4pwh-qvx6",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-2g4f-4pwh-qvx6ID: 1113714",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:ajv:\\<6.14.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "ajv:8.17.1",
+            "filePath": "\/github\/workspace\/yarn.lock?ajv"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ajv"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ajv"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "8.17.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/ajv@8.17.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-2g4f-4pwh-qvx6",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-2g4f-4pwh-qvx6ID: 1113715",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:ajv:\\>\\=7.0.0-alpha.0\\<8.18.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "brace-expansion:1.1.11",
+            "filePath": "\/github\/workspace\/yarn.lock?brace-expansion"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "brace-expansion"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "brace-expansion"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.1.11"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/brace-expansion@1.1.11"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-f886-m6hf-6m8v",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-f886-m6hf-6m8vID: 1115540",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:brace-expansion:\\<1.1.13:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-v6h2-p8h4-qcjw",
+"unscored": "true", "severity" : "low",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-v6h2-p8h4-qcjwID: 1105443",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:brace-expansion:\\>\\=1.0.0\\<\\=1.1.11:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "brace-expansion:2.0.1",
+            "filePath": "\/github\/workspace\/yarn.lock?brace-expansion"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "brace-expansion"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "brace-expansion"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.0.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/brace-expansion@2.0.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-f886-m6hf-6m8v",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-f886-m6hf-6m8vID: 1115541",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:brace-expansion:\\>\\=2.0.0\\<2.0.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-v6h2-p8h4-qcjw",
+"unscored": "true", "severity" : "low",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-v6h2-p8h4-qcjwID: 1105444",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:brace-expansion:\\>\\=2.0.0\\<\\=2.0.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "brace-expansion:5.0.5",
+            "filePath": "\/github\/workspace\/yarn.lock?brace-expansion"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "brace-expansion"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "brace-expansion"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "5.0.5"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/brace-expansion@5.0.5"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-jxxr-4gwj-5jf2",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-jxxr-4gwj-5jf2ID: 1120311",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:brace-expansion:\\>\\=5.0.0\\<5.0.6:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "dompurify:3.2.6",
+            "filePath": "\/github\/workspace\/yarn.lock?dompurify"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "dompurify"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "dompurify"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "3.2.6"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/dompurify@3.2.6"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-39q2-94rc-95cp",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-39q2-94rc-95cpID: 1116663",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\<\\=3.3.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-cj63-jhhr-wcxv",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-cj63-jhhr-wcxvID: 1115922",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\<\\=3.3.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-cjmm-f4jc-qw8r",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-cjmm-f4jc-qw8rID: 1115921",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\<\\=3.3.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-crv5-9vww-q3g8",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-crv5-9vww-q3g8ID: 1117139",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\>\\=1.0.10\\<3.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-h7mw-gpvr-xq4m",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-h7mw-gpvr-xq4mID: 1117138",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\<3.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-h8r8-wccr-v5f2",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-h8r8-wccr-v5f2ID: 1117795",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\<3.3.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-v2wj-7wpq-c8vv",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-v2wj-7wpq-c8vvID: 1115668",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\>\\=3.1.3\\<\\=3.3.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-v8jm-5vwx-cfxm",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-v8jm-5vwx-cfxmID: 1113981",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\>\\=3.1.3\\<3.2.7:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-v9jr-rg53-9pgp",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-v9jr-rg53-9pgpID: 1117140",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:dompurify:\\>\\=3.0.1\\<3.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "extend:1.2.1",
+            "filePath": "\/github\/workspace\/yarn.lock?extend"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "extend"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "extend"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.2.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/extend@1.2.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-qrmc-fj45-qfc2",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-qrmc-fj45-qfc2ID: 1112499",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:extend:\\>\\=1.1.3\\<2.0.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "fast-uri:3.0.6",
+            "filePath": "\/github\/workspace\/yarn.lock?fast-uri"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "fast-uri"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "fast-uri"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "3.0.6"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/fast-uri@3.0.6"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-q3j6-qgpj-74h6",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-q3j6-qgpj-74h6ID: 1117870",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:fast-uri:\\<\\=3.1.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-v39h-62p7-jpjc",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-v39h-62p7-jpjcID: 1117884",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:fast-uri:\\<\\=3.1.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "flatted:3.2.7",
+            "filePath": "\/github\/workspace\/yarn.lock?flatted"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "flatted"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "flatted"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "3.2.7"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/flatted@3.2.7"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-25h7-pfq9-p65f",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-25h7-pfq9-p65fID: 1114526",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:flatted:\\<3.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-rf6f-7fwh-wjgh",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-rf6f-7fwh-wjghID: 1115357",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:flatted:\\<\\=3.4.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "follow-redirects:1.15.11",
+            "filePath": "\/github\/workspace\/yarn.lock?follow-redirects"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "follow-redirects"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "follow-redirects"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.15.11"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/follow-redirects@1.15.11"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-r4q5-vmmm-2653",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-r4q5-vmmm-2653ID: 1116560",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:follow-redirects:\\<\\=1.15.11:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "i18next-parser.config.js",
+            "filePath": "\/github\/workspace\/tools\/i18next-parser.config.js"
+,"md5": "38600cbec830611b659dce154a369191",
+            "sha1": "2303ba3f00fa437812551e2b6684bd6d5aeeff98",
+            "sha256": "0ab71d2bf55cc25cb493b3503f5ae2916d9dccc32e3c958cfaf9ad8e6bc09a43"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": true,
+            "fileName": "immutable:5.1.2",
+            "filePath": "\/github\/workspace\/yarn.lock?immutable"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "immutable"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "immutable"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "5.1.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/immutable@5.1.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-wf6x-7x77-mvgw",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-wf6x-7x77-mvgwID: 1117068",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:immutable:\\>\\=5.0.0\\<5.1.5:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "ip-address:10.1.0",
+            "filePath": "\/github\/workspace\/yarn.lock?ip-address"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ip-address"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ip-address"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "10.1.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/ip-address@10.1.0"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-v2v4-37r5-5v8g",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-v2v4-37r5-5v8gID: 1118827",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:ip-address:\\<\\=10.1.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "jpeg-js:0.4.2",
+            "filePath": "\/github\/workspace\/yarn.lock?jpeg-js"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "jpeg-js"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "jpeg-js"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "0.4.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/jpeg-js@0.4.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-xvf7-4v9q-58w6",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-xvf7-4v9q-58w6ID: 1088964",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:jpeg-js:\\<0.4.4:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "js-yaml:4.1.0",
+            "filePath": "\/github\/workspace\/yarn.lock?js-yaml"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "js-yaml"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "js-yaml"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "4.1.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/js-yaml@4.1.0"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-mh29-5h37-fv8m",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-mh29-5h37-fv8mID: 1112715",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:js-yaml:\\>\\=4.0.0\\<4.1.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "json5:2.2.1",
+            "filePath": "\/github\/workspace\/yarn.lock?json5"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "json5"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "json5"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.2.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/json5@2.2.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-9c47-m6qq-7p4h",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-9c47-m6qq-7p4hID: 1096544",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:json5:\\>\\=2.0.0\\<2.2.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "loader-utils:2.0.2",
+            "filePath": "\/github\/workspace\/yarn.lock?loader-utils"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "loader-utils"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "loader-utils"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.0.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/loader-utils@2.0.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-76p3-8jx3-jpfq",
+"unscored": "true", "severity" : "critical",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-76p3-8jx3-jpfqID: 1094089",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:loader-utils:\\>\\=2.0.0\\<2.0.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-3rfm-jhwj-7488",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-3rfm-jhwj-7488ID: 1095054",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:loader-utils:\\>\\=2.0.0\\<2.0.4:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-hhq3-ff78-jv3g",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-hhq3-ff78-jv3gID: 1109587",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:loader-utils:\\>\\=2.0.0\\<2.0.4:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "lodash-es:4.17.21",
+            "filePath": "\/github\/workspace\/yarn.lock?lodash-es"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "lodash-es"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "lodash-es"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "4.17.21"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/lodash-es@4.17.21"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-r5fr-rjxr-66jc",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-r5fr-rjxr-66jcID: 1115805",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash-es:\\>\\=4.0.0\\<\\=4.17.23:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-f23m-r3pf-42rh",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-f23m-r3pf-42rhID: 1115809",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash-es:\\<\\=4.17.23:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-xxjr-mmjv-4gpg",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-xxjr-mmjv-4gpgID: 1120368",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash-es:\\>\\=4.0.0\\<\\=4.17.22:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "lodash:4.17.21",
+            "filePath": "\/github\/workspace\/yarn.lock?lodash"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "lodash"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "lodash"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "4.17.21"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/lodash@4.17.21"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-r5fr-rjxr-66jc",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-r5fr-rjxr-66jcID: 1115806",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash:\\>\\=4.0.0\\<\\=4.17.23:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-f23m-r3pf-42rh",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-f23m-r3pf-42rhID: 1115810",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash:\\<\\=4.17.23:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-xxjr-mmjv-4gpg",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-xxjr-mmjv-4gpgID: 1120370",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:lodash:\\>\\=4.0.0\\<\\=4.17.22:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "min-document:2.19.0",
+            "filePath": "\/github\/workspace\/yarn.lock?min-document"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "min-document"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "min-document"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.19.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/min-document@2.19.0"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-rx8g-88g5-qh64",
+"unscored": "true", "severity" : "low",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-rx8g-88g5-qh64ID: 1109626",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:min-document:\\<\\=2.19.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "minimatch:3.1.2",
+            "filePath": "\/github\/workspace\/yarn.lock?minimatch"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "minimatch"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "minimatch"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "3.1.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/minimatch@3.1.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-23c5-xmqv-rm74",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-23c5-xmqv-rm74ID: 1113546",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\<3.1.4:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-3ppc-4f35-3m26",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-3ppc-4f35-3m26ID: 1113459",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\<3.1.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-7r86-cg39-jmmj",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-7r86-cg39-jmmjID: 1113538",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\<3.1.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "minimatch:5.1.0",
+            "filePath": "\/github\/workspace\/yarn.lock?minimatch"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "minimatch"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "minimatch"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "5.1.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/minimatch@5.1.0"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-23c5-xmqv-rm74",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-23c5-xmqv-rm74ID: 1113548",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\>\\=5.0.0\\<5.1.8:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-3ppc-4f35-3m26",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-3ppc-4f35-3m26ID: 1113461",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\>\\=5.0.0\\<5.1.7:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-7r86-cg39-jmmj",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-7r86-cg39-jmmjID: 1113540",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\>\\=5.0.0\\<5.1.8:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "minimatch:9.0.5",
+            "filePath": "\/github\/workspace\/yarn.lock?minimatch"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "minimatch"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "minimatch"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "9.0.5"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/minimatch@9.0.5"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-23c5-xmqv-rm74",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-23c5-xmqv-rm74ID: 1113552",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\>\\=9.0.0\\<9.0.7:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-3ppc-4f35-3m26",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-3ppc-4f35-3m26ID: 1113465",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\>\\=9.0.0\\<9.0.6:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-7r86-cg39-jmmj",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-7r86-cg39-jmmjID: 1113544",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:minimatch:\\>\\=9.0.0\\<9.0.7:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "node-forge:1.3.1",
+            "filePath": "\/github\/workspace\/yarn.lock?node-forge"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "node-forge"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "node-forge"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.3.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/node-forge@1.3.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-2328-f5f3-gj25",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-2328-f5f3-gj25ID: 1115545",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<\\=1.3.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-554w-wpv2-vw27",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-554w-wpv2-vw27ID: 1110996",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.3.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-5gfm-wpxj-wjgq",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-5gfm-wpxj-wjgqID: 1110998",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.3.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-5m6q-g25r-mvwx",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-5m6q-g25r-mvwxID: 1115548",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-ppp5-5v6c-4jwp",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-ppp5-5v6c-4jwpID: 1115612",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-q67f-28xg-22rw",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-q67f-28xg-22rwID: 1115546",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-65ch-62r8-g69g",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-65ch-62r8-g69gID: 1111068",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:node-forge:\\<1.3.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "package.json",
+            "filePath": "\/github\/workspace\/package.json"
+,"md5": "1c29be127925ca4df1aff889d4c65bf0",
+            "sha1": "d67d43b0ecadced35e29fd7dd011ab2c10b9ca64",
+            "sha256": "d81c43f3fd1ef687ee229f31b83ad35400a41e758e3e5a63daf22f8f536082c4"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": true,
+            "fileName": "path-to-regexp:0.1.12",
+            "filePath": "\/github\/workspace\/yarn.lock?path-to-regexp"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "path-to-regexp"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "path-to-regexp"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "0.1.12"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/path-to-regexp@0.1.12"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-37ch-88jc-xwx2",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-37ch-88jc-xwx2ID: 1115527",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:path-to-regexp:\\<0.1.13:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "path-to-regexp:8.3.0",
+            "filePath": "\/github\/workspace\/yarn.lock?path-to-regexp"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "path-to-regexp"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "path-to-regexp"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "8.3.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/path-to-regexp@8.3.0"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-j3q9-mxjg-w52f",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-j3q9-mxjg-w52fID: 1115573",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:path-to-regexp:\\>\\=8.0.0\\<8.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-27v5-c462-wpq7",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-27v5-c462-wpq7ID: 1115582",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:path-to-regexp:\\>\\=8.0.0\\<8.4.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "phin:2.9.3",
+            "filePath": "\/github\/workspace\/yarn.lock?phin"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "phin"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "phin"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.9.3"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/phin@2.9.3"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-x565-32qp-m3vf",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-x565-32qp-m3vfID: 1096967",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:phin:\\<3.7.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "picomatch:2.3.1",
+            "filePath": "\/github\/workspace\/yarn.lock?picomatch"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "picomatch"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "picomatch"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.3.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/picomatch@2.3.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-c2c7-rcm5-vvqj",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-c2c7-rcm5-vvqjID: 1115552",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:picomatch:\\<2.3.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-3v7f-55p6-f55p",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-3v7f-55p6-f55pID: 1115549",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:picomatch:\\<2.3.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "playwright:1.50.1",
+            "filePath": "\/github\/workspace\/yarn.lock?playwright"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "playwright"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "playwright"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.50.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/playwright@1.50.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-7mvr-c777-76hp",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-7mvr-c777-76hpID: 1109208",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:playwright:\\<1.55.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "prettier.config.js",
+            "filePath": "\/github\/workspace\/prettier.config.js"
+,"md5": "911238163b7ec68e2e05ffa422a86f01",
+            "sha1": "afe28287069a732293dcc5029c659e224f55dde8",
+            "sha256": "21ed2e914f77956697deed621cc40cba4fab59977f098350f8bbc8d9c6ebf2b8"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": true,
+            "fileName": "qs:6.14.2",
+            "filePath": "\/github\/workspace\/yarn.lock?qs"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "qs"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "qs"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "6.14.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/qs@6.14.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-q8mj-m7cp-5q26",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-q8mj-m7cp-5q26ID: 1119502",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:qs:\\>\\=6.11.1\\<\\=6.15.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "react-i18next.js",
+            "filePath": "\/github\/workspace\/__mocks__\/react-i18next.js"
+,"md5": "5eac07344419ddc4129176fbe1847e85",
+            "sha1": "e03308e1e781ac087588b614a48622833f3357fa",
+            "sha256": "3c607e99d22c2f347f0ab72237ea1805b33d4bc81901db39d14be0ac2e10b638"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": true,
+            "fileName": "react-router:6.22.3",
+            "filePath": "\/github\/workspace\/yarn.lock?react-router"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "react-router"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "react-router"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "6.22.3"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/react-router@6.22.3"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-2j2x-hqr9-3h42",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-2j2x-hqr9-3h42ID: 1120064",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:react-router:\\>\\=6.7.0\\<6.30.4:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-9jcx-v3wj-wh4m",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-9jcx-v3wj-wh4mID: 1112057",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:react-router:\\>\\=6.0.0\\<6.30.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "rspack.config.js",
+            "filePath": "\/github\/workspace\/rspack.config.js"
+,"md5": "9d91b341305cb32baef6b8f732a13a8c",
+            "sha1": "98a58df225a40fe9ce8d9a515b44b1d3b4b2b513",
+            "sha256": "28998ca9b08cda683be3876ac5ea7ead4447d43b1aa49ddd4e6859bc9ad195a8"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": true,
+            "fileName": "semver:7.0.0",
+            "filePath": "\/github\/workspace\/yarn.lock?semver"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "semver"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "semver"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "7.0.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/semver@7.0.0"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-c2qf-rxjj-qqgw",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-c2qf-rxjj-qqgwID: 1112921",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:semver:\\>\\=7.0.0\\<7.5.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "serialize-javascript:6.0.2",
+            "filePath": "\/github\/workspace\/yarn.lock?serialize-javascript"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "serialize-javascript"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "serialize-javascript"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "6.0.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/serialize-javascript@6.0.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-5c6j-r48x-rmvq",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-5c6j-r48x-rmvqID: 1113686",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:serialize-javascript:\\<\\=7.0.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-qj8w-gfj5-8c6v",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-qj8w-gfj5-8c6vID: 1119440",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:serialize-javascript:\\>\\=5.0.0\\<7.0.5:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "shell-quote:1.8.2",
+            "filePath": "\/github\/workspace\/yarn.lock?shell-quote"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "shell-quote"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "shell-quote"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.8.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/shell-quote@1.8.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-w7jw-789q-3m8p",
+"unscored": "true", "severity" : "critical",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-w7jw-789q-3m8pID: 1120422",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:shell-quote:\\>\\=1.1.0\\<\\=1.8.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "tar:6.1.11",
+            "filePath": "\/github\/workspace\/yarn.lock?tar"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "tar"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "tar"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "6.1.11"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/tar@6.1.11"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-34x7-hfp2-rc4v",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-34x7-hfp2-rc4vID: 1112659",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:tar:\\<7.5.7:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-83g3-92jg-28cx",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-83g3-92jg-28cxID: 1113375",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:tar:\\<7.5.8:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-8qq5-rm4j-mr97",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-8qq5-rm4j-mr97ID: 1113300",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:tar:\\<\\=7.5.2:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-9ppj-qmqm-q256",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-9ppj-qmqm-q256ID: 1114302",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:tar:\\<\\=7.5.10:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-qffp-2rhf-9h96",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-qffp-2rhf-9h96ID: 1114200",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:tar:\\<\\=7.5.9:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-r6q2-hw4h-h46w",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-r6q2-hw4h-h46wID: 1114680",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:tar:\\<\\=7.5.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-f5x3-32g6-xq36",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-f5x3-32g6-xq36ID: 1097493",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:tar:\\<6.2.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "turbo:2.5.2",
+            "filePath": "\/github\/workspace\/yarn.lock?turbo"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "turbo"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "turbo"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.5.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/turbo@2.5.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-hcf7-66rw-9f5r",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-hcf7-66rw-9f5rID: 1119386",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:turbo:\\<\\=2.9.13:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }, {
+                "source": "NPM",
+                "name": "GHSA-3qcw-2rhx-2726",
+"unscored": "true", "severity" : "low",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-3qcw-2rhx-2726ID: 1119389",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:turbo:\\>\\=1.1.0\\<2.9.14:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "uuid:9.0.1",
+            "filePath": "\/github\/workspace\/yarn.lock?uuid"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "uuid"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "uuid"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "9.0.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/uuid@9.0.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-w5hq-g745-h8pq",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-w5hq-g745-h8pqID: 1119441",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:uuid:\\<11.1.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "vue-template-compiler:2.7.12",
+            "filePath": "\/github\/workspace\/yarn.lock?vue-template-compiler"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "vue-template-compiler"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "vue-template-compiler"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.7.12"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/vue-template-compiler@2.7.12"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-g3ch-rx76-35fx",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-g3ch-rx76-35fxID: 1111772",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:vue-template-compiler:\\>\\=2.0.0\\<3.0.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "webpack-dev-server:5.2.3",
+            "filePath": "\/github\/workspace\/yarn.lock?webpack-dev-server"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "webpack-dev-server"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "webpack-dev-server"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "5.2.3"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/webpack-dev-server@5.2.3"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-79cf-xcqc-c78w",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-79cf-xcqc-c78wID: 1119074",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:webpack-dev-server:\\<\\=5.2.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "ws:7.5.9",
+            "filePath": "\/github\/workspace\/yarn.lock?ws"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ws"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ws"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "7.5.9"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/ws@7.5.9"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-3h5v-q93c-6h6q",
+"unscored": "true", "severity" : "high",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-3h5v-q93c-6h6qID: 1118729",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:ws:\\>\\=7.0.0\\<7.5.10:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "ws:8.18.2",
+            "filePath": "\/github\/workspace\/yarn.lock?ws"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ws"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "ws"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "8.18.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/ws@8.18.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-58qx-3vcg-4xpx",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-58qx-3vcg-4xpxID: 1119108",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:ws:\\>\\=8.0.0\\<8.20.1:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "xml2js:0.4.23",
+            "filePath": "\/github\/workspace\/yarn.lock?xml2js"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "xml2js"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "xml2js"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "0.4.23"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/xml2js@0.4.23"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-776f-qx25-q3cc",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-776f-qx25-q3ccID: 1096693",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:xml2js:\\<0.5.0:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "yaml:1.10.2",
+            "filePath": "\/github\/workspace\/yarn.lock?yaml"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "yaml"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "yaml"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "1.10.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/yaml@1.10.2"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-48c2-rrv3-qjmp",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-48c2-rrv3-qjmpID: 1115555",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:yaml:\\>\\=1.0.0\\<1.10.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": true,
+            "fileName": "yaml:2.8.1",
+            "filePath": "\/github\/workspace\/yarn.lock?yaml"
+            ,"projectReferences": [
+                "yarn.lock: transitive"
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "yaml"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "package.json",
+                            "name": "name",
+                            "value": "yaml"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "package.json",
+                        "name": "version",
+                        "value": "2.8.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:npm\/yaml@2.8.1"
+,"confidence": "HIGHEST"                    }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NPM",
+                "name": "GHSA-48c2-rrv3-qjmp",
+"unscored": "true", "severity" : "moderate",
+                "description": "URL:https:\/\/github.com\/advisories\/GHSA-48c2-rrv3-qjmpID: 1115556",
+                "notes": "",
+                "references": [
+                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:*:yaml:\\>\\=2.0.0\\<2.8.3:*:*:*:*:*:*:*"
+                        }
+                    }                ]
+                }            ]        }    ]
+}
