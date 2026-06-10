@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-esm-fast-data-entry-app",
-        "reportDate": "2026-06-10T07:42:52.794363661Z",
+        "reportDate": "2026-06-10T07:43:15.233820167Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -2098,9 +2098,9 @@
             "isVirtual": false,
             "fileName": "package.json",
             "filePath": "\/github\/workspace\/package.json"
-,"md5": "1c29be127925ca4df1aff889d4c65bf0",
-            "sha1": "d67d43b0ecadced35e29fd7dd011ab2c10b9ca64",
-            "sha256": "d81c43f3fd1ef687ee229f31b83ad35400a41e758e3e5a63daf22f8f536082c4"            ,"evidenceCollected": {
+,"md5": "772dd3e9d10a3422faa85d81bcec06bc",
+            "sha1": "c2f2677ce06cca9e53180a81d2d845b00179ac7e",
+            "sha256": "80814d852fefbd1a1ed2634c797105c8e263de0fe4de1c023c672db0dbf8b8be"            ,"evidenceCollected": {
                 "vendorEvidence": [
                 ],
                 "productEvidence": [
