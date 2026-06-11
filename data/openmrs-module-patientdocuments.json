@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-06-03T15:58:37Z"
+                "timestamp": "2026-06-10T14:35:14Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-06-03T15:42:35Z"
+                "timestamp": "2026-06-10T14:16:37Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-06-03T15:58:37Z"
+                "timestamp": "2026-06-10T14:35:14Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-06-03T15:42:35Z"
+                "timestamp": "2026-06-10T14:16:37Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-patientdocuments",
-        "reportDate": "2026-06-04T12:28:44.129705403Z",
+        "reportDate": "2026-06-11T04:07:28.337932798Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -4936,9 +4936,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.2.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.2.0-SNAPSHOT-tests.jar"
-,"md5": "ba6d993c90f5e7ece2f9c324e79b96a7",
-            "sha1": "326d9f78e70c2f1e6a7995748194cf2e6974e8cf",
-            "sha256": "83043e177773b22b89d514d88fe8124dc8213cd3b9aa006da72661a6acca804f"            ,"evidenceCollected": {
+,"md5": "495ea35483d606e75e05876d0eb82e58",
+            "sha1": "718c2e5810556428f309834b8cf05c65c4414c03",
+            "sha256": "d479e5039bca10f66152eedfb72aadd42378edcad5a534f7041a7726c3e25492"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5049,9 +5049,9 @@
             "isVirtual": false,
             "fileName": "patientdocuments-1.2.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.2.0-SNAPSHOT.jar"
-,"md5": "2083a065110cc8ab135c3932e481eedd",
-            "sha1": "56f18db2679a172b55711c07664459109fa37cb3",
-            "sha256": "1aad0d90d1657acc0953b46035a6247db70a9a949e9a459b40edb50192461c40"            ,"evidenceCollected": {
+,"md5": "cf59dc83a16348ade670915089708748",
+            "sha1": "c61e807fb4907b9490974cc1b79e90bb822c9089",
+            "sha256": "a097697af602790ff91b8122c1a1e9757430f0a62da56a21d7676e0244cfe685"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -5162,16 +5162,16 @@
             "isVirtual": false,
             "fileName": "patientdocuments-api-1.2.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.2.0-SNAPSHOT.jar"
-,"md5": "4316dcb6fb62e147db6a7fbdfbc13e62",
-            "sha1": "9bead4909ff2ccfaa68e6647e5c58783861421c4",
-            "sha256": "bc42935ea383d6e75ab68dea27274bcad4c8c7f7751bce611abe64b20ba3a568","description": "API project for Patient Documents"            ,"relatedDependencies": [
+,"md5": "ea80c353d5443213edeacb432cbb2a4f",
+            "sha1": "b9c8a0bb64908fcd504b32f60d2d838c746e3aae",
+            "sha256": "cf347ab0339e8a750ddf36f971960917b0c51738e94cc7509a4d322fd47881b1","description": "API project for Patient Documents"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.2.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/patientdocuments-api-1.2.0-SNAPSHOT-tests.jar"
-,"sha256": "051c68e4c31fa71f899f1d3d687af64e021d9146301a5e58a3545ddd1dbb2479",
-                    "sha1": "1a7c9b73df4dccc1ebed74e0beb6f80ace53b793",
-                    "md5": "c424511eeda515f5d24139ca81833442",
+,"sha256": "e6971e901376b190d8d5984aea08e67001cae2265eebab6985378ffd26451300",
+                    "sha1": "e10a196cebc0f4296373eeab0790dd185537bdbd",
+                    "md5": "694945a72165c0ec89cda99856952fbd",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs.module/patientdocuments-api@1.2.0-SNAPSHOT"
@@ -5182,9 +5182,9 @@
                     "isVirtual": false,
                     "fileName": "patientdocuments-api-1.2.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/patientdocuments-1.2.0-SNAPSHOT\/lib\/patientdocuments-api-1.2.0-SNAPSHOT.jar"
-,"sha256": "bc42935ea383d6e75ab68dea27274bcad4c8c7f7751bce611abe64b20ba3a568",
-                    "sha1": "9bead4909ff2ccfaa68e6647e5c58783861421c4",
-                    "md5": "4316dcb6fb62e147db6a7fbdfbc13e62"
+,"sha256": "cf347ab0339e8a750ddf36f971960917b0c51738e94cc7509a4d322fd47881b1",
+                    "sha1": "b9c8a0bb64908fcd504b32f60d2d838c746e3aae",
+                    "md5": "ea80c353d5443213edeacb432cbb2a4f"
                 }
             ]
             ,"evidenceCollected": {
@@ -5195,6 +5195,13 @@
                             "source": "file",
                             "name": "name",
                             "value": "patientdocuments-api"
+                        }
+,{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "api"
                         }
 ,{
                             "type": "vendor",
@@ -5260,6 +5267,13 @@
                             "source": "file",
                             "name": "name",
                             "value": "patientdocuments-api"
+                    }
+,{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "jar",
+                            "name": "package name",
+                            "value": "api"
                     }
 ,{
                             "type": "product",
