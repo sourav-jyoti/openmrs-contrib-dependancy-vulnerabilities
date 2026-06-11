@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-event",
-        "reportDate": "2026-06-11T11:56:23.919571110Z",
+        "reportDate": "2026-06-11T13:22:09.313427108Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -6192,7 +6192,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -6244,7 +6244,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -6286,7 +6286,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -6338,7 +6338,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -7638,9 +7638,9 @@
             "isVirtual": false,
             "fileName": "event-4.1.0-SNAPSHOT-tests.jar",
             "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT-tests.jar"
-,"md5": "5501e7af6a806b85f8009977c44cd811",
-            "sha1": "54210bfb1626d92e47a07f9085eb5610755ed533",
-            "sha256": "36f210696bc6dff9c2ff3468eb647548da128c73b34afdba8fe615e2c299e547"            ,"evidenceCollected": {
+,"md5": "4dbc9f17f8594bafd7eadd9a290adc37",
+            "sha1": "8a3869bc01d8b22fa8d0e30bb9396e591126e78f",
+            "sha256": "7287881c6814676d05833a74d6c20ae63d4ef1de9d5bf4db7a03a007d80724a7"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -7702,9 +7702,9 @@
             "isVirtual": false,
             "fileName": "event-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT.jar"
-,"md5": "c127113dc3a0b89243b4d28f9760105d",
-            "sha1": "c8e9ff42e6a135bfee7559829cf4df89c1351830",
-            "sha256": "a5986fecf3020fff477cb4c745ddae9d0a5466f3cb99750f9e5462257de4e81f"            ,"evidenceCollected": {
+,"md5": "f6b8bb9a9e1732fc33f2f61d242a3e18",
+            "sha1": "cde13f9d0fcea95898fc36a0acf45bdeed11895c",
+            "sha256": "44280c1baae79c11bfb1ada8cd8f7e89bbfbeaae12336abed29849c5aa164060"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -7766,16 +7766,16 @@
             "isVirtual": false,
             "fileName": "event-api-4.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/event-api-4.1.0-SNAPSHOT.jar"
-,"md5": "b17873e6631c756b8ac50fd00bac9323",
-            "sha1": "7d986f2e210ecfeff3231158060aa8e659c1f56b",
-            "sha256": "0159ffcbd874f64767359c9b055df30c7d20b19af96241b4fa459cd0b3683769","description": "API project for EventQueue"            ,"relatedDependencies": [
+,"md5": "a24640faed1a7ea353e10c563c07f3ff",
+            "sha1": "d912f54605e02f9875f4df5f7cd67789b7f9eee9",
+            "sha256": "38d213089b991d05e9fd333e36d61e3e8acfa39f78da54bd1e660f156863d263","description": "API project for EventQueue"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "event-api-4.1.0-SNAPSHOT-tests.jar",
                     "filePath": "\/github\/workspace\/api\/target\/event-api-4.1.0-SNAPSHOT-tests.jar"
-,"sha256": "2627055b6be32170aff5c53aded16d122f771a61afad325bac2c52ce683ceb6e",
-                    "sha1": "a9066afc2a4afe488140d50e6c11fa2ce2acd6ed",
-                    "md5": "b82053c4102baa9053ba4fee105a7e59",
+,"sha256": "4f63627d8158eacec57e36c36689c62c19423b1a16c3766662cb61c4d5308e0d",
+                    "sha1": "638ec62d41a58ff27272336ea97d6e7828e1b22f",
+                    "md5": "98926da30912c08dc055a708c093df18",
                     "packageIds": [
                             {
                                 "id": "pkg:maven/org.openmrs/event-api@4.1.0-SNAPSHOT"
@@ -7786,9 +7786,9 @@
                     "isVirtual": false,
                     "fileName": "event-api-4.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/event-4.1.0-SNAPSHOT\/lib\/event-api-4.1.0-SNAPSHOT.jar"
-,"sha256": "0159ffcbd874f64767359c9b055df30c7d20b19af96241b4fa459cd0b3683769",
-                    "sha1": "7d986f2e210ecfeff3231158060aa8e659c1f56b",
-                    "md5": "b17873e6631c756b8ac50fd00bac9323"
+,"sha256": "38d213089b991d05e9fd333e36d61e3e8acfa39f78da54bd1e660f156863d263",
+                    "sha1": "d912f54605e02f9875f4df5f7cd67789b7f9eee9",
+                    "md5": "a24640faed1a7ea353e10c563c07f3ff"
                 }
             ]
             ,"evidenceCollected": {
@@ -15248,7 +15248,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -15300,7 +15300,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
@@ -15342,7 +15342,7 @@
  {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:*:*:*:*:*:*:*:*"
-,"versionEndIncluding":"5.8.0"                        }
+,"vulnerabilityIdMatched":"true","versionEndIncluding":"5.8.0"                        }
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.0.0:*:*:*:*:*:*:*"
@@ -15394,7 +15394,7 @@
                     }, {
                         "software": { 
                             "id":"cpe:2.3:a:apache:activemq:5.7.0:*:*:*:*:*:*:*"
-,"vulnerabilityIdMatched":"true"                        }
+                        }
                     }                ]
                 }, {
                 "source": "NVD",
