@@ -11,29 +11,37 @@ import {
 } from "./helpers.js";
 
 export function parseReports(reports) {
-  return reports.map((report) => {
-    const projectName = report.projectInfo?.name;
-    const deps = (report.dependencies || [])
-      .filter((dep) => dep.vulnerabilities && dep.vulnerabilities.length > 0)
-      .map((dep) => parseDependency(dep))
-      .sort((a, b) => {
-        const orderA =
-          SEVERITY_ORDER[a.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
-        const orderB =
-          SEVERITY_ORDER[b.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
-        return orderA - orderB;
-      });
+  return reports
+    .map((report) => {
+      const projectName = report.projectInfo?.name;
+      const deps = (report.dependencies || [])
+        .filter((dep) => dep.vulnerabilities && dep.vulnerabilities.length > 0)
+        .map((dep) => parseDependency(dep))
+        .sort((a, b) => {
+          const orderA =
+            SEVERITY_ORDER[a.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+          const orderB =
+            SEVERITY_ORDER[b.severity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+          return orderA - orderB;
+        });
 
-    // Project-level highest severity
-    const allSeverities = deps.map((d) => d.severity);
-    const projectSeverity = getHighestFromList(allSeverities);
+      // Project-level highest severity
+      const allSeverities = deps.map((d) => d.severity);
+      const projectSeverity = getHighestFromList(allSeverities);
 
-    return {
-      projectName,
-      highestSeverity: projectSeverity,
-      dependencies: deps,
-    };
-  });
+      return {
+        projectName,
+        highestSeverity: projectSeverity,
+        dependencies: deps,
+      };
+    })
+    .sort((a, b) => {
+      const orderA =
+        SEVERITY_ORDER[a.highestSeverity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+      const orderB =
+        SEVERITY_ORDER[b.highestSeverity.toLowerCase()] ?? SEVERITY_ORDER["-"];
+      return orderA - orderB;
+    });
 }
 
 /**
