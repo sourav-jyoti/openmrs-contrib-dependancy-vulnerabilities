@@ -5,19 +5,19 @@
         "dataSource": [
 {
                 "name": "NVD API Last Checked",
-                "timestamp": "2026-06-03T15:58:37Z"
+                "timestamp": "2026-06-11T15:02:18Z"
             }
 ,{
                 "name": "NVD API Last Modified",
-                "timestamp": "2026-06-03T15:42:35Z"
+                "timestamp": "2026-06-11T14:29:37Z"
             }
 ,{
                 "name": "NVD Cache Last Checked",
-                "timestamp": "2026-06-03T15:58:37Z"
+                "timestamp": "2026-06-11T15:02:18Z"
             }
 ,{
                 "name": "NVD Cache Last Modified",
-                "timestamp": "2026-06-03T15:42:35Z"
+                "timestamp": "2026-06-11T14:29:37Z"
             }
         ]
 
@@ -25,7 +25,7 @@
     },
     "projectInfo": {
         "name": "openmrs-module-auditlogweb",
-        "reportDate": "2026-06-04T09:38:55.634047524Z",
+        "reportDate": "2026-06-12T05:12:49.561468351Z",
         "credits": {
             "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
             "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
@@ -665,9 +665,9 @@
             "isVirtual": false,
             "fileName": "auditlogweb-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/omod\/target\/auditlogweb-1.1.0-SNAPSHOT.jar"
-,"md5": "01cc4225c31c0bcc4684f74cdaf1cc20",
-            "sha1": "eb01372d56074c52005b412c13bcd96b687e4c05",
-            "sha256": "fcc95a6dfcd7d8eab908438ad955a98fd275504daa9619df1012b7792a17e121"            ,"evidenceCollected": {
+,"md5": "54db188af5fa63cf50b154d28980635e",
+            "sha1": "36898d3ca1195f51b565d2753be130041f426af5",
+            "sha256": "79508e12abbda28ca364f8dedec03ab9e85159f44253fa4583d18dd899b02249"            ,"evidenceCollected": {
                 "vendorEvidence": [
 {
                             "type": "vendor",
@@ -778,16 +778,16 @@
             "isVirtual": false,
             "fileName": "auditlogweb-api-1.1.0-SNAPSHOT.jar",
             "filePath": "\/github\/workspace\/api\/target\/auditlogweb-api-1.1.0-SNAPSHOT.jar"
-,"md5": "1f98d3f4189d59c62a2176ebeed3db20",
-            "sha1": "92712ca9094f95cd77f6eb09b6816593b652db5f",
-            "sha256": "ae5a0abf10f4def869935904c2ba4f5325b34ddd58abc889a20b2a0075a49693","description": "API project for Auditlogweb"            ,"relatedDependencies": [
+,"md5": "78d8c3a35e2e663d11fa796e48f1bdbe",
+            "sha1": "31023074df32357742a791921827e87847df21da",
+            "sha256": "c7ae99f39f8f91cd5548ac08faaa9afc281a4b88190aa04a4ba9db4e5685f377","description": "API project for Auditlogweb"            ,"relatedDependencies": [
   {
                     "isVirtual": false,
                     "fileName": "auditlogweb-api-1.1.0-SNAPSHOT.jar",
                     "filePath": "\/github\/workspace\/omod\/target\/auditlogweb-1.1.0-SNAPSHOT\/lib\/auditlogweb-api-1.1.0-SNAPSHOT.jar"
-,"sha256": "ae5a0abf10f4def869935904c2ba4f5325b34ddd58abc889a20b2a0075a49693",
-                    "sha1": "92712ca9094f95cd77f6eb09b6816593b652db5f",
-                    "md5": "1f98d3f4189d59c62a2176ebeed3db20"
+,"sha256": "c7ae99f39f8f91cd5548ac08faaa9afc281a4b88190aa04a4ba9db4e5685f377",
+                    "sha1": "31023074df32357742a791921827e87847df21da",
+                    "md5": "78d8c3a35e2e663d11fa796e48f1bdbe"
                 }
             ]
             ,"evidenceCollected": {
