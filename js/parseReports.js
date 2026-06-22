@@ -36,11 +36,22 @@ export function parseReports(reports) {
       };
     })
     .sort((a, b) => {
-      const orderA =
-        SEVERITY_ORDER[a.highestSeverity.toLowerCase()] ?? SEVERITY_ORDER["-"];
-      const orderB =
-        SEVERITY_ORDER[b.highestSeverity.toLowerCase()] ?? SEVERITY_ORDER["-"];
-      return orderA - orderB;
+      const scoresA = getSortedScores(a.dependencies);
+      const scoresB = getSortedScores(b.dependencies);
+
+      // Compare scores position by position (1st highest, 2nd highest, ...)
+      //tiebreaker : if scores tie than compare next score
+      const len = Math.max(scoresA.length, scoresB.length);
+      for (let i = 0; i < len; i++) {
+        const sa = scoresA[i] ?? -1;
+        const sb = scoresB[i] ?? -1;
+        if (sb !== sa) return sb - sa;
+      }
+
+      //modules containining vulnerabilities but no score ranked above modules without vulnebarilities
+      const hasVulnsA = a.dependencies.length > 0 ? 1 : 0;
+      const hasVulnsB = b.dependencies.length > 0 ? 1 : 0;
+      return hasVulnsB - hasVulnsA;
     });
 }
 
@@ -92,6 +103,22 @@ function parseCVE(vuln) {
     fixedIn: getFixVersion(vuln),
     cwe: vuln.cwes ? vuln.cwes.join(", ") : "-",
   };
+}
+
+/**
+ * Collect all numeric CVE scores from a module's dependencies,
+ * sorted descending so index 0 is the highest, index 1 the second-highest, etc.
+ */
+function getSortedScores(dependencies) {
+  const scores = [];
+  for (const dep of dependencies) {
+    for (const cve of dep.cves || []) {
+      if (typeof cve.score === "number") {
+        scores.push(cve.score);
+      }
+    }
+  }
+  return scores.sort((a, b) => b - a);
 }
 
 /**
