@@ -39,8 +39,9 @@ export function parseReports(reports) {
       const scoresA = getSortedScores(a.dependencies);
       const scoresB = getSortedScores(b.dependencies);
 
-      // Compare scores position by position (1st highest, 2nd highest, ...)
-      //tiebreaker : if scores tie than compare next score
+      // Ranking: modules sorted by highest CVE score (descending).
+      // On tie, compare the next-highest score, and so on.
+      // Modules with vulnerabilities but no score rank above those with none.
       const len = Math.max(scoresA.length, scoresB.length);
       for (let i = 0; i < len; i++) {
         const sa = scoresA[i] ?? -1;
@@ -48,7 +49,6 @@ export function parseReports(reports) {
         if (sb !== sa) return sb - sa;
       }
 
-      //modules containining vulnerabilities but no score ranked above modules without vulnebarilities
       const hasVulnsA = a.dependencies.length > 0 ? 1 : 0;
       const hasVulnsB = b.dependencies.length > 0 ? 1 : 0;
       return hasVulnsB - hasVulnsA;
